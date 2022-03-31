@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../../programas/trabalho_final"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"stdio.h": "c",
+			"ctype.h": "c",
+			"raylib.h": "c"
+		}
+	}
+}
