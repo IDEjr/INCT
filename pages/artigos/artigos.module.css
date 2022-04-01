@@ -1,0 +1,30 @@
+.background_global {
+  background-color: white;
+}
+
+.bar_title
+{
+  align-items: center;
+  height: 90px;
+  display: flex;
+  background-color: #6699FE;
+}
+
+.text_name_title {
+  font-size: 30px;
+  margin-left: 20px;
+  width: 80%;
+  color: white;
+  padding: 5px;  
+}
+
+.text_year_title {
+  font-size: 30px;
+  text-align: center;
+  width: 20%;  
+  color: white;
+  padding: 5px;  
+}
+
+
+

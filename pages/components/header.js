@@ -1,9 +1,9 @@
-import Logo from '../../public/image_10.png'
+//import Logo from './../../public/image_10.png'
 
 function Header() {
   return (
     <div>
-      <img src={Logo} alt='logo'></img>
+      <img src='../../public/image_10.png' alt='logo'></img>
     </div>
   );
 }
