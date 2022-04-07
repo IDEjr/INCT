@@ -19,10 +19,10 @@ export default function Artigos(){
     }
 
     return (
-        <>
-            <div>
-                <Header/>
-            </div>            
+
+        <div className={style.background}>
+
+            <Header/>                       
 
             <div className={style.search_bar}>
                 <input className={style.search} placeholder='Pesquisa por data, ex: 2009' onChange={e => { handleInputDate(e.target.value) }} />
@@ -37,10 +37,8 @@ export default function Artigos(){
                 { itens.map( ({key, nome, ano, link}) => <li key={key}><Item nome = {nome} ano = {ano} link = {link}/></li>) }                
             </ul>
 
-            <div>
-                <Footer/>
-            </div> 
+            <Footer/>
             
-        </>
+        </div>
     );
 }
