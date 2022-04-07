@@ -102,5 +102,5 @@
 .background
 {
   min-height: 1000px;
-  background-image: url('../public/background.png');
+  background-image: url('../../public/background.png');
 }

@@ -1,9 +1,9 @@
 import react, { useState } from 'react';
 
-import style from '../../styles/artigos.module.css';
+import style from './artigos.module.css';
 
 import Header from '../components/header';
-import Item from '../components/item_artigo';
+import Item from './item_artigo';
 import Footer from '../components/footer';
 
 const articles_list = require('./artigos.json');

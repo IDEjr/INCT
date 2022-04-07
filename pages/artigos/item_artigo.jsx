@@ -1,6 +1,6 @@
-import style from '../../styles/artigos.module.css'
+import style from './artigos.module.css';
 
-export default function Artigos(props){
+export default function item_Artigo(props){
     return(
 
         <a href= {props.link}>
