@@ -1,0 +1,98 @@
+.search_bar
+{
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 10%;
+  border-radius: 5px;
+  width: 80%;
+  height: 90px;
+  display: flex;
+  background-color: #EBEBEB;
+  opacity: 0.8;
+}
+
+.search
+{
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 5%;
+  margin-left: 60%;
+  border-radius: 5px;
+  width: 80%;
+  height: 40px;
+  display: flex;
+  background-color: white;
+}
+
+
+.title_bar
+{
+  align-items: center;
+  margin-top: 7px;
+  margin-left: 10%;
+  width: 80%;
+  height: 90px;
+  display: flex;
+  background-color: #6699FE;
+}
+
+.text_name_title
+{
+  font-size: 30px;
+  margin-left: 20px;
+  width: 80%;
+  color: white;
+  padding: 5px;  
+}
+
+.text_year_title
+{
+  font-size: 30px;
+  text-align: center;
+  width: 20%;  
+  color: white;
+  padding: 5px;  
+}
+
+.item
+{
+  align-items: center;
+  margin-top: 2px;
+  height: 90px;
+  display: flex;
+  border-radius: 5px;
+  background-color: #EBEBEB;
+  opacity: 0.8;
+}
+
+.item:hover
+{
+  background-color: #757575;
+}
+
+.text_name_item
+{
+  font-size: 30px;
+  margin-left: 20px;
+  width: 80%;
+  color: black;
+  padding: 5px;  
+}
+
+.text_year_item
+{
+  font-size: 30px;
+  text-align: center;
+  width: 20%;  
+  color: black;
+  padding: 5px;  
+}
+
+.ul
+{
+  padding: 0; 
+  margin: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  list-style-type: none;   
+}
