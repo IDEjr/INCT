@@ -7,7 +7,7 @@ const articles_list = require('./artigos.json');
 
 export default function Artigos(){
 
-    const [ itens, setItens ] = useState(articles_list.map(({key, nome, ano, link}) => { return {key, nome, ano, link}; }));
+    const [ itens, setItens ] = useState(articles_list);
 
     function handleInputDate(input)
     {
