@@ -1,9 +1,11 @@
-import Image from '../../public/logo.png';
+import React from 'react'
+import Image from 'next/image'
+import logo from '../../public/logo.png';
 
 export default function Header() {
   return (
-    <div>
-      <img src={Image}/>
-    </div>
-  );
+    <>
+      <Image src={logo}/>   
+    </>    
+  )
 }
