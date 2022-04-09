@@ -1,0 +1,28 @@
+#fotos{
+    background-color: #fac70a;
+    height: 50px;
+    color: white;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+    padding: 5px;
+}
+#allButtons{
+    max-width: 100px;
+    margin: 100px 0px 0px 410px;
+    text-align: center;
+}
+.botao{
+    background-color: #ffffff;
+    border: none;   
+    margin: 50px 70px;  
+    text-align: center;
+    display: block;
+}
+.botao:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
