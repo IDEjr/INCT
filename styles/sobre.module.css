@@ -1,0 +1,82 @@
+.background {
+    min-height: 1000px;
+    background-image: url('../public/background.png');
+    display: flex;
+    flex-direction: column;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.212);
+    margin: auto;
+}
+
+.title {
+    background-color: #6699FF;
+    width: 100%;
+    height: fit-content;
+    padding: 0.6%;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text {
+    color: black;
+    text-align: justify;
+    font-weight: normal;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.mission .text {
+    margin: 50px;
+}
+
+.image {
+    border-radius: 0px;
+    margin: 0px;
+}
+
+.text_box{
+    width: 500px;
+}
+
+.image_box{
+    object-fit: fill;
+    padding: 0px;
+    margin: auto auto auto auto;
+}
+
+.area {
+    display: flex;
+    flex-direction: row;
+}
+
+.area_list{
+    list-style-type:none;
+    margin: 5%
+}
+
+.list_element {
+    padding-bottom: 2%;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    margin: 5% auto 35% auto;
+}
+
+.button {
+    background-color: #EBEBEB;
+    margin: auto;
+    font-size: 25px;
+    color: black;
+    padding: 1% 4% 1% 4%;
+}
