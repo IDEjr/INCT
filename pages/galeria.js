@@ -1,6 +1,8 @@
 import style from "../styles/galeria.module.css"
 import react from "react"
 
+/*dfsfdsf*/
+
 function galeria(){
 
     return(
