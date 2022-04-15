@@ -103,4 +103,5 @@
 {
   min-height: 1000px;
   background-image: url('../../public/background.png');
+  background-size: cover;
 }

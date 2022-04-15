@@ -17,6 +17,7 @@
     height: 150px;
     margin: auto;
     background-image: url('../../public/nucleos/ufsc_fundo.png');
+    background-size: cover;
     padding: 12px 0 0 0;
 }
 
@@ -43,4 +44,11 @@
     font-style: italic;
     color: white;
     margin: 0px;
+}
+
+.background
+{
+  min-height: 1000px;
+  background-image: url('../../public/background.png');
+  background-size: cover;
 }

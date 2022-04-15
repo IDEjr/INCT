@@ -1,0 +1,111 @@
+[
+    {
+        "key" : 1,
+        "titulo": "Noticia 1",
+        "dia" : 10,
+        "mes" : 1,
+        "ano" : 2000,
+        "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
+        "img_src" : "/noticias/noticia_exemplo.png",
+        "link" : "http://www.google.com.br"
+    },
+
+    {
+        "key" : 2,
+        "titulo": "Noticia 2",
+        "dia" : 10,
+        "mes" : 1,
+        "ano" : 2001,
+        "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
+        "img_src" : "/noticias/noticia_exemplo.png",
+        "link" : "http://www.google.com.br"
+    },
+
+    {
+        "key" : 3,
+        "titulo": "Noticia 3",
+        "dia" : 10,
+        "mes" : 1,
+        "ano" : 2002,
+        "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
+        "img_src" : "/noticias/noticia_exemplo.png",
+        "link" : "http://www.google.com.br"
+    },
+
+    {
+        "key" : 4,
+        "titulo": "Noticia 4",
+        "dia" : 10,
+        "mes" : 1,
+        "ano" : 2003,
+        "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
+        "img_src" : "/noticias/noticia_exemplo.png",
+        "link" : "http://www.google.com.br"
+    },
+
+    {
+        "key" : 5,
+        "titulo": "Noticia 5",
+        "dia" : 10,
+        "mes" : 1,
+        "ano" : 2005,
+        "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
+        "img_src" : "/noticias/noticia_exemplo.png",
+        "link" : "http://www.google.com.br"
+    },
+
+    {
+        "key" : 6,
+        "titulo": "Noticia 6",
+        "dia" : 10,
+        "mes" : 1,
+        "ano" : 2006,
+        "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
+        "img_src" : "/noticias/noticia_exemplo.png",
+        "link" : "http://www.google.com.br"
+    },
+
+    {
+        "key" : 7,
+        "titulo": "Noticia 7",
+        "dia" : 10,
+        "mes" : 1,
+        "ano" : 2007,
+        "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
+        "img_src" : "/noticias/noticia_exemplo.png",
+        "link" : "http://www.google.com.br"
+    },
+
+    {
+        "key" : 8,
+        "titulo": "Noticia 8",
+        "dia" : 10,
+        "mes" : 1,
+        "ano" : 2008,
+        "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
+        "img_src" : "/noticias/noticia_exemplo.png",
+        "link" : "http://www.google.com.br"
+    },
+
+    {
+        "key" : 9,
+        "titulo": "Noticia 9",
+        "dia" : 10,
+        "mes" : 1,
+        "ano" : 2009,
+        "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
+        "img_src" : "/noticias/noticia_exemplo.png",
+        "link" : "http://www.google.com.br"
+    },
+
+    {
+        "key" : 10,
+        "titulo": "Noticia 10",
+        "dia" : 10,
+        "mes" : 1,
+        "ano" : 2010,
+        "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
+        "img_src" : "/noticias/noticia_exemplo.png",
+        "link" : "http://www.google.com.br"
+    }
+]
