@@ -19,8 +19,8 @@ function Nucleos() {
             <h1 className={style.title}>Núcleos</h1>
           </div>
           <Item 
-            default={<Page titulo = 'UFSC' subtitulo = 'Universidade Federal de Santa Catarina'/>} 
-            hovered={<Page descricao = '(descrição)'/>}
+            default={<Page fundo = 'asd' brasao = 'fgh' titulo = 'UFSC' subtitulo = 'Universidade Federal de Santa Catarina'/>} 
+            hovered={<Page fundo = 'asd' brasao = 'fgh' descricao = '(descrição)'/>}
           />
           
           <Footer/>
