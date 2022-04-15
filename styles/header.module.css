@@ -8,7 +8,7 @@
 .logo {
     object-fit: fill;
     padding: 0px;
-    margin: auto auto auto 20%;
+    margin: auto auto auto 10%;
 }
 
 .image {
@@ -16,7 +16,7 @@
 }
 
 .navbar {
-    margin: auto 20% 15px auto;
+    margin: auto 10% 15px auto;
     height: 100%;
 }
 
@@ -35,4 +35,25 @@
     padding: 4px 0px 4px 20px;
     font-size: 24px;
     text-shadow: 2px;
+}
+
+.line_green
+{
+    display: grid;
+    height: 5px;
+    background-color: #87B93F;
+}
+
+.line_blue
+{
+    display: grid;
+    height: 5px;
+    background-color: #6699FE;
+}
+
+.line_yellow
+{
+    display: grid;
+    height: 5px;
+    background-color: #FAC70A;
 }
