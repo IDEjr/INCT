@@ -14,11 +14,11 @@ export default function Header() {
       </div>
       <nav className={style.navbar}>
         <a className={style.button} href='/'>Home</a>
-        <a className={style.button} href='/instituto'>Instituto</a>
-        <a className={style.button} href='/sobre'>Instituto</a>
+        <a className={style.button} href='/galeria'>Galeria</a>
         <a className={style.button} href='/nucleos'>Núcleos</a>
         <a className={style.button} href='/noticias'>Notícias</a>
         <a className={style.button} href='/artigos'>Artigos</a>
+        <a className={style.button} href='/sobre'>Sobre</a>
       </nav>      
     </div>  
     <div className={style.line_green}></div>
