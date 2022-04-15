@@ -18,7 +18,7 @@ export default function Header() {
         <a className={style.button} href='/nucleos'>Núcleos</a>
         <a className={style.button} href='/noticias'>Notícias</a>
         <a className={style.button} href='/artigos'>Artigos</a>
-        <a className={style.button} href='/sobre'>Sobre</a>
+        <a className={style.button_borderless} href='/sobre'>Sobre</a>
       </nav>      
     </div>  
     <div className={style.line_green}></div>
