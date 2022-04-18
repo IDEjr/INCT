@@ -1,9 +1,12 @@
 import style from './nucleos.module.css';
+import Image from 'next/image'
 
 import Header from '../components/header';
 import Item from './item_nucleo';
 import Page from './page_item_nucleo';
 import Footer from '../components/footer';
+
+const lista_nucleos = require('./nucleos.json');
 
 // NOTA: a fonte do texto está declarada no lugar certo?
 function Nucleos() {
@@ -18,10 +21,17 @@ function Nucleos() {
           <div className={style.title_bar}>
             <h1 className={style.title}>Núcleos</h1>
           </div>
-          <Item 
-            default={<Page fundo = 'asd' brasao = 'fgh' titulo = 'UFSC' subtitulo = 'Universidade Federal de Santa Catarina'/>} 
-            hovered={<Page fundo = 'asd' brasao = 'fgh' descricao = '(descrição)'/>}
-          />
+          
+          {lista_nucleos.map( ({key, fundo, brasaoSrc, brasaoLar, brasaoAlt, titulo, subtitulo, descricao}) => 
+          <Item
+            default={<Page fundo = {fundo}
+                          brasao = {<Image src={brasaoSrc} height={130} width={130*brasaoLar/brasaoAlt}/>}
+                          titulo = {titulo} subtitulo = {subtitulo}/>} 
+            hovered={<Page fundo = {fundo}
+                          brasao = {<Image src={brasaoSrc} height={130} width={130*brasaoLar/brasaoAlt}/>} 
+                          descricao = {descricao}/>}
+          />)}
+          
           
           <Footer/>
         </div>

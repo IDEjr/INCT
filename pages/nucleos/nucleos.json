@@ -1,0 +1,22 @@
+[
+    {
+        "key": "UFSC",
+        "fundo": "/nucleos/ufsc_fundo.png",
+        "brasaoSrc": "/nucleos/ufsc_brasao.png", 
+        "brasaoLar": 186, 
+        "brasaoAlt": 257, 
+        "titulo": "UFSC", 
+        "subtitulo": "Universidade Federal de Santa Catarina", 
+        "descricao": "(descrição)"
+    },
+    {
+        "key": "UFSC",
+        "fundo": "/nucleos/ufsc_fundo.png",
+        "brasaoSrc": "/nucleos/ufsc_brasao.png", 
+        "brasaoLar": 186, 
+        "brasaoAlt": 257, 
+        "titulo": "UFSC", 
+        "subtitulo": "Universidade Federal de Santa Catarina", 
+        "descricao": "(descrição)"
+    }
+]
