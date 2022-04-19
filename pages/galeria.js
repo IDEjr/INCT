@@ -2,6 +2,7 @@ import style from "../styles/galeria.module.css"
 import react from "react"
 
 import Header from './components/header';
+import Footer from './components/footer';
 
 export default function galeria(){
 
@@ -54,6 +55,7 @@ export default function galeria(){
                 </td>
             </tr>            
         </div>
+        <Footer/>
         </div>
     )
 }
