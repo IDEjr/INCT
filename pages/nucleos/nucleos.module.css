@@ -16,8 +16,8 @@
     width: 80%;
     height: 150px;
     margin: auto;
-    background-image: url('../../public/nucleos/ufsc_fundo.png');
-    background-size: cover;
+    /*background-image: url('../../public/nucleos/ufsc_fundo.png');*/
+    /*background-size: cover;*/
     padding: 12px 0 0 0;
 }
 
@@ -27,6 +27,7 @@
     font-size: 420%;  /*nice*/
     color: white;
     margin: 0px;
+    /*padding-top: 18px;*/
 }
 
 .subtitle_page1 {
@@ -51,4 +52,19 @@
   min-height: 1000px;
   background-image: url('../../public/background.png');
   background-size: cover;
+}
+
+.fundo {
+  width: 80%;
+  height: 150px;
+  margin: 0 auto 4000px auto;
+  display: flex
+}
+
+.conteudo {
+  margin: auto;
+}
+
+.brasao {
+  margin: 10px;
 }
