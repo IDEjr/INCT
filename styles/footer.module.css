@@ -1,0 +1,69 @@
+.componente
+{
+    display: flex;
+    height: 365px;
+    width: 100%;
+    background-color: #353535;
+    margin-top: 5%;
+    bottom: 0;
+}
+
+.imagem
+{
+    /*background-color: blue;*/
+    margin-top: 5%;
+    margin-left: 5%;  
+}
+
+.linha
+{
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    border-radius: 5%;
+    margin-top: 2%;
+    margin-bottom: -4%;
+}
+
+.titulo
+{
+    font-size: large;
+    font-weight: bold;
+    color: white;     
+}
+
+.descricao
+{
+    color: white;
+    /*text-align: center;*/
+}
+
+.componente_interno
+{
+    margin-top: 2%;    
+    padding-bottom: 10%;    
+}
+
+.icon
+{
+    display: inline;
+    margin-left: 5%;   
+}
+
+.icon_maginless
+{
+    display: inline;     
+}
+
+.sign
+{
+    margin-top: 250px;
+    margin-left: 5%;      
+}
+
+.componente2
+{
+    margin-top: 25px;
+    margin-left: 5%;
+    
+}
