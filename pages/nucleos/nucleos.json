@@ -2,17 +2,22 @@
     {
         "key": "UFSC",
         "fundo": "/nucleos/ufsc_fundo.png",
-        "brasaoSrc": "/nucleos/ufsc_brasao.png", 
+        "brasaoSrc": "/nucleos/ufsc_logo.png", 
         "brasaoLar": 186, 
         "brasaoAlt": 257, 
         "titulo": "UFSC", 
         "subtitulo": "Universidade Federal de Santa Catarina", 
-        "descricao": "(descrição)"
+        "p1": "O Departamento de Química da Universidade Federal de Santa Catarina, UFSC é a sede do INCT-Cat. Nessa instituição será realizada uma parte significativa dos estudos cinéticos detalhados, da síntese de nucleófilos alfa e das enzimas artificiais.",
+        "p2": "A equipe da UFSC está constituída pelos pesquisadores Faruk Nome, Ademir Neves, Hugo Gallardo, Maria da Graça Nascimento, Marcus M. Sá, Adailton J. Bortoluzzi, Bruno Szpoganicz, Luiz Fernando D. Probst, Haidi D. L. Fiedler, José C. Gesser, Gustavo A. Micke, Santiago F. Yunes, Nito A. Debacher, Ivan G. Souza e Antonio L. Braga.",
+        "link1": "http://www.inct-catalise.com.br/lacfi/",
+        "desc1": "Catalysis and Interfacial Phenomena Laboratory (LACFI)",
+        "link2": "https://labselen.jimdofree.com/",
+        "desc2": "Laboratório de síntese de derivados de Selênio e Telúrio (LabSelen)"
     },
     {
-        "key": "UFSC",
+        "key": "UFSC2",
         "fundo": "/nucleos/ufsc_fundo.png",
-        "brasaoSrc": "/nucleos/ufsc_brasao.png", 
+        "brasaoSrc": "/nucleos/ufsc_logo.png", 
         "brasaoLar": 186, 
         "brasaoAlt": 257, 
         "titulo": "UFSC", 
