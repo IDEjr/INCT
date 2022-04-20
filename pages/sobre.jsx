@@ -108,6 +108,7 @@ function Sobre() {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }

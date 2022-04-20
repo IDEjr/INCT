@@ -6,11 +6,19 @@
     margin: 30px 0px 0px 0px;
     padding: 5px;
 }
+
 #allButtons{
     margin-top: 5%;    
     margin-left: 10%;
     width: 80%;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    justify-content: center;
+    opacity: 80%;
+    background-color: Transparent;
 }
+
 .botao{
     background-color: #ffffff;
     border: none;   
@@ -20,8 +28,12 @@
     padding: 2%;
     border-radius: 5%;
 }
+
 .botao:hover{
     text-decoration: underline;
+    background-color: #fac70a;
+    transition-property: all;
+    transition-duration: 0.5s;
 }
 
 .background {
