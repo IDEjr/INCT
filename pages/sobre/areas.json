@@ -1,0 +1,55 @@
+[
+    {
+        "key": "Oleoquímica e Biodiesel",
+        "imagem": "/about/oil.png",
+        "imagemLar": 180, 
+        "imagemAlt": 180, 
+        "titulo": "Oleoquímica e Biodiesel:", 
+        "texto": "Desenvolvimento de sistemas catalíticos homogêneos de baixo custo para a produção de materiais poliméricos (uretanas e poliésteres) a partir de óleo de soja e de mamona. A estratégia vislumbrada pelo Instituto refere-se ao aprimoramento das propriedades do biodiesel de soja através do desenvolvimento de diferentes sistemas catalíticos."
+    },
+
+    {
+        "key": "Polimerização de Olefinas",
+        "imagem": "/about/oil.png",
+        "imagemLar": 180, 
+        "imagemAlt": 180, 
+        "titulo": "Polimerização de Olefinas:", 
+        "texto": "Desenvolvimento de sistemas catalíticos quirais para a produção de materiais poliméricos especiais, e assim desenvolver catalisadores que possam controlar massa molecular e topologia dos polímeros, procurando aprimorar as técnicas de polimerização de olefinas."
+    },
+
+    {
+        "key": "Catalisadores Suportados em Materiais Magnéticos",
+        "imagem": "/about/oil.png",
+        "imagemLar": 180, 
+        "imagemAlt": 180, 
+        "titulo": "Catalisadores Suportados em Materiais Magnéticos:", 
+        "texto": "A vantagem do uso de nanopartículas magnéticas modificadas reside, além de sua elevada área superficial, no fato de as mesmas poderem se dispersar facilmente no meio reacional e, ao final, poderem ser rapidamente recuperadas por sedimentação por meio de um magneto. Vem-se desenvolvendo catalisadores magnéticos e ampliando sua aplicação."
+    },
+
+    {
+        "key": "Catálise Voltada à Química Fina",
+        "imagem": "/about/oil.png",
+        "imagemLar": 180, 
+        "imagemAlt": 180, 
+        "titulo": "Catálise Voltada à Química Fina:", 
+        "texto": "Desenvolvimento de novos catalisadores visando a transformação de óleos essenciais e seus componentes: compostos terpênicos e alil aromáticos. As principais transformações desejadas estão relacionadas à reações de oxidação seletiva/autoxidação por dioxigênio e hidroformilação de olefinas. Dessa forma, é possível a obtenção de produtos de alto valor agregado, em particular flavorizantes e aromas, e de interesse comercial utilizando-se matéria-prima de origem natural renovável e disponível no Brasil."
+    },
+
+    {
+        "key": "Desenvolvimento de enzimas artificiais",
+        "imagem": "/about/oil.png",
+        "imagemLar": 180, 
+        "imagemAlt": 180, 
+        "titulo": "Desenvolvimento de enzimas artificiais:", 
+        "texto": "Desenvolvimento de catalisadores com efeitos sinérgicos em reações de hidrólise de ésteres fosfatos e carboxílicos, e de amidas. A motivação central desse estudo vai além da compreensão do mecanismo pelo qual essas reações catalíticas ocorrem. Acredita-se que o avanço científico, nesta área, criará uma possibilidade real de desenvolvimento de drogas específicas para a hidrólise de fosfatos nos ácidos nucléicos DNA, RNA, bem como de ésteres e peptídeos/amidas em proteínas de diferentes tipos."
+    },
+
+    {
+        "key": "Líquidos Iônicos",
+        "imagem": "/about/oil.png",
+        "imagemLar": 180, 
+        "imagemAlt": 180, 
+        "titulo": "Líquidos Iônicos:", 
+        "texto": "Desenvolvimento simples e eficiente, em um líquido iônico, de metodologias de preparação e de estabilização de sistemas moleculares e nanopartículas de metais de transição para catálise. Um exemplo esclarecedor é a preparação de catalisadores heterogêneos nanoestruturados com propriedades magnéticas."
+    }
+]
