@@ -14,11 +14,13 @@
 
 .nucleo {
     width: 80%;
-    height: fit-content;
+    /*height: fit-content;*/
     margin: 0 auto 1.4% auto;
     display: flex;
+    min-height: 150px;
     /*background-image: url('../../public/nucleos/ufsc_fundo.png');*/
     /*background-size: cover;*/
+    padding: 10px 0 10px 0;
 }
 
 .title_page1 {
@@ -55,11 +57,12 @@
 }
 
 .brasao {
-  margin: 10px;
-  padding: auto;
+  padding: auto 0 auto 0;
   /*width: 10%;*/
   width: 100px;
-  min-width: 10px;
+  min-width: 50px;
+  display: block;
+  margin: auto 10px auto 10px;
 }
 
 .filler {
