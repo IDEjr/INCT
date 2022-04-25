@@ -45,18 +45,13 @@
 }
 
 .area_list{
-    list-style-type:none;
+    list-style-type: none;
     width: 100% - 100px;
     padding: 0;
-    margin: 0 50px 50px 50px;
+    margin: 30px 50px 50px 50px;
 }
 
-.list_element {
-    padding: 0 0 2% 0;
-    margin: 0;
-}
-
-.area {
+.area_item {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -72,10 +67,6 @@
     width: fit-content;
     padding: 0px;
     margin-left: 0;
-}
-
-.image {
-    border-radius: 0px;
 }
 
 .options {
