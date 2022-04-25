@@ -14,11 +14,13 @@
 
 .nucleo {
     width: 80%;
-    height: 150px;
-    margin: auto;
+    /*height: fit-content;*/
+    margin: 0 auto 1.4% auto;
+    display: flex;
+    min-height: 150px;
     /*background-image: url('../../public/nucleos/ufsc_fundo.png');*/
     /*background-size: cover;*/
-    padding: 12px 0 0 0;
+    padding: 10px 0 10px 0;
 }
 
 .title_page1 {
@@ -39,32 +41,37 @@
 }
 
 .description_page2 {
-    text-align: center;
+    text-align: justify;
     font-family: 'Roboto', sans-serif;
     font-size: 100%; 
     font-style: italic;
     color: white;
-    margin: 0px;
-}
-
-.background
-{
-  /*min-height: 1000px;*/
-  background-image: url('../../public/background.png');
-  background-size: cover;
-}
-
-.fundo {
-  width: 80%;
-  height: 150px;
-  margin: 0 auto 4000px auto;
-  display: flex
+    margin: 0 2% 1% 0;
+    /*padding: 0 0 1% 0;*/
 }
 
 .conteudo {
   margin: auto;
+  padding: 10px 0 10px 0;
+  width: 90%;
 }
 
 .brasao {
-  margin: 10px;
+  padding: auto 0 auto 0;
+  /*width: 10%;*/
+  width: 100px;
+  min-width: 50px;
+  display: block;
+  margin: auto 10px auto 10px;
+}
+
+.filler {
+  padding-right: 110px;
+}
+
+.background
+{
+  min-height: 1000px;
+  background-image: url('../../public/background.png');
+  background-size: cover;
 }

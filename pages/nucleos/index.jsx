@@ -3,7 +3,8 @@ import Image from 'next/image'
 
 import Header from '../components/header';
 import Item from './item_nucleo';
-import Page from './page_item_nucleo';
+import Page1 from './page_item_1_nucleo';
+import Page2 from './page_item_2_nucleo';
 import Footer from '../components/footer';
 
 const lista_nucleos = require('./nucleos.json');
@@ -21,15 +22,16 @@ function Nucleos() {
           <div className={style.title_bar}>
             <h1 className={style.title}>Núcleos</h1>
           </div>
-          
-          {lista_nucleos.map( ({key, fundo, brasaoSrc, brasaoLar, brasaoAlt, titulo, subtitulo, descricao}) => 
-          <Item
-            default={<Page fundo = {fundo}
-                          brasao = {<Image src={brasaoSrc} height={130} width={130*brasaoLar/brasaoAlt}/>}
-                          titulo = {titulo} subtitulo = {subtitulo}/>} 
-            hovered={<Page fundo = {fundo}
-                          brasao = {<Image src={brasaoSrc} height={130} width={130*brasaoLar/brasaoAlt}/>} 
-                          descricao = {descricao}/>}
+
+          {lista_nucleos.map( ({key, fundo, brasaoSrc, brasaoLar, brasaoAlt, titulo, subtitulo,
+                                p1, p2, link1, nome1, desc1, link2, nome2, desc2}) => 
+          <Item 
+            fundo = {fundo}
+            brasao = {<Image src={brasaoSrc} height={95*brasaoAlt/brasaoLar} width={95}/>}
+            default={<Page1 titulo = {titulo} subtitulo = {subtitulo}/>} 
+            hovered={<Page2 p1 = {p1} p2 = {p2} 
+                          link1 = {link1} nome1 = {nome1} desc1 = {desc1} 
+                          link2 = {link2} nome2 = {nome2} desc2 = {desc2}/>}
           />)}
           
           
