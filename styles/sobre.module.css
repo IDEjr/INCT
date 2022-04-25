@@ -1,6 +1,6 @@
 .background {
     min-height: 1000px;
-    background-image: url('../public/teste.png');
+    background-image: url('../public/background.png');
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
 .about {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 80%;
     margin: auto;
     background-color: rgba(255, 255, 255, 0.767);
 }
