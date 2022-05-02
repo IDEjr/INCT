@@ -158,13 +158,15 @@
   display: flex;
   flex-direction: row;  
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .descricao_publicacao
 {
+  /*background-color: purple;*/
   min-width: 50%;
   width: auto;
+ 
 
   display: flex;
   flex-direction: column;
@@ -172,14 +174,23 @@
 
 .texto_publicacao
 {
-  /*background-color: aqua;*/
+  /*background-color: purple;*/
+  color: #ffedaa;
   padding: 3%;
 }
 
 .box_lista_autores
 {
   /*background-color: aqua;*/
+  color: #bed4ff;
   padding: 3%;
+}
+
+.titulo_autores
+{
+  /*background-color: blue;*/
+  margin: 0;
+  padding: 0;  
 }
 
 .lista_autores
