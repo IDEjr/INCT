@@ -3,13 +3,13 @@ import style from './artigos.module.css';
 
 export default function item_Artigo(props){
     
-    const item_default =    <>
+    const item_default =    <div className={style.item}>
                                 <span className={style.text_name_item}>{props.nome}</span>
                                 <span className={style.text_year_item}>{props.ano}</span>
-                            </>
+                            </div>
 
 
-    const item_hover =      <>
+    const item_hover =      <div className={style.item_hover}>
                                 <span className={style.text_name_item_hovered}>{props.nome}</span>                                
                                 <div className={style.descricao_item}>
                                     <div className={style.descricao_publicacao} descricao_publicacao>
@@ -21,12 +21,12 @@ export default function item_Artigo(props){
                                     <div  className={style.box_lista_autores} >
                                         <span className={style.titulo_autores}>Autores:</span>
                                         <ul className={style.lista_autores} >
-                                        { props.autores.map( (nome) => <li>{nome}</li>) }
+                                        { props.autores.map( (nome) => <li key={nome}>{nome}</li>) }
                                         </ul>
                                     </div>
                                     
                                 </div>
-                            </>
+                            </div>
 
     
     const [ item_current, setItem_current ] = useState(item_default);
@@ -34,8 +34,10 @@ export default function item_Artigo(props){
 
     return(        
         <a href= {props.link}>
-            <div className={style.item} 
+            <div                
                 onMouseOver = {() => setItem_current(item_hover)}
+                onTouchStart = {() => setItem_current(item_hover)}
+                onTouchEnd = {() => setItem_current(item_default)}
                 onMouseLeave = {() => setItem_current(item_default)}> {item_current}
             </div>
         </a>

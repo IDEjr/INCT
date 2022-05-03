@@ -1,6 +1,8 @@
 .header {
     background-color: rgba(255, 255, 255, 0.5);
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
     margin: auto;
 }   
@@ -16,8 +18,57 @@
 }
 
 .navbar {
+    display: flex;    
     margin: auto 10% 15px auto;
     height: 100%;
+}
+
+.navbar_imenu
+{
+    
+    /*margin-left: calc(50% + (40% - 300px)) ;*/
+        
+    display: flex;    
+    text-align: center;    
+    justify-content: right;
+}
+
+.box_imenu
+{
+    margin-right: 10%;
+    min-width: 300px;
+
+    position: absolute;
+    display: flex;
+    flex-direction: column;    
+}
+
+.item_menu
+{
+    background-color: rgb(236, 236, 236);
+    max-width: 300px;
+    border-bottom-style: solid;
+    border-color: white;
+    border-width: 1px;    
+    font-size: large;
+    padding: 5%;
+    z-index: 1;
+
+    transition: all 0.3ms;
+}
+
+.item_menu:hover
+{
+    color: white;
+    background-color: rgba(161, 161, 161, 1);
+}
+
+.menu {
+    margin-right: 10%;
+
+    display: none;       
+    justify-content: center;
+    align-items: center;
 }
 
 .button {
@@ -30,11 +81,21 @@
     border-color: rgba(0, 0, 0, 0.404);
 }
 
+.button:hover {
+    
+    color: white;    
+}
+
 .button_borderless {
     /*background-color: rgba(255, 255, 255, 0.5);*/
     padding: 4px 0px 4px 20px;
     font-size: 24px;
     text-shadow: 2px;
+}
+
+.button_borderless:hover {
+
+    color: white;
 }
 
 .line_green
@@ -56,4 +117,60 @@
     display: grid;
     height: 5px;
     background-color: #FAC70A;
+}
+
+@media (max-width: 1120px) {
+    .navbar
+    {
+        display: none;
+    }
+
+    .menu
+    {
+        display: flex;
+
+    }       
+}
+
+@media (max-width: 424px) {
+    .header
+    {
+        display: flex;
+        flex-direction: column;            
+    }
+
+    .logo {
+        /*background-color: #6699FE;*/
+        margin: 4% 0 0 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .menu
+    {
+        margin: 2% 0 0 0;
+    }
+    
+    .navbar_imenu
+    {
+        justify-content: center;
+        
+    }
+
+    .box_imenu
+    {
+        /*background-color: #6699FE;*/
+        margin: 0;
+        min-width: 0;
+        width: 100%;
+        position: relative;
+    }
+
+    .item_menu
+    {
+        max-width: 100%;        
+    }
+    
 }

@@ -1,6 +1,6 @@
-import React from "react"
+import React from "react";
 
-import Style from "./galeria.module.css"
+import Style from "./galeria.module.css";
 
 import Header from './../components/header';
 import Footer from './../components/footer';

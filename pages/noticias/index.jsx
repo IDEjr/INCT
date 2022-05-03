@@ -19,7 +19,7 @@ export default function Noticias(){
             </div>
 
             <ul className={Style.ul}>                
-                { noticias_list.map( ({key, titulo, dia, mes, ano, noticia, img_src, link}) => <a className={Style.a} href={link}><li  key={key}><Image className={Style.image}  src={img_src} width={250} height={150}/><br/><span className={Style.title_notice}>{titulo}</span><br/><span className={Style.data_notice}>{dia}/{mes}/{ano}</span></li></a>) }                
+                { noticias_list.map( ({key, titulo, dia, mes, ano, noticia, img_src, link}) => <a className={Style.a} href={link}><li className={Style.li}  key={key}><Image className={Style.image}  src={img_src} width={250} height={150}/><br/><span className={Style.title_notice}>{titulo}</span><br/><span className={Style.data_notice}>{dia}/{mes}/{ano}</span></li></a>) }                
             </ul>
             <Footer/>            
         </div>

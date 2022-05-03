@@ -27,11 +27,14 @@
 
 .lista
 {
+    /*background-color: #FAC70A;*/
+    margin: 0;
+    padding: 0;
     width: 80%;
     
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center;    
     list-style: none;
 }
 
@@ -42,28 +45,28 @@
     margin: 3%;
     border-radius: 10px;
     z-index: 0;
-    
+
     transition:all 0.3s ease;
 }
 
 .item_Lista:hover
 {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 1);
     z-index: 1;
     transform: scale(1.5);    
 }
 
 .a
-{    
+{        
     padding: 10%;
 
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: center;    
+    
 }
 
 .title_Img
-{
-    /*background-color: #FAC70A;*/
-    padding-top: 10%;
+{    
+    padding-top: 10%;    
 }
