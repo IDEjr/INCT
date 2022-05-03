@@ -9,6 +9,7 @@ import Item from './artigos/item_artigo.jsx';
 export default function Home() {
   const noticias_list = require("./noticias/noticias.json");
   const articles_list = require("./artigos/artigos.json");
+  
   const items = [
     {id: 1, src: 'https://s1.static.brasilescola.uol.com.br/be/conteudo/images/a-quimica-oferece-conhecimentos-muito-importantes-para-desenvolvimento-nossa-sociedade-562fd9fc8296e.jpg'},
     {id: 2, src: 'https://s1.static.brasilescola.uol.com.br/be/conteudo/images/a-quimica-oferece-conhecimentos-muito-importantes-para-desenvolvimento-nossa-sociedade-562fd9fc8296e.jpg'},
