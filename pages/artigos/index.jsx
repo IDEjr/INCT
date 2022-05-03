@@ -14,7 +14,7 @@ export default function Artigos(){
     
     function handleInputDate(inputDate)
     {
-        setItens(articles_list.filter(({key, nome, ano, link}) => { if(inputDate == ano || inputDate == ''){ return true; } return false; }));
+        setItens(articles_list.filter(({key, nome, autores, publicador, versao, paginas, ano, link}) => { if(inputDate == ano || inputDate == ''){ return true; } return false; }));
 
     }
 
@@ -22,20 +22,21 @@ export default function Artigos(){
 
         <div className={style.background}>
 
-            <Header/>                       
+            <Header/>
 
-            <div className={style.search_bar}>
-                <input className={style.search} placeholder='Pesquisa por data, ex: 2009' onChange={e => { handleInputDate(e.target.value) }} />
+            <div className={style.box_artigos}>
+                <span className={style.title}>Artigos</span>
+                <div className={style.box_search}>
+                    <input className={style.search} placeholder='Pesquisa por data, ex: 2009' onChange={e => { handleInputDate(e.target.value) }} />
+                </div>
+                <div className={style.box_list_title}>
+                    <span className={style.name_list_title}>Nome dos Artigos</span>
+                    <span className={style.year_list_title}>Ano</span>
+                </div>
+                <ul className={style.ul}>                
+                    { itens.map( ({key, nome, autores, publicador, versao, paginas, ano, link}) => <li key={key}><Item nome = {nome} autores = {autores} publicador = {publicador} versao = {versao} paginas = {paginas} ano = {ano} link = {link}/></li>) }                
+                </ul>
             </div>
-
-            <div className={style.title_bar}>
-                <span className={style.text_name_title}>Nome dos Artigos</span>
-                <span className={style.text_year_title}>Ano</span>
-            </div>
-            
-            <ul className={style.ul}>                
-                { itens.map( ({key, nome, ano, link}) => <li key={key}><Item nome = {nome} ano = {ano} link = {link}/></li>) }                
-            </ul>
 
             <Footer/>
             

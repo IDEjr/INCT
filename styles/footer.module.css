@@ -1,11 +1,11 @@
 .componente
 {
     display: flex;
-    height: 365px;
+    flex-wrap: wrap;
+    min-height: 365px;
     width: 100%;
     background-color: #353535;
     margin-top: 5%;
-    bottom: 0;
 }
 
 .imagem
@@ -63,6 +63,7 @@
 
 .componente2
 {
+    width: 17%;
     margin-top: 25px;
     margin-left: 5%;
     

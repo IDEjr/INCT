@@ -4,10 +4,12 @@ import styles from "../styles/Home.module.css";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import Carousel from 'react-elastic-carousel';
+import Item from './artigos/item_artigo.jsx';
 
 export default function Home() {
-  const noticias_list = require("../pages/noticias/noticias.json");
-  const articles_list = require("../pages/artigos/artigos.json");
+  const noticias_list = require("./noticias/noticias.json");
+  const articles_list = require("./artigos/artigos.json");
+  
   const items = [
     {id: 1, src: 'https://s1.static.brasilescola.uol.com.br/be/conteudo/images/a-quimica-oferece-conhecimentos-muito-importantes-para-desenvolvimento-nossa-sociedade-562fd9fc8296e.jpg'},
     {id: 2, src: 'https://s1.static.brasilescola.uol.com.br/be/conteudo/images/a-quimica-oferece-conhecimentos-muito-importantes-para-desenvolvimento-nossa-sociedade-562fd9fc8296e.jpg'},
@@ -55,16 +57,9 @@ export default function Home() {
       </div>
       <ul className={styles.ul2}>
         {articles_list.map(
-          ({ key, nome, ano, link }, index) =>
+          ({ key, nome, autores, publicador, versao, paginas, ano, link }, index) =>
             index < 3 && (
-              <li key={key}>
-                <a href={link}>
-                  <div className={styles.item}>
-                    <span className={styles.text_name_item}>{nome}</span>
-                    <span className={styles.text_year_item}>{ano}</span>
-                  </div>
-                </a>
-              </li>
+              <li key={key}><Item nome = {nome} autores = {autores} publicador = {publicador} versao = {versao} paginas = {paginas} ano = {ano} link = {link}/></li>
             )
         )}
       </ul>

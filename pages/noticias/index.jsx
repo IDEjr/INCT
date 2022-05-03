@@ -1,5 +1,6 @@
 import react, { useState } from 'react';
 import Image from 'next/image'
+import Link from "next/link";
 
 import Header from '../components/header';
 import Footer from '../components/footer';
@@ -19,7 +20,7 @@ export default function Noticias(){
             </div>
 
             <ul className={Style.ul}>                
-                { noticias_list.map( ({key, titulo, dia, mes, ano, noticia, img_src, link}) => <a className={Style.a} href={link}><li  key={key}><Image className={Style.image}  src={img_src} width={250} height={150}/><br/><span className={Style.title_notice}>{titulo}</span><br/><span className={Style.data_notice}>{dia}/{mes}/{ano}</span></li></a>) }                
+                { noticias_list.map( ({key, titulo, dia, mes, ano, noticia, img_src, link}) => <Link href={link}><a className={Style.a}><li className={Style.li}  key={key}><Image className={Style.image}  src={img_src} width={250} height={150}/><br/><span className={Style.title_notice}>{titulo}</span><br/><span className={Style.data_notice}>{dia}/{mes}/{ano}</span></li></a></Link>) }                
             </ul>
             <Footer/>            
         </div>

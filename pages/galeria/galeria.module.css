@@ -1,0 +1,81 @@
+.background
+{
+  /*min-height: 1000px;*/
+  background-image: url('../../public/background.png');
+  background-size: cover;
+}
+
+.box_galeria
+{
+   min-height: 400px;
+   display: flex;
+   flex-wrap: wrap;  
+   justify-content: center;
+}
+
+.title
+{
+  color: white;
+  font-size: 28px;
+  width: 100%;
+  margin-top: 5px;
+  height: 70px;
+  line-height: 70px;
+  background-color: #FAC70A;
+  text-align: center;
+}
+
+.lista
+{
+    /*background-color: #FAC70A;*/
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    list-style: none;
+}
+
+.item_Lista
+{
+    background-color: rgba(255, 255, 255, 0.5);
+    min-width: 150px;
+    margin: 3%;
+    border-radius: 10px;
+    z-index: 0;
+
+    transition:all 0.3s ease;
+}
+
+.item_Lista:hover
+{
+    background-color: rgba(255, 255, 255, 1);
+    z-index: 1;
+    transform: scale(1.5);    
+}
+
+.a
+{        
+    padding: 10%;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;    
+    
+}
+
+.title_Img
+{    
+    padding-top: 10%;    
+}
+
+.carousel_ext
+{
+    /*background-color: rgba(255, 255, 255, 0.5);*/
+    width: 70%;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 3%;       
+}
