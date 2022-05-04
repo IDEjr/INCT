@@ -1,76 +1,127 @@
-.componente
+.box_all
 {
-    display: flex;
-    flex-wrap: wrap;
-    min-height: 365px;
+    /*min-height: 365px;*/
+    margin-top: 5%;
     width: 100%;
     background-color: #353535;
-    margin-top: 5%;
+    color: white;
+
+
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
 }
 
-.imagem
+.box_footer
 {
-    /*background-color: blue;*/
-    margin-top: 5%;
-    margin-left: 5%;  
-}
-
-.linha
-{
+    /*min-height: 365px;*/
+    /*background-color: yellow;*/
     width: 100%;
-    height: 4px;
-    background-color: white;
-    border-radius: 5%;
-    margin-top: 2%;
-    margin-bottom: -4%;
+
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-direction: column;*/
+    justify-content: center;
+    /*align-items: center;*/
+}
+
+.box_interna
+{
+    width: 30%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.box_interna_2
+{
+    /*background-color: purple;*/
+    width: 100%;
+    height: 100%;
+    margin: 1% 7% 0 7% ;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.box_imagem
+{
+    margin: 5% 0 9% 0;
 }
 
 .titulo
 {
-    font-size: large;
+    
+    padding: 1%;
+    margin: 5% 0 3% 0;
+    font-size: 24px;
     font-weight: bold;
-    color: white;     
+    border-bottom-style: solid;
+
 }
 
-.descricao
+.redes
 {
-    color: white;
-    /*text-align: center;*/
+    display: flex;
+    justify-content: center;
 }
 
-.componente_interno
+.icon_redes
 {
-    margin-top: 2%;    
-    padding-bottom: 10%;    
+    margin-left: 6%;
 }
 
-.icon
+.box_assinatura
 {
-    display: inline;
-    margin-left: 3%;   
+    width: 100%;
+    margin: 7% 3% 1% 0;
+
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
 }
 
-.icon_maginless
+.text_assinatura
 {
-    display: inline;    
-    /*height: 1%;*/ 
+    margin-right: 1%;
 }
 
-.imagens
+@media (max-width: 1320px) 
 {
-    width: fit-content;
+    .box_interna
+    {
+        width: fit-content;
+        flex-direction: column;              
+    }
+
+    .box_interna_2
+    {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box_footer
+    {
+        display: flex;
+        
+    }
+
 }
 
-.sign
-{
-    margin-top: 250px;
-    margin-left: 5%;      
-}
 
-.componente2
+
+@media (max-width: 589px) 
 {
-    width: 17%;
-    margin-top: 25px;
-    margin-left: 5%;
-    display: grid;
+    .box_assinatura
+    {
+        flex-direction: column;
+        justify-content: center;        
+        align-items: center;
+    }
+
 }
