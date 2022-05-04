@@ -4,7 +4,7 @@
         "fundo": "/nucleos/ufsc_fundo.png",
         "brasaoSrc": "/nucleos/ufsc_logo.png", 
         "brasaoLar": 186, 
-        "brasaoAlt": 257, 
+        "brasaoAlt": 257,
         "titulo": "UFSC", 
         "subtitulo": "Universidade Federal de Santa Catarina", 
         "p1": "O Departamento de Química da Universidade Federal de Santa Catarina, UFSC é a sede do INCT-Cat. Nessa instituição será realizada uma parte significativa dos estudos cinéticos detalhados, da síntese de nucleófilos alfa e das enzimas artificiais.",
@@ -12,7 +12,8 @@
         "link1": "http://www.inct-catalise.com.br/lacfi/",
         "desc1": "Catalysis and Interfacial Phenomena Laboratory (LACFI)",
         "link2": "https://labselen.jimdofree.com/",
-        "desc2": "Laboratório de síntese de derivados de Selênio e Telúrio (LabSelen)"
+        "desc2": "Laboratório de síntese de derivados de Selênio e Telúrio (LabSelen)",
+        "credito": "Henrique Almeida / Agecom / Divulgação"
     },
     {
         "key": "UFSCar",
@@ -24,7 +25,8 @@
         "subtitulo": "Universidade Federal de São Carlos", 
         "p1": "A equipe da UFSCar está constituída pelo pesquisador Márcio Weber Paixão.",
         "link1": "https://www.ufscar.br/",
-        "desc1": "Universidade Federal de São Carlos. (UFSCar)"
+        "desc1": "Universidade Federal de São Carlos. (UFSCar)",
+        "credito": "UFSCar / Divulgação"
     },
     {
         "key": "FURB",
@@ -36,7 +38,8 @@
         "subtitulo": "Universidade Regional de Blumenau", 
         "p1": "A equipe da FURB está constituída pelos pesquisadores Paulo César de Jesus e Ricardo Andrade Rebelo.",
         "link1": "https://www.furb.br/web/10/portugues",
-        "desc1": "Universidade de Blumenal. (FURB)"
+        "desc1": "Universidade de Blumenal. (FURB)",
+        "credito": "Felipe Elias / Divulgação"
     },
     {
         "key": "PUCRS",
@@ -48,7 +51,8 @@
         "subtitulo": "Pontíficia Universidade Católica do Rio Grande do Sul", 
         "p1": "A equipe da PUCRS está constituída pelo pesquisador Marçal J. R. Pires.",
         "link1": "https://www.pucrs.br/",
-        "desc1": "Pontíficia Universidade Católica do Rio Grande do Sul (PUCRS)"
+        "desc1": "Pontíficia Universidade Católica do Rio Grande do Sul (PUCRS)",
+        "credito": "Bruno Todeschini / PUCRS / Divulgação"
     },
     {
         "key": "UFAL",
@@ -60,7 +64,8 @@
         "subtitulo": "Universidade Federal de Alagoas", 
         "p1": "A equipe da UFAL está constituída pelos pesquisadores Mario Roberto Meneghetti, Simoni M.Plentz Meneghetti, Rusiene Monteiro de Almeida e Daniel Thiele.",
         "link1": "https://ufal.br/",
-        "desc1": "Universidade Federal de Alagoas (UFAL)"
+        "desc1": "Universidade Federal de Alagoas (UFAL)",
+        "credito": "UFAL / Divulgação"
     },
     {
         "key": "UFMG",
@@ -72,7 +77,8 @@
         "subtitulo": "Universidade Federal de Minas Gerais", 
         "p1": "A equipe da UFMG está constituída pelos pesquisadores Eduardo Nicolau dos Santos, Willian Ricardo Rocha, Elena Vitalievna Goussevskaia, Tiago A. S. Brandão, Rochel Montero Lago e Elene Cristina Pereira Maia.",
         "link1": "https://ufmg.br/",
-        "desc1": "Universidade Federal de Minas Gerais (UFMG)"
+        "desc1": "Universidade Federal de Minas Gerais (UFMG)",
+        "credito": "Foca Lisboa / UFMG"
     },
     {
         "key": "UFRGS",
@@ -86,7 +92,8 @@
         "link1": "https://www.facebook.com/Laboratory-of-Molecular-Catalysis-UFRGS-228394173848758/",
         "desc1": "Laboratory of Molecular Catalysis (LMC)",
         "link2": "http://www.ufrgs.br/ufrgs/inicial",
-        "desc2": "Universidade Federal do Rio Grande do Sul (UFRGS)"
+        "desc2": "Universidade Federal do Rio Grande do Sul (UFRGS)",
+        "credito": "Ramon Moser / Secom / UFRGS"
     },
     {
         "key": "UFSJ",
@@ -98,7 +105,8 @@
         "subtitulo": "Universidade Federal de São João del-Rei", 
         "p1": "A equipe da UFSJ está constituída pelo pesquisador Josefredo Rodriguez Pliego Junior.",
         "link1": "https://www.ufsj.edu.br/",
-        "desc1": "Universidade Federal de São João del-Rei (UFSJ)"
+        "desc1": "Universidade Federal de São João del-Rei (UFSJ)",
+        "credito": "Ascom / UFSJ"
     },
     {
         "key": "UNB",
@@ -112,7 +120,8 @@
         "link1": "https://www.facebook.com/Laborat%C3%B3rio-de-Materiais-e-Combust%C3%ADveis-LMCUnB-103214759752845/",
         "desc1": "Laboratório de Materiais e Combustíveis (LMC)",
         "link2": "https://www.unb.br/",
-        "desc2": "Universidade de Brasília (UnB)"
+        "desc2": "Universidade de Brasília (UnB)",
+        "credito": "Felipe Menezes / Metrópoles"
     },
     {
         "key": "UNICAMP",
@@ -124,7 +133,8 @@
         "subtitulo": "Universidade Estadual de Campinas", 
         "p1": "A equipe da UNICAMP está constituída pelos pesquisadores Watson Loh, Renê A. Nome e Edivaldo Sabadini.",
         "link1": "https://www.unicamp.br/unicamp/",
-        "desc1": "Universidade Estadual de Campinas (Unicamp)"
+        "desc1": "Universidade Estadual de Campinas (Unicamp)",
+        "credito": "Antoninho Perri / SEC Unicamp"
     },
     {
         "key": "USP-SCar",
@@ -136,7 +146,8 @@
         "subtitulo": "Universidade de São Paulo - São Carlos", 
         "p1": "A equipe da USP-SCar está constituída pelo pesquisador Marcelo Gehlen.",
         "link1": "http://www.saocarlos.usp.br/",
-        "desc1": "Universidade de São Paulo - São Carlos (USP)"
+        "desc1": "Universidade de São Paulo - São Carlos (USP)",
+        "credito": "Marcos Santos / USP Imagens"
     },
     {
         "key": "USP",
@@ -150,6 +161,7 @@
         "link1": "https://www.lianerossi.org/",
         "desc1": "Laboratório de Nanomateriais e Catálise (LNC)",
         "link2": "https://www5.usp.br/",
-        "desc2": "Universidade de São Paulo (USP)"
+        "desc2": "Universidade de São Paulo (USP)",
+        "credito": "USP / Divulgação"
     }
 ]

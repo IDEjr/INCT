@@ -24,10 +24,11 @@ function Nucleos() {
           </div>
 
           {lista_nucleos.map( ({key, fundo, brasaoSrc, brasaoLar, brasaoAlt, titulo, subtitulo,
-                                p1, p2, link1, nome1, desc1, link2, nome2, desc2}) => 
+                                p1, p2, link1, nome1, desc1, link2, nome2, desc2, credito}) => 
           <Item 
             fundo = {fundo}
             brasao = {<Image src={brasaoSrc} height={95*brasaoAlt/brasaoLar} width={95}/>}
+            credito = {credito}
             default={<Page1 titulo = {titulo} subtitulo = {subtitulo}/>} 
             hovered={<Page2 p1 = {p1} p2 = {p2} 
                           link1 = {link1} nome1 = {nome1} desc1 = {desc1} 

@@ -47,12 +47,18 @@
 .icon
 {
     display: inline;
-    margin-left: 5%;   
+    margin-left: 3%;   
 }
 
 .icon_maginless
 {
-    display: inline;     
+    display: inline;    
+    /*height: 1%;*/ 
+}
+
+.imagens
+{
+    width: fit-content;
 }
 
 .sign
@@ -66,5 +72,5 @@
     width: 17%;
     margin-top: 25px;
     margin-left: 5%;
-    
+    display: grid;
 }
