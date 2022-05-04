@@ -5,7 +5,7 @@ import Link from 'next/link';
 import logo from '../../public/logo_transp.png';
 import style from '../../styles/header.module.css';
 
-export default function Header() {
+export default function Header(props) {
   return (
     <>
     <div className={style.header}>

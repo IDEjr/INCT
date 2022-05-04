@@ -6,7 +6,7 @@ export default function Footer() {
   return (
         
     <div className={Style.componente}>
-      <div className={Style.imagem}><Image src="/footer/map_icon.png" height={100} width={100}/></div>
+      <div className={Style.imagem}><Image src="/footer/mapa_icon_3.png" width={387*0.3} height={372*0.3}/></div>
       <div  className={Style.componente2}>
         <div className={Style.componente_interno}>
           <span className={Style.titulo}>Onde nos encontrar</span><br/>
@@ -46,33 +46,35 @@ export default function Footer() {
           <span className={Style.titulo}>Siga-nos</span><br/>
           <div className={Style.linha}/><br/>
           <div className={Style.icon_maginless}>
-            <a href='http://www.google.com.br'><Image src="/footer/youtube_icon.png" height={36} width={36}/></a>
+            <a href='http://www.youtube.com.br'><Image src="/footer/youtube_icone_3.png" height={36} width={36}/></a>
           </div>
           <div className={Style.icon}>
-            <a href='http://www.google.com.br'><Image src="/footer/blog_icon.png" height={36} width={36}/></a>
-          </div>
-          <div className={Style.icon}>
-            <a href='http://www.google.com.br'><Image src="/footer/facebook_icon.png" height={36} width={36}/></a>
+            <a href='http://www.facebook.com.br'><Image src="/footer/facebook_icone_2.png" height={36} width={36}/></a>
           </div>
         </div>
       </div>
       
       <div  className={Style.componente2}>
+        <span className={Style.titulo}>Órgãos Financiadores</span>
+        <div className={Style.linha}/>
         <div className={Style.componente_interno}>
-          <span className={Style.titulo}>Nossos parceiros</span><br/>
-          <div className={Style.linha}/><br/>
-          <div className={Style.icon_maginless}>
-            <a href='http://www.google.com.br'><Image src="/footer/parceiros1.png" height={50} width={391}/></a>
+          <div className={Style.imagens}>
+            <div className={Style.icon_maginless}>
+              <a href='http://www.google.com.br'><Image src="/footer/capes_logo_borda.png" height={70} width={70*3744/1436}/></a>
+            </div> 
+            <div className={Style.icon_maginless}>
+              <a href='http://www.google.com.br'><Image src="/footer/cnpq_logo_borda.png" height={54} width={54*2406/810}/></a>
+            </div>
           </div>
-          </div>
           <div className={Style.icon_maginless}>
-            <a href='http://www.google.com.br'><Image src="/footer/parceiros2.png" height={59} width={127}/></a>
-          </div>          
-        </div>
+            <a href='http://www.google.com.br'><Image src="/footer/fapesc_logo_borda.png" height={65} width={65*1629/495}/></a>
+          </div>
+        </div>         
+      </div>
       
         <div className={Style.sign}>
-            <a href='http://www.google.com.br'><Image src="/footer/ide_icon.png" height={59} width={127}/></a>
-          </div>
+          <a href='http://www.google.com.br'><Image src="/footer/ide_logo_borda.png" height={59} width={127}/></a>
+        </div>
     </div>
 
   )

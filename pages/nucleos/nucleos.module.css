@@ -20,7 +20,8 @@
     min-height: 150px;
     /*background-image: url('../../public/nucleos/ufsc_fundo.png');*/
     /*background-size: cover;*/
-    padding: 10px 0 10px 0;
+    padding: 10px 0 15px 0;
+    position: relative;
 }
 
 .title_page1 {
@@ -67,6 +68,15 @@
 
 .filler {
   padding-right: 110px;
+}
+
+.credito {
+  color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  right: 5px;
+  bottom: 3px;
+  z-index: 2; 
+  font-size: 70%;
 }
 
 .background

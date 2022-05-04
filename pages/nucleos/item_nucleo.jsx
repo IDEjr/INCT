@@ -18,6 +18,9 @@ function item_nucleo(props) {
             <div className={style.conteudo}>
                 {componente}
             </div>
+            <div className={style.credito}>
+                <em><b>Foto: </b>{props.credito}</em>
+            </div>
         </div>
     );
 
