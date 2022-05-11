@@ -1,8 +1,8 @@
 .background
 {
   min-height: 1000px;
-  background-image: url('../public/background.png');
-  background-size: cover;
+  /*background-image: url("../public/background.png");*/
+  /*background-size: cover;*/
 }
 
 .text_title

@@ -26,13 +26,13 @@ export default function galeria(){
     ];
 
     return(
-        <div className={Style.background}>
+        <div>
             <Header/>
             <div className={Style.box_galeria}>
                 <span className={Style.title}>Galeria</span>
                 <ul className={Style.lista}>                
-                    { list_Image.map( ({key, link, logo}) => 
-                    <li key={key} className={Style.item_Lista}>
+                    { list_Image.map( ({key, link, logo}, index) => 
+                    <li key={index} className={Style.item_Lista}>
                         <Item title={key} logo={logo} link={link}/>
                     </li>) }                
                 </ul>            
