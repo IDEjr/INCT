@@ -1,4 +1,5 @@
 import react, { useState } from 'react';
+import Head from "next/head";
 import Link from "next/link";
 import Image from 'next/image';
 
@@ -31,6 +32,10 @@ export default function Header() {
 
   return (
     <>
+    <Head>
+      <title>INCT</title>
+      <link rel="icon" href="icon_site.png" type="image/icon type"></link>
+    </Head>
     <div className={style.header}>
       <div className={style.logo}>
         <Image src={logo} width={218*0.8} height={139*0.8} className={style.image}/>   

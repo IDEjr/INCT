@@ -6,7 +6,7 @@
         "mes" : 1,
         "ano" : 2000,
         "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
-        "img_src" : "/noticias/noticia_exemplo.png",
+        "img_src" : "noticia_exemplo.png",
         "link" : "/noticias/noticia1"
     },
 
@@ -17,7 +17,7 @@
         "mes" : 1,
         "ano" : 2001,
         "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
-        "img_src" : "/noticias/noticia_exemplo.png",
+        "img_src" : "noticia_exemplo.png",
         "link" : "/noticias/noticia2"
     },
 
@@ -28,7 +28,7 @@
         "mes" : 1,
         "ano" : 2002,
         "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
-        "img_src" : "/noticias/noticia_exemplo.png",
+        "img_src" : "noticia_exemplo.png",
         "link" : "/noticias/noticia3"
     },
 
@@ -39,7 +39,7 @@
         "mes" : 1,
         "ano" : 2003,
         "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
-        "img_src" : "/noticias/noticia_exemplo.png",
+        "img_src" : "noticia_exemplo.png",
         "link" : "/noticias/noticia4"
     },
 
@@ -50,7 +50,7 @@
         "mes" : 1,
         "ano" : 2005,
         "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
-        "img_src" : "/noticias/noticia_exemplo.png",
+        "img_src" : "noticia_exemplo.png",
         "link" : "/noticias/noticia5"
     },
 
@@ -61,7 +61,7 @@
         "mes" : 1,
         "ano" : 2006,
         "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
-        "img_src" : "/noticias/noticia_exemplo.png",
+        "img_src" : "noticia_exemplo.png",
         "link" : "/noticias/noticia6"
     },
 
@@ -72,7 +72,7 @@
         "mes" : 1,
         "ano" : 2007,
         "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
-        "img_src" : "/noticias/noticia_exemplo.png",
+        "img_src" : "noticia_exemplo.png",
         "link" : "/noticias/noticia7"
     },
 
@@ -83,7 +83,7 @@
         "mes" : 1,
         "ano" : 2008,
         "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
-        "img_src" : "/noticias/noticia_exemplo.png",
+        "img_src" : "noticia_exemplo.png",
         "link" : "/noticias/noticia8"
     },
 
@@ -94,7 +94,7 @@
         "mes" : 1,
         "ano" : 2009,
         "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
-        "img_src" : "/noticias/noticia_exemplo.png",
+        "img_src" : "noticia_exemplo.png",
         "link" : "/noticias/noticia9"
     },
 
@@ -105,7 +105,7 @@
         "mes" : 1,
         "ano" : 2010,
         "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
-        "img_src" : "/noticias/noticia_exemplo.png",
+        "img_src" : "noticia_exemplo.png",
         "link" : "/noticias/noticia10"
     }
 ]

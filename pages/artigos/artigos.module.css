@@ -1,10 +1,3 @@
-.background
-{
-  /*min-height: 1000px;*/
-  background-image: url('../../public/background.png');
-  background-size: cover;
-}
-
 .box_artigos
 {
   min-height: 300px;
@@ -106,7 +99,7 @@
   justify-content: space-between;
   align-items: center;
   
-  transition:all 0.8s ease;
+  transition:all 0.4s ease;
 }
 
 .item .descricao_item

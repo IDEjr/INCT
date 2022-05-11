@@ -7,16 +7,16 @@ import Image from 'next/image';
 import style from './galeria.module.css'
 import style_car from "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import Header from './../components/header';
-import Footer from './../components/footer';
+import Header from '../components/header';
+import Footer from '../components/footer';
 
 export default function album_fotos(){
 
     const router = useRouter();
-    const { query: { id } } = router;
+    const id = router.query.teste;
 
     return (
-        <div className={style.background}>
+        <div>
         <Header/>
         <div className={style.box_galeria}>
             <span className={style.title}>{id}</span>
