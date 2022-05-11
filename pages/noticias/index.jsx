@@ -20,10 +20,10 @@ export default function Noticias(){
             </div>
 
             <ul className={Style.ul}>                
-                { noticias_list.map( ({key, titulo, dia, mes, ano, noticia, img_src, link}) => 
+                { noticias_list.map( ({titulo, dia, mes, ano, noticia, img_src, link}, index) => 
                     <Link href={{ pathname: link, query: { titulo, dia, mes, ano, noticia, img_src }}}>
                         <a className={Style.a}>
-                            <li className={Style.li}  key={key}>
+                            <li className={Style.li}  key={index}>
                                 <Image className={Style.image}  src={`/noticias/${img_src}`} width={250} height={150}/><br/>
                                 <span className={Style.title_notice}>{titulo}</span><br/>
                                 <span className={Style.data_notice}>{dia}/{mes}/{ano}</span>

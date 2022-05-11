@@ -60,7 +60,7 @@ export default function Home() {
         {articles_list.map(
           ({ key, nome, autores, publicador, versao, paginas, ano, link }, index) =>
             index < 3 && (
-              <li key={key}><Item nome = {nome} autores = {autores} publicador = {publicador} versao = {versao} paginas = {paginas} ano = {ano} link = {link}/></li>
+              <li key={index}><Item nome = {nome} autores = {autores} publicador = {publicador} versao = {versao} paginas = {paginas} ano = {ano} link = {link}/></li>
             )
         )}
       </ul>
