@@ -65,7 +65,7 @@ export default function Footer() {
       </div>
       <div className={style.box_assinatura}>
         <span className={style.text_assinatura}>Produzido por</span>
-        <Link href='http://www.google.com.br'><a><Image src="/footer/logo_branco.png" height={59} width={127}/></a></Link>
+        <Link href='https://www.idejr.com.br'><a><Image src="/footer/logo_branco.png" height={59} width={127}/></a></Link>
       </div>
     </div>
 
