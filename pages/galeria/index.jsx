@@ -26,7 +26,7 @@ export default function galeria(){
     ];
 
     return(
-        <div className={Style.background}>
+        <div>
             <Header/>
             <div className={Style.box_galeria}>
                 <span className={Style.title}>Galeria</span>

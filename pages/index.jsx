@@ -18,8 +18,9 @@ export default function Home() {
     {id: 5, src: 'https://s1.static.brasilescola.uol.com.br/be/conteudo/images/a-quimica-oferece-conhecimentos-muito-importantes-para-desenvolvimento-nossa-sociedade-562fd9fc8296e.jpg'}
   ]
 
-  return (
-    <div className={styles.background}>
+  return (  
+
+    <div>
       <Header />
       <div className={styles.bg2}>
       <Carousel>
@@ -37,7 +38,7 @@ export default function Home() {
                 <li key={key}>
                   <Image
                     className={styles.image}
-                    src={img_src}
+                    src={`/noticias/${img_src}`}
                     width={250}
                     height={150}
                   />

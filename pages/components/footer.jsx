@@ -48,14 +48,16 @@ export default function Footer() {
         <div className={style.box_interna}>
           <div  className={style.box_interna_2}>
             <span className={style.titulo}>Órgãos Financiadores</span>
-            <Link href='http://www.google.com.br'><a><Image src="/footer/capes_logo_borda.png" height={70} width={70*3744/1436}/></a></Link>
-            <Link href='http://www.google.com.br'><a><Image src="/footer/cnpq_logo_borda.png" height={54} width={54*2406/810}/></a></Link>
-            <Link href='http://www.google.com.br'><a><Image src="/footer/fapesc_logo_borda.png" height={65} width={65*1629/495}/></a></Link>
+            <Link href='http://www.capes.gov.br'><a><Image src="/footer/capes_logo_borda.png" height={70} width={70*3744/1436}/></a></Link>
+            <br/>
+            <Link href='https://www.gov.br/cnpq/pt-br'><a><Image src="/footer/cnpq_logo_borda.png" height={54} width={54*2406/810}/></a></Link>
+            <br/>
+            <Link href='http://www.fapesc.sc.gov.br'><a><Image src="/footer/fapesc_logo_borda.png" height={65} width={65*1629/495}/></a></Link>
           </div>
           <div  className={style.box_interna_2}>
             <span className={style.titulo}>Siga-nos</span>
             <div className={style.redes}>
-              <Link href='http://www.youtube.com.br'><a className={style.icon_redes}><Image src="/footer/youtube_icone_3.png" height={36} width={36}/></a></Link>
+              <Link href='https://www.youtube.com/channel/UC0M9dYkAUJbOJdEJoiVNcfQ'><a className={style.icon_redes}><Image src="/footer/youtube_icone_3.png" height={36} width={36}/></a></Link>
               <Link href='http://www.facebook.com.br'><a className={style.icon_redes}><Image src="/footer/facebook_icone_2.png" height={36} width={36}/></a></Link>
             </div>
           </div>

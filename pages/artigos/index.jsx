@@ -20,7 +20,7 @@ export default function Artigos(){
 
     return (
 
-        <div className={style.background}>
+        <div>
 
             <Header/>
 
