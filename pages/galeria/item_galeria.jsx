@@ -7,6 +7,9 @@ import Style from './galeria.module.css';
 export default function item_Galeria(props){
 
     let l = props.link;
+    const size = 150;
+    // OBS: talvez dê pra colocar as imagens
+    // sem ter que passar a largura e a altura delas
 
     return(
         <Link href={{ pathname: props.link, query: { teste:"teste" }}}>
