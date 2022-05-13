@@ -68,8 +68,8 @@
 .carousel_ext
 {
     /*background-color: rgba(255, 255, 255, 0.5);*/
-    width: 70%;
+    width: 700px;
     border-radius: 10px;
     padding: 2%;
-    margin: 3%;       
+    margin: 3% 3% 0 3%;       
 }
