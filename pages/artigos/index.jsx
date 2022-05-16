@@ -23,7 +23,6 @@ export default function Artigos(){
         <div>
 
             <Header/>
-
             <div className={style.box_artigos}>
                 <span className={style.title}>Artigos</span>
                 <div className={style.box_search}>
