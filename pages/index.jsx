@@ -24,7 +24,7 @@ export default function Home() {
       <Header />
       <div className={styles.bg2}>
       <Carousel>
-        {items.map(item => <img className={styles.image} src={item.src} />)}
+        {items.map((item, index) => <img key={index} className={styles.image} src={item.src} />)}
       </Carousel>
       </div>
       <div className={styles.title_bar}>
@@ -32,10 +32,10 @@ export default function Home() {
       </div>
       <ul className={styles.ul}>
         {noticias_list.map(
-          ({ key, titulo, dia, mes, ano, noticia, img_src, link }, index) =>
+          ({titulo, dia, mes, ano, noticia, img_src, link }, index) =>
             index < 3 && (
-              <a className={styles.a} href={link}>
-                <li key={index}>
+              <a key={index} className={styles.a} href={link}>
+                <li>
                   <Image
                     className={styles.image}
                     src={`/noticias/${img_src}`}
@@ -58,7 +58,7 @@ export default function Home() {
       </div>
       <ul className={styles.ul2}>
         {articles_list.map(
-          ({ key, nome, autores, publicador, versao, paginas, ano, link }, index) =>
+          ({nome, autores, publicador, versao, paginas, ano, link }, index) =>
             index < 3 && (
               <li key={index}><Item nome = {nome} autores = {autores} publicador = {publicador} versao = {versao} paginas = {paginas} ano = {ano} link = {link}/></li>
             )

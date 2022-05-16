@@ -12,7 +12,7 @@ export default function item_Galeria(props){
     // sem ter que passar a largura e a altura delas
 
     return(
-        <Link href={{ pathname: props.link, query: { teste:props.title }}}>
+        <Link href={{ pathname: `/galeria/${props.link}`, query: { title:props.title }}}>
             <a className={Style.a}>
                 <Image src={props.logo} width="100vw" height="100vw"/>
                 <span className={Style.title_Img}>{props.title}</span>

@@ -20,7 +20,7 @@ export default function item_Artigo(props){
                         <div  className={style.box_lista_autores} >
                             <span className={style.titulo_autores}>Autores:</span>
                             <ul className={style.lista_autores} >
-                            { props.autores.map( (nome) => <li key={nome}>{nome}</li>) }
+                            { props.autores.map( (nome, index) => <li key={index}>{nome}</li>) }
                             </ul>
                         </div>                    
                     </div>
