@@ -23,9 +23,9 @@ function Nucleos() {
             <h1 className={style.title}>Núcleos</h1>
           </div>
 
-          {lista_nucleos.map( ({key, fundo, brasaoSrc, brasaoLar, brasaoAlt, titulo, subtitulo,
-                                p1, p2, link1, nome1, desc1, link2, nome2, desc2, credito}) => 
-          <Item 
+          {lista_nucleos.map( ({fundo, brasaoSrc, brasaoLar, brasaoAlt, titulo, subtitulo,
+                                p1, p2, link1, nome1, desc1, link2, nome2, desc2, credito}, index) => 
+          <Item key = {index}
             fundo = {fundo}
             brasao = {<Image src={brasaoSrc} height={95*brasaoAlt/brasaoLar} width={95}/>}
             credito = {credito}
