@@ -20,7 +20,7 @@ export default function Home() {
 
   return (  
 
-    <div>
+    <div className={styles.background}>
       <Header />
       <div className={styles.bg2}>
       <Carousel>

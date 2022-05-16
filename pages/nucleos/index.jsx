@@ -12,16 +12,14 @@ const lista_nucleos = require('./nucleos.json');
 // NOTA: a fonte do texto está declarada no lugar certo?
 function Nucleos() {
     return (
-        <div>
+        <div className={style.background}>
           <link rel="preconnect" href="https://fonts.googleapis.com"/>
           <link rel="preconnect" href="https://fonts.gstatic.com"/>
           <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"/>
 
           <Header/>
-          
-          <div className={style.title_bar}>
-            <h1 className={style.title}>Núcleos</h1>
-          </div>
+                    
+          <span className={style.title}>Núcleos</span>          
 
           {lista_nucleos.map( ({fundo, brasaoSrc, brasaoLar, brasaoAlt, titulo, subtitulo,
                                 p1, p2, link1, nome1, desc1, link2, nome2, desc2, credito}, index) => 

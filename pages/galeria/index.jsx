@@ -12,7 +12,7 @@ const list_Image = require("./galeria.json");
 export default function galeria(){
 
     return(
-        <div>
+        <div className={Style.background}>
             <Header/>
             <div className={Style.box_galeria}>
                 <span className={Style.title}>Galeria</span>

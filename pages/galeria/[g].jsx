@@ -17,7 +17,7 @@ export default function album_fotos(){
     const list_Images = require(`../../public/galeria/${g}/${g}.json`);
     
     return (
-        <div>
+        <div className={style.background}>
             <Header/>
             <div className={style.box_galeria}>
                 <span className={style.title}>{title}</span>            

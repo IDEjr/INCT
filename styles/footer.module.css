@@ -3,13 +3,13 @@
     /*min-height: 365px;*/
     margin-top: 5%;
     width: 100%;
-    bottom: 0;
     background-color: #353535;
     color: white;
-
+    position: relative;
+    bottom: 0;
 
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
     /*flex-direction: column;*/
     /*justify-content: center;*/
     /*align-items: center;*/
