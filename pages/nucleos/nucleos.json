@@ -1,6 +1,5 @@
 [
     {
-        "key": "UFSC",
         "fundo": "/nucleos/ufsc_fundo.png",
         "brasaoSrc": "/nucleos/ufsc_logo.png", 
         "brasaoLar": 363, 
@@ -16,7 +15,6 @@
         "credito": "Henrique Almeida / Agecom / Divulgação"
     },
     {
-        "key": "UFSCar",
         "fundo": "/nucleos/ufscar_fundo.png",
         "brasaoSrc": "/nucleos/ufscar_logo.png", 
         "brasaoLar": 678, 
@@ -29,7 +27,6 @@
         "credito": "UFSCar / Divulgação"
     },
     {
-        "key": "FURB",
         "fundo": "/nucleos/furb_fundo.png",
         "brasaoSrc": "/nucleos/furb_logo.png", 
         "brasaoLar": 778, 
@@ -42,7 +39,6 @@
         "credito": "Felipe Elias / Divulgação"
     },
     {
-        "key": "PUCRS",
         "fundo": "/nucleos/pucrs_fundo.png",
         "brasaoSrc": "/nucleos/pucrs_logo.png", 
         "brasaoLar": 348, 
@@ -55,7 +51,6 @@
         "credito": "Bruno Todeschini / PUCRS / Divulgação"
     },
     {
-        "key": "UFAL",
         "fundo": "/nucleos/ufal_fundo.png",
         "brasaoSrc": "/nucleos/ufal_logo.png", 
         "brasaoLar": 295, 
@@ -68,7 +63,6 @@
         "credito": "UFAL / Divulgação"
     },
     {
-        "key": "UFMG",
         "fundo": "/nucleos/ufmg_fundo.png",
         "brasaoSrc": "/nucleos/ufmg_logo.png", 
         "brasaoLar": 860, 
@@ -81,7 +75,6 @@
         "credito": "Foca Lisboa / UFMG"
     },
     {
-        "key": "UFRGS",
         "fundo": "/nucleos/ufrgs_fundo.png",
         "brasaoSrc": "/nucleos/ufrgs_logo.png", 
         "brasaoLar": 871, 
@@ -96,7 +89,6 @@
         "credito": "Ramon Moser / Secom / UFRGS"
     },
     {
-        "key": "UFSJ",
         "fundo": "/nucleos/ufsj_fundo.png",
         "brasaoSrc": "/nucleos/ufsj_logo.png", 
         "brasaoLar": 501, 
@@ -109,7 +101,6 @@
         "credito": "Ascom / UFSJ"
     },
     {
-        "key": "UNB",
         "fundo": "/nucleos/unb_fundo2.png",
         "brasaoSrc": "/nucleos/unb_logo.png", 
         "brasaoLar": 539, 
@@ -124,7 +115,6 @@
         "credito": "Felipe Menezes / Metrópoles"
     },
     {
-        "key": "UNICAMP",
         "fundo": "/nucleos/unicamp_fundo.png",
         "brasaoSrc": "/nucleos/unicamp_logo.png", 
         "brasaoLar": 474, 
@@ -137,7 +127,6 @@
         "credito": "Antoninho Perri / SEC Unicamp"
     },
     {
-        "key": "USP-SCar",
         "fundo": "/nucleos/uspscar_fundo.png",
         "brasaoSrc": "/nucleos/uspscar_logo.png", 
         "brasaoLar": 417, 
@@ -150,7 +139,6 @@
         "credito": "Marcos Santos / USP Imagens"
     },
     {
-        "key": "USP",
         "fundo": "/nucleos/usp_fundo.png",
         "brasaoSrc": "/nucleos/usp_logo.png", 
         "brasaoLar": 512, 
