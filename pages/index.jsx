@@ -35,7 +35,7 @@ export default function Home() {
           ({ key, titulo, dia, mes, ano, noticia, img_src, link }, index) =>
             index < 3 && (
               <a className={styles.a} href={link}>
-                <li key={key}>
+                <li key={index}>
                   <Image
                     className={styles.image}
                     src={`/noticias/${img_src}`}
