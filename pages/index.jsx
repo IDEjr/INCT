@@ -34,8 +34,8 @@ export default function Home() {
         {noticias_list.map(
           ({titulo, dia, mes, ano, noticia, img_src, link }, index) =>
             index < 3 && (
-              <a className={styles.a} href={link}>
-                <li key={index}>
+              <a key={index} className={styles.a} href={link}>
+                <li>
                   <Image
                     className={styles.image}
                     src={`/noticias/${img_src}`}
