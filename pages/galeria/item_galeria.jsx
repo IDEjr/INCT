@@ -21,7 +21,7 @@ export default function item_Galeria(props){
     }
 
     return(
-        <Link href={{ pathname: props.link, query: { teste:"teste" }}}>
+        <Link href={{ pathname: `/galeria/${props.link}`, query: { title:props.title }}}>
             <a className={Style.a}>
                 <span className={Style.imagem}>
                     <Image src={props.logo} width={w} height={h}/>

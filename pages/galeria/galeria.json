@@ -1,84 +1,84 @@
 [        
     { 
-        "key": "UFSC", 
-        "link": "/galeria/ufsc", 
+        "title": "UFSC", 
+        "link": "ufsc", 
         "logo": "/nucleos/ufsc_logo.png",
         "brasaoLar": 363, 
         "brasaoAlt": 500
     },
     {
-        "key": "UFSCar", 
-        "link": "/galeria/ufscar", 
+        "title": "UFSCar", 
+        "link": "ufscar", 
         "logo": "/nucleos/ufscar_logo.png",
         "brasaoLar": 678, 
         "brasaoAlt": 500
     },
     {
-        "key": "FURB", 
-        "link": "/galeria/furb", 
+        "title": "FURB", 
+        "link": "furb", 
         "logo": "/nucleos/furb_logo.png",
         "brasaoLar": 778, 
         "brasaoAlt": 500
     },
     { 
-        "key": "PUCRS", 
-        "link": "/galeria/pucrs", 
+        "title": "PUCRS", 
+        "link": "pucrs", 
         "logo": "/nucleos/pucrs_logo.png",
         "brasaoLar": 348, 
         "brasaoAlt": 500
     },
     {
-        "key": "UFAL", 
-        "link": "/galeria/ufal", 
+        "title": "UFAL", 
+        "link": "ufal", 
         "logo": "/nucleos/ufal_logo.png",
         "brasaoLar": 295, 
         "brasaoAlt": 500
     },
     {
-        "key": "UFMG", 
-        "link": "/galeria/ufmg", 
+        "title": "UFMG", 
+        "link": "ufmg", 
         "logo": "/nucleos/ufmg_logo.png",
         "brasaoLar": 860, 
         "brasaoAlt": 335
     },
     {
-        "key": "UFRGS", 
-        "link": "/galeria/ufrgs",
+        "title": "UFRGS", 
+        "link": "ufrgs",
         "logo": "/nucleos/ufrgs_logo.png",
         "brasaoLar": 871, 
         "brasaoAlt": 500
     },
     { 
-        "key": "UFSJ", 
-        "link": "/galeria/ufsj", 
+        "title": "UFSJ", 
+        "link": "ufsj", 
         "logo": "/nucleos/ufsj_logo.png", 
         "brasaoLar": 501, 
         "brasaoAlt": 500
     },
     { 
-        "key": "UNB", 
-        "link": "/galeria/unb", 
+        "title": "UNB", 
+        "link": "unb", 
         "logo": "/nucleos/unb_logo.png",
         "brasaoLar": 539, 
         "brasaoAlt": 500
     },
     {
-        "key": "UNICAMP", 
-        "link": "/galeria/unicamp", 
+        "title": "UNICAMP", 
+        "link": "unicamp", 
         "logo": "/nucleos/unicamp_logo.png",
         "brasaoLar": 474, 
         "brasaoAlt": 500    
     },
     { 
-        "key": "USP-SCar", 
-        "link": "/galeria/usp-scar", 
+        "title": "USP-SCar", 
+        "link": "uspscar", 
         "logo": "/nucleos/uspscar_logo.png",
         "brasaoLar": 417, 
         "brasaoAlt": 417
     },
     { 
-        "key": "USP", 
-        "link": "/galeria/usp", 
+        "title": "USP", 
+        "link": "usp", 
         "logo": "/nucleos/usp_logo.png",
         "brasaoLar": 512, 
         "brasaoAlt": 331
