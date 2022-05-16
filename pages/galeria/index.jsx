@@ -17,10 +17,11 @@ export default function galeria(){
             <div className={Style.box_galeria}>
                 <span className={Style.title}>Galeria</span>
                 <ul className={Style.lista}>                
-                    { list_Image.map( ({title, link, logo}, index) => 
-                    <li key={index} className={Style.item_Lista}>
-                        <Item title={title} logo={logo} link={link}/>
-                    </li>) }                
+                    { list_Image.map( ({title, link, logo, brasaoAlt, brasaoLar}, index) => 
+                      <li key={index} className={Style.item_Lista}>
+                        <Item title={title} logo={logo} link={link}
+                              w={brasaoLar} h={brasaoAlt}/>
+                      </li> ) }                
                 </ul>            
 
             </div>

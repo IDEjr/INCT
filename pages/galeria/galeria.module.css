@@ -34,10 +34,12 @@
 .item_Lista
 {
     background-color: rgba(255, 255, 255, 0.5);
-    min-width: 150px;
+    /*min-width: 150px;*/
+    width: 190px;
+    height: 190px;
     margin: 2.3%;
     border-radius: 10px;
-    padding: auto 0 auto 0;
+    /*padding: auto 0 auto 0;*/
     z-index: 0;
 
     transition:all 0.3s ease;
@@ -54,15 +56,28 @@
 {        
     padding: 10%;
 
+    width: 190px;
+    height: 190px;
+
     display: flex;
     flex-direction: column;
     text-align: center;    
-    
+
+}
+
+.imagem {
+    height: 121px;
+    width: 152px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .title_Img
 {    
-    bottom: 5px;
+    margin-top: 15px;
+    height: 21px;
 }
 
 .carousel_ext
