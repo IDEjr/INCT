@@ -24,7 +24,7 @@ export default function Home() {
       <Header />
       <div className={styles.bg2}>
       <Carousel>
-        {items.map(item => <img className={styles.image} src={item.src} />)}
+        {items.map((item, index) => <img key={index} className={styles.image} src={item.src} />)}
       </Carousel>
       </div>
       <div className={styles.title_bar}>
