@@ -33,7 +33,7 @@ export default function Artigos(){
                     <span className={style.year_list_title}>Ano</span>
                 </div>
                 <ul className={style.ul}>                
-                    { itens.map( ({key, nome, autores, publicador, versao, paginas, ano, link}) => <li key={key}><Item nome = {nome} autores = {autores} publicador = {publicador} versao = {versao} paginas = {paginas} ano = {ano} link = {link}/></li>) }                
+                    { itens.map( ({nome, autores, publicador, versao, paginas, ano, link}, index) => <li key={index}><Item nome = {nome} autores = {autores} publicador = {publicador} versao = {versao} paginas = {paginas} ano = {ano} link = {link}/></li>) }                
                 </ul>
             </div>
 

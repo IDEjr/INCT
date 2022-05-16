@@ -32,7 +32,7 @@ export default function Home() {
       </div>
       <ul className={styles.ul}>
         {noticias_list.map(
-          ({ key, titulo, dia, mes, ano, noticia, img_src, link }, index) =>
+          ({titulo, dia, mes, ano, noticia, img_src, link }, index) =>
             index < 3 && (
               <a className={styles.a} href={link}>
                 <li key={index}>
@@ -58,7 +58,7 @@ export default function Home() {
       </div>
       <ul className={styles.ul2}>
         {articles_list.map(
-          ({ key, nome, autores, publicador, versao, paginas, ano, link }, index) =>
+          ({nome, autores, publicador, versao, paginas, ano, link }, index) =>
             index < 3 && (
               <li key={index}><Item nome = {nome} autores = {autores} publicador = {publicador} versao = {versao} paginas = {paginas} ano = {ano} link = {link}/></li>
             )
