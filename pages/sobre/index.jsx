@@ -38,8 +38,8 @@ export default function Sobre() {
                 <div>
                     <h1 className={style.title}>RESULTADOS PRELIMINARES</h1>
                     <div className={style.options}>
-                        <a href='#' className={style.button} download>Arquivo em Português</a>
-                        <a className={style.button} href='#'>Arquivo em Inglês</a> 
+                        <a href='/about/resultados_preliminares.pdf' target="_blank" className={style.button} >Resultados Preliminares</a>
+                        <a href='/about/preliminary_results.pdf' target="_blank" className={style.button} >Preliminary Results</a>
                     </div>
                 </div>
 
