@@ -13,7 +13,7 @@ export default function Noticias(){
 
     return (
 
-        <div>
+        <div className={Style.background}>
             <Header/>
             <div className={Style.title_bar}>
                 <span className={Style.text_title}>Notícias</span>                

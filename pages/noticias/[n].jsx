@@ -14,7 +14,7 @@ export default function album_fotos(){
     const {titulo, dia, mes, ano, noticia, img_src} = router.query;    
 
     return (
-        <div>
+        <div className={style.background}>
         <Header/>
         <div className={style.title_bar}>
             <span className={style.text_title}>Notícias</span>            
