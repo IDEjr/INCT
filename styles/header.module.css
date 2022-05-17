@@ -27,10 +27,8 @@
 {
     
     /*margin-left: calc(50% + (40% - 300px)) ;*/
-        
-    display: flex;    
-    text-align: center;    
-    justify-content: right;
+    display: none;
+    
 }
 
 .box_imenu
@@ -133,6 +131,12 @@
         display: flex;
 
     }       
+
+    .navbar_imenu {
+        display: flex;    
+        text-align: center;    
+        justify-content: right;
+    }
 }
 
 @media (max-width: 424px) {
@@ -158,8 +162,9 @@
     
     .navbar_imenu
     {
+        display: flex;    
+        text-align: center;    
         justify-content: center;
-        
     }
 
     .box_imenu
