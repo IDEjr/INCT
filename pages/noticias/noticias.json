@@ -8,7 +8,8 @@
         "img_src" : "noticia_exemplo.png",
         "link" : "/noticias/noticia1",
         "links" : [],
-        "images" : []
+        "images" : [],
+        "youtube": ""
 
     },
 
@@ -21,7 +22,8 @@
         "img_src" : "noticia_exemplo.png",        
         "link" : "/noticias/noticia2",
         "links" : ["http://www.google.com", "http://www.youtube.com"],
-        "images" : []
+        "images" : [],
+        "youtube": ""
 
     },
 
@@ -33,8 +35,9 @@
         "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
         "img_src" : "noticia_exemplo.png",
         "link" : "/noticias/noticia3",
-        "links" : ["http://www.google.com", "http://www.youtube.com"],
-        "images" : ["img1.png", "img2.png", "img3.png","img4.png"]
+        "links" : [""],
+        "images" : ["img1.png", "img2.png", "img3.png","img4.png"],
+        "youtube": ""
 
     },
 
@@ -46,8 +49,9 @@
         "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
         "img_src" : "noticia_exemplo.png",
         "link" : "/noticias/noticia4",
-        "links" : ["http://www.google.com", "http://www.youtube.com"],
-        "images" : []
+        "links" : [],
+        "images" : [],
+        "youtube": "https://www.youtube.com/watch?v=EkOhCDjFOqc"
 
     },
 
@@ -60,7 +64,8 @@
         "img_src" : "noticia_exemplo.png",
         "link" : "/noticias/noticia5",
         "links" : ["http://www.google.com", "http://www.youtube.com"],
-        "images" : []
+        "images" : ["img1.png", "img2.png", "img3.png","img4.png"],
+        "youtube": ""
 
     },
 
@@ -72,8 +77,9 @@
         "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
         "img_src" : "noticia_exemplo.png",
         "link" : "/noticias/noticia6",
-        "links" : ["http://www.google.com", "http://www.youtube.com"],
-        "images" : ["img1.png", "img2.png", "img3.png","img4.png"]
+        "links" : [],
+        "images" : ["img1.png", "img2.png", "img3.png","img4.png"],
+        "youtube": "https://www.youtube.com/watch?v=EkOhCDjFOqc"
 
     },
 
@@ -86,7 +92,8 @@
         "img_src" : "noticia_exemplo.png",
         "link" : "/noticias/noticia7",
         "links" : ["http://www.google.com", "http://www.youtube.com"],
-        "images" : ["img1.png", "img2.png", "img3.png","img4.png"]
+        "images" : [],
+        "youtube": "https://www.youtube.com/watch?v=EkOhCDjFOqc"
 
     },
 
@@ -99,7 +106,8 @@
         "img_src" : "noticia_exemplo.png",
         "link" : "/noticias/noticia8",
         "links" : ["http://www.google.com", "http://www.youtube.com"],
-        "images" : ["img1.png", "img2.png", "img3.png","img4.png"]
+        "images" : ["img1.png", "img2.png", "img3.png","img4.png"],
+        "youtube": "https://www.youtube.com/watch?v=EkOhCDjFOqc"
 
     },
 
@@ -111,8 +119,9 @@
         "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
         "img_src" : "noticia_exemplo.png",
         "link" : "/noticias/noticia9",
-        "links" : ["http://www.google.com", "http://www.youtube.com"],
-        "images" : ["img1.png", "img2.png", "img3.png","img4.png"]
+        "links" : [],
+        "images" : [],
+        "youtube": ""
 
     },
 
@@ -125,7 +134,8 @@
         "img_src" : "noticia_exemplo.png",
         "link" : "/noticias/noticia10",
         "links" : [],
-        "images" : ["img1.png", "img2.png", "img3.png","img4.png"]
+        "images" : [],
+        "youtube": ""
 
     }
 ]

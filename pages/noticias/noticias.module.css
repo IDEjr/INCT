@@ -125,8 +125,16 @@
   align-items: flex-start;
 }
 
-.box_carousel
+.box_caurosel
 {
+  display: flex;
+  justify-content: center;
+}
+
+.box_player
+{
+  margin-top: 5%;
+  
   display: flex;
   justify-content: center;
 }
