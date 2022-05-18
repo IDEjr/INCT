@@ -58,7 +58,7 @@
 }
 
 .text_box{
-    margin: auto 0 auto 5%;
+    margin-left: 2%;
     width: fit-content;
     height: fit-content;
 }
@@ -90,6 +90,6 @@
     }
 
     .text_box{
-        margin: auto 0 auto 0;
+        margin: auto;
     }
 }
