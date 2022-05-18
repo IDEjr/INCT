@@ -5,7 +5,7 @@ import Header from '../components/header';
 import Item from './item_areas';
 import Footer from '../components/footer';
 
-import style from '../../styles/sobre.module.css';
+import style from './sobre.module.css';
 
 const areas_list = require('./areas.json');
 
@@ -16,33 +16,32 @@ export default function Sobre() {
     return (
         <div className={style.background}>
             <Header/>
+            <div className={style.margin} />
 
-            <div className={style.about}>
-
+            <h1 className={style.title}>Missão</h1>
+            <div className={style.box}>
                 <div className={style.mission}>
-                    <h1 className={style.title}>MISSÃO</h1>
                     <p className={style.text}>O INCT de Catálise em Sistemas Moleculares e Nanoestruturados (INCT-CMN) 
-                    tem por finalidade a consolidação e promoção do desenvolvimento da área de 
-                    catálise para as diversas atividades industriais e de pesquisa no país.</p>
+                        tem por finalidade a consolidação e promoção do desenvolvimento da área de 
+                        catálise para as diversas atividades industriais e de pesquisa no país.</p>
                 </div>
+            </div>
 
 
-                <div>
-                    <h1 className={style.title}>ÁREAS DE ATUAÇÃO</h1>
-                    <ul className={style.area_list}>                
-                        { itens.map( ({key, imagem, imagemLar, imagemAlt, titulo, texto}) => <li key={key}><Item imagem = {imagem} width = {imagemLar} height = {imagemAlt} titulo = {titulo} texto = {texto}/></li>) }                
-                    </ul>
+            <h1 className={style.title}>Áreas de Atuação</h1>
+            <div className={style.box}>
+                <ul className={style.area_list}>                
+                    { itens.map( ({key, imagem, imagemLar, imagemAlt, titulo, texto}) => <li key={key}><Item imagem = {imagem} width = {imagemLar} height = {imagemAlt} titulo = {titulo} texto = {texto}/></li>) }                
+                </ul>
+            </div>
+
+
+            <h1 className={style.title}>Resultados Preliminares</h1>
+            <div className={style.box}>
+                <div className={style.options}>
+                    <a href='/about/resultados_preliminares.pdf' target="_blank" className={style.button} >Resultados Preliminares</a>
+                    <a href='/about/preliminary_results.pdf' target="_blank" className={style.button} >Preliminary Results</a>
                 </div>
-
-
-                <div>
-                    <h1 className={style.title}>RESULTADOS PRELIMINARES</h1>
-                    <div className={style.options}>
-                        <a href='/about/resultados_preliminares.pdf' target="_blank" className={style.button} >Resultados Preliminares</a>
-                        <a href='/about/preliminary_results.pdf' target="_blank" className={style.button} >Preliminary Results</a>
-                    </div>
-                </div>
-
             </div>
 
             <Footer/>
