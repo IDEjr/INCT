@@ -84,3 +84,12 @@
     padding: 1% 4% 1% 4%;
 }
 
+@media (max-width: 1250px) {
+    .area_item {
+        flex-direction: column;
+    }
+
+    .text_box{
+        margin: auto 0 auto 0;
+    }
+}
