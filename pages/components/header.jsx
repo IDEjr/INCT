@@ -3,9 +3,9 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from 'next/image';
 
-import logo from '../../public/logo_transp.png';
-import menu_icon from '../../public/menu_icon.png';
-import style from '../../styles/header.module.css';
+import logo from '/public/Header/logo_transp.png';
+import menu_icon from '/public/Header/menu_icon.png';
+import style from '/styles/header.module.css';
 
 export default function Header() {
 
@@ -19,7 +19,7 @@ export default function Header() {
         <nav className={style.navbar_imenu}>
           <div className={style.box_imenu}>
             <Link href='/' ><a className={style.item_menu}>Home</a></Link>
-            <Link  href='/galeria'><a className={style.item_menu}>Galeria</a></Link>
+            <Link href='/galeria'><a className={style.item_menu}>Galeria</a></Link>
             <Link href='/nucleos'><a className={style.item_menu}>Núcleos</a></Link>
             <Link href='/noticias'><a className={style.item_menu}>Notícias</a></Link>
             <Link href='/artigos'><a className={style.item_menu}>Artigos</a></Link>
@@ -34,7 +34,7 @@ export default function Header() {
     <>
     <Head>
       <title>INCT</title>
-      <link rel="icon" href="icon_site.png" type="image/icon type"></link>
+      <link rel="icon" href="/Header/icon_site.png" type="image/icon type"></link>
     </Head>
     <div className={style.header}>
       <div className={style.logo}>
