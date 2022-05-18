@@ -38,10 +38,10 @@ export default function album_fotos(){
                 </div>
                 {!youtube ? <></> :
                     <div className={style.box_player}>
-                        <ReactPlayer url={youtube} 
+                        <ReactPlayer url={youtube}
+                            muted
+                            controls
                             playing={false}
-                            onEnded={youtube.onEnd}
-                            config={{ youtube: { playerVars: { controls: 1 }}}}
                         />                                        
                     </div>
                 }
