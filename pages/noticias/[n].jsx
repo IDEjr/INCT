@@ -40,7 +40,7 @@ export default function album_fotos(){
                 {!images? <></> :
                     <div className={style.box_carousel}>
                         <div className={style.carousel_ext}>
-                            <Carousel onClickItem={(i, item) => window.open(`/noticias/${images[i]}`, "_blank")} dynamicHeight emulateTouch useKeyboardArrows showStatus={false} showIndicators={false} autoPlay infiniteLoop>
+                            <Carousel onClickItem={(i, item) => window.open(`/noticias/${images[i]}`, "_blank")} dynamicHeight emulateTouch useKeyboardArrows showStatus={false} showThumbs={false} autoPlay infiniteLoop>
                                 {images.map((image, index) => 
                                     <img key={index} src={`/noticias/${image}`}/>
                                 )}
