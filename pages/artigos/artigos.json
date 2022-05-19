@@ -1637,6 +1637,2093 @@
         "paginas": "423",
         "ano" : 2016,
         "link" : "https://www.scielo.br/j/jbchs/a/PMCPZnzQtJRmZnrw6Yw6xZr/?lang=en" 
-    }
-    
-]
+    },
+    {
+		"autores": ["L. O. Aguiar", "E. Regis", "Patricia Tuzimoto", "Edivandro Girotto", "Ivan H. Bechtold", "H. Gallardo", "A. A. Vieira"],
+		"nome": "Investigation of thermal and luminescent properties in 4,7-diphenylethynyl-2,1,3-benzothiadiazole systems",
+		"publicador": "Liquid Crystals",
+		"versao": "45",
+		"paginas": "49-58",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1080/02678292.2017.1293854"
+	},
+	{
+		"autores": ["Marli Ferreira", "Thamires S. Moreira", "Rodrigo Cristiano", "Hugo Gallardo", "Ahmed Bentaleb", "Pierre Dechambenoit", "Elizabeth A. Hillard", "Fabien Durola", "Harald R. Bock"],
+		"nome": "Isomeric Column-Forming Esters and Imides with Varying Curvatures of the Aromatic Plane",
+		"publicador": "Chemistry-A European Journal",
+		"versao": "24",
+		"paginas": "2214-2223",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/chem.201705084"
+	},
+	{
+		"autores": ["Hugo Gallardo", "Hugo C. Braga", "Patricia Tuzimoto", "Adailton Bortoluzzi", "Cristian A. M. Salla", "Ivan H. Bechtold", "Jefferson S. Martins", "Cristiano Legnani", "Welber Gianini Quirino"],
+		"nome": "Synthesis, structure and OLED application of a new europium(III) complex: { tris-(thenoyltrifluoroacetonate)[1,2,5]selenadiazolo[3,4-f][1,10]phenanthroline}europium(III)",
+		"publicador": "Inorganica Chimica ACTA",
+		"versao": "473",
+		"paginas": "75-82",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.ica.2017.12.034"
+	},
+	{
+		"autores": ["Jaqueline Pazinato", "Otávio M. Cruz", "Karine P. Naidek", "Amanda R.a. Pires", "Eduard Westphal", "Hugo Gallardo", "Hálène Baubichon-Cortay", "Maria E. M. Rocha", "Glaucia R. Martinez", "Sheila M. B. Winnischofer", "Attilio di Pietro", "Herbert Winnischofer"],
+		"nome": "Cytotoxicity of η6-areneruthenium-based molecules to glioblastoma cells and their recognition by multidrug ABC transporters",
+		"publicador": "European Journal of Medicinal Chemistry",
+		"versao": "148",
+		"paginas": "165-177",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.ejmech.2018.02.026"
+	},
+	{
+		"autores": ["Lucas Talamini", "Nicole Zanato", "Eduardo Zapp", "Daniela Brondani", "Eduard Westphal", "Hugo Gallardo", "Iolanda C. Vieira"],
+		"nome": "Heparin-gold Nanoparticles and Liquid Crystal Applied in Label-free Electrochemical Immunosensor for Prostate-Specific Antigen",
+		"publicador": "Electroanalysis",
+		"versao": "30",
+		"paginas": "353-360",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/elan.201700651"
+	},
+	{
+		"autores": ["S. Ovalle", "Eduard Westphal", "Hugo Gallardo"],
+		"nome": "Ionic liquid crystals with 1,2,3-triazole + tolane core and a pendant imidazolium unit: mesophases from one-to three-dimensional molecular organisation by the variation of alkoxy chains number and spacer length",
+		"publicador": "Liquid Crystals",
+		"versao": "45",
+		"paginas": "942-952",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1080/02678292.2018.1441461"
+	},
+	{
+		"autores": ["Elias Regis", "Leonardo de O. Aguiar", "Patricia Tuzimoto", "Edivandro Girotto", "Tiago E. Frizon", "Alexandre G. D. Bó", "Eduardo Zapp", "Raphael Marra", "Hugo Gallardo", "André A. Vieira"],
+		"nome": "Effect of heteroatom exchange (S/Se) in the mesomorphism and physical properties of benzochalcogenodiazole-based liquid crystals",
+		"publicador": "Dyes and Pigments",
+		"versao": "157",
+		"paginas": "109-116",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.dyepig.2018.04.049"
+	},
+	{
+		"autores": ["G. G. Dalkiranis", "E. M. Therezio", "Gilmar Conte", "H Gallardo", "I. H. Bechtold", "A. Marletta"],
+		"nome": "Emission ellipsometry as a tool for luminescent liquid crystal phase transition identification",
+		"publicador": "Physical Review E",
+		"versao": "98",
+		"paginas": "-",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1103/physreve.98.022702"
+	},
+	{
+		"autores": ["Edivandro Girotto", "Alessandra Pereira", "Caroline Arantes", "Marco Cremona", "Adailton J. Bortoluzzi", "Cristian A. M. Salla", "Ivan H. Bechtold", "Hugo Gallardo"],
+		"nome": "Efficient Terbium Complex Based on a Novel Pyrazolone Derivative Ligand Used in Solution-Processed OLEDs." ,
+		"publicador": "Journal of Luminescence",
+		"versao": "208",
+		"paginas": "57-62",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.jlumin.2018.12.027"
+	},
+	{
+		"autores": ["Breno A. Soares", "Caio L. Firme", "Rosane N. Castro", "Adailton J. Bortoluzzi", "Maria A. M. Maciel"],
+		"nome": "Stereoselective reduction of the bioactive 19-nor-clerodane trans-dehydrocrotonin by using sodium borohydride and cerium (III) chloride as a catalyst",
+		"publicador": "Journal of Molecular Structure",
+		"versao": "1154",
+		"paginas": "626-635",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.molstruc.2017.10.071"
+	},
+	{
+		"autores": ["Mushtaq Ahmad", "Zahida Perveen", "Adailton J. Bortoluzzi", "Shahid Hameed", "Muhammad R. Shah", "Muhammad Tariq", "Ghias U. Din", "Muhammad T. Jan", "Muhammad Siddique", "Muhammad Anwar"],
+		"nome": "Synthesis and characterization of novel iminobenzoates with terminal pyrazine moieties",
+		"publicador": "Chemistry Central Journal",
+		"versao": "12",
+		"paginas": "25",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1186/s13065-018-0396-3"
+	},
+	{
+		"autores": ["Carlos E. A. de Melo", "Celso R. Nicoleti", "Marcos C. Rezende", "Adailton J. Bortoluzzi", "Renata da S. Heying", "Robson da S. Oliboni", "Giovanni F. Caramori", "Vanderlei G. Machado"],
+		"nome": "Reverse Solvatochromism of Imine Dyes Comprised of 5-Nitrofuran-2-yl or 5-Nitrothiophen-2-yl as Electron Acceptor and Phenolate as Electron Donor",
+		"publicador": "Chemistry-A European Journal",
+		"versao": "24",
+		"paginas": "9364-9376",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/chem.201800613"
+	},
+	{
+		"autores": ["Luana D. Lopes", "Adailton J. Bortoluzzi", "Giacomo Prampolini", "Francisco P. Dos Santos", "Paolo R. Livotto", "Aloir A. Merlo"],
+		"nome": "Structural and morphological aspects of small 3,5-disubstituted isoxazoles",
+		"publicador": "Journal of Fluorine Chemistry",
+		"versao": "211",
+		"paginas": "24-36",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.jfluchem.2018.04.007"
+	},
+	{
+		"autores": ["Thaís A. Rossa", "Mariane Fantinel", "Adailton J. Bortoluzzi", "Marcus M. Sá"],
+		"nome": "Multicomponent Synthesis of Structurally Diverse Imidazoles Featuring Azirines, Amines and Aldehydes",
+		"publicador": "European Journal of Organic Chemistry",
+		"versao": "2018",
+		"paginas": "4171-4177",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/ejoc.201800687"
+	},
+	{
+		"autores": ["Nilo Zanatta", "Laura Souza", "Josiane Santos", "Mateus Mittersteiner", "Valquiria Andrade", "Marcio Lobo", "Felipe Santos", "Adailton Bortoluzzi", "Helio Bonacorso", "Marcos Martins"],
+		"nome": "Synthetic Versatility of b-Alkoxyvinyl Trichloromethyl Ketones for Obtaining [1,2,4]Triazolo[1,5-a]pyrimidines",
+		"publicador": "Synthesis Stuttgart",
+		"versao": "50",
+		"paginas": "3686-3695",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1055/s-0037-1610191"
+	},
+	{
+		"autores": ["Edivandro Girotto", "Alessandra Pereira", "Caroline Arantes", "Marco Cremona", "Adailton J. Bortoluzzi", "Cristian A. M. Salla", "Ivan H. Bechtold", "Hugo Gallardo"],
+		"nome": "Efficient Terbium Complex Based on a Novel Pyrazolone Derivative Ligand Used in Solution-Processed OLEDs",
+		"publicador": "Journal of Luminescence",
+		"versao": "208",
+		"paginas": "57-62",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.jlumin.2018.12.027"
+	},
+	{
+		"autores": ["Juliana B. Ramalho", "Aryele P. Izaguirry", "Melina B. Soares", "Cristiano C. Spiazzi", "Natasha F. Pavin", "Ricardo F. Affeldt", "Diogo S. Lüdtke", "Simone Pinton", "Francielli W. Santos", "Marina Prigol"],
+		"nome": "Selenofuranoside improves long-term memory deficits in rats after exposure to monosodium glutamate: Involvement of Na+, K+-ATPase activity",
+		"publicador": "Physiology & Behavior",
+		"versao": "184",
+		"paginas": "27-33",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.physbeh.2017.10.028"
+	},
+	{
+		"autores": ["Natalí P. Debia", "Maiara T. Saraiva", "Bruna S. Martins", "Roiney Beal", "Paulo F. B. Goncalves", "Fabiano S. Rodembusch", "Diego Alves", "Diogo S. Lüdtke"],
+		"nome": "Synthesis of Amino Acid-Derived 1,2,3-Triazoles: Development of a Nontrivial Fluorescent Sensor in Solution for the Enantioselective Sensing of a Carbohydrate and Bovine Serum Albumin Interaction",
+		"publicador": "Journal Of Organic Chemistry (online)",
+		"versao": "83",
+		"paginas": "1348-1357",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acs.joc.7b02852"
+	},
+	{
+		"autores": ["Glaci V. Moro", "Rafaela T. R. Almeida", "Amanda P. Napp", "Carla Porto", "Eduardo J. Pilau", "Diogo S. Lüdtke", "Angélica V. Moro", "Marilene H. Vainstein"],
+		"nome": "Identification and ultra-high-performance liquid chromatography coupled with high-resolution mass spectrometry characterization of biosurfactants, including a new surfactin, isolated from oil-contaminated environments",
+		"publicador": "Microbial Biotechnology (online)",
+		"versao": "11",
+		"paginas": "759-769",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1111/1751-7915.13276"
+	},
+	{
+		"autores": ["Maria E. Contreira", "Diogo S. Lüdtke", "Angélica V. Moro"],
+		"nome": "Copper-catalyzed hydroboration of alkenyl oxindoles",
+		"publicador": "Tetrahedron Letters",
+		"versao": "59",
+		"paginas": "2784-2787",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.tetlet.2018.06.009"
+	},
+	{
+		"autores": ["L. L. Baldassari", "A. C. Mantovani", "S. Senoner", "B. Maryasin", "N. Maulide", "D. S. Lüdtke"],
+		"nome": "Redox-Neutral Synthesis of Selenoesters by Oxyarylation of Selenoalkynes under Mild Conditions",
+		"publicador": "Organic Letters",
+		"versao": "20",
+		"paginas": "5881-5885",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acs.orglett.8b02544"
+	},
+	{
+		"autores": ["J. P. B. Lopes", "L. Silva", "G. C. Franarin", "M. A. Ceschi", "D. S. Lüdtke", "R. F. Dantas", "C. M. C. Salles", "F. P. S. Junior", "M. R. Senger", "I. Guedes", "L. E. Dardenne"],
+		"nome": "Design, synthesis, cholinesterase inhibition and molecular modelling study of novel tacrine hybrids with carbohydrate derivatives",
+		"publicador": "Bioorganic & Medicinal Chemistry",
+		"versao": "26",
+		"paginas": "5566-5577",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.bmc.2018.10.003"
+	},
+	{
+		"autores": ["C. B. Silva", "E. S. Gil", "F. S. Santos", "A. M. Morás", "L. Steffens", "P. F. B. Gonçalves", "D. J. Moura", "D. S. Lüdtke", "F. S. Rodembusch"],
+		"nome": "Proton-Transfer-Based Azides with Fluorescence Off-On Response for Detection of Hydrogen Sulfide: An Experimental, Theoretical, and Bioimaging Study",
+		"publicador": "Journal Of Organic Chemistry",
+		"versao": "83",
+		"paginas": "15210-15224",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acs.joc.8b02489"
+	},
+	{
+		"autores": ["Arthur Alcantara", "Liniquer Fontana", "Vitor Rigolin", "Yuri Andrade", "Marcos Ribeiro", "Wdeson Barros", "Catia Ornelas", "Jackson D. Megiatto"],
+		"nome": "Olefin Cyclopropanation via Radical Carbene Transfer Reaction Promoted by Cobalt(II)/Porphyrinates: Active-Metal-Template Synthesis of [2]Rotaxanes",
+		"publicador": "Angewandte Chemie International Edition",
+		"versao": "57",
+		"paginas": "8979-8983",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/anie.201803934"
+	},
+	{
+		"autores": ["Tiago B. Becher", "Monique C. P. Mendonça", "Marcelo A. de Farias", "Rodrigo V. Portugal", "Marcelo B. de Jesus", "Catia Ornelas"],
+		"nome": "Soft Nanohydrogels Based on Laponite Nanodiscs: A Versatile Drug Delivery Platform for Theranostics and Drug Cocktails",
+		"publicador": "ACS Applied Materials & Interfaces",
+		"versao": "10",
+		"paginas": "21891-21900",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acsami.8b06149"
+	},
+	{
+		"autores": ["Diego L. Bertuzzi", "Tiago B. Becher", "Naylil M. R. Capreti", "Julio Amorim", "Igor D. Jurberg", "Jackson D. Megiatto", "Catia Ornelas"],
+		"nome": "General Protocol to Obtain D-Glucosamine from Biomass Residues: Shrimp Shells, Cicada Sloughs and Cockroaches",
+		"publicador": "Global Challenges",
+		"versao": "2",
+		"paginas": "1800046",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/gch2.201800046"
+	},
+	{
+		"autores": ["Didier Astruc", "Christophe Deraedt", "Rodrigue Djeda", "Catia Ornelas", "Xiang Liu", "Amalia Rapakousiou", "Jaime Ruiz", "Yanlan Wang", "Qi Wang"],
+		"nome": "Dentromers, a Family of Super Dendrimers with Specific Properties and Applications",
+		"publicador": "Molecules",
+		"versao": "23",
+		"paginas": "966",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.3390/molecules23040966"
+	},
+	{
+		"autores": ["Manazael Z. Jora", "Matheus da S. Barbosa", "José de A. Simoni", "Edvaldo Sabadini"],
+		"nome": "Solubility and molar enthalpy of solution of sucralose in H2O and D2O",
+		"publicador": "FLUID PHASE EQUILIBRIA",
+		"versao": "460",
+		"paginas": "45-50",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.fluid.2017.12.028"
+	},
+	{
+		"autores": ["Thalita A. Destefani", "Gabriel L. Onaga", "Marcelo A. de Farias", "Ana M. Percebom", "Edvaldo Sabadini"],
+		"nome": "Stabilization of spherical nanoparticles of iron(III) hydroxides in aqueous solution by wormlike micelles",
+		"publicador": "Journal of Colloid and Interface Science",
+		"versao": "513",
+		"paginas": "527-535",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.jcis.2017.11.035"
+	},
+	{
+		"autores": ["Karl J. Clinckspoor", "Laila L. Jorge", "Heinz Hoffmann", "Edvaldo Sabadini"],
+		"nome": "Rheologic and calorimetric study of alkyltrimethylammonium bromide-sodium salicylate wormlike micelles in aqueous binary systems",
+		"publicador": "Journal of Colloid and Interface Science",
+		"versao": "515",
+		"paginas": "198-207",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.jcis.2018.01.024"
+	},
+	{
+		"autores": ["Bruno G. Alvarenga", "Kalil Bernardino", "André Farias De Moura", "Edvaldo Sabadini"],
+		"nome": "Two different pathways for assembling bis-urea in benzene and toluene",
+		"publicador": "Journal of Molecular Modeling",
+		"versao": "24",
+		"paginas": "154",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1007/s00894-018-3688-6"
+
+	},
+	{
+		"autores": ["Eduardo J. Creatto", "Francesca Ceccacci", "Giovanna Mancini", "Edvaldo Sabadini"],
+		"nome": "Effect of the hydrophobic tail of a chiral surfactant on the chirality of aggregates and on the formation of wormlike micelles",
+		"publicador": "LANGMUIR",
+		"versao": "34",
+		"paginas": "13288-13295",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acs.langmuir.8b02556"
+	},
+	{
+		"autores": ["Amanda de C. Faria", "Kelley C. B. Oliveira", "Amanda C. Monteiro", "Eduardo N. Dos Santos", "Elena V. Gusevskaya"],
+		"nome": "New scents using eco-friendly solvents: Oxo synthesis of aldehydes from caryophyllane sesquiterpenes",
+		"publicador": "Catalysis Today",
+		"versao": "344",
+		"paginas": "24-31",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.cattod.2018.10.024"
+	},
+	{
+		"autores": ["Cláudio J. A. Ribeiro", "Matheus M. Pereira", "Elena F. Kozhevnikova", "Ivan V. Kozhevnikov", "Elena V. Gusevskaya", "Kelly A. da S. Rocha"],
+		"nome": "Heteropoly acid catalysts in upgrading of biorenewables: synthesis of para-menthenic fragrance compounds from α-pinene oxide",
+		"publicador": "Catalysis Today",
+		"versao": "344",
+		"paginas": "166-170",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.cattod.2018.12.023"
+	},											
+	{
+		"autores": ["Elene C. Pereira-Maia", "I. P. Souza", "K. J. R. C. Nunes", "A. A. Castro", "T. C. Ramalho", "F. Steffler", "H. A. Duarte", "A. Pacheli", "P. Chagas", "L. C. A. Oliveira"],
+		"nome": "Peroxoniobium inhibit leukemia cell growth",
+		"publicador": "RSC Advances",
+		"versao": "8",
+		"paginas": "10310-10313",
+		"ano": 2018,
+		"link": "https://doi.org/10.1039/C8RA00898A"
+	},
+	{
+		"autores": ["Alexandre B. de Carvalho", "Ívina P. de Souza", "Lídia M. de Andrade", "Ildefonso Binatti", "Emerson F. Pedroso", "Klaus Krambrock", "Willian X. C. Oliveira", "Elene C. Pereira-Maia", "Priscila P. Silva-Caldeira"],
+		"nome": "Novel copper(II) coordination polymer containing the drugs nalidixic acid and 8-hydroxyquinoline: Evaluation of the structural, magnetic, electronic, and antitumor properties",
+		"publicador": "Polyhedron",
+		"versao": "156",
+		"paginas": "312-319",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.poly.2018.09.046"
+	},
+	{
+		"autores": ["R. C. Costa", "E. D. Pereira", "F Machado", "E. F. O. Jesus", "F. G. Souza Jr."],
+		"nome": "Drug Micro-Carriers Based on Polymers and Their Sterilization",
+		"publicador": "Chemistry & Chemical Technology",
+		"versao": "12",
+		"paginas": "473-487",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.23939/chcht12.04.473"
+	},
+	{
+		"autores": ["G. V. S. Dutra", "W. S. Neto", "J. P. S. Dutra", "F. Machado"],
+		"nome": "Implantable medical devices and tissue engineering: An overview of manufacturing processes and the use of polymeric matrices for manufacturing and coating their surfaces",
+		"publicador": "Current Medicinal Chemistry",
+		"versao": "27",
+		"paginas": "1580-1599",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.2174/0929867325666180914110119"
+	},
+	{
+		"autores": ["Rochélia S. S. Cunha", "Joseane D. Mota", "Mariaugusta F. Mota", "Meiry G. F. Rodrigues", "Fabricio Machado"],
+		"nome": "Preparation and Characterization of Tubular Composite Membranes and their Application in Water Flow Measurements",
+		"publicador": "Materials Science Forum (online)",
+		"versao": "912",
+		"paginas": "263-268",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.4028/www.scientific.net/MSF.912.263"
+	},
+	{
+		"autores": ["Rômulo C. Alves", "Tamara Agner", "Thyago S. Rodrigues", "Fabricio Machado", "Brenno A. D. Neto", "Cristiane da Costa", "Pedro H. H. de Araújo", "Claudia Sayer"],
+		"nome": "Cationic miniemulsion polymerization of styrene mediated by imidazolium based ionic liquid",
+		"publicador": "European Polymer Journal",
+		"versao": "104",
+		"paginas": "51-56",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.eurpolymj.2018.04.035"
+	},
+	{
+		"autores": ["Larissa S. Laurentino", "Anderson M. M. S. Medeiros", "Fabricio Machado", "Cristiane Costa", "Pedro H. H. Araújo", "Claudia Sayer"],
+		"nome": "Synthesis of a biobased monomer derived from castor oil and copolymerization in aqueous medium",
+		"publicador": "Chemical Engineering Research & Design",
+		"versao": "137",
+		"paginas": "213-220",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.cherd.2018.07.014"
+	},
+	{
+		"autores": ["Amanda R. Primo", "Victor U. E. Paiva", "Anderson M. M. S. Medeiros", "Fabricio Machado"],
+		"nome": "Evaluation of Process Variables on the Suspension Polymerization of Vinyl Pivalate",
+		"publicador": "Macromolecular Symposia (online)",
+		"versao": "380",
+		"paginas": "1800134",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/masy.201800134"
+	},
+	{
+		"autores": ["Juliete Neves", "Leonardo Valadares", "Fabricio Machado"],
+		"nome": "Tailoring Acrylated Soybean Oil-Containing Terpolymers through Emulsion Polymerization",
+		"publicador": "Colloids and Interfaces",
+		"versao": "2",
+		"paginas": "46",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.3390/colloids2040046"
+	},
+	{
+		"autores": ["Lilian R. Braga", "Leonardo M. Pérez", "Marina D. V. Soazo", "Fabricio Machado"],
+		"nome": "Evaluation of the antimicrobial, antioxidant and physicochemical properties of Poly(Vinyl chloride) films containing quercetin and silver nanoparticles",
+		"publicador": "LWT-Food Science and Technology",
+		"versao": "101",
+		"paginas": "491-498",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.lwt.2018.11.082"
+	},
+	{
+		"autores": ["Vinicius M. B. Patrocinio", "Tamara Agner", "Gabriel V. S. Dutra", "Fabricio Machado", "Brenno A. D. Neto", "Pedro H. H. Araújo", "Claudia Sayer"],
+		"nome": "High Molecular Weight Polystyrene Obtained by Cationic Emulsion Polymerization Catalyzed by Imidazolium-Based Ionic Liquid",
+		"publicador": "Macromolecular Reaction Engineering",
+		"versao": "13",
+		"paginas": "1800061",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/mren.201800061"
+	},
+	{
+		"autores": ["Anderson M. M. S. Medeiros", "Fabricio Machado", "Elodie Bourgeat'Lami", "Joel C. Rubim", "Timothy F. L. Mckenna"],
+		"nome": "Bio-Based Hybrid Magnetic Latex Particles Containing Encapsulated γ--Fe O by Miniemulsion Copolymerization of Soybean Oil-Acrylated Methyl Ester and Styrene",
+		"publicador": "Macromolecular Materials and Engineering",
+		"versao": "304",
+		"paginas": "1800449",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/mame.201800449"
+	},
+	{
+		"autores": ["Vanessa P. da Silva", "Cassia C. F. Alves", "Mayker L. D. Miranda", "Lizandra C. Bretanha", "Maira P. Balleste", "Gustavo A. Micke", "Eduardo V. Silveira", "Carlos H. G. Martins", "Maria A. L. V. Ambrosio", "Thayná de S. Silva", "Denise C. Tavares", "Lizandra G. Magalhães", "Fabiano G. Silva", "Mariana B. Egea"],
+		"nome": "Chemical composition and in vitro leishmanicidal, antibacterial and cytotoxic activities of essential oils of the Myrtaceae family occurring in the Cerrado biome",
+		"publicador": "Industrial Crops and Products",
+		"versao": "123",
+		"paginas": "638-645",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.indcrop.2018.07.033"
+	},
+	{
+		"autores": ["Alysson V. F. Sako", "Daniel A. Spudeit", "Maurício Dupim", "Waldemar P. O. Filho", "Tatiana D. Saint'pierre", "Marcone A. L. de Oliveira", "Gustavo A. Micke"],
+		"nome": "Dual-opposite end multiple injection method applied to sequential determination of Na+, K+, Ca+2, Mg+2 ions and free and total glycerol in biodiesel by Capillary Zone Electrophoresis",
+		"publicador": "Journal of Chromatography A",
+		"versao": "1570",
+		"paginas": "148-154",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.chroma.2018.07.079"
+	},
+	{
+		"autores": ["Luciano Molognoni", "Naielly C. de Souza", "Leandro A. de S. Ploêncio", "Gustavo A. Micke", "Heitor Daguer"],
+		"nome": "Simultaneous analysis of spectinomycin, halquinol, zilpaterol, and melamine in feedingstuffs by ion-pair liquid chromatography-tandem mass spectrometry",
+		"publicador": "Journal of Chromatography A",
+		"versao": "1569",
+		"paginas": "110-117",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.chroma.2018.07.048"
+	},
+	{
+		"autores": ["Camila M. S. Vieira", "Melaine Mazurkievicz", "Angela M. Lopez Calvo", "Vítor Debatin", "Gustavo A. Micke", "Pablo Richter", "Milton Rosero-Moreano", "Eduardo C. da Rocha"],
+		"nome": "Exploiting green sorbents in rotating-disk sorptive extraction for the determination of parabens by high performance liquid chromatography tandem electrospray ionization triple quadrupole mass spectrometry",
+		"publicador": "Journal of Separation Science",
+		"versao": "41",
+		"paginas": "4047-4054",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/jssc.201800426"
+
+	},
+	{
+		"autores": ["Tiago Tizziani", "Marcos Pereira", "Dalila Venzke", "Fabiana C. Missau", "Ana P. Ruani", "Daiane F. Montagner", "Moacir G. Pizzolatti", "Gustavo A. Micke", "Inês M. C. Brighente"],
+		"nome": "A new xanthone as a chemical marker of four Polygala species (Polygalaceae)",
+		"publicador": "Biochemical Systematics and Ecology",
+		"versao": "78",
+		"paginas": "46-48",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.bse.2018.03.007"
+	},
+	{
+		"autores": ["Nádia S. R. S. Mota", "Maicon R. Kviecinski", "Rodrigo C. Zeferino", "Daniela A. de Oliveira", "Lizandra C. Bretanha", "Sandra R. S. Ferreira", "Gustavo A. Micke", "Danilo W. Filho", "Rozangela C. Pedrosa", "Fabiana Ourique"],
+		"nome": "In vivo antitumor activity of by-products of Passiflora edulis f. flavicarpa Deg. Rich in medium and long chain fatty acids evaluated through oxidative stress markers, cell cycle arrest and apoptosis induction",
+		"publicador": "Food and Chemical Toxicology",
+		"versao": "118",
+		"paginas": "557-565",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.fct.2018.06.010"
+	},
+	{
+		"autores": ["Róli R. Simões", "Scheila I. Kraus", "Igor S. Coelho", "Daniela Dal-Secco", "Diogo A. Siebert", "Gustavo A. Micke", "Michele D. Alberton", "Adair R. S. Santos"],
+		"nome": "Eugenia brasiliensis leaves extract attenuates visceral and somatic inflammatory pain in mice",
+		"publicador": "Journal of Ethnopharmacology",
+		"versao": "217",
+		"paginas": "178-186",
+		"ano": 2018,
+		"link": "https://doi.org/10.1016/j.jep.2018.02.026"
+	},
+	{
+		"autores": ["Tiago Tizziani", "Dalila Venzke", "Ana P. Ruani", "Marcos Pereira", "Gustavo A. Micke", "Moacir G. Pizzolatti", "Inês M. C. Brighente"],
+		"nome": "Phytochemical and chemotaxonomic study of Polygala altomontana (Polygalaceae). " ,
+		"publicador": "Biochemical Systematics and Ecology",
+		"versao": "77",
+		"paginas": "1-3",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.bse.2017.12.003"
+	},
+	{
+		"autores": ["Josiane Hilbig", "Victor R. Alves", "Carmen M. O. Müller", "Gustavo A. Micke", "Luciano Vitali", "Rozangela C. Pedrosa", "Jane M. Block"],
+		"nome": "Ultrasonic-assisted extraction combined with sample preparation and analysis using LC-ESI-MS/MS allowed the identification of 24 new phenolic compounds in pecan nut shell [ Carya illinoinensis (Wangenh) C. Koch] extracts",
+		"publicador": "Food Research International",
+		"versao": "106",
+		"paginas": "549-557",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.foodres.2018.01.010"
+	},
+	{
+		"autores": ["Priscila de B. Policarpi", "Leticia Turcatto", "Fernanda Demoliner", "Roseli A. Ferrari", "Vera L. A. F. Bascuñan", "Juliano C. Ramos", "Iván Jachmanián", "Luciano Vitali", "Gustavo A. Micke", "Jane M. Block"],
+		"nome": "Nutritional potential, chemical profile and antioxidant activity of Chichá ( Sterculia striata ) nuts and its by-products",
+		"publicador": "Food Research International",
+		"versao": "106",
+		"paginas": "736-744",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.foodres.2017.12.069"
+	},
+	{
+		"autores": ["Thiago G. Costa", "Fábio A. Richter", "Elisiana T. Castro", "Samantha Gonçalves", "Daniel A. Spudeit", "Gustavo A. Micke"],
+		"nome": "Elemental identification of blue paintings traces present in historic cemeteries in the São Martinho region, southern Brazil",
+		"publicador": "Journal of Molecular Structure",
+		"versao": "1155",
+		"paginas": "434-442",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.molstruc.2017.11.027"
+	},
+	{
+		"autores": ["Ariela M. Boeder", "Adrielli Tenfen", "Diogo A. Siebert", "Camila L. de B. Almeida", "Cláudia R. M. Firmo", "Dilamara R. Scharf", "Gustavo A. Micke", "Edésio L. Siminionatto", "Caio M. M. de Cordova", "Alessandro Guedes"],
+		"nome": "Anti-mycoplasma activity of Curcuma longa extracts and your isolated compound, the curcumin",
+		"publicador": "Revista Fitos Eletrônica",
+		"versao": "12",
+		"paginas": "110-116",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.5935/2446-4775.20180010"
+	},
+	{
+		"autores": ["Siluana K. T. Seraglio", "Luciano V. Gonzaga", "Mayara Schulz", "Luciano Vitali", "Gustavo A. Micke", "Ana C. O. Costa", "Roseane Fett", "Graciele da S. C. Borges"],
+		"nome": "Effects of gastrointestinal digestion models in vitro on phenolic compounds and antioxidant activity of juçara ( Euterpe edulis )",
+		"publicador": "International Journal of Food Science and Technology",
+		"versao": "53",
+		"paginas": "1824-1831",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1111/ijfs.13816"
+	},
+	{
+		"autores": ["Ana Ruani", "Luciano Vitali", "Gustavo Micke"],
+		"nome": "Multiple-Injection Capillary Zone Electrophoresis as a Fast Strategy to Determine Antinitrosating Capacity of Commercial Teas",
+		"publicador": "Journal of the Brazilian Chemical Society",
+		"versao": "29",
+		"paginas": "2150-2157",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.21577/0103-5053.20180090"
+	},
+	{
+		"autores": ["Sara C. Barauna", "Débora D. Magro", "Maitê B. Brueckheimer", "Thayná P. Maia", "Geraldo A. B. N. Sala", "André W. Döhler", "Mateus C. Harger", "Dayse F. M. de Melo", "André L. de Gasper", "Michele D. Alberton", "Diogo A. Siebert", "Gustavo A. Micke", "Cláudia A. C. de Albuquerque", "Daniela D. Lima"],
+		"nome": "Antioxidant and antidepressant-like effects of Eugenia catharinensis D. Legrand in an animal model of depression induced by corticosterone",
+		"publicador": "Metabolic Brain Disease",
+		"versao": "33",
+		"paginas": "1985-1994",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1007/s11011-018-0306-3"
+	},
+	{
+		"autores": ["Fernanda Demoliner", "Priscila de B. Policarpi", "Lúcio F. L. Vasconcelos", "Luciano Vitali", "Gustavo A. Micke", "Jane M. Block"],
+		"nome": "Sapucaia nut ( Lecythis pisonis Cambess) and its by-products: A promising and underutilized source of bioactive compounds. Part II: Phenolic compounds profile",
+		"publicador": "FOOD RESEARCH INTERNATIONAL",
+		"versao": "112",
+		"paginas": "434-442",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.foodres.2018.06.050"
+	},
+	{
+		"autores": ["Pedro H. Santos", "Deise H. B. Ribeiro", "Gustavo A. Micke", "Luciano Vitali", "Haiko Hense"],
+		"nome": "Extraction of bioactive compounds from feijoa (Acca sellowiana (O. Berg) Burret) peel by low and high-pressure techniques",
+		"publicador": "Journal Of Supercritical Fluids",
+		"versao": "145",
+		"paginas": "219-227",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.supflu.2018.12.016"
+	},
+	{
+		"autores": ["Alysson Sako", "Gustavo Micke"],
+		"nome": "Fast Determination of Iodine Number of Biodiesel Using Capillary Zone Electrophoresis with Multi- and Single-Point Calibration",
+		"publicador": "Journal Of The Brazilian Chemical Society",
+		"versao": "30",
+		"paginas": "318-325",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.21577/0103-5053.20180180"	
+	},
+	{
+		"autores": ["Alberto A. R. Mota", "Jose R. Correa", "Lorena P. de Andrade", "José A. F. Assumpção", "Giovana A. de S. Cintra", "Lucio H. Freitas-Junior", "Wender A. da Silva", "H. C. B. Oliveira", "B. A. D. Neto"],
+		"nome": "From Live Cells to Caenorhabditis elegans: Selective Staining and Quantification of Lipid Structures Using a Fluorescent Hybrid Benzothiadiazole Derivative",
+		"publicador": "ACS Omega",
+		"versao": "3",
+		"paginas": "3874-3881",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acsomega.8b00434"
+	},
+	{
+		"autores": ["Thiago O. Lopes", "Daniel F. S. Machado", "Chad Risko", "Jean-Luc Brédas", "Heibbe C. B. de Oliveira"],
+		"nome": "Bond Ellipticity Alternation: An Accurate Descriptor of the Nonlinear Optical Properties of &pi;-Conjugated Chromophores",
+		"publicador": "Journal of Physical Chemistry Letters",
+		"versao": "9",
+		"paginas": "1377-1383",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acs.jpclett.8b00478"
+	},
+	{
+		"autores": ["Arsênio P. V. Neto", "Daniel F. S. Machado", "Thiago O. Lopes", "Ademir J. Camargo", "Heibbe C. B. de Oliveira"],
+		"nome": "Explicit Aqueous Solvation Treatment of Epinephrine from Car-Parrinello Molecular Dynamics: Effect of Hydrogen Bonding on the Electronic Absorption Spectrum",
+		"publicador": "Journal Of Physical Chemistry B",
+		"versao": "122",
+		"paginas": "8439-8450",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acs.jpcb.8b06110"
+	},
+	{
+		"autores": ["Rodrigo A. L. Silva", "Sandro F. de Brito", "Daniel F. S. Machado", "Valter H. Carvalho-Silva", "Heibbe C. B. de Oliveira", "Luciano Ribeiro"],
+		"nome": "The influence of the configuration of the (C70)2 dimer on its rovibrational spectroscopic properties: a theoretical survey",
+		"publicador": "Journal Of Molecular Modeling",
+		"versao": "24",
+		"paginas": "235",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1007/s00894-018-3780-y"
+	},
+	{
+		"autores": ["Nayara D. Coutinho", "Flavio O. Sanches-Nneto", "Valter H. Carvalho-Silva", "Heibbe C. B. de Oliveira", "Luiz A. Ribeiro", "Vincenzo Aquilanti"],
+		"nome": "Kinetics of the OH+HCl→H2O+Cl reaction: Rate determining roles of stereodynamics and roaming and of quantum tunneling",
+		"publicador": "Journal Of Computational Chemistry",
+		"versao": "39",
+		"paginas": "2508-2516",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/jcc.25597"
+	},
+	{
+		"autores": ["Alberto A. R. Mota", "Jose R. Correa", "Lorena P. de Andrade", "José A. F. Assumpção", "Giovana A. de S. Cintra", "Lucio H. Freitas-Junior", "Wender A. Da Silva", "H. C. B. Oliveira", "B. A. D. Neto"],
+		"nome": "From Live Cells to Caenorhabditis elegans : Selective Staining and Quantification of Lipid Structures Using a Fluorescent Hybrid Benzothiadiazole Derivative",
+		"publicador": "ACS Omega",
+		"versao": "3",
+		"paginas": "3874-3881",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acsomega.8b00434"
+	},
+	{
+		"autores": ["Boris Maryasin", "Dainis Kaldre", "Renan Galaverna", "Immo Klose", "Stefan Ruider", "Martina Drescher", "Hanspeter Kählig", "Leticia González", "Marcos N. Eberlin", "Igor D. Jurberg", "Nuno Maulide"],
+		"nome": "Unusual mechanisms in Claisen rearrangements: an ionic fragmentation leading to a meta-selective rearrangement",
+		"publicador": "Chemical Science",
+		"versao": "9",
+		"paginas": "4124-4131",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1039/C7SC04736C"
+	},
+	{
+		"autores": ["Igor Jurberg", "Amanda da Silva", "Alessandra Fernandes", "Samuel Thurow", "Mateus Stivanin"],
+		"nome": "Isoxazol-5-ones as Strategic Building Blocks in Organic Synthesis",
+		"publicador": "Synthesis Stuttgart",
+		"versao": "50",
+		"paginas": "2473-2489",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1055/s-0036-1589534"
+	},
+	{
+		"autores": ["Igor D. Jurberg", "Huw M. L. Davies"],
+		"nome": "Blue light-promoted photolysis of aryldiazoacetates",
+		"publicador": "Chemical Science",
+		"versao": "9",
+		"paginas": "5112-5118",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1039/C8SC01165F"
+	},
+	{
+		"autores": ["Diego L. Bertuzzi", "Tiago B. Becher", "Naylil M. R. Capreti", "Julio Amorim", "Igor D. Jurberg", "Jackson D. Megiatto", "Catia Ornelas"],
+		"nome": "General Protocol to Obtain D-Glucosamine from Biomass Residues: Shrimp Shells, Cicada Sloughs and Cockroaches",
+		"publicador": "Global Challenges",
+		"versao": "2",
+		"paginas": "1800046",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/gch2.201800046"
+	},
+	{
+		"autores": ["Taícia P. Fill", "Heloisa F. Pallini", "Zia U. Din", "Igor D. Jurberg", "José V. da Silva", "Edson Rodrigues-Filho"],
+		"nome": "Conjugation of antifungal benzoic acid derivatives as a path for detoxification in Penicillium brasilianum, an endophyte from Melia azedarach",
+		"publicador": "Bioorganic Chemistry",
+		"versao": "81",
+		"paginas": "367-372",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.bioorg.2018.08.038"
+	},
+	{
+		"autores": ["Nathália M. Simon", "Gabriel Abarca", "Jackson D. Scholten", "Josiel B. Domingos", "David Mecerreyes", "Jairton Dupont"],
+		"nome": "Structural, electronic and catalytic properties of palladium nanoparticles supported on poly(ionic liquid)",
+		"publicador": "Applied Catalysis A: General",
+		"versao": "562",
+		"paginas": "79-86",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.apcata.2018.06.001"
+	},
+	{
+		"autores": ["Eduardo M. Morais", "Igor B. Grillo", "Hubert K. Stassen", "Marcus Seferin", "Jackson D. Scholten"],
+		"nome": "The effect of an electron-withdrawing group in the imidazolium cation: the case of nitro-functionalized imidazolium salts as acidic catalysts for the acetylation of glycerol",
+		"publicador": "New Journal Of Chemistry",
+		"versao": "42",
+		"paginas": "10774-10783",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1039/c8nj02520g"
+	},
+	{
+		"autores": ["Arthur Alcantara", "Liniquer Fontana", "Vitor Rigolin", "Yuri Andrade", "Marcos Ribeiro", "Wdeson Barros", "Catia Ornelas", "Jackson D Megiatto"],
+		"nome": "Olefin Cyclopropanation by Radical Carbene Transfer Reaction Promoted by Cobalt(II)/Porphyrinates: Active-Metal-Template Synthesis of [2]Rotaxanes",
+		"publicador": "Angewandte Chemie International Edition",
+		"versao": "57",
+		"paginas": "8979-8983",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/anie.201803934"
+	},
+	{
+		"autores": ["Diego L. Bertuzzi", "Tiago B. Becher", "Naylil M. R. Capreti", "Julio Amorim", "Igor D. Jurberg", "Jackson D. Megiatto", "Catia Ornelas"],
+		"nome": "General Protocol to Obtain D-Glucosamine from Biomass Residues: Shrimp Shells, Cicada Sloughs and Cockroaches",
+		"publicador": "Global Challenges",
+		"versao": "2",
+		"paginas": "1800046",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/gch2.201800046"
+	},
+	{
+		"autores": ["Marco A. Souza", "Karolyne V. De Oliveira", "Flavia C. C. Oliveira", "Luciano P. Silva", "Joel C. Rubim"],
+		"nome": "The Adsorption of Methamphetamine on Ag Nanoparticles Dispersed in Agarose Gel-Detection of Methamphetamine in Fingerprints by SERS",
+		"publicador": "Vibrational Spectroscopy",
+		"versao": "98",
+		"paginas": "152-157",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.vibspec.2018.08.008"
+	},
+	{
+		"autores": ["Anderson M. M. S. Medeiros", "Fabricio Machado", "Elodie Bourgeat'lami", "Joel C. Rubim", "Timothy F. L. Mckenna"],
+		"nome": "Bio-Based Hybrid Magnetic Latex Particles Containing Encapsulated γ-Fe2O3 by Miniemulsion Copolymerization of Soybean Oil-Acrylated Methyl Ester and Styrene",
+		"publicador":"Macromolecular Materials And Engineering",
+		"versao": "304",
+		"paginas": "1800449",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/mame.201800449"
+	},
+	{
+		"autores": ["E. V. Dalessandro", "J. R. Pliego"],
+		"nome": "Fast Screening of Solvents for Simultaneous Extraction of Furfural, 5-Hydroxymethylfurfural and Levulinic acid from Water Solution Using SMD Solvation Free Energies",
+		"publicador": "Journal Of The Brazilian Chemical Society",
+		"versao": "29",
+		"paginas": "430-434",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.21577/0103-5053.20170140"
+	},
+	{
+		"autores": ["F. M. Lisboa", "J. R. Pliego"],
+		"nome": "Infinite dilution activity coefficient from SMD calculations: accuracy and performance for predicting liquid-liquid equilibria",
+		"publicador":"JOURNAL OF MOLECULAR MODELING",
+		"versao": "24",
+		"paginas": "56",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1007/s00894-018-3597-8"
+	},
+	{
+		"autores": ["J. R. Pliego"], 
+		"nome": "Potassium Fluoride Activation for the Nucleophilic Fluorination Reaction Using 18-crown-6, [2.2.2]-Cryptand, Pentaethylene Glycol and Comparison with the New Hydro-crown Scaffold: A Theoretical Analysis",
+		"publicador":"Organic & Biomolecular Chemistry",
+		"versao": "16",
+		"paginas": "3127-3137",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1039/C8OB00418H"
+	},
+	{
+		"autores": ["J. R. Pliego"],
+		"nome": "Mechanism of nucleophilic fluorination promoted by bis-tert-alcohol-functionalized crown-6-calix[4]arene",
+		"publicador": "International Journal Of Quantum Chemistry",
+		"versao": "118",
+		"paginas": "e25648",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/qua.25648"
+	},
+	{
+		"autores": ["V. C. Rufino", "Stella M. Resende", "J. R. Pliego"],
+		"nome": "Free energy profile and microkinetic modeling of base-catalyzed conjugate addition reaction of nitroalkanes to α,β-unsaturated ketones in polar and apolar solvents",  
+		"publicador": "Journal Of Molecular Modeling",
+		"versao": "24",
+		"paginas": "152",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1007/s00894-018-3694-8"
+	},
+	{
+		"autores": ["I. C. Nogueira", "J. R. Pliego"],
+		"nome": "Theoretical Study of the Mechanism and Regioselectivity of the Alkylation Reaction of the Phenoxide Ion in Polar Protic and Aprotic Solvents",  
+		"publicador": "Computational and Theoretical Chemistry",
+		"versao": "1138",
+		"paginas": "117-122",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.comptc.2018.06.004"
+	},
+	{
+		"autores": ["Ellen V. Dalessandro", "Josefredo R. Pliego Jr."],
+		"nome": "Solvent selection for chemical reactions: automated computational screening of solvents using the SMD model",
+		"publicador": "Quimica Nova",
+		"versao": "41",
+		"paginas": "628-633",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.21577/0100-4042.20170224"
+
+	},
+	{
+		"autores": ["Daniela R. Silva", "Josefredo R. Pliego"],
+		"nome": "How difficult are anion-molecule SNAr reactions of unactivated arenes in the gas phase, dimethyl sulfoxide, and methanol solvents?",
+		"publicador": "Structural Chemistry",
+		"versao": "30",
+		"paginas": "75-83",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1007/s11224-018-1172-7"	
+	},
+	{
+		"autores": ["Eduardo C. M. Barbosa", "Jhonatan L. Fiorio", "Tong Mou", "Bin Wang", "Liane M. Rossi", "Pedro Camargo"],
+		"nome": "Reaction Pathway Dependence in Plasmonic Catalysis: Hydrogenation as a Model Molecular Transformation",
+		"publicador": "Chemistry-A European Journal",
+		"versao": "24",
+		"paginas": "12330-12339",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/chem.201705749"
+	},
+	{
+		"autores": ["Jhonatan L. Fiorio", "Renato V. Gonçalves", "Erico Teixeira-Neto", "Manuel A. Ortuño", "Nuria Lopez", "Liane M. Rossi"],
+		"nome": "Accessing frustrated Lewis pair chemistry through robust Gold@N-doped carbon for selective hydrogenation of alkynes",
+		"publicador": "ACS Catalysis",
+		"versao": "8",
+		"paginas": "3516-3524",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acscatal.8b00806"
+	},
+	{
+		"autores": ["Lucas D. Dias", "Rui M. B. Carrilho", "César A. Henriques", "Giusi Piccirillo", "Auguste Fernandes", "Liane M. Rossi", "M. F. Ribeiro", "Mário J. F. Calvete", "Mariette M. Pereira"],
+		"nome": "A recyclable hybrid manganese(III) porphyrin magnetic catalyst for selective olefin epoxidation using molecular oxygen",
+		"publicador": "Journal of Porphyrins and Phthalocyanines",
+		"versao": "22",
+		"paginas": "331-341",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1142/s108842461850027x"
+	},
+	{
+		"autores": ["Liane M. Rossi", "Jhonatan L. Fiorio", "Marco A. S. Garcia", "Camila P. Ferraz"],
+		"nome": "Role and fate of capping ligands in colloidally prepared metal nanoparticle catalysts",
+		"publicador": "Dalton Transactions",
+		"versao": "47",
+		"paginas": "5889-5915",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1039/c7dt04728b"
+	},
+	{
+		"autores": ["Lucas D. Dias", "Rui M. B. Carrilho", "César A. Henriques", "Mário J. F. Calvete", "Anna M. Masdeu-Bultó", "Carmen Claver", "Liane M. Rossi", "Mariette M. Pereira"],
+		"nome": "Hybrid-Metalloporphyrin Magnetic Nanoparticles as Catalysts for Sequential Transformation of Alkenes and CO2 into Cyclic Carbonates",
+		"publicador": "ChemCatChem",
+		"versao": "10",
+		"paginas": "2792-2803",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/cctc.201800397"
+	},
+	{
+		"autores": ["Camila P. Ferraz", "Micha' Zieli'ski", "Mariusz Pietrowski", "Svetlana Heyte", "Franck Dumeignil", "Liane M. Rossi", "Robert Wojcieszak"],
+		"nome": "Influence of Support Basic Sites in Green Oxidation of Biobased Substrates Using Au-Promoted Catalysts",
+		"publicador":"  ACS Sustainable Chemistry & Engineering",
+		"versao": "6",
+		"paginas": "16332-16340",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acssuschemeng.8b03330"
+	},
+	{
+		"autores": ["Fernanda P. da Silva", "Jhonatan L. Fiorio", "Renato V. Gonçalves", "Erico Teixeira-Neto", "Liane M. Rossi"],
+		"nome": "Synergic Effect of Copper and Palladium for Selective Hydrogenation of Alkynes",
+		"publicador": "Industrial & Engineering Chemistry Research",
+		"versao": "57",
+		"paginas": "16209-16216",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acs.iecr.8b03627"
+	},
+	{
+		"autores": ["Jhon Quiroz", "Eduardo C. M. Barbosa", "Thaylan P. Araujo", "Jhonatan L. Fiorio", "Yichi Wang", "Yichao Zou", "Tong Mou", "Tiago V. Alves", "Daniela C. de Oliveira", "Bin Wang", "Sarah J. Haigh", "Liane M. Rossi", "Pedro H. C. Camargo"],
+		"nome": "Controlling Reaction Selectivity over Hybrid Plasmonic Nanocatalysts",
+		"publicador": "Nano Letters",
+		"versao": "18",
+		"paginas": "7289-7297",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acs.nanolett.8b03499"
+	},
+	{
+		"autores": ["Vera L. V. Fallavena", "Marçal J. R. Pires", "S. F. Ferrarini", "A. P. B. Silveira"],
+		"nome": "Evaluation of Zeolite/Backfill Blend for Acid Mine Drainage Remediation in Coal Mine",
+		"publicador": "Energy & Fuels",
+		"versao": "32",
+		"paginas": "2019-2027",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acs.energyfuels.7b03322"
+	},
+	{
+		"autores": ["S. F. Ferrarini", "A. M. Cardoso", "L. Alban", "Marçal J. R. Pires"],
+		"nome": "Evaluation of the Sustainability of Integrated Hydrothermal Synthesis of Zeolites Obtained from Waste",
+		"publicador": "Journal of the Brazilian Chemical Society",
+		"versao": "29",
+		"paginas": "1464-1479",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.21577/0103-5053.20180017"
+	},
+	{
+		"autores": ["L. S. Silva", "G. S. C. Raulino", "C. B. Vidal", "M. Pires", "R. F. Nascimento"],
+		"nome": "Peculiar properties of LTA/FAU synthetic composite zeolite and its effect on Cu2+ adsorption: factorial experimental design",
+		"publicador": "Desalination and Water Treatment",
+		"versao": "107",
+		"paginas": "223-231",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.5004/dwt.2018.22165"
+	},
+	{
+		"autores": ["Heldiane S. dos Santos", "Suzana F. Ferrarini", "Francine Q. Flores", "Marçal J. R. Pires", "Carla M. N. Azevedo", "Lucie Coudert", "Jean-françois Blais"],
+		"nome": "Removal of toxic elements from wastewater generated in the decontamination of CCA-treated Eucalyptus sp. and Pinus canadense wood",
+		"publicador": "Journal of Material Cycles and Waste Management",
+		"versao": "20",
+		"paginas": "1299-1309",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1007/s10163-017-0694-1"
+	},
+	{
+		"autores": ["Rafael Abruzzi", "Beatriz Bonetti", "Marçal Pires", "Berenice DeDavid", "Arthur Bitencourt"],
+		"nome": "Artifacts in the analysis and assessment of low-cost containers for sampling and storing greenhouse gases",
+		"publicador": "Quimica Nova",
+		"versao": "42",
+		"paginas": "84-94",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.21577/0100-4042.20170299"
+	},
+	{
+		"autores": ["Gustavo T. M. Silva", "Cassio P. Silva", "Marcelo H. Gehlen", "Jessy Oake", "Cornelia Bohne", "Frank H. Quina"],
+		"nome": "Organic/inorganic hybrid pigments from flavylium cations and palygorskite",
+		"publicador": "Applied Clay Science",
+		"versao": "162",
+		"paginas": "478-486",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.clay.2018.07.002"
+	},
+	{
+		"autores": ["Euclydes Marega", "Luiz A. O. Nunes", "Marcelo H. Gehlen", "Victor A. G. Rivera", "Fabio A. Ferri"],
+		"nome": "Suitable Er3+-doped tellurite glass-based plasmonic structures for nanophotonic device applications",
+		"publicador": "Optical Engineering",
+		"versao": "-",
+		"paginas": "-",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1117/1.oe.57.8.085102"
+	},
+	{
+		"autores": ["Haline G. O. Alvim", "Jose R. Correa", "José A. F. Assumpção", "Wender A. da Silva", "Marcelo O. Rodrigues", "Julio L. de Macedo", "Mariana Fioramonte", "Fabio C. Gozzo", "Claudia C. Gatto", "Brenno A. D. Neto"],
+		"nome": "Heteropolyacid-Containing Ionic Liquid-Catalyzed Multicomponent Synthesis of Bridgehead Nitrogen Heterocycles: Mechanisms and Mitochondrial Staining",
+		"publicador": "Journal of Organic Chemistry",
+		"versao": "83",
+		"paginas": "4044-4053",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acs.joc.8b00472"
+	},
+	{
+		"autores": ["Geovânia C. de Assis", "Euzébio Skovroinski", "Valderi D. Leite", "Marcelo O. Rodrigues", "André Galembeck", "Mary Alves", "Julian Eastoe", "Rodrigo J. de Oliveira"],
+		"nome": "Conversion of -waste plastic- into photocatalytic nanofoams for environmental remediation",
+		"publicador": "ACS Applied Materials & Interfaces",
+		"versao": "10",
+		"paginas": "8077-8085",
+		"ano":2018 ,
+		"link": "http://dx.doi.org/10.1021/acsami.7b19834"
+	},
+	{
+		"autores": ["Isabela B. Serwy", "Kaline A. Wanderley", "Marcella A. M. Lucena", "Adriano O. Maldaner", "Marcio Talhavini", "Marcelo O. Rodrigues", "Ingrid T. Weber"],
+		"nome": "[Ln2(BDC)3(H2O)4]n : a low cost alternative for GSR luminescent marking",
+		"publicador": "Journal of Luminescence",
+		"versao": "200",
+		"paginas": "24-29",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.jlumin.2018.02.039"
+	},
+	{
+		"autores": ["Thaís A. Rossa", "Nícolas S. Suveges", "Marcus M. Sá", "David Cantillo", "C. Oliver Kappe"],
+		"nome": "Continuous multistep synthesis of 2-(azidomethyl)oxazoles",
+		"publicador": "Beilstein Journal of Organic Chemistry",
+		"versao": "14",
+		"paginas": "506-514",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.3762/bjoc.14.36"
+	},
+	{
+		"autores": ["Thaís A. Rossa", "Mariane Fantinel", "Adailton J. Bortoluzzi", "Marcus M. Sa"],
+		"nome": "Multicomponent Synthesis of Structurally Diverse Imidazoles Featuring Azirines, Amines and Aldehydes",
+		"publicador": "European Journal of Organic Chemistry",
+		"versao": "2018",
+		"paginas": "4171-4177",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/ejoc.201800687"
+	},
+	{
+		"autores": ["Marcus V. P. S. Nascimento", "Antonio C. M. Munhoz", "Lais C. Theindl", "Eduarda T. B. Mohr", "Najla Saleh", "Eduardo B. Parisotto", "Thaís A. Rossa", "Ariane Zamoner", "Tania B. Creczynski-Pasa", "Fabíola B. Filippin-Monteiro", "MarcuS M. Sá", "Eduardo M. Dalmarco"],
+		"nome": "A Novel Tetrasubstituted Imidazole as a Prototype for the Development of Anti-inflammatory Drugs",
+		"publicador": "Inflammation",
+		"versao": "41",
+		"paginas": "1334-1348",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1007/s10753-018-0782-y"
+	},
+	{
+		"autores": ["daiane F. Dalla'lana", "Laura M. Giuliani", "Jéssica B. Reolon", "William Lopes", "Marilene H. Vainstein", "Letícia J. Danielli", "Vanessa Z. Bergamo", "Bruna Pippi", "Miriam A. Apel", "Mário L. Teixeira", "Luis F. S. de Oliveira", "Michel M. Machado", "Saulo F. de Andrade", "MARCUS M. Sá", "Misael Ferreira", "Laiéli S. Munaretto", "Letícia Cruz", "Gustavo P. Silveira", "Edilma Elayne", "Alexandre M. Fuentefria"],
+		"nome": "Nanoemulsion Improves the Antifungal Activity of Allylic Thiocyanates against Yeasts and Filamentous Pathogenic Fungi",
+		"publicador": "ChemistrySelect",
+		"versao": "3",
+		"paginas": "11663-11670",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/slct.201802204"
+	},
+	{
+		"autores": ["Michele Dias", "Alysson de Pauloveloso", "Lilian do Amaral", "Rhaísa Betim", "Maria Nascimento", "Cristiane Pilissão"],
+		"nome": "Immobilization of Burkholderia cepacia on Pristine or Functionalized Multi-Walled Carbon Nanotubes and Application on Enzymatic Resolution of (RS)-1-Phenylethanol",
+		"publicador": "Journal of the Brazilian Chemical Society",
+		"versao": "29",
+		"paginas": "1876-1884",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.21577/0103-5053.20180063"
+	},
+	{
+		"autores": ["C. A. D. Caiuby", "A Ali", "V. T. Santana", "F. W. S. Lucas", "M. S. Santos", "A. G. Correa", "O. R. Nascimento", "H Jiang", "Márcio W. Paixão"],
+		"nome": "Intramolecular radical cyclization approach to access highly substituted indolines and 2,3-dihydrobenzofurans under visible-light",
+		"publicador": "RSC Advances,",
+		"versao": "8",
+		"paginas": "12879-12886",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1039/c8ra01787e"
+	},
+	{
+		"autores": ["Diego Alves", "Bruna Goldani", "EDer J. Lenardão", "Gelson Perin", "Ricardo F. Schumacher", "Márcio W. Paixáo"],
+		"nome": "Copper Catalysis and Organocatalysis Showing the Way: Synthesis of Selenium-Containing Highly Functionalized 1,2,3-Triazoles",
+		"publicador": "The Chemical Record",
+		"versao": "18",
+		"paginas": "527-542",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/tcr.201700058"
+	},
+	{
+		"autores": ["Akbar Ali", "Julio Zukerman-Schpector", "Márcio W. Paixão", "Mukesh M. Jotani", "Edward R. T. Tiekink"],
+		"nome": "7-Methyl-5-[(4-methylbenzene)sulfonyl]-2H, 5H-[1,3]dioxolo[4,5-f]indole: crystal structure and Hirshfeld analysis",
+		"publicador": "Acta Crystallographica Section E",
+		"versao": "74",
+		"paginas": "184-188",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1107/s2056989018000889"
+	},
+	{
+		"autores": ["Júlia L. Monteiro", "Natália M. Moreira", "Deborah A. dos Santos", "Márcio W. Paixão", "Arlene G. Corrêa"],
+		"nome": "Step economy strategy for the synthesis of amphoteric aminoaldehydes, key intermediates for reduced hydantoins",
+		"publicador": "Pure and Applied Chemistry (online)",
+		"versao": "90",
+		"paginas": "121-132",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1515/pac-2017-0705"
+	},
+	{
+		"autores": ["Arlene Correa", "Carolina G. S. Lima", "Júlia Monteiro", "Thiago M. Lima", "Marcio W. Paixão"],
+		"nome": "Angelica Lactones: from Biomass-Derived Platform Chemicals to Value-Added Products",
+		"publicador":"ChemSusChem",
+		"versao": "11",
+		"paginas": "25-47",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/cssc.201701469"
+	},
+	{
+		"autores": ["Radell Echemendía", "Waléria F. Rabêlo", "Ernesto R. López", "Julieta Coro", "Margarita Suárez", "Marcio W. Paixão", "Daniel G. Rivera"],
+		"nome": "A bidirectional access to novel thiadiazine hybrid molecules by double multicomponent reactions",
+		"publicador": "Tetrahedron Letters",
+		"versao": "59",
+		"paginas": "4050-4053",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.tetlet.2018.09.070"
+
+	},
+	{
+		"autores": ["Roger Gonçalves", "Thiago M. Lima", "Márcio W. Paixáo", "Ernesto C. Pereira"],
+		"nome": "Pristine carbon nitride as active material for high-performance metal-free supercapacitors: simple, easy and cheap",
+		"publicador": "RSC Advances",
+		"versao": "8",
+		"paginas": "35327-35336",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1039/c8ra06656f"
+	},
+	{
+		"autores": ["Sandrina Silva", "Bianca T. Matsuo", "Rodrigo C. da Silva", "Lucas V. Pozzi", "Arlene G. Correa", "Patrick Rollin", "Julio Zukerman-Schpector", "Marco A. B. Ferreira", "Márcio W. Paixão"],
+		"nome": "Organocatalyzed Asymmetric Vinylogous Addition of Oxazole-2(3H)-thiones to a,b-Unsaturated Ketones: An Additive-Free Approach for Diversification of Heterocyclic Scaffold",
+		"publicador": "Journal of Organic Chemistry (online)",
+		"versao": "83",
+		"paginas": "1701-1716",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acs.joc.7b02236"
+
+	},
+	{
+		"autores": ["Marcio W. Paixao", "Vitor A. F. da Silva", "Gustavo P. da Silva", "Bianca T. Matsuo", "Akbar Ali", "Rebecca Davis", "Julio Zukerman-Schpector", "Arlene G. Correa"],
+		"nome": "Synthesis of (z)-b-Halo a, b-unsaturated Carbonyl Systems via The Combination of Halotrimethylsilane and Tetrafluoroboric Acid",
+		"publicador":"Organic & Biomolecular Chemistry",
+		"versao": "17",
+		"paginas": "519-526",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1039/c8ob02110d"
+	},
+	{
+		"autores": ["Carolina G. S. Lima", "Natália M. Moreira", "Márcio W. Paixão", "Arlene G. Corrêa"],
+		"nome": "Heterogenous green catalysis: application of zeolites on multicomponent reactions",
+		"publicador": "Current Opinion in Green and Sustainable Chemistry",
+		"versao": "15",
+		"paginas": "7-12",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.cogsc.2018.07.006"
+	},
+	{
+		"autores": ["Carolina G. S. Lima", "Erlen Y. C. Jorge", "Leyliane G. S. Batinga", "Thiago de M. Lima", "Márcio W. Paixão"],
+		"nome": "ZSM-5 zeolite as a promising catalyst for the preparation and upgrading of lignocellulosic biomass-derived chemicals",
+		"publicador": "Current Opinion in Green and Sustainable Chemistry",
+		"versao": "15",
+		"paginas": "13-19",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.cogsc.2018.08.001"
+	},
+	{
+		"autores": ["Jianbin Li", "Clarice A. D. Caiuby", "Márcio W. Paixão", "Chao-Jun Li"],
+		"nome": "Synthesis of 6-Trifluoromethylphenanthridines through Radical Trifluoromethylation of Isocyanides with Sodium Triflinate under Visible Light",  
+		"publicador": "European Journal of Organic Chemistry",
+		"versao": "2018",
+		"paginas": "2498-2503",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/ejoc.201701487"
+	},
+	{
+		"autores": ["Alessandra Caovilla", "Juliana S. Penning", "Adriana C. Pinheiro", "Frederic Hild", "Rafael Stieler", "Samuel Dagorne", "Osvaldo L. Casagrande", "Marcelo P. Gil"],
+		"nome": "Zinc bis-pyrrolide-imine complexes: Synthesis, structure and application in ring-opening polymerization of rac-lactide",
+		"publicador":"Journal of Organometallic Chemistry",
+		"versao": "863",
+		"paginas": "95-101",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.jorganchem.2018.03.040"
+	},
+	{
+		"autores": ["L. L. de Oliveira", "S. M. da Silva", "A. C. A. Casagrande", "R. Stieler", "O. L. Casagrande"],
+		"nome": "Synthesis and characterization of Ni (II) complexes supported by phenoxy/naphthoxy-imine ligands with pendant - and -donor groups and their use in ethylene oligomerization",
+		"publicador": "Applied Organometallic Chemistry",
+		"versao": "32",
+		"paginas": "e4414",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/aoc.4414"
+	},
+	{
+		"autores": ["Mateus Mittersteiner", "Bruna L. Linshalm", "Ana P. F. Vieira", "Patrícia B. Brondani", "Dilamara R. Scharf", "Paulo C. de Jesus"],
+		"nome": "Convenient enzymatic resolution of (R,S)-2-methylbutyric acid catalyzed by immobilized lipases",
+		"publicador": "Chirality",
+		"versao": "30",
+		"paginas": "106-111",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/chir.22779"
+	},
+	{
+		"autores": ["Flavia L. Moissa", "Mateus Mittersteiner", "Rafael Saugo", "Tamely C. Floriani", "Paulo C. de Jesus"],
+		"nome": "Kinetic behavior of C.I. Reactive Blue 182 towards oxidation with H2O2/UV and H2O2/NaOH systems",
+		"publicador": "Journal of Molecular Liquids",
+		"versao": "264",
+		"paginas": "675-682",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.molliq.2018.05.090"
+	},
+	{
+		"autores": ["Mateus Mittersteiner", "Morgana A. Voigt", "Paulo C. de Jesus", "Patrícia B. Brondani"],
+		"nome": "Solvent and Catalyst-Free Synthesis of Silicon-Protected Alcohols",
+		"publicador": "ChemistrySelect",
+		"versao": "3",
+		"paginas": "10717-10720",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/slct.201802487"
+	},
+	{
+		"autores": ["Ana P. Dalmagro", "Anderson Camargo", "Hercílio H. da S. Filho", "Marina M. Valcanaia", "Paulo C. de Jesus", "Ana L. B. Zeni"],
+		"nome": "Seasonal variation in the antioxidant phytocompounds production from the Morus nigra leaves",
+		"publicador": "Industrial Crops and Products",
+		"versao": "123",
+		"paginas": "323-330",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.indcrop.2018.06.085"
+	},
+	{
+		"autores": ["Paulo H. Schneider", "Caroline G. Jacoby", "Pedro H. V. Vontobel", "Mariana F. Bach"],
+		"nome": "Highly efficient organocatalysts for the asymmetric aldol reaction",
+		"publicador":"New Journal of Chemistry",
+		"versao": "42",
+		"paginas": "7416-7421",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1039/c7nj04424k"
+	},
+	{
+		"autores": ["Andressa C. H. Weber", "Felipe L. Coelho", "Ricardo F. Affeldt", "Paulo H. Schneider"],
+		"nome": "Visible-Light Promoted Stereoselective Arylselanyl Functionalization of Alkynes",
+		"publicador": "European Journal of Organic Chemistry",
+		"versao": "2018",
+		"paginas": "6738-6742",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/ejoc.201801303"
+	},
+	{
+		"autores": ["Felipe L. Coelho", "Lucielle C. Dresch", "Rafael Stieler", "Leandra F. Campo", "Paulo H. Schneider"],
+		"nome": "New arylselanylpyrazole-copper catalysts: Highly efficient catalytic system for C-Se and C-S coupling reactions",
+		"publicador": "Catalysis Communications",
+		"versao": "121",
+		"paginas": "19-26",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.catcom.2018.12.009"
+	},
+	{
+		"autores": ["Victor S. Pinheiro", "Edson C. Paz", "Luci R. Aveiro", "Luanna S. Parreira", "Felipe M. Souza", "Pedro H.C. Camargo", "Mauro C. Santos"],
+		"nome": "Ceria high aspect ratio nanostructures supported on carbon for hydrogen peroxide electrogeneration",
+		"publicador": "Electrochimica ACTA",
+		"versao": "259",
+		"paginas": "865-872",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.electacta.2017.11.010"
+	},
+	{
+		"autores": ["Thenner S. Rodrigues", "Anderson G. M. da Silva", "Rafael S. Alves", "Isabel C. de Freitas", "Daniela C. Oliveira", "Pedro H. C. Camargo"],
+		"nome": "Controlling Reduction Kinetics in the Galvanic Replacement Involving Metal Oxides Templates: Elucidating the Formation of Bimetallic Bowls, Rattles, and Dendrites from Cu2O Spheres",
+		"publicador":" PARTICLE & PARTICLE SYSTEMS CHARACTERIZATION,",
+		"versao": "35",
+		"paginas": "1700175",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/ppsc.201700175"
+	},
+	{
+		"autores": ["Anderson da Silva", "Daniel Batalha", "Thenner Rodrigues", "Eduardo Candido", "Sulusmon Luz", "Isabel de Freitas", "Fabio C. Fonseca", "Daniela de Oliveira", "Jason G. Taylor", "Susana C. de Torresi", "Pedro Camargo", "Humberto V. Fajardo"],
+		"nome": "Sub-15 nm CeO2 nanowires as an efficient non-noble metal catalyst in the room-temperature oxidation of aniline",
+		"publicador": "Catalysis Science & Technology",
+		"versao": "8",
+		"paginas": "1828-1839",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1039/C7CY02402A"
+	},
+	{
+		"autores": ["Luci R. Aveiro", "Anderson G. M. da Silva", "Vanessa S. Antonin", "Eduardo G. Candido", "Luanna S. Parreira", "Rafael S. Geonmonond", "Isabel C. de Freitas", "Marcos R. V. Lanza", "Pedro H. C. Camargo", "Mauro C. Santos"],
+		"nome": "Carbon-supported MnO2 nanoflowers: Introducing oxygen vacancies for optimized volcano-type electrocatalytic activities towards H2O2 generation",
+		"publicador": "Electrochimica ACTA",
+		"versao": "268",
+		"paginas": "101-110",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.electacta.2018.02.077"
+	},
+	{
+		"autores": ["Guilherme F. Ferbonink", "Thenner Rodrigues", "Diego P. dos Santos", "Pedro Camargo", "Rodrigo Q. Albuquerque", "Rene Nome"],
+		"nome": "Correlating structural dynamics and catalytic activity of AgAu nanoparticles with ultrafast spectroscopy and all-atom molecular dynamics simulations",
+		"publicador": "Faraday Discussions",
+		"versao": "208",
+		"paginas": "269-286",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1039/c7fd00220c"
+	},
+	{
+		"autores": ["Leandro Andrade", "Wagner Santos", "Kevin Dias", "Leidaiany Santos", "Camila Kisukuri", "Thenner Rodrigues", "Rafael Geonmonond", "Pedro Camargo"],
+		"nome": "Evaluating Gold and Selenium Chemistry for Selective Transformations of Lignin Model Compounds",
+		"publicador": "Advanced Synthesis & Catalysis",
+		"versao": "360",
+		"paginas": "1376-1383",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/adsc.201701207"
+	},
+	{
+		"autores": ["Eduardo C. M. Barbosa", "Jhonatan L. Fiorio", "Tong Mou", "Bin Wang", "Liane M. Rossi", "Pedro H. C. Camargo"],
+		"nome": "Reaction Pathway Dependence in Plasmonic Catalysis: Hydrogenation as a Model Molecular Transformation",
+		"publicador": "Chemistry-A European Journal",
+		"versao": "24",
+		"paginas": "12330-12339",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/chem.201705749"
+	},
+	{
+		"autores": ["Rafael dos S. Geonmonond", "Jhon Quiroz", "Guilherme de F. S. R. Rocha", "Freddy E Oropeza", "Clara de J. Rangel", "Thenner S. Rodrigues", "Jan P. Hofmann", "Emiel J. M. Hensen", "Rômulo A. Ando", "Pedro Camargo"],
+		"nome": "Marrying SPR Excitation and Metal-Support Interactions: Unraveling the Contribution of Active Surface Species in Plasmonic Catalysis",
+		"publicador": "Nanoscale",
+		"versao": "10",
+		"paginas": "8560-8568",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1039/c8nr00934a"
+	},
+	{
+		"autores": ["Fabián A. C. Pastrián", "Anderson G. M. da Silva", "André H. B. Dourado", "Ana P. de L. A. Batista", "Antonio G. S. de Oliveira-Filho", "Jhon Quiroz", "Daniela C. de Oliveira", "Pedro H. C. Camargo", "Susana I. C. de Torresi"],
+		"nome": "Why Could the Nature of Surface Facets Lead to Differences in the Activity and Stability of Cu 2 O-Based Electrocatalytic Sensors?",
+		"publicador": "ACS Catalysis",
+		"versao": "8",
+		"paginas": "6265-6272",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acscatal.8b00726"
+	},
+	{
+		"autores": ["L. R. Aveiro", "A. G. M. da Silva", "E. G. Candido", "V. S. Antonin", "L. S. Parreira", "R. Papai", "I. Gaubeur", "Fernando L. Silva", "M. R. V. Lanza", "P. H. C. Camargo", "M. C. Santos"],
+		"nome": "Application and stability of cathodes with manganese dioxide nanoflowers supported on Vulcan by Fenton systems for the degradation of RB5 azo dye",
+		"publicador": "Chemosphere",
+		"versao": "208",
+		"paginas": "131-138",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.chemosphere.2018.05.107"
+	},
+	{
+		"autores": ["Jessica Scremin", "Eduardo C. M. Barbosa", "Carlos A. R. Salamanca-Neto", "Pedro H. C. Camargo", "Elen R. Sartori"],
+		"nome": "Amperometric determination of ascorbic acid with a glassy carbon electrode modified with TiO2-gold nanoparticles integrated into carbon nanotubes",
+		"publicador": "Microchimica ACTA",
+		"versao": "185",
+		"paginas": "251",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1007/s00604-018-2785-7"
+	},
+	{
+		"autores": ["Rafael S. Geonmonond", "Anderson G. M. da Silva", "Pedro H. C. Camargo"],
+		"nome": "Controlled synthesis of noble metal nanomaterials: motivation, principles, and opportunities in nanocatalysis",
+		"publicador": "Anais da Academia Brasileira de Ciências (online)",
+		"versao": "90",
+		"paginas": "719-744",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1590/0001-3765201820170561"
+	},
+	{
+		"autores": ["Pedro H. C. Camargo"],
+		"nome": "David R. Gaskell and David E. Laughlin: Introduction to the Thermodynamics of Materials",
+		"publicador": "Journal of Materials Science",
+		"versao": "53",
+		"paginas": "9363-9367",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1007/s10853-018-2265-9"
+	},
+	{
+		"autores": ["Rafael S. Geonmonond", "Anderson G. M. da Silva", "Thenner S. Rodrigues", "Isabel C. de Freitas", "Rômulo A. Ando", "Tiago V. Alves", "Pedro H. C. Camargo"],
+		"nome": "Addressing the Effects of Size-dependent Absorption, Scattering, and Near-field Enhancements in Plasmonic Catalysis",
+		"publicador": "ChemCatChem",
+		"versao": "10",
+		"paginas": "3447-3452",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/cctc.201800691"
+	},
+	{
+		"autores": ["Younan Xia", "Thenner S. Rodrigues", "Ming Zhao", "Tung-Han Yang", "Kyle D. Gilroy", "Anderson G. M. da Silva", "Pedro H.C. Camargo"],
+		"nome": "Synthesis of Colloidal Metal Nanocrystals: A Comprehensive Review on the Reductants",
+		"publicador": "Chemistry-A European Journal",
+		"versao": "24",
+		"paginas": "16944-16963",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/chem.201802194"
+	},
+	{
+		"autores": ["Ivo F. Teixeira", "Eduardo C. M. Barbosa", "Shik C. E. Tsang", "Pedro H. C. Camargo"],
+		"nome": "Carbon nitrides and metal nanoparticles: from controlled synthesis to design principles for improved photocatalysis",
+		"publicador": "Chemical Society Reviews",
+		"versao": "47",
+		"paginas": "7783-7817",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1039/c8cs00479j"
+	},
+	{
+		"autores": ["Jiale Wang", "Eduardo C. M. Barbosa", "Zebo Fang", "André L. A. Parussulo", "Flavia V. E. dos Reis", "Rômulo A. Ando", "Koiti Araki", "Henrique E. Toma", "Pedro H. C. Camargo"],
+		"nome": "On the effect of TiO2 nanocrystallites over the plasmonic photodegradation by Au nanoparticles",
+		"publicador": "Journal of Raman Spectroscopy",
+		"versao": "49",
+		"paginas": "1953-1960",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/jrs.5492"
+	},
+	{
+		"autores": ["Camila P. Ferraz", "Anderson G. M. da Silva", "Thenner S. Rodrigues", "Pedro H. C. Camargo", "Sébastien Paul", "Robert Wojcieszak"],
+		"nome": "Furfural Oxidation on Gold Supported on MnO2: Influence of the Support Structure on the Catalytic Performances",
+		"publicador": "Applied Sciences",
+		"versao": "8",
+		"paginas": "1246",
+		"ano": 2018,
+		"link": "https://doi.org/10.3390/app8081246"
+	},
+	{
+		"autores": ["Anderson G. M. da Silva", "Thenner S. Rodrigues", "Eduardo G. Candido", "isabel C. de Freitas", "Alisson H. M. da Silva", "Humberto V. Fajardo", "Rosana Balzer", "Janaina F. Gomes", "Jose M. Assaf", "Daniela C. de Oliveira", "Nicolas Oger", "Sebastien Paul", "Robert Wojcieszak", "Pedro H. C. Camargo"],
+		"nome": "Combining Active Phase and Support Optimization in MnO2-Au nanoflowers: Enabling High Activities Towards Green Oxidations",
+		"publicador": "Journal of Colloid and Interface Science",
+		"versao": "530",
+		"paginas": "282-291",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.jcis.2018.06.089"
+
+	},
+	{
+		"autores": ["Jhon Quiroz", "Eduardo C. M. Barbosa", "Thaylan P. Araujo", "Jhonatan L. Fiorio", "Yichi Wang", "Yichao Zou", "Tong Mou", "Tiago V. Alves", "Daniela C. de Oliveira", "Bin Wang", "Sarah J. Haigh", "Liane M. Rossi", "Pedro H. C. Camargo"],
+		"nome": "Controlling Reaction Selectivity over Hybrid Plasmonic Nanocatalysts",
+		"publicador": "Nano Letters",
+		"versao": "18",
+		"paginas": "7289–7297",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acs.nanolett.8b03499"
+	},
+	{
+		"autores": ["Gilvan Lima", "Everton Nunes", "Roberta Dantas", "Carlos de Simone", "Mario Meneghetti", "Simoni Meneghetti"],
+		"nome": "Catalytic Behaviors of CoII and MnII Compounds Bearing a-Diimine Ligands for Oxidative Polymerization or Drying Oils",
+		"publicador": "Journal of the Brazilian Chemical Society",
+		"versao": "29",
+		"paginas": "412-418",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.21577/0103-5053.20170155"
+	},
+	{
+		"autores": ["Bruno J. B. Silva", "Lenivaldo V. S. Júnior", "Paulo H. L. Quintela", "Nehemias R. A. Júnior", "Soraya L. Alencar", "Pedro A. M. Maciel", "Julyane R. Santos", "Lais R. A. Sarmento", "Simoni M. P. Meneghetti", "A. O. S. Silva"],
+		"nome": "Preparation of ZSM-22 zeolite with hierarchical pore structure",
+		"publicador": "Materials Letters",
+		"versao": "218",
+		"paginas": "119-122",
+		"ano": 2018,
+		"link": "https://doi.org/10.1016/j.matlet.2018.01.146"
+	},
+	{
+		"autores": ["F. L. Silva", "L. N. Melo", "Carlos Wolf", "S. M. P. Meneghetti", "J. H. Bortoluzzi"],
+		"nome": "Determination of Alkyl Esters Content by Gas Chromatography: Validation of Method Based on Short Column and Response Factor",
+		"publicador": "Journal of the Brazilian Chemical Society",
+		"versao": "29",
+		"paginas": "1336-1343",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.21577/0103-5053.20170232"
+	},
+	{
+		"autores": ["Thatiane V. dos Santos", "Débora O. da S. Avelino", "Mario R. Meneghetti", "Simoni M. P. Meneghetti"],
+		"nome": "Mixed oxides based on SnO 2 impregnated with MoO 3 : A robust system to apply in fructose conversion",
+		"publicador": "Catalysis Communications",
+		"versao": "114",
+		"paginas": "120-123",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.catcom.2018.06.019"
+	},
+	{
+		"autores": ["C. A. A. Vargas", "J. I. Santos", "C. C. Nascentes", "A. M. L. Denadai", "M. H. Araujo", "T. A. S. Brandao"],
+		"nome": "Phosphate ester cleavage by a positively charged porous silica adorned with lanthanum (III)",
+		"publicador":"Microporous and Mesoporous Materials",
+		"versao": "268",
+		"paginas": "144-152",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.micromeso.2018.04.022"
+	},									
+	{
+		"autores": ["T. H. O. Norte", "R. B. P. Marcelino", "R. P. L. Moreira", "I. Binatti", "M. C. V. M. Starling", "C. C. Amorim", "E. S. Pereira", "W. R. Rocha", "R. M. Lago"],
+		"nome": "ESI-MS, UV-Vis, and Theoretical Investigation of Fe3+-Amoxicillin Complexation during Coagulation",
+		"publicador": "Journal of Environmental Engineering",
+		"versao": "144",
+		"paginas": "-",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1061/(asce)ee.1943-7870.0001314"
+	},
+	{
+		"autores": ["Ane F. Santos", "Isabella P. Ferreira", "Jacqueline A. Takahashi", "Gabriel L. S. Rodrigues", "Carlos B. Pinheiro", "Letícia R. Teixeira", "Willian R. Rocha", "Heloisa Beraldo"],
+		"nome": "Silver(i) complexes with 2-acetylpyridinebenzoylhydrazones exhibit antimicrobial effects against yeast and filamentous fungi",
+		"publicador": "New Journal of Chemistry",
+		"versao": "42",
+		"paginas": "2125-2132",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1039/c7nj04280a"
+	},
+	{
+		"autores": ["Marcelo A. Chagas", "Eufrásia S. Pereira", "Marina P. B. Godinho", "Júlio C. S. da Silva", "Willian R. Rocha"],
+		"nome": "Base Mechanism to the Hydrolysis of Phosphate Triester Promoted by the Cd2+/Cd2+ Active site of Phosphotriesterase: A Computational Study",
+		"publicador": "Inorganic Chemistry",
+		"versao": "57",
+		"paginas": "5888-5902",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acs.inorgchem.8b00361"
+	},
+	{
+		"autores": ["Leonardo V. de Freitas", "Abid L. da S. F. dos Santos", "Felipe C. da COSTA", "Jader B. Calixto", "Paulo V. P. Miranda", "Thamires J. J. Silva", "Eufrásia S. Pereira", "Willian R. Rocha", "Wagner B. De Almeida", "Leonardo A. de Souza", "Maria C. R. Freitas"],
+		"nome": "Synthesis and structural characterization of a 8-hydroxyquinoline derivative coordinated to Zn(II)",
+		"publicador":" JOURNAL OF MOLECULAR STRUCTURE",
+		"versao": "1169",
+		"paginas": "119-129",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.molstruc.2018.05.050"
+	},
+	{
+		"autores": ["Ane F. Santos", "Isabella P. Ferreira", "Carlos B. Pinheiro", "Verlane G. Santos", "Miriam T. P. Lopes", "Letícia R. Teixeira", "Willian R. Rocha", "Gabriel L. S. Rodrigues", "Heloisa Beraldo"],
+		"nome": "[Ag(L)NO3] Complexes with 2-Benzoylpyridine-Derived Hydrazones: Cytotoxic Activity and Interaction with Biomolecules",
+		"publicador": "ACS Omega",
+		"versao": "3",
+		"paginas": "7027-7035",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acsomega.8b00533"
+
+	},
+	{
+		"autores": ["Marcelo A. Chagas", "Eufrásia S. Pereira", "Júlio C. S. da Silva", "Willian R. Rocha"],
+		"nome": "Theoretical investigation of the neutral hydrolysis of diethyl 4-nitrophenyl phosphate (paraoxon) in aqueous solution",
+		"publicador":"Journal of Molecular Modeling",
+		"versao": "24",
+		"paginas": "259",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1007/s00894-018-3798-1"
+	},
+	{
+		"autores": ["Eufrásia Pereira", "Marcelo Chagas", "Willian Rocha"],
+		"nome": "Reduction Potential of RuIII-Based Complexes with Potential Antitumor Activity and Thermodynamics of their Hydrolysis Reactions and Interactions with Possible Biological Targets: a Theoretical Investigation",
+		"publicador":"Journal of the Brazilian Chemical Society",
+		"versao": "30",
+		"paginas": "571-584",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.21577/0103-5053.20180206"
+	},
+	{
+		"autores": ["Ane F. Santos", "Isabella P. Ferreira", "Carlos B. Pinheiro", "Verlane G. Santos", "Miriam T. P. Lopes", "Letícia R. Teixeira", "Willian R. Rocha", "Gabriel L. S. Rodrigues", "Heloisa Beraldo"],
+		"nome": "Correction to [Ag(L)NO3] Complexes with 2-Benzoylpyridine-Derived Hydrazones: Cytotoxic Activity and Interaction with Biomolecules",
+		"publicador":"ACS Omega",
+		"versao": "3",
+		"paginas": "11758-11758",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acsomega.8b02244"
+	},
+	{
+		"autores": ["Guilherme Jardim", "Daisy Lima", "Wagner Valença", "Daisy Lima", "Bruno Cavalcanti", "Claudia Pessoa", "Jamal Rafique", "Antonio Braga", "Claus Jacob", "Eufrânio da S. Júnior", "Eduardo da Cruz"],
+		"nome": "Synthesis of Selenium-Quinone Hybrid Compounds with Potential Antitumor Activity via Rh-Catalyzed C-H Bond Activation and Click Reactions",
+		"publicador":"Molecules,",
+		"versao": "23",
+		"paginas": "83-99",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.3390/molecules23010083"
+	},
+	{
+		"autores": ["Jamal Rafique", "Sumbal Saba", "Tiago E. A. Frizon", "Antonio L. Braga"],
+		"nome": "Fe3O4 Nanoparticles: A Robust and Magnetically Recoverable Catalyst for Direct C-H Bond Selenylation and Sulfenylation of Benzothiazoles",
+		"publicador":"Chemistry Select",
+		"versao": "3",
+		"paginas": "328-334",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/slct.201702623"
+	},
+	{
+		"autores": ["Sumbal Saba", "Jamal Rafique", "Marcelo S. Franco", "Alex R. Schneider", "Leandro Espíndola", "Dagoberto O. Silva", "Antonio L. Braga"],
+		"nome": "Rose Bengal Catalysed Photo-Induced Selenylation of Indoles, Imidazoles and Arenes: A Metal Free Approach",
+		"publicador":"Organic & Biomolecular Chemistry",
+		"versao": "-",
+		"paginas": "-",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1039/c7ob03177g"
+	},
+	{
+		"autores": ["Jamal Rafique", "Sumbal Saba", "Marcelo S. Franco", "Luana Bettanin", "Alex R. Schneider", "Lais T. Silva", "Antonio L. Braga"],
+		"nome": "Direct, Metal-free C(sp2)−H Chalcogenation of Indoles and Imidazopyridines with Dichalcogenides Catalysed by KIO3",
+		"publicador":"Chemistry-A European Journal",
+		"versao": "24",
+		"paginas": "4173-4180",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/chem.201705404"
+	},
+	{
+		"autores": ["Ruth L. Quispe", "Rômulo F. S. Canto", "Michael L. Jaramillo", "Flavio A. R. Barbosa", "Antônio L. Braga", "Andreza F. de Bem", "Marcelo Farina"],
+		"nome": "Design, Synthesis, and In Vitro Evaluation of a Novel Probucol Derivative: Protective Activity in Neuronal Cells Through GPx Upregulation",
+		"publicador":"Molecular Neurobiology",
+		"versao": "55",
+		"paginas": "17619-7634",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1007/s12035-018-0939-6"
+	},
+	{
+		"autores": ["Jéssie H. Sudati", "Pablo A. Nogara", "Rogerio A. Saraiva", "Caroline Wagner", "Eduardo E. Alberto", "Antonio L. Braga", "Roselei Fachinetto", "Paulo C. Piquini", "Joao B. T. Rocha"],
+		"nome": "Diselenoamino Acid Derivatives as GPx Mimic and as a substrate of TrxR: in vitro and in silico studies",
+		"publicador":" Organic & Biomolecular Chemistry",
+		"versao": "16",
+		"paginas": "3777-3787",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1039/c8ob00451j"
+	},
+	{
+		"autores": ["Luana Bettanin", "Sumbal Saba", "Carlos V. Doerner", "Marcelo S. Franco", "Marcelo Godoi", "Jamal Rafique", "Antonio L. Braga"],
+		"nome": "NH4I-catalyzed chalcogen(S/Se)-functionalization of 5-membered N -heteroaryls under metal-free conditions",
+		"publicador": "Tetrahedron",
+		"versao": "74",
+		"paginas": "3971-3980",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.tet.2018.05.084"
+	},
+	{
+		"autores": ["Flavio A. R. Barbosa", "Tâmila Siminski", "Rômulo F. S. Canto", "Gabriela M. Almeida", "Nádia S. R. S. Mota", "Fabiana Ourique", "Rozangela C. Pedrosa", "Antonio L. Braga"],
+		"nome": "Novel pyrimidinic selenourea induces DNA damage, cell cycle arrest, and apoptosis in human breast carcinoma",
+		"publicador":"European Journal of Medicinal Chemistry",
+		"versao": "155",
+		"paginas": "503-515",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.ejmech.2018.06.026"
+	},
+	{
+		"autores": ["Janh Rodrigues", "Sumbal Saba", "Antônio C. Joussef", "Jamal Rafique", "Antonio L. Braga"],
+		"nome": "KIO3-Catalyzed C(sp2)-H Bond Selenylation/Sulfenylation of (Hetero)arenes: Synthesis of Chalcogenated (Hetero)arenes and their Evaluation for Anti-Alzheimer Activity",
+		"publicador":"Asian Journal of Organic Chemistry",
+		"versao": "7",
+		"paginas": "1819-1824",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/ajoc.201800346"
+	},
+	{
+		"autores": ["Gabriela M. Almeida", "Jamal Rafique", "Sumbal Saba", "Tâmila Siminski", "Nádia S. R. S. Mota", "Danilo W. Filho", "Antonio L. Braga", "Rozangela C. Pedrosa", "Fabiana Ourique"],
+		"nome": "Novel selenylated imidazo[1,2-a]pyridines for breast cancer chemotherapy: Inhibition of cell proliferation by Akt-mediated regulation, DNA cleavage and apoptosis",
+		"publicador": "Biochemical and Biophysical Research Communications",
+		"versao": "503",
+		"paginas": "1291-1297",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.bbrc.2018.07.039"
+	},
+	{
+		"autores": ["Yuri H. Matzkeit", "Bruna L. Tornquist", "Flávia Manarin", "Giancarlo V. Botteselle", "Jamal Rafique", "Sumbal Saba", "Antonio L. Braga", "Jorlandio F. Felix", "Ricardo Schneider"],
+		"nome": "Borophosphate glasses: Synthesis, characterization and application as catalyst for bis(indolyl)methanes synthesis under greener conditions",
+		"publicador":"Journal of Non-Crystalline Solids",
+		"versao": "498",
+		"paginas": "153-159",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.jnoncrysol.2018.06.020"
+	},
+	{
+		"autores": ["Marcos M. Peterle", "Marcos R. Scheide", "Lais T. Silva", "Sumbal' Saba", "Jamal rafique", "Antonio L. Braga"],
+		"nome": "Copper-Catalyzed Three-Component Reaction of Oxadiazoles, Elemental Se/S and Aryl Iodides: Synthesis of Chalcogenyl (Se/S)-Oxadiazoles",
+		"publicador": "Chemistry Europe",  
+		"versao": "3",
+		"paginas": "13191-13196",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/slct.201801213"
+	},
+	{
+		"autores": ["Christian Bruneau", "Cédric Fischmeister", "Dalmo Mandelli", "Wagner A. Carvalho", "Eduardo N. dos Santos", "Pierre H. Dixneuf", "Luciana S. Fernandes"],
+		"nome": "Transformations of terpenes and terpenoids via carbon-carbon double bond metathesis",
+		"publicador":"Catalysis Science & Technology",
+		"versao": "8",
+		"paginas": "3989-4004",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1039/c8cy01152d"
+
+	},
+	{
+		"autores": ["Evelisy C. O. Nassor", "Raquel V. Mambrini", "Eduardo N. dos Santos", "Flávia C. C. Moura", "Maria H. Araujo"],
+		"nome": "NiMo/C Used as Magnetic Support for SILP Catalysts",
+		"publicador":"Journal of Inorganic and Organometallic Polymers and Materials",
+		"versao": "28",
+		"paginas": "2288-2296",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1007/s10904-018-0911-y"
+	},
+	{
+		"autores": ["Amanda de C. Faria", "Kelley C. B. de Oliveira", "Amanda C. Monteiro", "Eduardo N. dos Santos", "E. V. Gusevskaya"],
+		"nome": "New scents using eco-friendly solvents: Oxo synthesis of aldehydes from caryophyllane sesquiterpenes",
+		"publicador":"Catalysis Today",
+		"versao": "344",
+		"paginas": "24-31",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.cattod.2018.10.024"
+	},
+	{
+		"autores": ["Frank H. Quina", "E. L. Bastos"],
+		"nome": "Chemistry Inspired by the Colors of Fruits, Flowers and Wine",
+		"publicador":"Anais da Academia Brasileira de Ciências (Online)",
+		"versao": "90",
+		"paginas": "681-695",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1590/0001-3765201820170492"
+	},
+	{
+		"autores": ["Cassio P. da Silva", "Renan M. Pioli", "Liu Liu", "Shasha Zheng", "Mengjiao Zhang", "Gustavo T. de M. Silva", "Vânia M. T. Carneiro", "Frank H. Quina"],
+		"nome": "Improved Synthesis of Analogues of Red Wine Pyranoanthocyanin Pigments",
+		"publicador":"ACS Omega",
+		"versao": "3",
+		"paginas": "954-960",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acsomega.7b01955"
+	},
+	{
+		"autores": ["Cornelia Bohne", "Krishna N. Ganesh", "Luis M. Liz-Marzán", "Deqing Zhang", "Frank H. Quina", "Dean J. Tantillo", "Deeksha Gupta", "Miranda A. Paley", "Yinghong Qiao", "Dinesh C. Soares"],
+		"nome": "ACS Omega 2017: A Year-End Expression of Appreciation for the Fundamental Contributions of Our Reviewers",
+		"publicador":"ACS Omega",
+		"versao": "3",
+		"paginas": "595-607",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acsomega.8b00007"
+	},
+	{
+		"autores": ["Adilson A. Freitas", "Cassio P. Silva", "Gustavo T. M. Silva", "António L. Maçanita", "Frank H. Quina"],
+		"nome": "Ground and Excited State Acidity of Analogs of Red Wine Pyranoanthocyanins",
+		"publicador":"Photochemistry and Photobiology",
+		"versao": "94",
+		"paginas": "1086-1091",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1111/php.12944"
+	},
+	{
+		"autores": ["Gustavo T. M. Silva", "Suma S. Thomas", "Cassio P. Silva", "Jan C. Schlothauer", "Mauricio S. Baptista", "Adilson A. Freitas", "Cornelia Bohne", "Frank H. Quina"],
+		"nome": "Triplet Excited States and Singlet Oxygen Production by Analogs of Red Wine Pyranoanthocyanins",
+		"publicador":"Photochemistry and Photobiology",
+		"versao": "95",
+		"paginas": "176-182",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1111/php.12973"
+	},
+	{
+		"autores": ["Gustavo T. M. Silva", "Cassio P. Silva", "Marcelo H. Gehlen", "Jessy Oake", "Cornelia Bohne", "Frank H. Quina"],
+		"nome": "Organic/inorganic hybrid pigments from flavylium cations and palygorskite",
+		"publicador":"Applied Clay Science",
+		"versao": "162",
+		"paginas": "478-486",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.clay.2018.07.002"
+	},
+	{
+		"autores": ["Eli M. Espinoza", "John A. Clark", "James B. Derr", "Duoduo Bao", "Boriana Georgieva", "Frank H. Quina", "Valentine I. Vullev"],
+		"nome": "How Do Amides Affect the Electronic Properties of Pyrene?",
+		"publicador":"ACS Omega",
+		"versao": "3",
+		"paginas": "12857-12867",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acsomega.8b01581"
+	},
+	{
+		"autores": ["J. He", "X. Li", "G. T. M. Silva", "F. H. Quina", "A. J. A. AQuino"],
+		"nome": "Quantum Chemical Investigation of the Intramolecular Copigmentation Complex of an Acylated Anthocyanin",
+		"publicador":"Journal of the Brazilian Chemical Society",
+		"versao": "30",
+		"paginas": "492-498",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.21577/0103-5053.20180233"
+
+	},
+	{
+		"autores": ["F. Siddique", "Cassio P. Silva", "Gustavo T. M. Silva", "H. Lischka", "F. H. Quina", "A. J. A. Aquino"],
+		"nome": "The Electronic Transitions of Analogs of Red Wine Pyranoanthocyanin Pigments",
+		"publicador":"Photochemical & Photobiological Sciences",
+		"versao": "18",
+		"paginas": "45-53",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1039/c8pp00391b"
+	},
+	{
+		"autores": ["Eduardo H. Wanderlind", "Daiane G. Liz", "Adriana P. Gerola", "Ricardo F. Affeldt", "Vanessa Nascimento", "Lizandra C. Bretanha", "Rodrigo Montecinos", "Luis García-Río", "Haidi D. Fiedler", "Faruk Nome"],
+		"nome": "Imidazole Functionalyzed Pillar[5]arenes: Highly Reactive and Selective Supramolecular Artificial Enzymes",
+		"publicador":"ACS Catalysis",
+		"versao": "8",
+		"paginas": "3343-3347",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acscatal.8b00901"
+	},
+	{
+		"autores": ["Eduardo H. Wanderlind", "Catiunaiara R. Bittencourt", "Alex M. Manfredi", "Adriana P. Gerola", "Bruno S. Souza", "Haidi D. Fiedler", "Faruk Nome"],
+		"nome": "Cu(II)-catalyzed hydrolysis of tris-2-pyridyl phosphate assisted by sodium dodecyl sulfate micelles",
+		"publicador": "Journal of Physical Organic Chemistry",
+		"versao": "-",
+		"paginas": "e3837-e3844",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/poc.3837"
+	},
+	{
+		"autores": ["Joao Balbino", "Jairton Dupont", "J. Carles Bayón"],
+		"nome": "Telomerization of 1,3-Butadiene with Carbon Dioxide: a highly efficient process for δ-lactone generation",
+		"publicador":"ChemCatChem",
+		"versao": "10",
+		"paginas": "206-210",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/cctc.201701058"
+	},
+	{
+		"autores": ["Jairton Dupont", "Gustavo R. Bolzan", "Gabriel Abarca", "Wellington D. G. Gonçalves", "Carolona F. Matos", "Marcos J. L. Santos"],
+		"nome": "Imprinted naked Pt nanoparticles on N-doped carbon supports: A synergistic effect between catalyst and support" ,
+		"publicador":"Chemistry-A European Journal",
+		"versao": "24",
+		"paginas": "1365-1372",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/chem.201704094"
+	},
+	{
+		"autores": ["G. Nagaraju", "Udayabhanu", "J.P. Shubha", "K. Manjunath", "J. Dupont"],
+		"nome": "Ionothermal synthesis of TiO2 nanoparticles for enhanced photocatalytic H2 generation" ,
+		"publicador": "International Journal of Hydrogen Energy",
+		"versao": "43",
+		"paginas": "4028-4035",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.ijhydene.2017.10.092"
+	},
+	{
+		"autores": ["Muhammad I. Qadir", "Andreas Weilhard", "Jesum A. Fernandes", "Imanol de Pedro", "Bruno Vieira", "Joao C. Waerenborgh", "Jairton Dupont"],
+		"nome": "Selective Carbon Dioxide Hydrogenation Driven by Ferromagnetic RuFe Nanoparticles in Ionic Liquids",
+		"publicador":"ACS Catalysis",
+		"versao": "8",
+		"paginas": "1621-1627",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acscatal.7b03804"
+	},
+	{
+		"autores": ["Andreas Weilhard", "Muhammad I. Qadir", "Victor Sans", "Jairton Dupont"],
+		"nome": "Selective CO Hydrogenation to Formic Acid with Multifunctional Ionic Liquids",
+		"publicador":"ACS Catalysis",
+		"versao": "8",
+		"paginas": "1628-1634",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acscatal.7b03931"
+	},
+	{
+		"autores": ["Janice Adamski", "Muhammad I. Qadir", "Jilder D. P. Serna", "Fabiano Bernardi", "Daniel L. Baptista", "Benjamin R. Salles", "Miguel A. Novak", "Giovanna Machado", "Jairton Dupont"],
+		"nome": "Core-Shell Fe-Pt Nanoparticles in Ionic Liquids: Magnetic and Catalytic Properties",
+		"publicador": "Journal of Physical Chemistry C",
+		"versao": "122",
+		"paginas": "4641-4650",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acs.jpcc.7b12219"
+	},
+	{
+		"autores": ["Muhammad I. Qadir", "Alan Kauling", "Luciane Calabria", "Thomas Grehl", "Jairton Dupont"],
+		"nome": "Fabrication of naked silver nanoparticles in functionalized ionic liquids",
+		"publicador":" Nano-Structures & Nano-Objects",
+		"versao": "14",
+		"paginas": "92-97",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.nanoso.2018.01.015"
+	},
+	{
+		"autores": ["Erno Karjalainen", "Dominic J. Wales", "Deshani H. A. T. Gunasekera", "Jairton Dupont", "Peter Licence", "Ricky D. Wildman", "Victor Sans"],
+		"nome": "Tunable Ionic Control of Polymeric Films for Inkjet Based 3D Printing",
+		"publicador": "ACS Sustainable Chemistry & Engineering",
+		"versao": "6",
+		"paginas": "38984-3991",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acssuschemeng.7b04279"
+	},
+	{
+		"autores": ["T. N. Ravishankar", "Mauricio de O. Vaz", "T. Ramakrishnappa", "Sergio R. Teixeira", "J. Dupont", "Ranjith K. Pai", "G. Banuprakash"],
+		"nome": "The heterojunction effect of Pd on TiO2 for visible light photocatalytic hydrogen generation via water splitting reaction and photodecolorization of trypan blue dye",
+		"publicador": "Journal of Materials Science-Materials in Electronics",
+		"versao": "29",
+		"paginas": "11132-11143",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1007/s10854-018-9197-7"
+	},
+	{
+		"autores": ["Oriol Martínez-Ferraté", "Gustavo Chacón", "Fabiano Bernardi", "Thomas Grehl", "Philipp Brüner", "Jairton Dupont"],
+		"nome": "Cycloaddition of carbon dioxide to epoxides catalysed by supported ionic liquids",
+		"publicador": "Catalysis Science & Technology",
+		"versao": "8",
+		"paginas": "3081-3089",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1039/c8cy00749g"
+	},
+	{
+		"autores": ["Marcileia Zanatta", "Jairton Dupont", "Gabriela N. Wentz", "Francisco P. dos Santos"],
+		"nome": "Intermolecular hydrogen bonds in water@IL supramolecular complexes",
+		"publicador":"Physical Chemistry Chemical Physics",
+		"versao": "20",
+		"paginas": "11608-11614",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1039/c8cp00066b"
+	},
+	{
+		"autores": ["G. Nagaraju", "Alamelu K. Ramasami", "Geetha R. Balakrishna", "J. Dupont"],
+		"nome": "Ionic Liquid-Assisted Hydrothermal Synthesis of Silver Vanadate Nanorods",
+		"publicador":"Iranian Journal of Science and Technology Transaction A-Science",
+		"versao": "42",
+		"paginas": "451-456",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1007/s40995-018-0546-4"
+	},
+	{
+		"autores": ["Lara F. Loguercio", "Carolina F. de Matos", "Matheus C. de Oliveira", "Graciane Marin", "Sherdil Khan", "Naira M. Balzaretti", "Jairton Dupont", "Marcos J. L. Santos", "Jacqueline F. L. Santos"],
+		"nome": "Synergistic interplay of ionic liquid and dodecyl sulphate driving the oxidation state of polypyrrole based electrodes",
+		"publicador":"New Journal of Chemistry",
+		"versao": "42",
+		"paginas": "13828-13835",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1039/c8nj02431f"
+	},
+	{
+		"autores": ["Salma Mumtaz", "Israel Cano", "Nargis Mumtaz", "Ahmed Abbas", "Jairton Dupont", "Humaira Y. Gondal"],
+		"nome": "Supramolecular interaction of non-racemic benzimidazolium based ion pairs with chiral substrates",
+		"publicador":"Physical Chemistry Chemical Physics",
+		"versao": "20",
+		"paginas": "20821-20826",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1039/C8CP03881C"
+	},
+	{
+		"autores": ["Nathalia M. Simon", "Marcileia Zanatta", "Jessé Neumann", "Anne-Lise Girard", "Graciane Marin", "Hubert Stassen", "Jairton Dupont"],
+		"nome": "Cation−Anion−CO 2 Interactions in Imidazolium-Based Ionic Liquid Sorbents" ,
+		"publicador":"Chemphyschem",
+		"versao": "19",
+		"paginas": "2879-2884",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/cphc.201800751"
+	},
+	{
+		"autores": ["Brenno A. D. Neto", "Julia R. Diniz", "Tatiani B. de Lima", "Renan S. Galaverna", "Aline L. Oliveira", "Davi A. C. Ferreira", "Fabio C. Gozzo", "Marcos N. Eberlin", "Jairton Dupont"],
+		"nome": "Is the Formation of N-heterocyclic carbenes (NHCs) a Feasible Mechanism for the Distillation of Imidazolium Ionic Liquids?",
+		"publicador": "Physical Chemistry Chemical Physics",
+		"versao": "20",
+		"paginas": "24716-24725",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1039/c8cp03609h"
+	},
+	{
+		"autores": ["Nathália M. Simon", "Gabriel Abarca", "Jackson D. Scholten", "Josiel B. Domingos", "David Mecerreyes", "Jairton Dupont"],
+		"nome": "Structural, electronic and catalytic properties of palladium nanoparticles supported on poly(ionic liquid)",
+		"publicador": "Applied Catalysis A: General",
+		"versao": "562",
+		"paginas": "79-86",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.apcata.2018.06.001"
+	},
+	{
+		"autores":["Muhammad I. Qadir", "Alan Kauling", "G'nter Ebeling", "Michael Fartmann", "Thomas Grehl", "Jairton Dupont"],
+		"nome": "Functionalized Ionic Liquids Sputter Decorated with Pd Nanoparticles",
+		"publicador":"Australian Journal of Chemistry",
+		"versao": "72",
+		"paginas": "49-54",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1071/ch18183"
+	},
+	{
+		"autores": ["Kacris M. da Silva", "Fabiano Bernardi", "Gabriel Abarca", "Daniel L Baptista", "Marcos J. L. Santos", "Luis F. Barquin", "Jairton Dupont", "Manuel de Pedro"],
+		"nome": "Tuning the structure and magnetic behaviour of bimetallic Ni/Ir nanoparticles in ionic liquids",
+		"publicador":" Physical Chemistry Chemical Physics",
+		"versao": "20",
+		"paginas": "10247-10257",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1039/C8CP00164B"
+	},
+	{
+		"autores":["José A. da Silva", "Mario R. Meneghetti"],
+		"nome": "New Aspects of the Gold Nanorod Formation Mechanism via Seed-Mediated Methods Revealed by Molecular Dynamics Simulations",
+		"publicador":"Langmuir",
+		"versao": "34",
+		"paginas": "366-375",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acs.langmuir.7b03703"
+	},
+	{
+		"autores": ["Thatiane V. dos Santos", "Débora O. da S. Avelino", "Mario R. Meneghetti", "Simoni M. P. Meneghetti"],
+		"nome": "Mixed oxides based on SnO 2 impregnated with MoO 3 : A robust system to apply in fructose conversion",
+		"publicador":"Catalysis Communications",
+		"versao": "114",
+		"paginas": "120-123",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.catcom.2018.06.019"
+	},
+	{
+		"autores":["Anna C. C. Aguiar", "Erika Murce", "Wilian A. Cortopassi", "Andre S. Pimentel", "Maria M. F. S. Almeida", "Daniele C. S. Barros", "Jéssica S. Guedes", "Mario R. Meneghetti", "Antoniana U. Krettli"],
+		"nome": "Chloroquine analogs as antimalarial candidates with potent in vitro and in vivo activity",
+		"publicador": "International Journal for Parasitology-Drugs and Drug Resistance",
+		"versao": "8",
+		"paginas": "459-464",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.ijpddr.2018.10.002"
+	},
+	{
+		"autores":["Ábner M. Nunes", "Kleyton R. M. da Silva", "Claudia M. S. Calado", "Karina L. A. Saraiva", "Regina C. B. Q. Figueiredo", "Ana C. R. Leite", "Mario R. Meneghetti"],
+		"nome": "Evaluation of gold nanorods toxicity on isolated mitochondria",
+		"publicador": "Toxicology",
+		"versao": "413",
+		"paginas": "24-32",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.tox.2018.12.002"
+	},
+	{
+		"autores": ["Luiz F. P. Brandão", "Jez W. B. Braga", "Paulo A. Z. Suarez"],
+		"nome": "Alternative butanol/gasoline and butanol/diesel fuel blends: An analysis of the interdependence between physical-chemical properties by a multivariate principal component analysis model",
+		"publicador": "Energy & Environment",
+		"versao": "-",
+		"paginas": "-",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1177/0958305X18776539"
+	},
+	{
+		"autores":["Renato Cataluña", "Zeban Shah", "Vanessa Venturi", "Nattan R. Caetano", "Bibiana P. da Silva", "Carla M. N. AZevedo", "Rosângela da Silva", "Paulo A. Z. Suarez", "Lincoln P. Oliveira"],
+		"nome": "Production process of di-amyl ether and its use as an additive in the formulation of aviation fuels" ,
+		"publicador":"Fuel",
+		"versao": "228",
+		"paginas": "226-233",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.fuel.2018.04.167"
+	},
+	{
+		"autores":["Luiz F. P. Brandâo", "Paulo A. Z. Suarez"],
+		"nome": "Determination of the alternative butanol/gasoline and butanol/diesel fuel blends heats of combustion by a heat-loss compensated,semi-microcalorimeter",
+		"publicador":"  Journal of Thermal Analysis and Calorimetry",
+		"versao": "132",
+		"paginas": "1953-1960",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1007/s10973-018-7106-1"
+	},
+	{
+		"autores":["Osvaldo Iha", "Guilherme Martins", "Erick Ehlert", "Mateus Montenegro", "Renata Sucupira", "Paulo Suarez"],
+		"nome": "Extraction and Characterization of Passion Fruit and Guava Oils from Industrial Residual Seeds and Their Application as Biofuels" ,
+		"publicador":" Journal of the Brazilian Chemical Society",
+		"versao": "29",
+		"paginas": "2089-2095",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.21577/0103-5053.20180083"
+	},
+	{
+		"autores":["Luiz F. P. Brandão", "Paulo A. Z. Suarez"],
+		"nome": "Evaluation of the density, volatility and anti-knock rating physical-chemical properties of alternative butanol/gasoline fuel blends.",
+		"publicador":"Acta Scientiarum. Technology",
+		"versao": "40",
+		"paginas": "39571-9",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.4025/actascitechnol.v40i1.39571"
+	},
+	{
+		"autores":["Kênia Costa", "Stella do Valle", "Thayana dos Santos", "Ellen Rangel", "Angelo Pinto", "Paulo Suarez", "Michelle Rezende"],
+		"nome": "Synthesis and Evaluation of Biocide and Cetane Number Improver Additives for Biodiesel from Chemical Changes in Triacylglycerides. " ,
+		"publicador":"Journal of the Brazilian Chemical Society",
+		"versao": "29",
+		"paginas": "2605-2615",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.21577/0103-5053.20180140"
+	},
+	{
+		"autores":["Guilherme F. Ferbonink", "Thenner Rodrigues", "Diego P. dos Santos", "Pedro Camargo", "Rodrigo Q. Albuquerque", "Rene Nome"],
+		"nome": "Correlating structural dynamics and catalytic activity of AgAu nanoparticles with ultrafast spectroscopy and all-atom molecular, dynamics simulations",
+		"publicador":"Faraday Discussions",
+		"versao": "208",
+		"paginas": "-",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1039/c7fd00220c"
+	},
+	{
+		"autores": ["Marissa Higgins", "Fernando Ely", "Renata C.", "Rene A.", "Diego P. dos Santos", "Hyunjoo Choi", "Seungjin Nam", "Manuel Quevedo-Lopez"],
+		"nome": "Enhanced reproducibility of planar perovskite solar cells by fullerene doping with silver nanoparticles" ,
+		"publicador":"Journal of Applied Physics",
+		"versao": "124",
+		"paginas": "065306",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1063/1.5036643"
+	},
+	{
+		"autores":["Lizandra M. Zimmermann", "Gizelle I. Almerindo", "Michelle Medeiros", "Ricardo F. Affeldt", "Eduardo H. Wanderlind", "Adriana P. Gerola", "René A. Nome", "Milton A. Tumelero", "Ricardo Faccio", "Andre A. Pasa", "Haidi D. Fiedler", "Faruk Nome"],
+		"nome": "Toward Catalytic Detoxification of Phosphotriesters: Insights from Kinetics and Docking on Solid Surfaces. " ,
+		"publicador":" Journal of Physical Chemistry C,",
+		"versao": "122",
+		"paginas": "25530-25538",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acs.jpcc.8b09148"
+	},
+	{
+		"autores": ["Ana M. Percebom", "Guilherme A. Ferreira", "Daniel R. Catini", "Juliana S. Bernardes", "Watson Loh"],
+		"nome": "Phase Behavior Controlled by Addition of Long Chain n -Alcohols in Systems of Cationic Surfactant/Anionic Polyion Complex Salts and Water",
+		"publicador":"Journal of Physical Chemistry B",
+		"versao":"122",
+		"paginas": "4861-4869",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acs.jpcb.8b01788"
+	},
+	{
+		"autores": [ "Caio G. Otoni", "André Carvalho", "Marcus Cardoso", "Oigres Bernardinelli", "Marcos Lorevice", "Luiz A. Colnago", "Watson Loh", "Luiz H. C. Mattoso"],
+		"nome": "High-pressure microfluidization as a green tool for optimizing the mechanical performance of all-cellulose composites",
+		"publicador":"  ACS Sustainable Chemistry & Engineering,",
+		"versao": "6",
+		"paginas": "12727-12735",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acssuschemeng.8b01855"
+	},
+	{
+		"autores":[ "Eduardo G. R. de Arruda", "Bruno A. Rocha", "Manoel Barrionuevo", "Heidar M. Adalsteinsson", "Flávia E. Galdino", "Watson Loh", "Frederico Lima", "Camilla Abbehausen" ],
+		"nome": "Zn(II) coordination sphere and chemical structure influence over the reactivity of metallo-&beta;-lactamase model compounds" ,
+		"publicador":"  Dalton Transactions",
+		"versao": "-",
+		"paginas": "-",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1039/c8dt03905d"
+	},
+	{
+		"autores":[ "César Brinatti", "Seyedeh Parinaz Akhlaghi", "Rafael Pires-Oliveira", "Oigres D. Bernardinelli", "Richard M. Berry", "Kam C. Tam", "Watson Loh" ],
+		"nome": "Controlled coagulation and redispersion of thermoresponsive poly di(ethylene oxide) methyl ether methacrylate grafted cellulose nanocrystals",
+		"publicador":"Journal of Colloid and Interface Science",
+		"versao": "538",
+		"paginas": "51-61",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.jcis.2018.11.071"
+	},
+	{
+		"autores": ["Guilherme A. Ferreira", "Lennart Piculell", "Watson Loh"],
+		"nome": "Hydration-Dependent Hierarchical Structures in Block Copolymer-Surfactant Complex Salts" ,
+		"publicador":" Macromolecules",
+		"versao": "51",
+		"paginas": "9915–9924",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1021/acs.macromol.8b02053"
+	},
+	{													
+		"autores": [ "Bruna L. Auras", "Sheila de L. Meller", "Marcos P. da Silva", "Ademir Neves", "Leandro H. Z. Cocca", "Leonardo de Boni", "Carolina H. da Silveira", "Bernardo A. Iglesias" ],
+		"nome": "Synthesis, spectroscopic/electrochemical characterization and DNA interaction study of novel ferrocenyl-substituted porphyrins",
+		"publicador": "Applied Organometallic Chemistry",
+		"versao": "-",
+		"paginaas": "-",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1002/aoc.4318"
+	},
+	{
+		"autores": [ "Mateus B. Pereira", "Liniquer A. Fontana", "Josiéli D. Siqueira", "Bruna L. Auras", "Marcos P. da Silva", "Ademir Neves", "Philipe Gabriel", "Hernán Terenzi", "Bernardo A. Iglesias", "Davi F. Back" ],
+		"nome": "Pyridoxal derivatized copper(II) complexes: Evaluation of antioxidant, catecholase, and DNA cleavage activity",
+		"publicador": "Inorganica Chimica ACTA",
+		"versao": "469",
+		"paginaas" : "561-575",
+		"ano": 2018,
+		"link": "http://dx.doi.org/10.1016/j.ica.2017.09.063"
+	}
+]    
