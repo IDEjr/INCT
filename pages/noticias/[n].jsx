@@ -19,64 +19,64 @@ export default function album_fotos(){
 
     return (
         <div className={style.background}>
-        <Header/>
-        <div className={style.title_bar}>
-            <span className={style.text_title}>Notícias</span>            
-        </div>        
-        <div style={{ backgroundImage: `url('/noticias/${img_src}')`, 
-                      backgroundPosition: "center", 
-                      backgroundSize: "cover", 
-                      width:"100%", 
-                      height:"50vh",
-                      marginTop: "1%"}} />
+            <Header/>
+            <div className={style.title_bar}>
+                <span className={style.text_title}>Notícias</span>            
+            </div>        
+            <div style={{ backgroundImage: `url('/noticias/${img_src}')`, 
+                        backgroundPosition: "center", 
+                        backgroundSize: "cover", 
+                        width:"100%", 
+                        height:"50vh",
+                        marginTop: "1%"}} />
 
-        <div className={style.box_background}>
-            <div className={style.box_text}>
-                <div className={style.box_text_title}>
-                    <span>{titulo}</span>
-                    <span>{`${dia}/${mes}/${ano}`}</span>                    
-                </div>
-                {!youtube ? <></> :
-                    <div className={style.box_player}>
-                        <ReactPlayer url={youtube}
-                            muted
-                            controls
-                            playing={false}
-                        />                                        
+            <div className={style.box_background}>
+                <div className={style.box_text}>
+                    <div className={style.box_text_title}>
+                        <span>{titulo}</span>
+                        <span>{`${dia}/${mes}/${ano}`}</span>                    
                     </div>
-                }
-                <span className={style.text_noticia}>{noticia}</span>
-                {!images? <></> :
-                    <div className={style.box_caurosel}>
-                        <div className={style.carousel_ext}>
-                            <Carousel onClickItem={
-                                            (i, item) => window.open(`/noticias/${images[i].src}`, "_blank")
-                                        } 
-                                      dynamicHeight
-                                      emulateTouch
-                                      useKeyboardArrows
-                                      showStatus={false}
-                                      showThumbs={false}
-                                      autoPlay
-                                      infiniteLoop>
-                                {images.map((image, index) => 
-                                        <img key={index} alt={image} src={`/noticias/${image}`}/>                                        
-                                )}
-                            </Carousel>
+                    {!youtube ? <></> :
+                        <div className={style.box_player}>
+                            <ReactPlayer url={youtube}
+                                muted
+                                controls
+                                playing={false}
+                            />                                        
                         </div>
-                    </div>
-                }
-                {!links? <></> :
-                    <div className={style.box_links}>
-                        <span><br/><br/>Links úteis:</span>
-                        <span>
-                        {links.map((l, index) => <Link key={index} href={l}><a className={style.box_links}><span>{l}</span></a></Link>)}
-                        </span>                    
-                    </div>
-                }
-            </div>            
-        </div>        
-        <Footer/>            
-    </div>
+                    }
+                    <span className={style.text_noticia}>{noticia}</span>
+                    {!images? <></> :
+                        <div className={style.box_caurosel}>
+                            <div className={style.carousel_ext}>
+                                <Carousel onClickItem={
+                                                (i, item) => window.open(`/noticias/${images[i].src}`, "_blank")
+                                            } 
+                                        dynamicHeight
+                                        emulateTouch
+                                        useKeyboardArrows
+                                        showStatus={false}
+                                        showThumbs={false}
+                                        autoPlay
+                                        infiniteLoop>
+                                    {images.map((image, index) => 
+                                            <img key={index} alt={image} src={`/noticias/${image}`}/>                                        
+                                    )}
+                                </Carousel>
+                            </div>
+                        </div>
+                    }
+                    {!links? <></> :
+                        <div className={style.box_links}>
+                            <span><br/><br/>Links úteis:</span>
+                            <span>
+                            {links.map((l, index) => <Link key={index} href={l}><a className={style.box_links}><span>{l}</span></a></Link>)}
+                            </span>                    
+                        </div>
+                    }
+                </div>            
+            </div>        
+            <Footer/>            
+        </div>
     ); 
 };

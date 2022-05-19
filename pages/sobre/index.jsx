@@ -16,7 +16,7 @@ export default function Sobre() {
     return (
         <div className={style.background}>
             <Header/>
-            <div className={style.margin} />
+            <span className={style.title_2}>Sobre</span>
 
             <h1 className={style.title}>Missão</h1>
             <div className={style.box}>
@@ -43,7 +43,7 @@ export default function Sobre() {
                     <a href='/about/preliminary_results.pdf' target="_blank" className={style.button} >Preliminary Results</a>
                 </div>
             </div>
-
+            <div className={style.margin_end}/>
             <Footer/>
         </div>
     )
