@@ -113,6 +113,11 @@
     background-size: cover;
 }
 
+.margem
+{
+  margin-bottom: 5%;
+}
+
 @media (max-width: 700px) {
   .brasao {
     margin: 10px auto 0px auto;
