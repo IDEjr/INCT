@@ -6,7 +6,11 @@
         "ano" : 2000,
         "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
         "img_src" : "noticia_exemplo.png",
-        "link" : "/noticias/noticia1"
+        "link" : "/noticias/noticia1",
+        "links" : [],
+        "images" : [],
+        "youtube": ""
+
     },
 
     {
@@ -15,8 +19,12 @@
         "mes" : 1,
         "ano" : 2001,
         "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
-        "img_src" : "noticia_exemplo.png",
-        "link" : "/noticias/noticia2"
+        "img_src" : "noticia_exemplo.png",        
+        "link" : "/noticias/noticia2",
+        "links" : ["http://www.google.com", "http://www.youtube.com"],
+        "images" : [],
+        "youtube": ""
+
     },
 
     {
@@ -26,7 +34,11 @@
         "ano" : 2002,
         "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
         "img_src" : "noticia_exemplo.png",
-        "link" : "/noticias/noticia3"
+        "link" : "/noticias/noticia3",
+        "links" : [""],
+        "images" : ["img1.png", "img2.png", "img3.png","img4.png"],
+        "youtube": ""
+
     },
 
     {
@@ -36,7 +48,11 @@
         "ano" : 2003,
         "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
         "img_src" : "noticia_exemplo.png",
-        "link" : "/noticias/noticia4"
+        "link" : "/noticias/noticia4",
+        "links" : [],
+        "images" : [],
+        "youtube": "https://www.youtube.com/watch?v=EkOhCDjFOqc"
+
     },
 
     {
@@ -46,7 +62,11 @@
         "ano" : 2005,
         "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
         "img_src" : "noticia_exemplo.png",
-        "link" : "/noticias/noticia5"
+        "link" : "/noticias/noticia5",
+        "links" : ["http://www.google.com", "http://www.youtube.com"],
+        "images" : ["img1.png", "img2.png", "img3.png","img4.png"],
+        "youtube": ""
+
     },
 
     {
@@ -56,7 +76,11 @@
         "ano" : 2006,
         "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
         "img_src" : "noticia_exemplo.png",
-        "link" : "/noticias/noticia6"
+        "link" : "/noticias/noticia6",
+        "links" : [],
+        "images" : ["img1.png", "img2.png", "img3.png","img4.png"],
+        "youtube": "https://www.youtube.com/watch?v=EkOhCDjFOqc"
+
     },
 
     {
@@ -66,7 +90,11 @@
         "ano" : 2007,
         "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
         "img_src" : "noticia_exemplo.png",
-        "link" : "/noticias/noticia7"
+        "link" : "/noticias/noticia7",
+        "links" : ["http://www.google.com", "http://www.youtube.com"],
+        "images" : [],
+        "youtube": "https://www.youtube.com/watch?v=EkOhCDjFOqc"
+
     },
 
     {
@@ -76,7 +104,11 @@
         "ano" : 2008,
         "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
         "img_src" : "noticia_exemplo.png",
-        "link" : "/noticias/noticia8"
+        "link" : "/noticias/noticia8",
+        "links" : ["http://www.google.com", "http://www.youtube.com"],
+        "images" : ["img1.png", "img2.png", "img3.png","img4.png"],
+        "youtube": "https://www.youtube.com/watch?v=EkOhCDjFOqc"
+
     },
 
     {
@@ -86,7 +118,11 @@
         "ano" : 2009,
         "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
         "img_src" : "noticia_exemplo.png",
-        "link" : "/noticias/noticia9"
+        "link" : "/noticias/noticia9",
+        "links" : [],
+        "images" : [],
+        "youtube": ""
+
     },
 
     {
@@ -96,6 +132,10 @@
         "ano" : 2010,
         "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
         "img_src" : "noticia_exemplo.png",
-        "link" : "/noticias/noticia10"
+        "link" : "/noticias/noticia10",
+        "links" : [],
+        "images" : [],
+        "youtube": ""
+
     }
 ]

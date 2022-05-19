@@ -33,9 +33,9 @@ export default function Home() {
         <h2 className={styles.text_title}>Últimas notícias</h2>
       </div>
       <ul className={styles_n.ul}>                
-                { noticias_list.map( ({titulo, dia, mes, ano, noticia, img_src, link}, index) => 
+                { noticias_list.map( ({titulo, dia, mes, ano, noticia, img_src, link, links, images, youtube}, index) => 
                     index < 3 && (
-                    <Link href={{ pathname: link, query: { titulo, dia, mes, ano, noticia, img_src }}} key={index}>
+                    <Link href={{ pathname: link, query: {titulo, dia, mes, ano, noticia, img_src, link, links, images, youtube}}} key={index}>
                         <a className={styles_n.a}>
                             <li className={styles_n.li}>
                                 <Image className={styles_n.image}  src={`/noticias/${img_src}`} width={250} height={150}/><br/>

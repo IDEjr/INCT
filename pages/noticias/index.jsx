@@ -20,8 +20,8 @@ export default function Noticias(){
             </div>
 
             <ul className={Style.ul}>                
-                { noticias_list.map( ({titulo, dia, mes, ano, noticia, img_src, link}, index) => 
-                    <Link href={{ pathname: link, query: { titulo, dia, mes, ano, noticia, img_src }}} key={index}>
+                { noticias_list.map( ({titulo, dia, mes, ano, noticia, img_src, link, links, images, youtube}, index) => 
+                    <Link href={{ pathname: link, query: { titulo, dia, mes, ano, noticia, img_src, links, images, youtube }}} key={index}>
                         <a className={Style.a}>
                             <li className={Style.li}>
                                 <Image className={Style.image}  src={`/noticias/${img_src}`} width={250} height={150}/><br/>

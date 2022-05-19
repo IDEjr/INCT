@@ -22,7 +22,7 @@ export default function album_fotos(){
             <div className={style.box_galeria}>
                 <span className={style.title}>{title}</span>            
                 <div className={style.carousel_ext}>            
-                    <Carousel onClickItem={(i, item) => window.open(`/galeria/${g}/${list_Images[i]}`, "_self")} dynamicHeight emulateTouch useKeyboardArrows showStatus={false} showIndicators={false}>
+                    <Carousel onClickItem={(i, item) => window.open(`/galeria/${g}/${list_Images[i]}`, "_blank")} dynamicHeight emulateTouch useKeyboardArrows showStatus={false} showIndicators={false}>
                         {list_Images.map((image, index) => 
                             <img key={index} src={`/galeria/${g}/${image}`}/>
                         )}
