@@ -1,4 +1,5 @@
 import Head from "next/head";
+import React from "react";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import styles_n from "./noticias/noticias.module.css";
@@ -20,14 +21,36 @@ export default function Home() {
     {id: 5, src: 'https://s1.static.brasilescola.uol.com.br/be/conteudo/images/a-quimica-oferece-conhecimentos-muito-importantes-para-desenvolvimento-nossa-sociedade-562fd9fc8296e.jpg'}
   ]
 
+  const local_items = [
+    {src: '/Header/logo_transp.png'},
+    {src: '/Header/logo_transp.png'},
+    {src: '/Header/logo_transp.png'}
+  ]
+
+  const carouselRef = React.useRef(null);
+  const onNextStart = (currentItem, nextItem) => {
+    if (currentItem.index === nextItem.index) {
+      // we hit the last item, go to first item
+      carouselRef.current.goTo(0);
+    }
+  };
+  const onPrevStart = (currentItem, nextItem) => {
+    if (currentItem.index === nextItem.index) {
+      // we hit the first item, go to last item
+      carouselRef.current.goTo(items.length);
+    }
+  };
+
   return (  
 
     <div className={styles.background}>
       <Header />
       <div className={styles.bg2}>
-      <Carousel>
-        {items.map((item, index) => <img key={index} className={styles.image} src={item.src} />)}
-      </Carousel>
+        <Carousel enableAutoPlay autoPlaySpeed={5000} emulateTouch dynamicHeight useKeyboardArrows showStatus={false} showIndicators={false} 
+                  ref={carouselRef} onPrevStart={onPrevStart} onNextStart={onNextStart} disableArrowsOnEnd={false}
+                  className={styles.carousel}>
+          {local_items.map((item, index) => <Image key={index} className={styles.image} src={item.src} width="800px" height="500px"/>)}
+        </Carousel>
       </div>
       <div className={styles.title_bar}>
         <h2 className={styles.text_title}>Últimas notícias</h2>
