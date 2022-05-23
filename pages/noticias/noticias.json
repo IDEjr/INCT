@@ -1,141 +1,131 @@
 [
-    {
-        "titulo": "Noticia 1",
-        "dia" : 10,
-        "mes" : 1,
-        "ano" : 2000,
-        "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
-        "img_src" : "noticia_exemplo.png",
-        "link" : "/noticias/noticia1",
-        "links" : [],
-        "images" : [],
-        "youtube": ""
+  {
+    "titulo": "DEFESA DE TRABALHO DE CONCLUSÃO DE CURSO - ANDRÉ VALENTE MAIA",
+    "dia": "03",
+    "mes": "08",
+    "ano": "2018",
+    "noticia": "André Valente Maia é, além de historiador, o webdesigner responsável técnico por este site, desempenhando as atividades de gerenciamento, atualização e publicidade online do conteúdo.\n\nEm 03 de agosto de 2018, o trabalho de conclusão de curso de André Valente Maia foi julgado pela banca examinadora e aprovada em sua forma final pelo curso de História da Universidade Federal de Santa Catarina, concedendo-lhe o título de Bacharel e Licenciado em História.\n\nTítulo do trabalho: De Mao a Deng: Modernização e Petróleo na China Contemporânea\nBanca Examinadora:\nProf. Dr. Marcio Robeto Voigt, UFSC (Orientador)\nRicardo Lopes Kotz\n\nRESUMO:\nEste trabalho apresenta uma análise das transformações ocorridas na indústria petrolífera chinesa com a política das Quatro Modernizações, especificamente a modernização em ciência e tecnologia, adotada a partir de 1978. Desde o estabelecimento da República Popular da China, em 1949, até o final dos anos 1980, este estudo demonstra o desenvolvimento da indústria petrolífera chinesa afim de garantir os recursos energéticos necessários para que o projeto de modernização possa ser executado. Através do discurso de Deng Xiaoping na Conferência Nacional sobre Ciência, em 1978, demonstra-se a importância da ciência e tecnologia, assim como sua inter-relação com o setor petrolífero no processo de modernização. Ao final evidencia-se a transformação da indústria petrolífera, do domínio do planejamento central para uma influência maior do mercado, o qual contribuiu para atrair investimentos externos, recursos financeiros e tecnológicos. Ao mesmo tempo permanências são percebidas com relação a busca pela modernização.",
+    "img_src": "noticia_andre_valente_maia.png",
+    "link": "/noticias/defesa_de_trabalho_de_conclusao_de_curso_-_andre_valente_maia",
+    "links": ["https://repositorio.ufsc.br/handle/123456789/190775", "http://www.google.com"],
+    "images": ["noticia_andre_valente_maia.png", "img1.png"],
+    "youtube": ""
+  },
 
-    },
+  {
+    "titulo": "Noticia 2",
+    "dia": 10,
+    "mes": 1,
+    "ano": 2001,
+    "noticia": "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
+    "img_src": "noticia_exemplo.png",
+    "link": "/noticias/noticia2",
+    "links": ["http://www.google.com", "http://www.youtube.com"],
+    "images": [],
+    "youtube": ""
+  },
 
-    {
-        "titulo": "Noticia 2",
-        "dia" : 10,
-        "mes" : 1,
-        "ano" : 2001,
-        "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
-        "img_src" : "noticia_exemplo.png",        
-        "link" : "/noticias/noticia2",
-        "links" : ["http://www.google.com", "http://www.youtube.com"],
-        "images" : [],
-        "youtube": ""
+  {
+    "titulo": "Noticia 3",
+    "dia": 10,
+    "mes": 1,
+    "ano": 2002,
+    "noticia": "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
+    "img_src": "noticia_exemplo.png",
+    "link": "/noticias/noticia3",
+    "links": [""],
+    "images": ["img1.png", "img2.png", "img3.png", "img4.png"],
+    "youtube": ""
+  },
 
-    },
+  {
+    "titulo": "Noticia 4",
+    "dia": 10,
+    "mes": 1,
+    "ano": 2003,
+    "noticia": "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
+    "img_src": "noticia_exemplo.png",
+    "link": "/noticias/noticia4",
+    "links": [],
+    "images": [],
+    "youtube": "https://www.youtube.com/watch?v=EkOhCDjFOqc"
+  },
 
-    {
-        "titulo": "Noticia 3",
-        "dia" : 10,
-        "mes" : 1,
-        "ano" : 2002,
-        "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
-        "img_src" : "noticia_exemplo.png",
-        "link" : "/noticias/noticia3",
-        "links" : [""],
-        "images" : ["img1.png", "img2.png", "img3.png","img4.png"],
-        "youtube": ""
+  {
+    "titulo": "Noticia 5",
+    "dia": 10,
+    "mes": 1,
+    "ano": 2005,
+    "noticia": "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
+    "img_src": "noticia_exemplo.png",
+    "link": "/noticias/noticia5",
+    "links": ["http://www.google.com", "http://www.youtube.com"],
+    "images": ["img1.png", "img2.png", "img3.png", "img4.png"],
+    "youtube": ""
+  },
 
-    },
+  {
+    "titulo": "Noticia 6",
+    "dia": 10,
+    "mes": 1,
+    "ano": 2006,
+    "noticia": "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
+    "img_src": "noticia_exemplo.png",
+    "link": "/noticias/noticia6",
+    "links": [],
+    "images": ["img1.png", "img2.png", "img3.png", "img4.png"],
+    "youtube": "https://www.youtube.com/watch?v=EkOhCDjFOqc"
+  },
 
-    {
-        "titulo": "Noticia 4",
-        "dia" : 10,
-        "mes" : 1,
-        "ano" : 2003,
-        "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
-        "img_src" : "noticia_exemplo.png",
-        "link" : "/noticias/noticia4",
-        "links" : [],
-        "images" : [],
-        "youtube": "https://www.youtube.com/watch?v=EkOhCDjFOqc"
+  {
+    "titulo": "Noticia 7",
+    "dia": 10,
+    "mes": 1,
+    "ano": 2007,
+    "noticia": "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
+    "img_src": "noticia_exemplo.png",
+    "link": "/noticias/noticia7",
+    "links": ["http://www.google.com", "http://www.youtube.com"],
+    "images": [],
+    "youtube": "https://www.youtube.com/watch?v=EkOhCDjFOqc"
+  },
 
-    },
+  {
+    "titulo": "Noticia 8",
+    "dia": 10,
+    "mes": 1,
+    "ano": 2008,
+    "noticia": "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
+    "img_src": "noticia_exemplo.png",
+    "link": "/noticias/noticia8",
+    "links": ["http://www.google.com", "http://www.youtube.com"],
+    "images": ["img1.png", "img2.png", "img3.png", "img4.png"],
+    "youtube": "https://www.youtube.com/watch?v=EkOhCDjFOqc"
+  },
 
-    {
-        "titulo": "Noticia 5",
-        "dia" : 10,
-        "mes" : 1,
-        "ano" : 2005,
-        "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
-        "img_src" : "noticia_exemplo.png",
-        "link" : "/noticias/noticia5",
-        "links" : ["http://www.google.com", "http://www.youtube.com"],
-        "images" : ["img1.png", "img2.png", "img3.png","img4.png"],
-        "youtube": ""
+  {
+    "titulo": "Noticia 9",
+    "dia": 10,
+    "mes": 1,
+    "ano": 2009,
+    "noticia": "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
+    "img_src": "noticia_exemplo.png",
+    "link": "/noticias/noticia9",
+    "links": [],
+    "images": [],
+    "youtube": ""
+  },
 
-    },
-
-    {
-        "titulo": "Noticia 6",
-        "dia" : 10,
-        "mes" : 1,
-        "ano" : 2006,
-        "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
-        "img_src" : "noticia_exemplo.png",
-        "link" : "/noticias/noticia6",
-        "links" : [],
-        "images" : ["img1.png", "img2.png", "img3.png","img4.png"],
-        "youtube": "https://www.youtube.com/watch?v=EkOhCDjFOqc"
-
-    },
-
-    {
-        "titulo": "Noticia 7",
-        "dia" : 10,
-        "mes" : 1,
-        "ano" : 2007,
-        "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
-        "img_src" : "noticia_exemplo.png",
-        "link" : "/noticias/noticia7",
-        "links" : ["http://www.google.com", "http://www.youtube.com"],
-        "images" : [],
-        "youtube": "https://www.youtube.com/watch?v=EkOhCDjFOqc"
-
-    },
-
-    {
-        "titulo": "Noticia 8",
-        "dia" : 10,
-        "mes" : 1,
-        "ano" : 2008,
-        "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
-        "img_src" : "noticia_exemplo.png",
-        "link" : "/noticias/noticia8",
-        "links" : ["http://www.google.com", "http://www.youtube.com"],
-        "images" : ["img1.png", "img2.png", "img3.png","img4.png"],
-        "youtube": "https://www.youtube.com/watch?v=EkOhCDjFOqc"
-
-    },
-
-    {
-        "titulo": "Noticia 9",
-        "dia" : 10,
-        "mes" : 1,
-        "ano" : 2009,
-        "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
-        "img_src" : "noticia_exemplo.png",
-        "link" : "/noticias/noticia9",
-        "links" : [],
-        "images" : [],
-        "youtube": ""
-
-    },
-
-    {
-        "titulo": "Noticia 10",
-        "dia" : 10,
-        "mes" : 1,
-        "ano" : 2010,
-        "noticia" : "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
-        "img_src" : "noticia_exemplo.png",
-        "link" : "/noticias/noticia10",
-        "links" : [],
-        "images" : [],
-        "youtube": ""
-
-    }
+  {
+    "titulo": "Noticia 10",
+    "dia": 10,
+    "mes": 1,
+    "ano": 2010,
+    "noticia": "Skandkja kajsndas assdjnakd akdjsnakdnkjanlkd a kj",
+    "img_src": "noticia_exemplo.png",
+    "link": "/noticias/noticia10",
+    "links": [],
+    "images": [],
+    "youtube": ""
+  }
 ]

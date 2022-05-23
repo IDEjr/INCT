@@ -56,6 +56,8 @@
   z-index: 0;
   transition:all 0.3s ease;
 
+  max-width: 250px;
+
 }
 
 .a:hover

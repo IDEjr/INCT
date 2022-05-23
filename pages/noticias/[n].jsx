@@ -48,6 +48,7 @@ export default function album_fotos(){
                 <span className={style.text_noticia}>{noticia}</span>
                 {!images? <></> :
                     <div className={style.box_caurosel}>
+                        {console.log(images)}
                         <div className={style.carousel_ext}>
                             <Carousel onClickItem={
                                             (i, item) => window.open(`/noticias/${images[i].src}`, "_blank")
