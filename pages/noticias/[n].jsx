@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState} from 'react';
 import { useRouter } from "next/router";
 import { Carousel } from 'react-responsive-carousel';
 import ReactMarkdown from "react-markdown";
@@ -19,16 +19,11 @@ export default function album_fotos(){
     
     const [content, setContent] = useState("");
     
-    //if(noticia != undefined) {
-    /*    useEffect(() => {
-            import(`./noticias/${noticia}`)
-                .then(res => {
-                    fetch(res.default)
-                        .then(res => res.text())
-                        .then(res => console.log(res));
-                })
-        });*/
-    //}
+    useEffect(() => {
+        fetch(noticia)
+            .then(res => res.text())
+            .then(res => setContent(res));
+    });
 
     if(!titulo) return <></>;
 
@@ -60,8 +55,9 @@ export default function album_fotos(){
                         />                                        
                     </div>
                 }
-                {console.log("Noticia (dentro do return): ", noticia)}
-                <ReactMarkdown className={style.text_noticia} children={noticia}/>
+
+                <ReactMarkdown className={style.text_noticia} children={content}/>
+
                 {!images? <></> :
                     <div className={style.box_caurosel}>
                         {console.log(images)}
