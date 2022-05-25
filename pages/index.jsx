@@ -5,7 +5,9 @@ import styles from "../styles/Home.module.css";
 import styles_n from "./noticias/noticias.module.css";
 import Header from "./components/header";
 import Footer from "./components/footer";
-import Carousel from 'react-elastic-carousel';
+//import Carousel from 'react-elastic-carousel';
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Item from './artigos/item_artigo.jsx';
 import Link from "next/link";
 
@@ -27,27 +29,17 @@ export default function Home() {
     {src: '/Header/logo_transp.png'}
   ]
 
-  const carouselRef = React.useRef(null);
-  const onNextStart = (currentItem, nextItem) => {
-    if (currentItem.index === nextItem.index) {
-      // we hit the last item, go to first item
-      carouselRef.current.goTo(0);
-    }
-  };
-  const onPrevStart = (currentItem, nextItem) => {
-    if (currentItem.index === nextItem.index) {
-      // we hit the first item, go to last item
-      carouselRef.current.goTo(items.length);
-    }
-  };
-
   return (  
 
     <div className={styles.background}>
       <Header />
       <div className={styles.bg2}>
-        <Carousel enableAutoPlay autoPlaySpeed={5000} emulateTouch dynamicHeight useKeyboardArrows showStatus={false} showIndicators={false} 
-                  ref={carouselRef} onPrevStart={onPrevStart} onNextStart={onNextStart} disableArrowsOnEnd={false}
+        <Carousel autoPlay infiniteLoop
+                  dynamicHeight
+                  emulateTouch
+                  useKeyboardArrows
+                  showThumbs={false} 
+                  showStatus={false}
                   className={styles.carousel}>
           {local_items.map((item, index) => <Image key={index} className={styles.image} src={item.src} width="800px" height="500px"/>)}
         </Carousel>

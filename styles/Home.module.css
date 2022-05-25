@@ -117,10 +117,7 @@
 .bg2 {
   background-color: rgba(255, 255, 255, 0.5);
   margin: 2% auto 2% auto;
-  width: fit-content;
-  height: fit-content;
-  min-width: 80%;
-  max-width: 100%;
+  width: 80%;
   border-radius: 5px;
 }
 
