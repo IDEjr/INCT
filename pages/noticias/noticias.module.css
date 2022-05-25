@@ -111,13 +111,14 @@
 
 .text_noticia
 {
-  margin-top: 5%;
+  /*margin-top: 5%;
   font-size: 20px;
   color: black;
 
   display: flex;
   justify-content: center;
-  text-align: center;
+  text-align: center;*/
+  text-align: justify;
 }
 
 .box_links

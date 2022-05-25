@@ -1,6 +1,7 @@
-import react, { Component } from 'react';
+import { useEffect, useState } from 'react';
 import { useRouter } from "next/router";
 import { Carousel } from 'react-responsive-carousel';
+import ReactMarkdown from "react-markdown";
 
 import Link from 'next/link';
 import ReactPlayer from 'react-player/youtube';
@@ -15,6 +16,20 @@ export default function album_fotos(){
 
     const router = useRouter();
     const {titulo, dia, mes, ano, noticia, img_src, links, images, youtube} = router.query;
+    
+    const [content, setContent] = useState("");
+    
+    //if(noticia != undefined) {
+    /*    useEffect(() => {
+            import(`./noticias/${noticia}`)
+                .then(res => {
+                    fetch(res.default)
+                        .then(res => res.text())
+                        .then(res => console.log(res));
+                })
+        });*/
+    //}
+
     if(!titulo) return <></>;
 
     return (
@@ -41,11 +56,12 @@ export default function album_fotos(){
                         <ReactPlayer url={youtube}
                             muted
                             controls
-                            playing={false}
+                            playing={false} 
                         />                                        
                     </div>
                 }
-                <span className={style.text_noticia}>{noticia}</span>
+                {console.log("Noticia (dentro do return): ", noticia)}
+                <ReactMarkdown className={style.text_noticia} children={noticia}/>
                 {!images? <></> :
                     <div className={style.box_caurosel}>
                         {console.log(images)}
