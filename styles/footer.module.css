@@ -51,7 +51,11 @@
 
 .box_imagem
 {
-    margin: 5% 10% 9% 10%;
+    margin: 5% 10% 7% 10%;
+}
+
+.espaco_imagem {
+    margin: 7px 0 7px 0;
 }
 
 .titulo
@@ -74,7 +78,7 @@
 
 .icon_redes
 {
-    margin-left: 6%;
+    margin: auto 6% auto 0;
 }
 
 .box_assinatura
@@ -89,10 +93,14 @@
 
 .text_assinatura
 {
-    margin-right: 1%;
+    margin: 0 1% 5px 0;
 }
 
-@media (max-width: 1720px) 
+.logo {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 1720px) /*1720px*/
 {
     .box_footer
     {
@@ -136,10 +144,18 @@
     }
     .box_assinatura
     {
-        margin: 8% 0 0 1%;
+        margin: 8% 0 0 0%;
         flex-direction: column;
         justify-content: center;        
         align-items: center;
+    }
+    .text_assinatura
+    {
+        margin: 0 0 5px 0;
+    }
+    .box_interna
+    {
+        margin-bottom: 25px;
     }
 
 }
