@@ -116,8 +116,25 @@
 
 .bg2 {
   background-color: rgba(255, 255, 255, 0.5);
-  margin-top: 1%;
+  margin: 2% auto 2% auto;
   width: 80%;
   border-radius: 5px;
-  margin-left: 10%;
+}
+
+.carousel {
+  width: fit-content;
+}
+
+@media (max-width: 1120px)
+{
+  .bg2 {
+    min-width: 90%;
+  }
+}
+
+@media (max-width: 424px)
+{
+  .bg2 {
+    min-width: 95%;
+  }
 }
