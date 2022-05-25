@@ -7,20 +7,21 @@ import Footer from './../components/footer';
 
 import Item from './item_galeria';
 
-const list_Image = require("./brasoes.json");
+const list_Image = require("./galeria.json");
 
 export default function galeria(){
 
     return(
-        <div>
+        <div className={Style.background}>
             <Header/>
             <div className={Style.box_galeria}>
                 <span className={Style.title}>Galeria</span>
                 <ul className={Style.lista}>                
-                    { list_Image.map( ({key, link, logo}, index) => 
-                    <li key={index} className={Style.item_Lista}>
-                        <Item title={key} logo={logo} link={link}/>
-                    </li>) }                
+                    { list_Image.map( ({title, link, logo, brasaoAlt, brasaoLar}, index) => 
+                      <li key={index} className={Style.item_Lista}>
+                        <Item title={title} logo={logo} link={link}
+                              w={brasaoLar} h={brasaoAlt}/>
+                      </li> ) }                
                 </ul>            
 
             </div>

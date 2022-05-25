@@ -1,9 +1,12 @@
-import react from 'react';
+import react, { Component } from 'react';
 import { useRouter } from "next/router";
+import { Carousel } from 'react-responsive-carousel';
 
-import Image from 'next/image';
+import Link from 'next/link';
+import ReactPlayer from 'react-player/youtube';
 
 import style from './noticias.module.css'
+import style_car from "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import Header from '../components/header';
 import Footer from '../components/footer';
@@ -11,10 +14,11 @@ import Footer from '../components/footer';
 export default function album_fotos(){
 
     const router = useRouter();
-    const {titulo, dia, mes, ano, noticia, img_src} = router.query;    
+    const {titulo, dia, mes, ano, noticia, img_src, links, images, youtube} = router.query;
+    if(!titulo) return <></>;
 
     return (
-        <div>
+        <div className={style.background}>
         <Header/>
         <div className={style.title_bar}>
             <span className={style.text_title}>Notícias</span>            
@@ -32,8 +36,44 @@ export default function album_fotos(){
                     <span>{titulo}</span>
                     <span>{`${dia}/${mes}/${ano}`}</span>                    
                 </div>
-                <span className={style.text_noticia}>{noticia}</span>           
-
+                {!youtube ? <></> :
+                    <div className={style.box_player}>
+                        <ReactPlayer url={youtube}
+                            muted
+                            controls
+                            playing={false}
+                        />                                        
+                    </div>
+                }
+                <span className={style.text_noticia}>{noticia}</span>
+                {!images? <></> :
+                    <div className={style.box_caurosel}>
+                        <div className={style.carousel_ext}>
+                            <Carousel onClickItem={
+                                            (i, item) => window.open(`/noticias/${images[i].src}`, "_blank")
+                                        } 
+                                      dynamicHeight
+                                      emulateTouch
+                                      useKeyboardArrows
+                                      showStatus={false}
+                                      showThumbs={false}
+                                      autoPlay
+                                      infiniteLoop>
+                                {images.map((image, index) => 
+                                        <img key={index} alt={image} src={`/noticias/${image}`}/>                                        
+                                )}
+                            </Carousel>
+                        </div>
+                    </div>
+                }
+                {!links? <></> :
+                    <div className={style.box_links}>
+                        <span><br/><br/>Links úteis:</span>
+                        <span>
+                        {links.map((l, index) => <Link key={index} href={l}><a className={style.box_links}><span>{l}</span></a></Link>)}
+                        </span>                    
+                    </div>
+                }
             </div>            
         </div>        
         <Footer/>            

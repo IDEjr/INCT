@@ -1,4 +1,4 @@
-import style from '../../styles/sobre.module.css';
+import style from './sobre.module.css';
 import Image from 'next/image';
 
 export default function item_Areas(props){

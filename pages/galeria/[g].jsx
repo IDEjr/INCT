@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { useRouter } from "next/router";
 import { Carousel } from 'react-responsive-carousel';
-
 import Image from 'next/image';
 
 import style from './galeria.module.css'
@@ -13,43 +12,24 @@ import Footer from '../components/footer';
 export default function album_fotos(){
 
     const router = useRouter();
-    const id = router.query.teste;
-
+    const {g, title}  = router.query;
+    if(!g) return<></>;
+    const list_Images = require(`../../public/galeria/${g}/${g}.json`);
+    
     return (
-        <div>
-        <Header/>
-        <div className={style.box_galeria}>
-            <span className={style.title}>{id}</span>
-            <div className={style.carousel_ext}>
-            <Carousel className={style_car}>
-                <div>
-                    <img src='https://s1.static.brasilescola.uol.com.br/be/conteudo/images/a-quimica-oferece-conhecimentos-muito-importantes-para-desenvolvimento-nossa-sociedade-562fd9fc8296e.jpg'/>
-                    
-
+        <div className={style.background}>
+            <Header/>
+            <div className={style.box_galeria}>
+                <span className={style.title}>{title}</span>            
+                <div className={style.carousel_ext}>            
+                    <Carousel onClickItem={(i, item) => window.open(`/galeria/${g}/${list_Images[i]}`, "_blank")} dynamicHeight emulateTouch useKeyboardArrows showStatus={false} showIndicators={false}>
+                        {list_Images.map((image, index) => 
+                            <img key={index} src={`/galeria/${g}/${image}`}/>
+                        )}
+                    </Carousel>
                 </div>
-                <div>
-                    <img src='https://s1.static.brasilescola.uol.com.br/be/conteudo/images/a-quimica-oferece-conhecimentos-muito-importantes-para-desenvolvimento-nossa-sociedade-562fd9fc8296e.jpg'/>
-                    
-
-                </div>
-                <div>
-                    <img src='https://s1.static.brasilescola.uol.com.br/be/conteudo/images/a-quimica-oferece-conhecimentos-muito-importantes-para-desenvolvimento-nossa-sociedade-562fd9fc8296e.jpg'/>
-                    
-
-                </div>
-                <div>
-                    <img src='https://s1.static.brasilescola.uol.com.br/be/conteudo/images/a-quimica-oferece-conhecimentos-muito-importantes-para-desenvolvimento-nossa-sociedade-562fd9fc8296e.jpg'/>
-                    
-
-                </div>
-                <div>
-                    <img src='https://s1.static.brasilescola.uol.com.br/be/conteudo/images/a-quimica-oferece-conhecimentos-muito-importantes-para-desenvolvimento-nossa-sociedade-562fd9fc8296e.jpg'/>                   
-
-                </div>
-            </Carousel>
             </div>
+            <Footer/>            
         </div>
-        <Footer/>            
-    </div>
     ); 
 };
