@@ -24,7 +24,7 @@ export default function Home() {
   ]
 
   const local_items = [
-    {src: '/Header/logo_transp.png'},
+    {src: '/banner_carousel.png'},
     {src: '/Header/logo_transp.png'},
     {src: '/Header/logo_transp.png'}
   ]
