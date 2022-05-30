@@ -29,6 +29,24 @@ export default function Home() {
     {src: '/Header/logo_transp.png'}
   ]
 
+  const local_items1 = [
+    {src: '/Covers_INCT/Capa_ChemistrySelect2017_page-0001.jpg'},
+    {src: '/Covers_INCT/Catalysis 2018_page-0001.jpg'},
+    {src:'/Covers_INCT/ChemCatChem - 2020 - Braga - Cover Feature Structure and activity of supported bimetallic NiPd nanoparticles influence of-1.png'},
+    {src:'/Covers_INCT/Chemistry A European J - 2018 - de Carvalho - Front Cover Combination of Aryl Diselenides Hydrogen Peroxide and (2)-1.png'},
+    {src:'/Covers_INCT/ChemSusChem - 2019 - Gon alves - Cover Feature Efficient Electrocatalytic CO2 Reduction Driven by Ionic Liquid Buffer‐Like(1)-1.png'},
+    {src:'/Covers_INCT/Cover Catalysis Science and Tec 2019-1.png'},
+    {src:'/Covers_INCT/Cover Catalysis Science and Tec 2020-1.png'},
+    {src:'/Covers_INCT/Cover Chemical Society Rewiew2018-1.png'},
+    {src:'/Covers_INCT/Cover Sustainable Chem and Eng 2022-1.png'},
+    {src:'/Covers_INCT/Cover_ChemComm 2018-1.png'},
+    {src:'/Covers_INCT/Cover_ChemComm 2019-1.png'},
+    {src:'/Covers_INCT/Cover_Chemistry 2019-1.png'},
+    {src:'/Covers_INCT/Cover_Organic and BiomolecularChemistry 2020-1.png'},
+    {src:'/Covers_INCT/Euro J of Inorganic Chem - 2021 - Maluf - Cover Feature Zeolitic‐Imidazolate Framework Derived Intermetallic Nickel Zinc-1.png'},
+    {src:'/Covers_INCT/European J Organic Chem - 2019 - Clerigu - Front Cover Rearrangement Reactions in Aza‐Vinylogous Povarov Products -1.png'}
+  ]
+
   return (  
 
     <div className={styles.background}>
@@ -62,6 +80,17 @@ export default function Home() {
             </ul>
       <div className={styles.title_bar2}>
         <h2 className={styles.text_title}>Últimos artigos</h2>
+      </div>
+      <div className={styles.bg3}>
+        <Carousel autoPlay infiniteLoop
+                  dynamicHeight
+                  emulateTouch
+                  useKeyboardArrows
+                  showThumbs={false} 
+                  showStatus={false}
+                  className={styles.carousel}>
+          {local_items1.map((item, index) => <Image key={index} className={styles.image} src={item.src} width="400px" height="450px"/>)}
+        </Carousel>
       </div>
       <ul className={styles.ul2}>
         {articles_list.map(
