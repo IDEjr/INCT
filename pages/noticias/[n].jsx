@@ -49,7 +49,6 @@ export default function album_fotos(){
                 {!youtube ? <></> :
                     <div className={style.box_player}>
                         <ReactPlayer url={youtube}
-                            muted
                             controls
                             playing={false} 
                         />                                        
@@ -60,32 +59,31 @@ export default function album_fotos(){
 
                 {!images? <></> :
                     <div className={style.box_caurosel}>
-                        {console.log(images)}
                         <div className={style.carousel_ext}>
-                            <Carousel onClickItem={
-                                            (i, item) => window.open(`/noticias/${images[i].src}`, "_blank")
-                                        } 
-                                      dynamicHeight
+                            <Carousel dynamicHeight
                                       emulateTouch
                                       useKeyboardArrows
                                       showStatus={false}
                                       showThumbs={false}
                                       autoPlay
                                       infiniteLoop>
-                                {images.map((image, index) => 
-                                        <img key={index} alt={image} src={`/noticias/${image}`}/>                                        
-                                )}
+                                {typeof images != typeof 'string' ? 
+                                    images.map((image, index) => <img key={index} alt={image} src={`/noticias/${image}`}/>)
+                                                                  : 
+                                    <img alt={images} src={`/noticias/${images}`}/>
+                                }
                             </Carousel>
                         </div>
                     </div>
                 }
-                {!links? <></> :
-                    <div className={style.box_links}>
-                        <span><br/><br/>Links úteis:</span>
-                        <span>
-                        {links.map((l, index) => <Link key={index} href={l}><a className={style.box_links}><span>{l}</span></a></Link>)}
-                        </span>                    
-                    </div>
+                {// UPDATE: links podem ser colocados no markdown
+                 //!links? <></> :
+                 //   <div className={style.box_links}>
+                 //       <span>Links úteis:</span>
+                 //       <span>
+                 //       {links.map((l, index) => <Link key={index} href={l}><a className={style.box_links}><span>{l}</span></a></Link>)}
+                 //       </span>                    
+                 //   </div>
                 }
             </div>            
         </div>        

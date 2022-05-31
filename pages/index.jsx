@@ -50,15 +50,19 @@ export default function Home() {
       <ul className={styles_n.ul}>                
                 { noticias_list.map( ({titulo, dia, mes, ano, noticia, img_src, link, links, images, youtube}, index) => 
                     index < 3 && (
-                    <Link href={{ pathname: link, query: {titulo, dia, mes, ano, noticia, img_src, link, links, images, youtube}}} key={index}>
-                        <a className={styles_n.a}>
-                            <li className={styles_n.li}>
-                                <Image className={styles_n.image}  src={`/noticias/${img_src}`} width={250} height={150}/><br/>
-                                <span className={styles_n.title_notice}>{titulo}</span><br/>
-                                <span className={styles_n.data_notice}>{dia}/{mes}/{ano}</span>
-                            </li>
-                        </a>
-                    </Link>)) }                
+                      <Link href={{ pathname: link, query: { titulo, dia, mes, ano, noticia, img_src, links, images, youtube }}} key={index}>
+                      <a className={styles_n.a}>
+                          <li className={styles_n.li}>
+                              <div className={styles_n.image_notice} style={{
+                                  backgroundImage: `url('/noticias/${img_src}')`, 
+                                  backgroundPosition: "center", 
+                                  backgroundSize: "cover", 
+                              }}/>
+                              <div className={styles_n.title_notice}>{titulo}</div>
+                              <div className={styles_n.data_notice}>{dia}/{mes}/{ano}</div>
+                          </li>
+                      </a>
+                  </Link>)) }                
             </ul>
       <div className={styles.title_bar2}>
         <h2 className={styles.text_title}>Últimos artigos</h2>
