@@ -85,25 +85,29 @@ export default function Home() {
       <div className={styles.title_bar2}>
         <h2 className={styles.text_title}>Últimos artigos</h2>
       </div>
-      <div className={styles.bg3}>
-        <Carousel autoPlay infiniteLoop
-                  dynamicHeight
-                  emulateTouch
-                  useKeyboardArrows
-                  showThumbs={false} 
-                  showStatus={false}
-                  className={styles.carousel}>
-          {local_items1.map((item, index) => <Image key={index} className={styles.image} src={item.src} width="400px" height="450px"/>)}
-        </Carousel>
+
+      <div className={styles.box_artigos}>
+        <div className={styles.bg3}>
+          <Carousel autoPlay infiniteLoop
+                    dynamicHeight
+                    emulateTouch
+                    useKeyboardArrows
+                    showThumbs={false} 
+                    showStatus={false}
+                    className={styles.carousel}>
+            {local_items1.map((item, index) => <img key={index} className={styles.image} src={item.src}/>)}
+          </Carousel>
+        </div>
+        <ul className={styles.ul2}>
+          {articles_list.map(
+            ({nome, autores, publicador, versao, paginas, ano, link }, index) =>
+              index < 3 && (
+                <li key={index}><Item nome = {nome} autores = {autores} publicador = {publicador} versao = {versao} paginas = {paginas} ano = {ano} link = {link}/></li>
+              )
+          )}
+        </ul>
       </div>
-      <ul className={styles.ul2}>
-        {articles_list.map(
-          ({nome, autores, publicador, versao, paginas, ano, link }, index) =>
-            index < 3 && (
-              <li key={index}><Item nome = {nome} autores = {autores} publicador = {publicador} versao = {versao} paginas = {paginas} ano = {ano} link = {link}/></li>
-            )
-        )}
-      </ul>
+
       <Footer />
     </div>
   );

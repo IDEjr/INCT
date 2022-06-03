@@ -83,12 +83,8 @@
 .ul2
 {
   padding: 0; 
-  margin: 0;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: auto 0 auto 5%;
   list-style-type: none;
-  margin-top: 2%;
-  margin-bottom: 5%;
 }
 
 .text_name_item
@@ -107,11 +103,19 @@
   padding: 5px;  
 }
 
+.box_artigos 
+{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+  padding: 20px 0 60px 0;
+}
+
 .image {
   margin-top: 2%;
   border-radius: 4%;
   margin-bottom: 2%;
-  height: 400px;
 }
 
 .bg2 {
@@ -123,9 +127,13 @@
 
 .bg3 {
   background-color: rgba(255, 255, 255, 0.5);
-  margin: 2% auto 2% auto;
+  margin: 2% 0 2% 0;
   width: 40%;
   border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .carousel {
