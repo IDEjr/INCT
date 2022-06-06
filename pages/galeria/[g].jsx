@@ -14,7 +14,7 @@ export default function album_fotos(){
     const router = useRouter();
     const {g, title}  = router.query;
     if(!g) return<></>;
-    const list_Images = require(`../../public/galeria/${g}/${g}.json`);
+    const list_Images = require(`../../public/nucleos/galeria/${g}/${g}.json`);
     
     return (
         <div className={style.background}>
@@ -22,9 +22,9 @@ export default function album_fotos(){
             <div className={style.box_galeria}>
                 <span className={style.title}>{title}</span>            
                 <div className={style.carousel_ext}>            
-                    <Carousel onClickItem={(i, item) => window.open(`/galeria/${g}/${list_Images[i]}`, "_blank")} dynamicHeight emulateTouch useKeyboardArrows showStatus={false} showIndicators={false}>
+                    <Carousel onClickItem={(i, item) => window.open(`/nucleos/galeria/${g}/${list_Images[i]}`, "_blank")} dynamicHeight emulateTouch useKeyboardArrows showStatus={false} showIndicators={false}>
                         {list_Images.map((image, index) => 
-                            <img key={index} src={`/galeria/${g}/${image}`}/>
+                            <img key={index} src={`/nucleos/galeria/${g}/${image}`}/>
                         )}
                     </Carousel>
                 </div>

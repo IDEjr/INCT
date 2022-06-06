@@ -1,7 +1,7 @@
 [
     {
-        "fundo": "/nucleos/ufsc_fundo.png",
-        "brasaoSrc": "/nucleos/ufsc_logo.png", 
+        "fundo": "ufsc_fundo.png",
+        "brasaoSrc": "ufsc_logo.png", 
         "brasaoLar": 363, 
         "brasaoAlt": 500,
         "titulo": "UFSC", 
@@ -10,8 +10,8 @@
         "credito": "Henrique Almeida / Agecom / Divulgação"
     },
     {
-        "fundo": "/nucleos/ufscar_fundo.png",
-        "brasaoSrc": "/nucleos/ufscar_logo.png", 
+        "fundo": "ufscar_fundo.png",
+        "brasaoSrc": "ufscar_logo.png", 
         "brasaoLar": 678, 
         "brasaoAlt": 500, 
         "titulo": "UFSCar", 
@@ -20,8 +20,8 @@
         "credito": "UFSCar / Divulgação"
     },
     {
-        "fundo": "/nucleos/furb_fundo.png",
-        "brasaoSrc": "/nucleos/furb_logo.png", 
+        "fundo": "furb_fundo.png",
+        "brasaoSrc": "furb_logo.png", 
         "brasaoLar": 778, 
         "brasaoAlt": 500, 
         "titulo": "FURB", 
@@ -30,8 +30,8 @@
         "credito": "Felipe Elias / Divulgação"
     },
     {
-        "fundo": "/nucleos/pucrs_fundo.png",
-        "brasaoSrc": "/nucleos/pucrs_logo.png", 
+        "fundo": "pucrs_fundo.png",
+        "brasaoSrc": "pucrs_logo.png", 
         "brasaoLar": 348, 
         "brasaoAlt": 500, 
         "titulo": "PUCRS", 
@@ -40,8 +40,8 @@
         "credito": "Bruno Todeschini / PUCRS / Divulgação"
     },
     {
-        "fundo": "/nucleos/ufal_fundo.png",
-        "brasaoSrc": "/nucleos/ufal_logo.png", 
+        "fundo": "ufal_fundo.png",
+        "brasaoSrc": "ufal_logo.png", 
         "brasaoLar": 295, 
         "brasaoAlt": 500, 
         "titulo": "UFAL", 
@@ -50,8 +50,8 @@
         "credito": "UFAL / Divulgação"
     },
     {
-        "fundo": "/nucleos/ufmg_fundo.png",
-        "brasaoSrc": "/nucleos/ufmg_logo.png", 
+        "fundo": "ufmg_fundo.png",
+        "brasaoSrc": "ufmg_logo.png", 
         "brasaoLar": 860, 
         "brasaoAlt": 335, 
         "titulo": "UFMG", 
@@ -60,8 +60,8 @@
         "credito": "Foca Lisboa / UFMG"
     },
     {
-        "fundo": "/nucleos/ufrgs_fundo.png",
-        "brasaoSrc": "/nucleos/ufrgs_logo.png", 
+        "fundo": "ufrgs_fundo.png",
+        "brasaoSrc": "ufrgs_logo.png", 
         "brasaoLar": 871, 
         "brasaoAlt": 500, 
         "titulo": "UFRGS", 
@@ -70,8 +70,8 @@
         "credito": "Ramon Moser / Secom / UFRGS"
     },
     {
-        "fundo": "/nucleos/ufsj_fundo.png",
-        "brasaoSrc": "/nucleos/ufsj_logo.png", 
+        "fundo": "ufsj_fundo.png",
+        "brasaoSrc": "ufsj_logo.png", 
         "brasaoLar": 501, 
         "brasaoAlt": 500, 
         "titulo": "UFSJ", 
@@ -80,8 +80,8 @@
         "credito": "Ascom / UFSJ"
     },
     {
-        "fundo": "/nucleos/unb_fundo2.png",
-        "brasaoSrc": "/nucleos/unb_logo.png", 
+        "fundo": "unb_fundo.png",
+        "brasaoSrc": "unb_logo.png", 
         "brasaoLar": 539, 
         "brasaoAlt": 500, 
         "titulo": "UNB", 
@@ -90,8 +90,8 @@
         "credito": "Felipe Menezes / Metrópoles"
     },
     {
-        "fundo": "/nucleos/unicamp_fundo.png",
-        "brasaoSrc": "/nucleos/unicamp_logo.png", 
+        "fundo": "unicamp_fundo.png",
+        "brasaoSrc": "unicamp_logo.png", 
         "brasaoLar": 474, 
         "brasaoAlt": 500, 
         "titulo": "UNICAMP", 
@@ -100,8 +100,8 @@
         "credito": "Antoninho Perri / SEC Unicamp"
     },
     {
-        "fundo": "/nucleos/uspscar_fundo.png",
-        "brasaoSrc": "/nucleos/uspscar_logo.png", 
+        "fundo": "uspscar_fundo.png",
+        "brasaoSrc": "uspscar_logo.png", 
         "brasaoLar": 417, 
         "brasaoAlt": 417, 
         "titulo": "USP-SCar", 
@@ -110,8 +110,8 @@
         "credito": "Marcos Santos / USP Imagens"
     },
     {
-        "fundo": "/nucleos/usp_fundo.png",
-        "brasaoSrc": "/nucleos/usp_logo.png", 
+        "fundo": "usp_fundo.png",
+        "brasaoSrc": "usp_logo.png", 
         "brasaoLar": 512, 
         "brasaoAlt": 331, 
         "titulo": "USP", 

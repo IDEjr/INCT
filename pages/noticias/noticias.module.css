@@ -170,6 +170,7 @@
     border-radius: 10px;
     margin: 2% 0 4% 0;
     padding: 0; 
+    position: relative;
 }
 
 @media (max-width: 1120px)

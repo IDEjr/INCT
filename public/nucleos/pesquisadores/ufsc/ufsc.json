@@ -1,0 +1,77 @@
+[
+	{
+		"nome": "Faruk Nome",
+		"imagem": "exemplo_pesq.png",
+		"link": "https://www.google.com"
+	},
+	{
+		"nome": "Ademir Neves",
+		"imagem": "exemplo_pesq.png",
+		"link": "https://www.google.com"
+	},
+	{
+		"nome": "Hugo Gallardo",
+		"imagem": "exemplo_pesq.png",
+		"link": "https://www.google.com"
+	},
+	{
+		"nome": "Maria da Graça Nascimento",
+		"imagem": "exemplo_pesq.png",
+		"link": "https://www.google.com"
+	},
+	{
+		"nome": "Marcus M. Sá",
+		"imagem": "exemplo_pesq.png",
+		"link": "https://www.google.com"
+	},
+	{
+		"nome": "Adailton J. Bortoluzzi",
+		"imagem": "exemplo_pesq.png",
+		"link": "https://www.google.com"
+	},
+	{
+		"nome": "Bruno Szpoganicz",
+		"imagem": "exemplo_pesq.png",
+		"link": "https://www.google.com"
+	},
+	{
+		"nome": "Luiz Fernando D. Probst",
+		"imagem": "exemplo_pesq.png",
+		"link": "https://www.google.com"
+	},
+	{
+		"nome": "Haidi D. L. Fiedler",
+		"imagem": "exemplo_pesq.png",
+		"link": "https://www.google.com"
+	},
+	{
+		"nome": "José C. Gesser",
+		"imagem": "exemplo_pesq.png",
+		"link": "https://www.google.com"
+	},
+	{
+		"nome": "Gustavo A. Micke",
+		"imagem": "exemplo_pesq.png",
+		"link": "https://www.google.com"
+	},
+	{
+		"nome": "Santiago F. Yunes",
+		"imagem": "exemplo_pesq.png",
+		"link": "https://www.google.com"
+	},
+	{
+		"nome": "Nito A. Debacher",
+		"imagem": "exemplo_pesq.png",
+		"link": "https://www.google.com"
+	},
+	{
+		"nome": "Ivan G. Souza",
+		"imagem": "exemplo_pesq.png",
+		"link": "https://www.google.com"
+	},
+	{
+		"nome": "Antonio L. Braga",
+		"imagem": "exemplo_pesq.png",
+		"link": "https://www.google.com"
+	}
+]
