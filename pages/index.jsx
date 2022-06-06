@@ -86,7 +86,7 @@ export default function Home() {
         <h2 className={styles.text_title}>Últimos artigos</h2>
       </div>
 
-      <div className={styles.box_artigos}>
+     <div className={styles.container_artigos}>
         <div className={styles.bg3}>
           <Carousel autoPlay infiniteLoop
                     dynamicHeight
@@ -96,8 +96,9 @@ export default function Home() {
                     showStatus={false}
                     className={styles.carousel}>
             {local_items1.map((item, index) => <img key={index} className={styles.image} src={item.src}/>)}
-          </Carousel>
+          </Carousel>   
         </div>
+        
         <ul className={styles.ul2}>
           {articles_list.map(
             ({nome, autores, publicador, versao, paginas, ano, link }, index) =>
