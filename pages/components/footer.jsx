@@ -4,9 +4,9 @@ import Link from 'next/link'
 
 import style from '../../styles/footer.module.css'
 
-export default function Footer() {
+export default function Footer(props) {
   return (
-    <div  className={style.box_all}>
+    <div  id={props.id} className={style.box_all}>
       <div className={style.box_footer}>
         <div className={style.box_interna}>
           <div className={style.box_imagem}>

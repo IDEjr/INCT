@@ -24,9 +24,9 @@ export default function Home() {
   ]
 
   const local_items = [
-    {src: '/banner_carousel.png'},
-    {src: '/Header/logo_transp.png'},
-    {src: '/Header/logo_transp.png'}
+    {src: '/banner_carousel.png', para:'#id-footer'},
+    {src: '/Header/logo_transp.png', para:'/'},
+    {src: '/Header/logo_transp.png', para:'/'}
   ]
 
   return (  
@@ -41,7 +41,10 @@ export default function Home() {
                   showThumbs={false} 
                   showStatus={false}
                   className={styles.carousel}>
-          {local_items.map((item, index) => <Image key={index} className={styles.image} src={item.src} width="800px" height="500px"/>)}
+          {local_items.map(({src, para}, index) => 
+          <Link href={para} key={index}><a>
+          <Image className={styles.image} src={src} width="800px" height="500px"/>
+          </a></Link>)}
         </Carousel>
       </div>
       <div className={styles.title_bar}>
@@ -71,7 +74,7 @@ export default function Home() {
             )
         )}
       </ul>
-      <Footer />
+      <Footer id="id-footer" />
     </div>
   );
 }
