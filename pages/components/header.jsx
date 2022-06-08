@@ -19,7 +19,6 @@ export default function Header() {
         <nav className={style.navbar_imenu}>
           <div className={style.box_imenu}>
             <Link href='/' ><a className={style.item_menu}>Home</a></Link>
-            <Link href='/galeria'><a className={style.item_menu}>Galeria</a></Link>
             <Link href='/nucleos'><a className={style.item_menu}>Núcleos</a></Link>
             <Link href='/noticias'><a className={style.item_menu}>Notícias</a></Link>
             <Link href='/artigos'><a className={style.item_menu}>Artigos</a></Link>
@@ -42,7 +41,6 @@ export default function Header() {
       </div>
         <nav className={style.navbar}>
             <Link href='/'><a className={style.button}>Home</a></Link>
-            <Link href='/galeria'><a className={style.button}>Galeria</a></Link>
             <Link href='/nucleos'><a className={style.button}>Núcleos</a></Link>
             <Link href='/noticias'><a className={style.button}>Notícias</a></Link>
             <Link href='/artigos'><a className={style.button}>Artigos</a></Link>
