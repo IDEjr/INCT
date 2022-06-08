@@ -11,6 +11,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Item from './artigos/item_artigo.jsx';
 import Link from "next/link";
 
+const local_items = require ("./local_items.json");
+
 export default function Home() {
   const noticias_list = require("./noticias/noticias.json");
   const articles_list = require("./artigos/artigos.json");
@@ -21,12 +23,6 @@ export default function Home() {
     {id: 3, src: 'https://s1.static.brasilescola.uol.com.br/be/conteudo/images/a-quimica-oferece-conhecimentos-muito-importantes-para-desenvolvimento-nossa-sociedade-562fd9fc8296e.jpg'},
     {id: 4, src: 'https://s1.static.brasilescola.uol.com.br/be/conteudo/images/a-quimica-oferece-conhecimentos-muito-importantes-para-desenvolvimento-nossa-sociedade-562fd9fc8296e.jpg'},
     {id: 5, src: 'https://s1.static.brasilescola.uol.com.br/be/conteudo/images/a-quimica-oferece-conhecimentos-muito-importantes-para-desenvolvimento-nossa-sociedade-562fd9fc8296e.jpg'}
-  ]
-
-  const local_items = [
-    {src: '/Header/logo_transp.png'},
-    {src: '/Header/logo_transp.png'},
-    {src: '/Header/logo_transp.png'}
   ]
 
   const local_items1 = [
@@ -59,7 +55,10 @@ export default function Home() {
                   showThumbs={false} 
                   showStatus={false}
                   className={styles.carousel}>
-          {local_items.map((item, index) => <Image key={index} className={styles.image} src={item.src} width="800px" height="500px"/>)}
+          {local_items.map(({src, para}, index) => 
+          <Link href={para} key={index}><a>
+          <Image className={styles.image} src={src} width="800px" height="500px"/>
+          </a></Link>)}
         </Carousel>
       </div>
       <div className={styles.title_bar}>
@@ -109,7 +108,7 @@ export default function Home() {
         </ul>
       </div>
 
-      <Footer />
+      <Footer id="id-footer"/>
     </div>
   );
 }
