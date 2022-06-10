@@ -8,14 +8,14 @@ import Footer from "./components/footer";
 //import Carousel from 'react-elastic-carousel';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Item from './artigos/item_artigo.jsx';
+import Item from './producoes/artigos/item_artigo.jsx';
 import Link from "next/link";
 
 const local_items = require ("./local_items.json");
 
 export default function Home() {
   const noticias_list = require("./noticias/noticias.json");
-  const articles_list = require("./artigos/artigos.json");
+  const articles_list = require("./producoes/artigos/artigos.json");
   
   const items = [
     {id: 1, src: 'https://s1.static.brasilescola.uol.com.br/be/conteudo/images/a-quimica-oferece-conhecimentos-muito-importantes-para-desenvolvimento-nossa-sociedade-562fd9fc8296e.jpg'},
