@@ -46,12 +46,17 @@
     flex-direction: row;
     justify-content: left;
     align-items: center;
+    z-index: 0;
+
+    transition:all 0.3s ease;
 }
 
 .boxItem:hover
 {
     background-color: #050505b1;
-    color: white;     
+    color: white; 
+    transform: scale(1.1);
+    z-index: 1;     
 }
 
 .boxDescricao
