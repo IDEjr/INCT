@@ -17,6 +17,7 @@ function Nucleos() {
                     
           <span className={style.title}>Núcleos</span>          
 
+          <div className={style.todosNucleos}>
           {lista_nucleos.map( ({fundo, brasaoSrc, brasaoLar, brasaoAlt, titulo, subtitulo,
                                 p1, p2, link1, nome1, desc1, link2, nome2, desc2, credito, link}, index) => 
           <Item key = {index}
@@ -27,6 +28,7 @@ function Nucleos() {
             title = {titulo}
             link = {link}
           />)}
+          </div>
           
           
           <Footer/>

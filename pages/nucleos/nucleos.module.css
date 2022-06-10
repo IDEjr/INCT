@@ -152,3 +152,7 @@
     width: 95%;
   }
 }
+.todosNucleos{
+  font-variant:small-caps;
+  font-size: smaller;
+}
