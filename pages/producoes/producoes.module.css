@@ -46,10 +46,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    transition:all 0.3s ease;
 }
 
 .boxItem:hover
 {
     background-color: #050505b1;
-    color: white;     
+    color: white;
+    transform: scale(1.1);     
 }
