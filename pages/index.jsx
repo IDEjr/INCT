@@ -67,7 +67,7 @@ export default function Home() {
                     useKeyboardArrows
                     showThumbs={false} 
                     showStatus={false}
-                    className={styles.carousel}>
+                    className={styles.carousel_revistas}>
             {carousel_revistas.map(({src, doi}, index) =>
             <Link href={doi} key={index}><a className={styles.link_image}>
               <div><img key={index} className={styles.revista} src={src}/></div>
