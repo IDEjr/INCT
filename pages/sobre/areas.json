@@ -10,7 +10,7 @@
 
     {
         "key": "Polimerização de Olefinas",
-        "imagem": "/about/oil.png",
+        "imagem": "/about/polymer.png",
         "imagemLar": 180, 
         "imagemAlt": 180, 
         "titulo": "Polimerização de Olefinas:", 
@@ -19,7 +19,7 @@
 
     {
         "key": "Catalisadores Suportados em Materiais Magnéticos",
-        "imagem": "/about/oil.png",
+        "imagem": "/about/catalist.png",
         "imagemLar": 180, 
         "imagemAlt": 180, 
         "titulo": "Catalisadores Suportados em Materiais Magnéticos:", 
@@ -28,7 +28,7 @@
 
     {
         "key": "Catálise Voltada à Química Fina",
-        "imagem": "/about/oil.png",
+        "imagem": "/about/flavoring.png",
         "imagemLar": 180, 
         "imagemAlt": 180, 
         "titulo": "Catálise Voltada à Química Fina:", 
@@ -37,7 +37,7 @@
 
     {
         "key": "Desenvolvimento de enzimas artificiais",
-        "imagem": "/about/oil.png",
+        "imagem": "/about/dna.png",
         "imagemLar": 180, 
         "imagemAlt": 180, 
         "titulo": "Desenvolvimento de enzimas artificiais:", 
@@ -46,7 +46,7 @@
 
     {
         "key": "Líquidos Iônicos",
-        "imagem": "/about/oil.png",
+        "imagem": "/about/ion.png",
         "imagemLar": 180, 
         "imagemAlt": 180, 
         "titulo": "Líquidos Iônicos:", 

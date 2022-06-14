@@ -32,9 +32,8 @@
 
 .text {
     color: black;
-    text-align: justify;
     font-weight: normal;
-    font-size: 22px;
+    font-size: 120%;
     font-family: 'Roboto', sans-serif;
 }
 
