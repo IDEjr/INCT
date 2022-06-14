@@ -58,6 +58,17 @@
   border-top-right-radius: 5%;
 }
 
+.link_image
+{
+  width: fit-content;
+  height: fit-content;
+}
+
+.revista
+{
+  border-radius: 10px
+}
+
 .title_notice
 {
   margin-left: 5%;
@@ -139,6 +150,7 @@
   display: inline-block;
   width: 20%;
   height: auto;
+  border-radius: 10px;
 }
 
 .carousel {

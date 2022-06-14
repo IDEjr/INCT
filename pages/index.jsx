@@ -11,37 +11,11 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Item from './producoes/artigos/item_artigo.jsx';
 import Link from "next/link";
 
-const local_items = require ("./local_items.json");
-
 export default function Home() {
   const noticias_list = require("./noticias/noticias.json");
   const articles_list = require("./producoes/artigos/artigos.json");
-  
-  const items = [
-    {id: 1, src: 'https://s1.static.brasilescola.uol.com.br/be/conteudo/images/a-quimica-oferece-conhecimentos-muito-importantes-para-desenvolvimento-nossa-sociedade-562fd9fc8296e.jpg'},
-    {id: 2, src: 'https://s1.static.brasilescola.uol.com.br/be/conteudo/images/a-quimica-oferece-conhecimentos-muito-importantes-para-desenvolvimento-nossa-sociedade-562fd9fc8296e.jpg'},
-    {id: 3, src: 'https://s1.static.brasilescola.uol.com.br/be/conteudo/images/a-quimica-oferece-conhecimentos-muito-importantes-para-desenvolvimento-nossa-sociedade-562fd9fc8296e.jpg'},
-    {id: 4, src: 'https://s1.static.brasilescola.uol.com.br/be/conteudo/images/a-quimica-oferece-conhecimentos-muito-importantes-para-desenvolvimento-nossa-sociedade-562fd9fc8296e.jpg'},
-    {id: 5, src: 'https://s1.static.brasilescola.uol.com.br/be/conteudo/images/a-quimica-oferece-conhecimentos-muito-importantes-para-desenvolvimento-nossa-sociedade-562fd9fc8296e.jpg'}
-  ]
-
-  const local_items1 = [
-    {src: '/Covers_INCT/Capa_ChemistrySelect2017_page-0001.jpg'},
-    {src: '/Covers_INCT/Catalysis 2018_page-0001.jpg'},
-    {src:'/Covers_INCT/ChemCatChem - 2020 - Braga - Cover Feature Structure and activity of supported bimetallic NiPd nanoparticles influence of-1.png'},
-    {src:'/Covers_INCT/Chemistry A European J - 2018 - de Carvalho - Front Cover Combination of Aryl Diselenides Hydrogen Peroxide and (2)-1.png'},
-    {src:'/Covers_INCT/ChemSusChem - 2019 - Gon alves - Cover Feature Efficient Electrocatalytic CO2 Reduction Driven by Ionic Liquid Buffer‐Like(1)-1.png'},
-    {src:'/Covers_INCT/Cover Catalysis Science and Tec 2019-1.png'},
-    {src:'/Covers_INCT/Cover Catalysis Science and Tec 2020-1.png'},
-    {src:'/Covers_INCT/Cover Chemical Society Rewiew2018-1.png'},
-    {src:'/Covers_INCT/Cover Sustainable Chem and Eng 2022-1.png'},
-    {src:'/Covers_INCT/Cover_ChemComm 2018-1.png'},
-    {src:'/Covers_INCT/Cover_ChemComm 2019-1.png'},
-    {src:'/Covers_INCT/Cover_Chemistry 2019-1.png'},
-    {src:'/Covers_INCT/Cover_Organic and BiomolecularChemistry 2020-1.png'},
-    {src:'/Covers_INCT/Euro J of Inorganic Chem - 2021 - Maluf - Cover Feature Zeolitic‐Imidazolate Framework Derived Intermetallic Nickel Zinc-1.png'},
-    {src:'/Covers_INCT/European J Organic Chem - 2019 - Clerigu - Front Cover Rearrangement Reactions in Aza‐Vinylogous Povarov Products -1.png'}
-  ]
+  const main_carousel = require ("./main_carousel.json");
+  const carousel_revistas = require("./carousel_revistas.json");
 
   return (  
 
@@ -55,7 +29,7 @@ export default function Home() {
                   showThumbs={false} 
                   showStatus={false}
                   className={styles.carousel}>
-          {local_items.map(({src, para}, index) => 
+          {main_carousel.map(({src, para}, index) => 
           <Link href={para} key={index}><a>
           <Image className={styles.image} src={src} width="800px" height="500px"/>
           </a></Link>)}
@@ -94,7 +68,10 @@ export default function Home() {
                     showThumbs={false} 
                     showStatus={false}
                     className={styles.carousel}>
-            {local_items1.map((item, index) => <img key={index} className={styles.image} src={item.src}/>)}
+            {carousel_revistas.map(({src, doi}, index) =>
+            <Link href={doi} key={index}><a className={styles.link_image}>
+              <div><img key={index} className={styles.revista} src={src}/></div>
+            </a></Link>)}
           </Carousel>   
         </div>
         
