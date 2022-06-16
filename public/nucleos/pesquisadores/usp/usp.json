@@ -1,17 +1,14 @@
 [
 	{
-		"nome": "Pesquisador 1",
-		"imagem": "exemplo_pesq.png",
-		"link": "https://www.google.com"
+		"nome": "Frank Herbert Quina",
+		"cargo":"Membro do Comitê Gestor e Coord. Local",
+		"imagem": "FRANK.jpeg",
+		"link": "https://www3.iq.usp.br/pessoas_view.php?idDocente=36"
 	},
 	{
-		"nome": "Pesquisador 2",
-		"imagem": "exemplo_pesq.png",
-		"link": "https://www.google.com"
-	},
-	{
-		"nome": "Pesquisador 3",
-		"imagem": "exemplo_pesq.png",
-		"link": "https://www.google.com"
+		"nome": "Liane Marcia Rossi",
+		"cargo":"Pesquisadora",
+		"imagem": "liane_rossi.jpg",
+		"link": "http://www.iq.usp.br/portaliqusp/?q=pt-br/users/liane-marcia-rossi"
 	}
 ]
