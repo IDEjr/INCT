@@ -30,10 +30,10 @@ export default function album_fotos(){
                     { list_pesquisadores.length === 0 ? <></> :
                     <>
                     <div className={style.box_list_title_round}>
-                        <span className={style.name_list_title}>Pesquisadores</span>
+                        <span className={style.name_list_title}>Equipe</span>
                     </div>
                     <ul className={style.list_pesq}>                
-                         {list_pesquisadores.map( ({nome, imagem, link}, index) => 
+                        { list_pesquisadores.map( ({nome, imagem, link, cargo}, index) => 
                             <Link key={index} href={link}><a className={style.link_pesq}>
                                 <li className={style.box_pesq}>
                                     <div className={style.image_pesq} style={{
@@ -42,7 +42,9 @@ export default function album_fotos(){
                                         backgroundSize: "cover", 
                                     }}>
                                     </div>
-                                    <div className={style.text_pesq}>{nome}</div>
+                                    <div className={style.text_pesq}>{nome}
+                                    <div className={style.text_cargo}>{cargo}</div>
+                                    </div>
                                 </li> 
                             </a></Link>)}                 
                     </ul>

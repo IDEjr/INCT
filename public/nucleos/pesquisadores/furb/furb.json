@@ -1,17 +1,14 @@
 [
 	{
-		"nome": "Pesquisador 1",
-		"imagem": "exemplo_pesq.png",
-		"link": "https://www.google.com"
+		"nome": "Paulo Cesar de Jesus",
+		"cargo":"Pesquisador e Coord. Local",
+		"imagem": "Paulo-Jesus-2.jpg",
+		"link": "http://lattes.cnpq.br/1734954589119530"
 	},
 	{
-		"nome": "Pesquisador 2",
+		"nome": "Ricardo Andrade Rebelo ",
+		"cargo":"Pesquisador",
 		"imagem": "exemplo_pesq.png",
-		"link": "https://www.google.com"
-	},
-	{
-		"nome": "Pesquisador 3",
-		"imagem": "exemplo_pesq.png",
-		"link": "https://www.google.com"
+		"link": "http://lattes.cnpq.br/9480260316160019"
 	}
 ]

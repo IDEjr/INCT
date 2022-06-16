@@ -119,6 +119,14 @@
   justify-content: center;
 }
 
+.text_cargo {
+  margin: 3%;
+  display: inline-block;
+  flex-direction:column;
+  justify-content: center;
+  font-size:12px;
+}
+
 .carousel_ext
 {
     background-color: #050505b1;
