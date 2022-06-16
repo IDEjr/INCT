@@ -1,17 +1,14 @@
 [
 	{
-		"nome": "Pesquisador 1",
+		"nome": "Mario Roberto Meneghetti ",
+		"cargo":"Membro do Comitê Gestor e Coord. Local",
 		"imagem": "exemplo_pesq.png",
-		"link": "https://www.google.com"
+		"link": "https://iqb.ufal.br/pt-br/institucional/docentes/professores/mario-meneghetti"
 	},
 	{
-		"nome": "Pesquisador 2",
-		"imagem": "exemplo_pesq.png",
-		"link": "https://www.google.com"
-	},
-	{
-		"nome": "Pesquisador 3",
-		"imagem": "exemplo_pesq.png",
-		"link": "https://www.google.com"
+		"nome": "Simoni Plentz Meneghetti ",
+		"cargo":"Pesquisadora",
+		"imagem": "Simoni Meneghetti.jpeg",
+		"link": "https://iqb.ufal.br/pt-br/institucional/docentes/professores/simoni-meneghetti"
 	}
 ]
