@@ -18,7 +18,6 @@ export default function Header() {
       return(
         <nav className={style.navbar_imenu}>
           <div className={style.box_imenu}>
-            <Link href='/' ><a className={style.item_menu}>Home</a></Link>
             <Link href='/nucleos'><a className={style.item_menu}>Núcleos</a></Link>
             <Link href='/noticias'><a className={style.item_menu}>Notícias</a></Link>
             <Link href='/producoes'><a className={style.item_menu}>Produções</a></Link>
@@ -37,7 +36,7 @@ export default function Header() {
     </Head>
     <div className={style.header}>
       <div className={style.logo}>
-        <Image src={logo} width={218*0.8} height={139*0.8} className={style.image}/>   
+        <Link href='/'><a><Image src={logo} width={218*0.8} height={139*0.8} className={style.image}/></a></Link>
       </div>
         <nav className={style.navbar}>
             <Link href='/'><a className={style.button}>Home</a></Link>

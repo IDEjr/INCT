@@ -19,6 +19,6 @@
     "react-markdown": "^8.0.3",
     "react-player": "^2.10.1",
     "react-responsive-carousel": "^3.2.23",
-    "reactstrap": "^9.0.2"
+    "reactstrap": "^9.1.1"
   }
 }
