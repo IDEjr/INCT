@@ -32,10 +32,10 @@
 
 .text {
     color: black;
-    text-align: justify;
     font-weight: normal;
-    font-size: 22px;
+    font-size: 1rem;
     font-family: 'Roboto', sans-serif;
+    overflow: hidden;
 }
 
 .mission .text {
