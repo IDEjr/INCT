@@ -33,8 +33,9 @@
 .text {
     color: black;
     font-weight: normal;
-    font-size: 120%;
+    font-size: 1rem;
     font-family: 'Roboto', sans-serif;
+    overflow: hidden;
 }
 
 .mission .text {
