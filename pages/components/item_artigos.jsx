@@ -1,13 +1,22 @@
 import react from 'react';
 import Link from "next/link";
-import style from './artigos.module.css';
+import style from './../../styles/item_artigos.module.css';
 
-export default function item_Artigo(props){
+export default function item_Artigos(props){
     
+    if(!props.link ||
+       !props.nome ||
+       !props.autores ||
+       !props.publicador ||
+       !props.ano ||
+       !props.versao ||
+       !props.width ||
+       !props.paginas) return <></>;
+
     return(
         <Link href= {props.link}>        
             <a>
-                <div className={style.item}>
+                <div className={style.item} style={{width:`${props.width}`}}>
                     <span className={style.text_name_item}>{props.nome}</span>
                     <span className={style.text_year_item}>{props.ano}</span>
                     <div className={style.descricao_item}>

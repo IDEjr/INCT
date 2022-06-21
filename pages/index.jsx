@@ -1,15 +1,19 @@
 import Head from "next/head";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+import Script from "next/script";
+
 import styles from "../styles/Home.module.css";
 import styles_n from "./noticias/noticias.module.css";
+
 import Header from "./components/header";
 import Footer from "./components/footer";
 //import Carousel from 'react-elastic-carousel';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Item from './producoes/artigos/item_artigo.jsx';
-import Link from "next/link";
+import Item from './components/item_artigos';
+
 
 const local_items = require ("./local_items.json");
 
@@ -43,10 +47,11 @@ export default function Home() {
     {src:'/Covers_INCT/European J Organic Chem - 2019 - Clerigu - Front Cover Rearrangement Reactions in Aza‐Vinylogous Povarov Products -1.png'}
   ]
 
-  return (  
+  return (        
 
     <div className={styles.background}>
       <Header />
+      <Script src="https://identity.netlify.com/v1/netlify-identity-widget.js"/>
       <div className={styles.bg2}>
         <Carousel autoPlay infiniteLoop
                   dynamicHeight
@@ -91,6 +96,7 @@ export default function Home() {
                     dynamicHeight
                     emulateTouch
                     useKeyboardArrows
+                    showIndicators={false} 
                     showThumbs={false} 
                     showStatus={false}
                     className={styles.carousel}>
@@ -102,7 +108,7 @@ export default function Home() {
           {articles_list.map(
             ({nome, autores, publicador, versao, paginas, ano, link }, index) =>
               index < 3 && (
-                <li key={index}><Item nome = {nome} autores = {autores} publicador = {publicador} versao = {versao} paginas = {paginas} ano = {ano} link = {link}/></li>
+                <Item key={index} nome = {nome} autores = {autores} publicador = {publicador} versao = {versao} paginas = {paginas} ano = {ano} link = {link} width="100%"/>
               )
           )}
         </ul>

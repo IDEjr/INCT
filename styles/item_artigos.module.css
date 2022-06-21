@@ -1,0 +1,171 @@
+.item
+{
+  color: black;
+  margin-top: 0.5%;
+  padding: 3%;
+  border-radius: 5px;
+  background-color: #ebebeb9a;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  overflow: hidden;
+  
+  transition:all 0.4s ease;
+}
+
+.item .descricao_item
+{
+  display: none;
+}
+
+.item:hover
+{
+  color: white;
+  padding: 5% 3% 5% 3%;
+  background-color: #050505b1;
+  
+  flex-direction: column;
+  justify-content: left; 
+}
+
+.item:hover .text_name_item
+{
+  font-size: 2rem;
+  width: 80%;
+  margin-bottom: 2%;  
+
+  text-align: center;
+}
+
+.item:hover .text_year_item
+{
+  display: none;
+}
+
+.item:hover .descricao_item
+{
+  display: flex;
+}
+
+.text_name_item
+{
+  /*background-color: purple;*/
+  font-size: 1.3rem;
+  width: 80%;
+
+}
+
+.text_year_item
+{
+  /*background-color: aqua;*/
+  font-size: 1.3rem;
+  height: 10vh;
+  line-height: 10vh; 
+  text-align: center;
+}
+
+.descricao_item
+{
+  font-size: 1.1rem;
+  width: 80%;
+  /*background-color: black;*/
+  
+  flex-direction: row;  
+  justify-content: center;
+}
+
+.descricao_publicacao
+{
+  /*background-color: purple;*/
+  min-width: 50%;
+  width: auto;
+ 
+
+  display: flex;
+  flex-direction: column;  
+}
+
+.texto_publicacao
+{
+  /*background-color: purple;*/
+  color: #ffedaa;
+  padding: 3%;
+}
+
+.box_lista_autores
+{
+  /*background-color: aqua;*/
+  color: #bed4ff;
+  padding: 3%;
+}
+
+.titulo_autores
+{
+  /*background-color: blue;*/
+  margin: 0;
+  padding: 0;  
+}
+
+.lista_autores
+{
+  /*background-color: blue;*/
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media (max-width: 796px) {
+  .search
+  {
+    width: 90%;
+  }  
+}
+
+@media (max-width: 700px)
+{
+  .item
+  {
+    flex-direction: column;
+  }
+
+  .item:hover
+  {
+    flex-direction: column;
+  }
+
+  .text_name_item
+  {
+    text-align: center;
+  }
+
+  .descricao_item
+  {
+    flex-direction: column;
+  }  
+
+  .box_list_title
+  {
+    flex-direction: column;
+  }
+
+  .name_list_title
+  {
+    text-align: center;
+  }
+
+  .descricao_publicacao
+  {
+    margin-top: 10%;
+    text-align: center;
+  }
+
+  .box_lista_autores
+  {
+    margin-top: 10%;
+    text-align: center;
+  
+  }
+}
