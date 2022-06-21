@@ -44,7 +44,11 @@ export default function album_fotos(){
             <div className={style.box_text}>
                 <div className={style.box_text_title}>
                     <span>{titulo}</span>
-                    <span>{`${dia}/${mes}/${ano}`}</span>                    
+                    {`${dia}/${mes}/${ano}` !== "//" ?
+                        <span>{`${dia}/${mes}/${ano}`}</span>
+                                                    :
+                        <span></span>
+                    }              
                 </div>
                 {!youtube ? <></> :
                     <div className={style.box_player}>

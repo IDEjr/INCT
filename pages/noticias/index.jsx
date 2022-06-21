@@ -41,7 +41,11 @@ export default function Noticias(){
                                     }
                                 </div>
                                 <div className={Style.title_notice}>{titulo}</div>
-                                <div className={Style.data_notice}>{dia}/{mes}/{ano}</div>
+                                {`${dia}/${mes}/${ano}` !== "//" ?
+                                    <div className={Style.data_notice}>{`${dia}/${mes}/${ano}`}</div>
+                                                                 :
+                                    <div className={Style.data_notice}>--/--/----</div>
+                                }  
                             </li>
                         </a>
                     </Link>) }                

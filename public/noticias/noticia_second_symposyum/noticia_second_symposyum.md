@@ -1,0 +1,3 @@
+- Na cidade de Santiago, Chile
+- Local: Pontifícia Universidad Católica de Chile
+- Abaixo imagens de alguns momentos.
