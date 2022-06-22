@@ -1,39 +1,31 @@
-import react, { useState } from 'react';
+import react from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
-import style from './producoes.module.css';
-
 import Header from '../components/header';
 import Footer from '../components/footer';
+import Title from '../components/title'
+import Box from '../components/main_box';
+import Item from '../components/item_producao';
 
 
 export default function Producoes(){
 
-    const links = [{nome: "Artigos", link: '/producoes/artigos', src: '/producoes/artigos_icon.png'}, 
-                   {nome: "Livros", link: '/producoes/livros', src: '/producoes/livros_icon.png'},
-                   {nome: "Patentes", link: '/producoes/patentes', src: '/producoes/patente_icon.png'}];
+    let links = [{nome: "Artigos", link: '/producoes/artigos', src: '/images/producoes/artigos_icon.png'}, 
+                 {nome: "Livros", link: '/producoes/livros', src: '/images/producoes/livros_icon.png'},
+                 {nome: "Patentes", link: '/producoes/patentes', src: '/images/producoes/patente_icon.png'}];
+    //console.log(links);
 
     return (
-
-        <div className={style.background}>
-
+        <>
             <Header/>
-            <span></span>
-            <div className={style.boxProducoes}>
-                <span className={style.title}>Produções</span>
-                {links.map((i, index) => {
-                    return (                    
-                        <Link href={i.link} key={index}>
-                            <a className={style.boxItem}>
-                               <Image src={i.src} width={'200px'} height={'200px'}></Image>
-                               <span>{i.nome}</span>
-                            </a>
-                        </Link>)
-                })}
-            </div>            
+            <Title title="Produções"/>
+            <Box invert>
+                {links.map( ({ nome, link, src }, index) => 
+                    <Item key={index} nome={nome} link={link} src={src} />
+                )}
+            </Box>                        
             <Footer/>
-            
-        </div>
+        </>
     );
 }

@@ -40,8 +40,8 @@ export default function Noticias(){
                                     </div>*/
                                     }
                                 </div>
-                                <div className={Style.title_notice}>{titulo}</div>
                                 <div className={Style.data_notice}>{dia}/{mes}/{ano}</div>
+                                <div className={Style.title_notice}>{titulo}</div>                                
                             </li>
                         </a>
                     </Link>) }                

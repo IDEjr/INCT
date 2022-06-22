@@ -8,7 +8,8 @@
     bottom: 0;
 
     display: flex;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
+    overflow: hidden;   
     /*flex-direction: column;*/
     /*justify-content: center;*/
     /*align-items: center;*/
