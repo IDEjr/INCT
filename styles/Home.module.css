@@ -157,6 +157,28 @@
   width: fit-content;
 }
 
+.ver_mais{
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  display: center;
+  margin-left: 800px;
+  margin-right: 800px;
+  position: relative;
+  transition:all 0.4s ease;
+  color: #050505b1;
+}
+
+.ver_mais:hover{
+  color:white;
+  background-color: #050505b1; 
+}
+
 @media (max-width: 1120px)
 {
   .bg2 {
@@ -191,7 +213,6 @@
     margin-right: auto;
     width: 90%;
   }
-
 }
 
 @media (max-width: 424px)

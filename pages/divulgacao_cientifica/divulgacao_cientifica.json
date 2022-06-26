@@ -27,6 +27,21 @@
       "links": ["ufrgs.br", "http://www.google.com"],
       "images": ["img3.png"],
       "youtube": ""
+    },
+
+    {
+      "titulo": "Esta também é uma notícia",
+      "dia": "22",
+      "mes": "06",
+      "ano": "2022",
+      "noticia": "ex_noticia.md",
+      "img_src": "img3.png",
+      "lar": 600,
+      "alt": 450,
+      "link": "/divulgacao_cientifica/ex_noticia",
+      "links": ["ufrgs.br", "http://www.google.com"],
+      "images": ["img3.png"],
+      "youtube": ""
     }
 
 ]
