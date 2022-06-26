@@ -12,7 +12,7 @@ const noticias_list = require('./noticias.json');
 export default function Noticias(){
 
     return (
-
+        
         <div className={Style.background}>
             <Header/>
             <div className={Style.title_bar}>
