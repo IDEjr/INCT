@@ -39,7 +39,7 @@ export default function album_fotos(){
                       height:"50vh",
                       marginTop: "1%"}}>
                         <img src={`/noticias/${img_src}`} className={style.img_capa}/>
-    </div>*/}
+        </div>*/}
 
         <div className={style.box_background}>
             <div className={style.box_text}>
