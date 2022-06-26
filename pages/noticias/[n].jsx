@@ -32,12 +32,14 @@ export default function album_fotos(){
         <div className={style.title_bar}>
             <span className={style.text_title}>Notícias</span>            
         </div>        
-        <div style={{ backgroundImage: `url('/noticias/${img_src}')`, 
+        {/*<div style={{ backgroundImage: `url('/noticias/${img_src}')`,
                       backgroundPosition: "center", 
                       backgroundSize: "cover", 
                       width:"100%", 
                       height:"50vh",
-                      marginTop: "1%"}} />
+                      marginTop: "1%"}}>
+                        <img src={`/noticias/${img_src}`} className={style.img_capa}/>
+    </div>*/}
 
         <div className={style.box_background}>
             <div className={style.box_text}>
