@@ -1,7 +1,6 @@
 import { useEffect, useState} from 'react';
 import { useRouter } from "next/router";
 import { Carousel } from 'react-responsive-carousel';
-import ReactMarkdown from "react-markdown";
 
 import Link from 'next/link';
 import ReactPlayer from 'react-player/youtube';
@@ -57,9 +56,7 @@ export default function album_fotos(){
                             playing={false} 
                         />                                        
                     </div>
-                }
-
-                <ReactMarkdown className={style.text_noticia} children={content}/>
+                }             
 
                 {!images? <></> :
                     <div className={style.box_caurosel}>

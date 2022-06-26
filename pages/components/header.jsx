@@ -3,8 +3,8 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from 'next/image';
 
-import logo from '/public/Header/logo_transp.png';
-import menu_icon from '/public/Header/menu_icon.png';
+import logo from '/public/images/header/logo_transp.png';
+import menu_icon from '/public/images/header/menu_icon.png';
 import style from '/styles/header.module.css';
 
 export default function Header() {
@@ -18,12 +18,11 @@ export default function Header() {
       return(
         <nav className={style.navbar_imenu}>
           <div className={style.box_imenu}>
-            <Link href='/' ><a className={style.item_menu}>Home</a></Link>
             <Link href='/nucleos'><a className={style.item_menu}>Núcleos</a></Link>
             <Link href='/noticias'><a className={style.item_menu}>Notícias</a></Link>
             <Link href='/producoes'><a className={style.item_menu}>Produções</a></Link>
             <Link href='/sobre'><a className={style.item_menu}>Sobre</a></Link>
-            </div>
+          </div>
         </nav>
       );
     }        
@@ -33,12 +32,13 @@ export default function Header() {
     <>
     <Head>
       <title>INCT</title>
-      <link rel="icon" href="/Header/icon_site.png" type="image/icon type"></link>
+      <link rel="icon" href="/images/header/icon_site.png" type="image/icon type"></link>
     </Head>
     <div className={style.header}>
       <div className={style.logo}>
-        <Image src={logo} width={218*0.8} height={139*0.8} className={style.image}/>   
+        <Link href='/'><a><Image src={logo} width={218*0.8} height={139*0.8} className={style.image}/></a></Link>
       </div>
+      
         <nav className={style.navbar}>
             <Link href='/'><a className={style.button}>Home</a></Link>
             <Link href='/nucleos'><a className={style.button}>Núcleos</a></Link>
@@ -49,7 +49,7 @@ export default function Header() {
         <div  className={style.menu}>
           <Image src={menu_icon} width={48} height={48} onClick={() => setMenu_View(!menu_View)}/>
         </div>
-    </div>  
+    </div>    
     <div className={style.line_green}></div>
     <div className={style.line_blue}></div> 
     <div className={style.line_yellow}></div>
