@@ -14,7 +14,7 @@ import Footer from '../components/footer';
 export default function album_fotos(){
 
     const router = useRouter();
-    const {titulo, dia, mes, ano, noticia, img_src, links, images, youtube} = router.query;
+    const {titulo, dia, mes, ano, noticia, img_src, images, youtube} = router.query;
     
     const [content, setContent] = useState("");
     
@@ -76,15 +76,6 @@ export default function album_fotos(){
                             </Carousel>
                         </div>
                     </div>
-                }
-                {// UPDATE: links podem ser colocados no markdown
-                 //!links? <></> :
-                 //   <div className={style.box_links}>
-                 //       <span>Links úteis:</span>
-                 //       <span>
-                 //       {links.map((l, index) => <Link key={index} href={l}><a className={style.box_links}><span>{l}</span></a></Link>)}
-                 //       </span>                    
-                 //   </div>
                 }
             </div>            
         </div>        

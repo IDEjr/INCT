@@ -7,9 +7,25 @@ import Footer from '../components/footer';
 
 import Style from './noticias.module.css';
 
-const noticias_list = require('./noticias.json');
+import { handleJSONfiles } from '../../utils/postHandler';
 
-export default function Noticias(){
+export function getStaticProps() {
+    const noticias = handleJSONfiles('./public/posts/noticias');
+  
+    return {
+      props: { noticias },
+    };
+}
+
+export default function Noticias(props){
+
+    let { noticias } = props    ;
+    for (var i = 0; i < noticias.length; i++) {
+        if(noticias[i]['0'] != undefined)
+            noticias[i] = noticias[i]['0']
+        else
+            noticias[i] = noticias[i]
+    }
 
     return (
 
@@ -20,8 +36,8 @@ export default function Noticias(){
             </div>
 
             <ul className={Style.ul}>                
-                { noticias_list.map( ({titulo, dia, mes, ano, noticia, img_src, alt, lar, link, links, images, youtube}, index) => 
-                    <Link href={{ pathname: link, query: { titulo, dia, mes, ano, noticia, img_src, links, images, youtube }}} key={index}>
+                { noticias.map( ({titulo, dia, mes, ano, noticia, img_src, link, images, youtube}, index) => 
+                    <Link href={{ pathname: link, query: { titulo, dia, mes, ano, noticia, img_src, images, youtube }}} key={index}>
                         <a className={Style.a}>
                             <li className={Style.li}>
                                 <div className={Style.image_notice} style={{
@@ -29,16 +45,6 @@ export default function Noticias(){
                                     backgroundPosition: "center", 
                                     backgroundSize: "cover", 
                                 }}>
-                                    {
-                                    /*<div className={Style.image_style} style={{
-                                        width: 250*alt/lar <= 140 ? 250 : 140*lar/alt,
-                                        height: 250*alt/lar <= 140 ? 250*alt/lar : 140
-                                    }}>
-                                    <Image className={Style.image}  src={`/noticias/${img_src}`} 
-                                           width={250*alt/lar <= 140 ? 250 : 140*lar/alt} 
-                                           height={250*alt/lar <= 140 ? 250*alt/lar : 140}/>
-                                    </div>*/
-                                    }
                                 </div>
                                 {`${dia}/${mes}/${ano}` !== "//" ?
                                     <div className={Style.data_notice}>{`${dia}/${mes}/${ano}`}</div>

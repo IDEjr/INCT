@@ -93,19 +93,14 @@
 {
   text-align: center;
   word-wrap: break-word;
-  margin: 5%;
+  margin: 5% 5% 17% 5%;
 }
 
 .data_notice
 {
   margin: 5%;
+  position: absolute;
   bottom: 0;
-    
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-
-  display: flex;
-  flex-direction: row-reverse;  
 }
 
 /*----------------------------------------------------*/
