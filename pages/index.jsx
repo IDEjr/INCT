@@ -54,12 +54,12 @@ export default function Home() {
                                   backgroundPosition: "center", 
                                   backgroundSize: "cover", 
                               }}/>
-                              <div className={styles_n.title_notice}>{titulo}</div>
                               {`${dia}/${mes}/${ano}` !== "//" ?
                                   <div className={styles_n.data_notice}>{`${dia}/${mes}/${ano}`}</div>
                                                                 :
                                   <div className={styles_n.data_notice}>--/--/----</div>
                               } 
+                              <div className={styles_n.title_notice}>{titulo}</div>
                           </li>
                       </a>
                   </Link>)) }                
