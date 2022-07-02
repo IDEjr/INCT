@@ -76,6 +76,11 @@
   align-items: center;
   border-radius: 5px;
   /*background-color: #87B93F;*/
+} 
+
+.img_capa {
+  height: 100%;
+  margin: auto;
 }
 
 .image_style {
