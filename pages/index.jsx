@@ -1,15 +1,19 @@
 import Head from "next/head";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+import Script from "next/script";
+
 import styles from "../styles/Home.module.css";
 import styles_n from "./noticias/noticias.module.css";
+
 import Header from "./components/header";
 import Footer from "./components/footer";
 //import Carousel from 'react-elastic-carousel';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Item from './producoes/artigos/item_artigo.jsx';
-import Link from "next/link";
+import Item from './components/item_artigos';
+
 
 export default function Home() {
   const noticias_list = require("./noticias/noticias.json");
@@ -17,10 +21,11 @@ export default function Home() {
   const main_carousel = require ("./main_carousel.json");
   const carousel_revistas = require("./carousel_revistas.json");
 
-  return (  
+  return (        
 
     <div className={styles.background}>
       <Header />
+      <Script src="https://identity.netlify.com/v1/netlify-identity-widget.js"/>
       <div className={styles.bg2}>
         <Carousel autoPlay infiniteLoop
                   dynamicHeight
@@ -49,8 +54,8 @@ export default function Home() {
                                   backgroundPosition: "center", 
                                   backgroundSize: "cover", 
                               }}/>
-                              <div className={styles_n.title_notice}>{titulo}</div>
                               <div className={styles_n.data_notice}>{dia}/{mes}/{ano}</div>
+                              <div className={styles_n.title_notice}>{titulo}</div>                              
                           </li>
                       </a>
                   </Link>)) }                
@@ -65,9 +70,10 @@ export default function Home() {
                     dynamicHeight
                     emulateTouch
                     useKeyboardArrows
+                    showIndicators={false} 
                     showThumbs={false} 
                     showStatus={false}
-                    className={styles.carousel}>
+                    className={styles.carousel_revistas}>
             {carousel_revistas.map(({src, doi}, index) =>
             <Link href={doi} key={index}><a className={styles.link_image}>
               <div><img key={index} className={styles.revista} src={src}/></div>
@@ -79,7 +85,7 @@ export default function Home() {
           {articles_list.map(
             ({nome, autores, publicador, versao, paginas, ano, link }, index) =>
               index < 3 && (
-                <li key={index}><Item nome = {nome} autores = {autores} publicador = {publicador} versao = {versao} paginas = {paginas} ano = {ano} link = {link}/></li>
+                <Item key={index} nome = {nome} autores = {autores} publicador = {publicador} versao = {versao} paginas = {paginas} ano = {ano} link = {link} width="100%"/>
               )
           )}
         </ul>

@@ -3,42 +3,53 @@ import react, { useState } from 'react';
 import style from './artigos.module.css';
 
 import Header from '../../components/header';
-import Item from './item_artigo';
 import Footer from '../../components/footer';
+import Title from '../../components/title';
+import Box from '../../components/main_box'
+import Item from '../../components/item_artigos';
+import Search_Box from '../../components/search_box';
 
-const articles_list = require('./artigos.json');
+import { handleJSONfiles } from '../../../utils/postHandler';
 
-export default function Artigos(){
+export function getStaticProps() {
+    const artigos = handleJSONfiles('./public/posts/artigos');
+  
+    return {
+      props: { artigos },
+    };
+}
 
-    const [ itens, setItens ] = useState(articles_list);
+export default function Artigos(props){
+
+    let { artigos } = props;
+
+    const [ itens, setItens ] = useState(artigos);
     
     function handleInputDate(inputDate)
     {
-        setItens(articles_list.filter(({key, nome, autores, publicador, versao, paginas, ano, link}) => { if(inputDate == ano || inputDate == ''){ return true; } return false; }));
-
-    }
+        setItens(artigos.filter(
+            ({ nome, ano}) => 
+                { if(nome.toUpperCase().includes(inputDate.toUpperCase()) || 
+                                                         inputDate == ano || 
+                                                         inputDate == '')
+                    { return true; } 
+                    return false; }));
+    }   
 
     return (
-
-        <div className={style.background}>
-
+        <>
             <Header/>
-            <div className={style.box_artigos}>
-                <span className={style.title}>Artigos</span>
-                <div className={style.box_search}>
-                    <input className={style.search} placeholder='Pesquisa por data, ex: 2009' onChange={e => { handleInputDate(e.target.value) }} />
-                </div>
+            <Title title='Artigos'/>
+            <Box>
+                <Search_Box placeHolder='Pesquisa por nome ou data' func={e => { handleInputDate(e.target.value) }} />
                 <div className={style.box_list_title}>
                     <span className={style.name_list_title}>Nome dos Artigos</span>
                     <span className={style.year_list_title}>Ano</span>
-                </div>
-                <ul className={style.ul}>                
-                    { itens.map( ({nome, autores, publicador, versao, paginas, ano, link}, index) => <li key={index}><Item nome = {nome} autores = {autores} publicador = {publicador} versao = {versao} paginas = {paginas} ano = {ano} link = {link}/></li>) }                
-                </ul>
-            </div>
-
-            <Footer/>
-            
-        </div>
+                </div>            
+                { itens.map( ({nome, autores, publicador, versao, paginas, ano, link}, index) => 
+                    <Item key={index}  nome = {nome} autores = {autores} publicador = {publicador} versao = {versao} paginas = {paginas} ano = {ano} link = {link} width="80vw"/>) }
+            </Box>
+            <Footer/>            
+        </>
     );
 }

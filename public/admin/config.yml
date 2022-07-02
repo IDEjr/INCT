@@ -1,0 +1,41 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+
+  local_backend: true
+  locale: "pt"
+
+media_folder: public/images
+public_folder: images
+collections:  
+  - name: "livros"
+    label: "Livros"      
+    folder: "public/posts/livros"
+    identifier_field: "nome"
+    slug: "livro_{{slug}}"
+    extension: "json"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "nome", name: "nome", widget: "string"}
+      - { label: "pdf", name: "link", widget: "file"}
+      - { label: "capa", name: "src", widget: "image"}
+  
+  - name: "artigos"
+    label: "Artigos"      
+    folder: "public/posts/artigos"
+    identifier_field: "nome"
+    slug: "artigos-{{year}}_{{slug}}"
+    extension: "json"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "nome", name: "nome", widget: "string"}      
+      - { label: "publicador", name: "publicador", widget: "string"}
+      - { label: "versao", name: "versao", widget: "string"}
+      - { label: "paginas", name: "paginas", widget: "string"}
+      - { label: "ano", name: "ano", widget: "string"}
+      - { label: "link", name: "link", widget: "string"}
+      - { label: "autores", name: "autores", widget: "list"}

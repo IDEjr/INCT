@@ -27,11 +27,13 @@ export default function album_fotos(){
                 <span className={style.title}>{title}</span>  
 
                 <div className={style.box_content}>
+                    { list_pesquisadores.length === 0 ? <></> :
+                    <>
                     <div className={style.box_list_title_round}>
-                        <span className={style.name_list_title}>Pesquisadores</span>
+                        <span className={style.name_list_title}>Equipe</span>
                     </div>
                     <ul className={style.list_pesq}>                
-                        { list_pesquisadores.map( ({nome, imagem, link}, index) => 
+                        { list_pesquisadores.map( ({nome, imagem, link, cargo}, index) => 
                             <Link key={index} href={link}><a className={style.link_pesq}>
                                 <li className={style.box_pesq}>
                                     <div className={style.image_pesq} style={{
@@ -40,11 +42,17 @@ export default function album_fotos(){
                                         backgroundSize: "cover", 
                                     }}>
                                     </div>
-                                    <div className={style.text_pesq}>{nome}</div>
+                                    <div className={style.text_pesq}>{nome}
+                                    <div className={style.text_cargo}>{cargo}</div>
+                                    </div>
                                 </li> 
-                            </a></Link>) }                
+                            </a></Link>)}                 
                     </ul>
+                    </>
+                    }
 
+                    { list_estrutura.length === 0 ? <></> :
+                    <>
                     <div className={style.box_list_title}>
                         <span className={style.name_list_title}>Estrutura</span>
                     </div>
@@ -62,7 +70,11 @@ export default function album_fotos(){
                             )}
                         </Carousel>
                     </div>
+                    </>
+                    }
 
+                    { list_galeria.length === 0 ? <></> :
+                    <>
                     <div className={style.box_list_title}>
                         <span className={style.name_list_title}>Galeria</span>
                     </div>
@@ -75,6 +87,8 @@ export default function album_fotos(){
                             )}
                         </Carousel>
                     </div>
+                    </>
+                    }
                 </div>
             </div>
 

@@ -32,10 +32,10 @@
 
 .text {
     color: black;
-    text-align: justify;
     font-weight: normal;
-    font-size: 22px;
+    font-size: 1.2rem;
     font-family: 'Roboto', sans-serif;
+    overflow: hidden;
 }
 
 .mission .text {
@@ -71,17 +71,26 @@
 
 .options {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
+    flex-wrap: wrap;
     padding: 5% 0 35% 0;
 }
 
 .button {
     background-color: #EBEBEB;
-    margin: auto;
+    margin: 10px;
     font-size: 25px;
     color: black;
     border: 2px solid #c7c7c7;
     padding: 1% 4% 1% 4%;
+    min-width: 250px;
+}
+
+.button:hover {
+    color: white;
+    background-color: rgba(161, 161, 161, 1);
 }
 
 @media (max-width: 1250px) {
@@ -92,4 +101,18 @@
     .text_box{
         margin: auto;
     }
+}
+
+@media (max-width: 1120px)
+{
+  .box {
+    width: 90%;
+  }
+}
+
+@media (max-width: 424px)
+{
+  .box {
+    width: 95%;
+  }
 }
