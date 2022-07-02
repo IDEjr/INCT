@@ -50,24 +50,26 @@
 
 .title_page1 {
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-size: 420%;  /*nice*/
+  /*font-family: 'Roboto', sans-serif;*/
+  font-size: 4.2em;  /*nice*/
   color: white;
   margin: 0px;
+  font-weight: 400;
   /*padding-top: 18px;*/
 }
 
 .subtitle_page1 {
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-size: 150%; 
+  /*font-family: 'Roboto', sans-serif;*/
+  font-size: 1.45em; 
   color: white;
   margin: 0px;
+  font-weight: 450;
 }
 
 .description_page2 {
   text-align: justify;
-  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
   font-size: 100%; 
   font-style: italic;
   color: white;
@@ -151,8 +153,4 @@
   .nucleo {
     width: 95%;
   }
-}
-.todosNucleos{
-  font-variant:small-caps;
-  font-size: smaller;
 }
