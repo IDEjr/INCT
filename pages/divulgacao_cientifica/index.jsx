@@ -8,8 +8,6 @@ import { handleJSONfiles } from '../../utils/postHandler';
 
 import Style from "./divulgacao_cientifica.module.css";
 
-const divulgacao_list = require("./divulgacao_cientifica.json");
-
 export function getStaticProps() {
   const divulgacao_cientifica = handleJSONfiles('./public/posts/divulgacao_cientifica');
 
@@ -19,7 +17,7 @@ export function getStaticProps() {
 }
 
 
-export default function Divulgacao_cientifica() {
+export default function Divulgacao_cientifica(props) {
 
   let { divulgacao_cientifica } = props;
   for (var i = 0; i < divulgacao_cientifica.length; i++) {
@@ -35,7 +33,7 @@ export default function Divulgacao_cientifica() {
       </div>
 
       <ul className={Style.ul}>
-        {divulgacao_list.map(
+        {divulgacao_cientifica.map(
           (
             {
               titulo,
@@ -87,6 +85,7 @@ export default function Divulgacao_cientifica() {
                   ) : (
                     <div className={Style.data_notice}>--/--/----</div>
                   )}
+                    <div className={Style.title_notice}>{titulo}</div>
                 </li>
               </a>
             </Link>

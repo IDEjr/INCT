@@ -65,26 +65,26 @@ export default function Home() {
       <div className={styles.title_bar}>
         <h2 className={styles.text_title}>Divulgações Científicas</h2>
       </div>
-      <ul className={styles_d.ul}>                
-                { divulgacao_list.map( ({titulo, dia, mes, ano, noticia, img_src, link, links, images, youtube}, index) => 
-                    index < 3 && (
-                      <Link href={{ pathname: link, query: { titulo, dia, mes, ano, noticia, img_src, links, images, youtube }}} key={index}>
-                      <a className={styles_d.a}>
-                          <li className={styles_d.li}>
-                              <div className={styles_d.image_notice} style={{
-                                  backgroundImage: `url('/divulgacao_cientifica/${img_src}')`, 
-                                  backgroundPosition: "center", 
-                                  backgroundSize: "cover", 
-                              }}/>
-                              <div className={styles_d.title_notice}>{titulo}</div>
-                              <div className={styles_d.data_notice}>{dia}/{mes}/{ano}</div>
-                          </li>
-                      </a>
-                  </Link>)) }    
-                  <Link href="divulgacao_cientifica"><a>
-                  <div className={styles.ver_mais}>Ver mais...</div>
-                  </a></Link>
-            </ul>
+      <ul className={styles.ul_divulgacao}>                
+          { divulgacao_list.map( ({titulo, dia, mes, ano, noticia, img_src, link, links, images, youtube}, index) => 
+              index < 3 && (
+                <Link href={{ pathname: link, query: { titulo, dia, mes, ano, noticia, img_src, links, images, youtube }}} key={index}>
+                <a className={styles_d.a}>
+                    <li className={styles_d.li}>
+                        <div className={styles_d.image_notice} style={{
+                            backgroundImage: `url('/divulgacao_cientifica/${img_src}')`, 
+                            backgroundPosition: "center", 
+                            backgroundSize: "cover", 
+                        }}/>
+                        <div className={styles_d.title_notice}>{titulo}</div>
+                        <div className={styles_d.data_notice}>{dia}/{mes}/{ano}</div>
+                    </li>
+                </a>
+            </Link>)) }    
+      </ul>
+      <Link href="divulgacao_cientifica"><a>
+        <div className={styles.ver_mais}>Ver mais...</div>
+      </a></Link>
         
       
       <div className={styles.title_bar2}>

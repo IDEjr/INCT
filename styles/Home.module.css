@@ -157,19 +157,27 @@
   width: fit-content;
 }
 
+.ul_divulgacao{
+  margin: 2% 0 0 0;
+  padding: 0;
+  width: 100%;  
+  
+  display: flex;
+  flex-wrap: wrap;  
+  list-style-type: none;
+  justify-content: center;
+  justify-self: center;
+}
+
 .ver_mais{
   background-color: rgba(255, 255, 255, 0.5);
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  align-items: center;
+  padding: 20px;
+  width: 180px;
   text-align: center;
   font-size: 18px;
   display: center;
-  margin-left: 800px;
-  margin-right: 800px;
-  position: relative;
+  margin: auto;
+  margin-bottom: 5%;
   transition:all 0.4s ease;
   color: #050505b1;
 }
