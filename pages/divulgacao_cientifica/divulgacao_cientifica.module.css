@@ -201,4 +201,21 @@
   {
     width: 95%;
   }
+  .image_notice
+  {
+  width: 300px;
+  }
+  .a{
+    max-width: 300px;
+  }
+
+@media (max-width: 300px){
+  .image_notice
+  {
+  width: 200px;
+  }
+  .a{
+    max-width: 200px;
+  }
+}
 }

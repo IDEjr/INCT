@@ -4,12 +4,29 @@ import Link from "next/link";
 
 import Header from "../components/header";
 import Footer from "../components/footer";
+import { handleJSONfiles } from '../../utils/postHandler';
 
 import Style from "./divulgacao_cientifica.module.css";
 
 const divulgacao_list = require("./divulgacao_cientifica.json");
 
+export function getStaticProps() {
+  const divulgacao_cientifica = handleJSONfiles('./public/posts/divulgacao_cientifica');
+
+  return {
+    props: { divulgacao_cientifica },
+  };
+}
+
+
 export default function Divulgacao_cientifica() {
+
+  let { divulgacao_cientifica } = props;
+  for (var i = 0; i < divulgacao_cientifica.length; i++) {
+    if (divulgacao_cientifica[i]["0"] != undefined) divulgacao_cientifica[i] = divulgacao_cientifica[i]["0"];
+    else divulgacao_cientifica[i] = divulgacao_cientifica[i];
+  }
+
   return (
     <div className={Style.background}>
       <Header />
@@ -63,10 +80,13 @@ export default function Divulgacao_cientifica() {
                       backgroundSize: "cover",
                     }}
                   ></div>
-                  <div className={Style.title_notice}>{titulo}</div>
-                  <div className={Style.data_notice}>
-                    {dia}/{mes}/{ano}
-                  </div>
+                  {`${dia}/${mes}/${ano}` !== "//" ? (
+                    <div
+                      className={Style.data_notice}
+                    >{`${dia}/${mes}/${ano}`}</div>
+                  ) : (
+                    <div className={Style.data_notice}>--/--/----</div>
+                  )}
                 </li>
               </a>
             </Link>
