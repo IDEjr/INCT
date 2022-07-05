@@ -1,12 +1,13 @@
 backend:
   name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+  branch: ISSUE#85 # Branch to update (optional; defaults to master)
 
-  local_backend: true
-  locale: "pt"
-
+publish_mode: editorial_workflow
+local_backend: true
+locale: "pt"
 media_folder: public/images
 public_folder: images
+
 collections:  
   - name: "livros"
     label: "Livros"      
