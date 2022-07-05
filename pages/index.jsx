@@ -14,12 +14,21 @@ import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Item from './components/item_artigos';
 
+import { handleJSONfiles } from '../utils/postHandler';
 
-export default function Home() {
-  const noticias_list = require("./noticias/noticias.json");
-  const articles_list = require("./producoes/artigos/artigos.json");
-  const main_carousel = require ("./main_carousel.json");
-  const carousel_revistas = require("./carousel_revistas.json");
+export function getStaticProps() {
+    const articles_list = handleJSONfiles('./public/posts/artigos');
+    const noticias_list = require("./noticias/noticias.json");
+    const main_carousel = require ("./main_carousel.json");
+    const carousel_revistas = require("./carousel_revistas.json");
+  
+    return {
+      props: { articles_list, noticias_list, main_carousel, carousel_revistas },
+    };
+}
+
+
+export default function Home(props) {
 
   return (        
 
@@ -34,7 +43,7 @@ export default function Home() {
                   showThumbs={false} 
                   showStatus={false}
                   className={styles.carousel}>
-          {main_carousel.map(({src, para}, index) => 
+          {props.main_carousel.map(({src, para}, index) => 
           <Link href={para} key={index}><a>
           <Image className={styles.image} src={src} width="800px" height="500px"/>
           </a></Link>)}
@@ -44,7 +53,7 @@ export default function Home() {
         <h2 className={styles.text_title}>Últimas notícias</h2>
       </div>
       <ul className={styles_n.ul}>                
-                { noticias_list.map( ({titulo, dia, mes, ano, noticia, img_src, link, links, images, youtube}, index) => 
+                { props.noticias_list.map( ({titulo, dia, mes, ano, noticia, img_src, link, links, images, youtube}, index) => 
                     index < 3 && (
                       <Link href={{ pathname: link, query: { titulo, dia, mes, ano, noticia, img_src, links, images, youtube }}} key={index}>
                       <a className={styles_n.a}>
@@ -78,7 +87,7 @@ export default function Home() {
                     showThumbs={false} 
                     showStatus={false}
                     className={styles.carousel_revistas}>
-            {carousel_revistas.map(({src, doi}, index) =>
+            {props.carousel_revistas.map(({src, doi}, index) =>
             <Link href={doi} key={index}><a className={styles.link_image}>
               <div><img key={index} className={styles.revista} src={src}/></div>
             </a></Link>)}
@@ -86,7 +95,7 @@ export default function Home() {
         </div>
         
         <ul className={styles.ul2}>
-          {articles_list.map(
+          {props.articles_list.map(
             ({nome, autores, publicador, versao, paginas, ano, link }, index) =>
               index < 3 && (
                 <Item key={index} nome = {nome} autores = {autores} publicador = {publicador} versao = {versao} paginas = {paginas} ano = {ano} link = {link} width="100%"/>

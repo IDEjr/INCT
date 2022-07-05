@@ -39,3 +39,15 @@ collections:
       - { label: "ano", name: "ano", widget: "string"}
       - { label: "link", name: "link", widget: "string"}
       - { label: "autores", name: "autores", widget: "list"}
+  - name: "patentes"
+    label: "Patentes"      
+    folder: "public/posts/patentes"
+    identifier_field: "nome"
+    slug: "{{slug}}"
+    extension: "json"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "nome", name: "nome", widget: "string"}      
+      - { label: "link", name: "link", widget: "string"}
