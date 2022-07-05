@@ -14,7 +14,7 @@ import Footer from '../components/footer';
 export default function album_fotos(){
 
     const router = useRouter();
-    const {titulo, dia, mes, ano, noticia, img_src, links, images, youtube} = router.query;
+    const {titulo, dia, mes, ano, noticia, img_src, images, youtube} = router.query;
     
     const [content, setContent] = useState("");
     
@@ -32,18 +32,24 @@ export default function album_fotos(){
         <div className={style.title_bar}>
             <span className={style.text_title}>Notícias</span>            
         </div>        
-        <div style={{ backgroundImage: `url('/noticias/${img_src}')`, 
+        {/*<div style={{ backgroundImage: `url('/noticias/${img_src}')`,
                       backgroundPosition: "center", 
                       backgroundSize: "cover", 
                       width:"100%", 
                       height:"50vh",
-                      marginTop: "1%"}} />
+                      marginTop: "1%"}}>
+                        <img src={`/noticias/${img_src}`} className={style.img_capa}/>
+        </div>*/}
 
         <div className={style.box_background}>
             <div className={style.box_text}>
                 <div className={style.box_text_title}>
                     <span>{titulo}</span>
-                    <span>{`${dia}/${mes}/${ano}`}</span>                    
+                    {`${dia}/${mes}/${ano}` !== "//" ?
+                        <span>{`${dia}/${mes}/${ano}`}</span>
+                                                    :
+                        <span></span>
+                    }              
                 </div>
                 {!youtube ? <></> :
                     <div className={style.box_player}>
@@ -72,15 +78,6 @@ export default function album_fotos(){
                             </Carousel>
                         </div>
                     </div>
-                }
-                {// UPDATE: links podem ser colocados no markdown
-                 //!links? <></> :
-                 //   <div className={style.box_links}>
-                 //       <span>Links úteis:</span>
-                 //       <span>
-                 //       {links.map((l, index) => <Link key={index} href={l}><a className={style.box_links}><span>{l}</span></a></Link>)}
-                 //       </span>                    
-                 //   </div>
                 }
             </div>            
         </div>        
