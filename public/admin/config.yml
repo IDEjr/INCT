@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: ISSUE#85 # Branch to update (optional; defaults to master)
+  branch: netlify # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
 local_backend: true
