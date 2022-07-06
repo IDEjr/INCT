@@ -13,7 +13,7 @@ collections:
     label: "Livros"      
     folder: "public/posts/livros"
     identifier_field: "nome"
-    slug: "livro_{{slug}}"
+    slug: "livro-{{slug}}"
     extension: "json"
     create: true
     editor:
@@ -27,7 +27,7 @@ collections:
     label: "Artigos"      
     folder: "public/posts/artigos"
     identifier_field: "nome"
-    slug: "artigos-{{year}}_{{slug}}"
+    slug: "artigo-{{ano}}-{{slug}}"
     extension: "json"
     create: true
     editor:
@@ -44,7 +44,7 @@ collections:
     label: "Patentes"      
     folder: "public/posts/patentes"
     identifier_field: "nome"
-    slug: "patente-{{link}}-{{slug}}"
+    slug: "patente-{{slug}}"
     extension: "json"
     create: true
     editor:
