@@ -44,7 +44,7 @@ collections:
     label: "Patentes"      
     folder: "public/posts/patentes"
     identifier_field: "nome"
-    slug: "{{slug}}"
+    slug: "patente-{{field.link}}_{{slug}}"
     extension: "json"
     create: true
     editor:
