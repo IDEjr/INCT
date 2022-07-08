@@ -28,7 +28,7 @@ export default function Noticias(props){
     }
 
     return (
-
+        
         <div className={Style.background}>
             <Header/>
             <div className={Style.title_bar}>

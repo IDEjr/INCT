@@ -1,0 +1,47 @@
+[
+  {
+    "titulo": "Laboratório de Catálise Molecular - IQ - UFRGS",
+    "dia": "22",
+    "mes": "06",
+    "ano": "2022",
+    "noticia": "lamoca.md",
+    "img_src": "lamoca.jpg",
+    "lar": 600,
+    "alt": 450,
+    "link": "/divulgacao_cientifica/lamoca",
+    "links": ["ufrgs.br", "http://www.google.com"],
+    "images": [""],
+    "youtube": "https://www.youtube.com/watch?v=-eBWQx0UMV4"
+  },
+
+    {
+      "titulo": "Esta é uma notícia",
+      "dia": "22",
+      "mes": "06",
+      "ano": "2022",
+      "noticia": "ex_noticia.md",
+      "img_src": "img3.png",
+      "lar": 600,
+      "alt": 450,
+      "link": "/divulgacao_cientifica/ex_noticia",
+      "links": ["ufrgs.br", "http://www.google.com"],
+      "images": ["img3.png"],
+      "youtube": ""
+    },
+
+    {
+      "titulo": "Esta também é uma notícia",
+      "dia": "22",
+      "mes": "06",
+      "ano": "2022",
+      "noticia": "ex_noticia.md",
+      "img_src": "img3.png",
+      "lar": 600,
+      "alt": 450,
+      "link": "/divulgacao_cientifica/ex_noticia",
+      "links": ["ufrgs.br", "http://www.google.com"],
+      "images": ["img3.png"],
+      "youtube": ""
+    }
+
+]
