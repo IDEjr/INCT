@@ -24,18 +24,15 @@ function Nucleos() {
   lista_nucleos = zip([lista_nucleos, length_pesquisadores])
   lista_nucleos.sort(function(a,b){return b[1] - a[1]})
   lista_nucleos = lista_nucleos.filter(function(value, index, arr){return value[1] != 0})
-  //console.log(lista_nucleos)
+  console.log(lista_nucleos)
 
     return (
         <div className={style.background}>
-          <link rel="preconnect" href="https://fonts.googleapis.com"/>  
-          <link rel="preconnect" href="https://fonts.gstatic.com"/>
-          <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"/>
-
           <Header/>
                     
           <span className={style.title}>Núcleos</span>          
 
+          <div className={style.todosNucleos}>
           {lista_nucleos.map( ([{fundo, brasaoSrc, brasaoLar, brasaoAlt, titulo, subtitulo, credito, link}, len], index) => 
           <Item key = {index}
             fundo = {`/nucleos/main/${link}/${fundo}`}
@@ -44,8 +41,8 @@ function Nucleos() {
             default={<Page1 titulo = {titulo} subtitulo = {subtitulo}/>} 
             title = {titulo}
             link = {link}
-          />
-          )}
+          />)}
+          </div>
           
           
           <Footer/>
