@@ -157,6 +157,36 @@
   width: fit-content;
 }
 
+.ul_divulgacao{
+  margin: 2% 0 0 0;
+  padding: 0;
+  width: 100%;  
+  
+  display: flex;
+  flex-wrap: wrap;  
+  list-style-type: none;
+  justify-content: center;
+  justify-self: center;
+}
+
+.ver_mais{
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  width: 180px;
+  text-align: center;
+  font-size: 18px;
+  display: center;
+  margin: auto;
+  margin-bottom: 5%;
+  transition:all 0.4s ease;
+  color: #050505b1;
+}
+
+.ver_mais:hover{
+  color:white;
+  background-color: #050505b1; 
+}
+
 @media (max-width: 1120px)
 {
   .bg2 {
@@ -191,7 +221,6 @@
     margin-right: auto;
     width: 90%;
   }
-
 }
 
 @media (max-width: 424px)

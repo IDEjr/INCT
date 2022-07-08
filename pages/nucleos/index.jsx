@@ -24,7 +24,7 @@ function Nucleos() {
   lista_nucleos = zip([lista_nucleos, length_pesquisadores])
   lista_nucleos.sort(function(a,b){return b[1] - a[1]})
   lista_nucleos = lista_nucleos.filter(function(value, index, arr){return value[1] != 0})
-  console.log(lista_nucleos)
+  //console.log(lista_nucleos)
 
     return (
         <div className={style.background}>
@@ -33,8 +33,7 @@ function Nucleos() {
           <span className={style.title}>Núcleos</span>          
 
           <div className={style.todosNucleos}>
-          {lista_nucleos.map( ([{fundo, brasaoSrc, brasaoLar, brasaoAlt, titulo, subtitulo,
-                                p1, p2, link1, nome1, desc1, link2, nome2, desc2, credito, link}, _], index) => 
+          {lista_nucleos.map( ([{fundo, brasaoSrc, brasaoLar, brasaoAlt, titulo, subtitulo, credito, link}, len], index) => 
           <Item key = {index}
             fundo = {`/nucleos/main/${link}/${fundo}`}
             brasao = {<Image src={`/nucleos/main/${link}/${brasaoSrc}`} height={95*brasaoAlt/brasaoLar} width={95}/>}
