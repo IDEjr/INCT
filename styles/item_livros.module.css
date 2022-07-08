@@ -1,0 +1,54 @@
+.boxItem
+{
+    margin-top: 2px;
+    border-radius: 5px;
+    font-size: 2rem;
+    padding: 2%;
+
+    background-color: #ebebeb9a;   
+
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    overflow: hidden;
+    z-index: 0;
+    
+    transition:all 0.3s ease;
+}
+
+.boxItem:hover
+{
+    background-color: #050505b1;
+    color: white; 
+    transform: scale(1.02);
+    z-index: 1;     
+}
+
+.boxDescricao
+{
+    margin: 0 2% 0 2%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .boxItem
+    {
+        padding: 5% 0 5% 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .boxDescricao
+    {
+        margin-top: 5%;
+        width: 80%;
+    }
+  }

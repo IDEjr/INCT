@@ -1,0 +1,26 @@
+.boxItem
+{
+    margin: 2%;
+    border-radius: 5px;
+    font-size: 24px;
+
+    background-color: #ebebeb7e;
+    height: 300px;
+    width: 300px;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transition:all 0.3s ease;
+}
+
+.boxItem:hover
+{
+    background-color: #050505b1;
+    color: white;
+    transform: scale(1.1);     
+}

@@ -1,17 +1,8 @@
 [
 	{
-		"nome": "Pesquisador 1",
-		"imagem": "exemplo_pesq.png",
-		"link": "https://www.google.com"
-	},
-	{
-		"nome": "Pesquisador 2",
-		"imagem": "exemplo_pesq.png",
-		"link": "https://www.google.com"
-	},
-	{
-		"nome": "Pesquisador 3",
-		"imagem": "exemplo_pesq.png",
-		"link": "https://www.google.com"
+		"nome": "Paulo Anselmo Ziani Suarez",
+		"cargo":"Membro do Comitê Gestor e Coord. Local",
+		"imagem": "Paulo Anselmo.jpg",
+		"link": "http://www.pesquisar.unb.br/professor/paulo-anselmo-ziani-suarez"
 	}
 ]

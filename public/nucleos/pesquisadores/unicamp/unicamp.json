@@ -1,17 +1,32 @@
 [
 	{
-		"nome": "Pesquisador 1",
-		"imagem": "exemplo_pesq.png",
-		"link": "https://www.google.com"
+		"nome": "Watson Loh",
+		"cargo":"Membro do Comitê Gestor e Coord. Local",
+		"imagem": "watson_loh.jpg",
+		"link": "https://www.iqm.unicamp.br/institucional-departamentos/watson-loh"
 	},
 	{
-		"nome": "Pesquisador 2",
-		"imagem": "exemplo_pesq.png",
-		"link": "https://www.google.com"
+		"nome": "René Alfonso Nome Silva",
+		"cargo": "Membro do Comitê Gestor",
+		"imagem": "René Alfonso Nome Silva .jpg",
+		"link": "https://iqm.unicamp.br/institucional-departamentos/ren%C3%A9-alfonso-nome-silva"
 	},
 	{
-		"nome": "Pesquisador 3",
-		"imagem": "exemplo_pesq.png",
-		"link": "https://www.google.com"
+		"nome": "Edvaldo Sabadini",
+		"cargo": "Pesquisador",
+		"imagem": "Edvaldo.jpg",
+		"link": "https://iqm.unicamp.br/institucional-departamentos/edvaldo-sabadini"
+	},
+	{
+		"nome": "lgor Dias Jurberg ",
+		"cargo": "Pesquisador",
+		"imagem": "igor-dias-jurberg.jpg",
+		"link": "https://www.iqm.unicamp.br/institucional-departamentos/igor-dias-jurberg"
+	},
+	{
+		"nome": "Jackson Dirceu Megiatto Junior",
+		"cargo": "Pesquisador",
+		"imagem": "jackson dirceu.jpg",
+		"link": "https://www.iqm.unicamp.br/institucional-departamentos/jackson-dirceu-megiatto-jr"
 	}
 ]

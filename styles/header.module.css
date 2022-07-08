@@ -120,7 +120,7 @@
     background-color: #FAC70A;
 }
 
-@media (max-width: 1120px) {
+@media (max-width: 1450px) {
     .navbar
     {
         display: none;
