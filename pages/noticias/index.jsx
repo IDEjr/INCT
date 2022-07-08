@@ -8,6 +8,7 @@ import Footer from '../components/footer';
 import Style from './noticias.module.css';
 
 import { handleJSONfiles } from '../../utils/postHandler';
+import compara_data from '../components/compara_data';
 
 export function getStaticProps() {
     const noticias = handleJSONfiles('./public/posts/noticias');
@@ -26,6 +27,9 @@ export default function Noticias(props){
         else
             noticias[i] = noticias[i]
     }
+    console.log(noticias)
+
+    noticias.sort(compara_data).reverse()
 
     return (
         

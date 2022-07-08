@@ -5,6 +5,7 @@ import Link from "next/link";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import { handleJSONfiles } from '../../utils/postHandler';
+import compara_data from "../components/compara_data";
 
 import Style from "./divulgacao_cientifica.module.css";
 
@@ -24,6 +25,8 @@ export default function Divulgacao_cientifica(props) {
     if (divulgacao_cientifica[i]["0"] != undefined) divulgacao_cientifica[i] = divulgacao_cientifica[i]["0"];
     else divulgacao_cientifica[i] = divulgacao_cientifica[i];
   }
+
+  divulgacao_cientifica.sort(compara_data).reverse();
 
   return (
     <div className={Style.background}>

@@ -15,21 +15,36 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Item from './components/item_artigos';
 
 import { handleJSONfiles } from '../utils/postHandler';
+import compara_data from "./components/compara_data";
 
 export function getStaticProps() {
     const articles_list = handleJSONfiles('./public/posts/artigos');
-    const noticias_list = require("./noticias/noticias.json");
+    const noticias_list = handleJSONfiles("./public/posts/noticias");
+    const divulgacao_list = handleJSONfiles("./public/posts/divulgacao_cientifica")
     const main_carousel = require ("./main_carousel.json");
     const carousel_revistas = require("./carousel_revistas.json");
-    const divulgacao_list = require("/pages/divulgacao_cientifica/divulgacao_cientifica.json");
 
     return {
-      props: { articles_list, noticias_list, main_carousel, carousel_revistas , divulgacao_list},
+      props: { articles_list, noticias_list, divulgacao_list, main_carousel, carousel_revistas},
     };
 }
 
 
 export default function Home(props) {
+
+  for (var i = 0; i < props.divulgacao_list.length; i++) {
+    if (props.divulgacao_list[i]["0"] != undefined) 
+    props.divulgacao_list[i] = props.divulgacao_list[i]["0"];
+  }
+
+  props.divulgacao_list.sort(compara_data).reverse()
+
+  for (var i = 0; i < props.noticias_list.length; i++) {
+    if (props.noticias_list[i]["0"] != undefined) 
+    props.noticias_list[i] = props.noticias_list[i]["0"];
+  }
+
+  props.noticias_list.sort(compara_data).reverse()
 
   return (        
 
