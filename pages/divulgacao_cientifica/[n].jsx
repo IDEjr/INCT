@@ -32,12 +32,6 @@ export default function album_fotos(){
         <div className={style.title_bar}>
             <span className={style.text_title}>Divulgação Científica</span>            
         </div>        
-        <div style={{ backgroundImage: `url('/divulgacao_cientifica/${img_src}')`, 
-                      backgroundPosition: "center", 
-                      backgroundSize: "cover", 
-                      width:"100%", 
-                      height:"50vh",
-                      marginTop: "1%"}} />
 
         <div className={style.box_background}>
             <div className={style.box_text}>
