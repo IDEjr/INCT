@@ -15,10 +15,10 @@ export default function Main_Box(props) {
             justifyContent: "flex-start",
             alignItems: "center",
 
-            minHeight: "30vw",
+            //minHeight: "30vw",
 
-            marginTop: "10px",
-            marginBottom: "10px"
+            //marginTop: "10px",
+            marginBottom: "20px"
         }
 
     }else
@@ -30,10 +30,10 @@ export default function Main_Box(props) {
             alignItems: "center",
             flexWrap: "wrap",
 
-            minHeight: "30vw",
+            //minHeight: "30vw",
 
-            marginTop: "10px",
-            marginBottom: "10px"
+            //marginTop: "10px",
+            marginBottom: "5vw"
         }
     }   
 

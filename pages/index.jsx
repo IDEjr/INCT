@@ -16,6 +16,7 @@ import Item from './components/item_artigos';
 
 import { handleJSONfiles } from '../utils/postHandler';
 import compara_data from "./components/compara_data";
+import ReactPlayer from 'react-player/youtube';
 
 export function getStaticProps() {
     const articles_list = handleJSONfiles('./public/posts/artigos');
@@ -59,9 +60,9 @@ export default function Home(props) {
                   showThumbs={false} 
                   showStatus={false}
                   className={styles.carousel}>
-          {props.main_carousel.map(({src, para}, index) => 
+          {props.main_carousel.map(({src, para, width, height}, index) => 
           <Link href={para} key={index}><a>
-          <Image className={styles.image} src={src} width="800px" height="500px"/>
+          <Image className={styles.image} src={src} width={width} height={height}/>
           </a></Link>)}
         </Carousel>
       </div>
@@ -91,11 +92,11 @@ export default function Home(props) {
             </ul>
 
       <div className={styles.title_bar}>
-        <h2 className={styles.text_title}>Divulgações Científicas</h2>
+        <h2 className={styles.text_title}>Divulgação Científica</h2>
       </div>
       <ul className={styles.ul_divulgacao}>                
           { props.divulgacao_list.map( ({titulo, dia, mes, ano, noticia, img_src, link, links, images, youtube}, index) => 
-              index < 3 && (
+              index < 2 && (
                 <Link href={{ pathname: link, query: { titulo, dia, mes, ano, noticia, img_src, links, images, youtube }}} key={index}>
                 <a className={styles_d.a}>
                     <li className={styles_d.li}>
@@ -110,7 +111,7 @@ export default function Home(props) {
                 </a>
             </Link>)) }    
       </ul>
-      <Link href="divulgacao_cientifica"><a>
+      <Link href="/divulgacao_cientifica"><a>
         <div className={styles.ver_mais}>Ver mais...</div>
       </a></Link>
         

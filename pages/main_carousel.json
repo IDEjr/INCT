@@ -1,8 +1,6 @@
 
 [
-    {"src": "/banner_carousel.png", "para": "#id-footer"},
-    {"src": "/images/header/logo_transp.png", "para": "/"},
-    {"src": "/images/header/logo_transp.png", "para": "/"}
+    {"src": "/banner_carousel.png", "para": "#id-footer", "width": 800, "height": 500}
 
 ]
 

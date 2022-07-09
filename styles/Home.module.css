@@ -141,6 +141,9 @@
   margin: 2% auto 2% auto;
   width: 80%;
   border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .bg3 {
