@@ -20,8 +20,8 @@ collections:
       preview: false
     fields:
       - { label: "nome", name: "nome", widget: "string"}
-      - { label: "pdf", name: "link", widget: "file", folder: "public/files/livros", media_folder: "livros"}
-      - { label: "capa", name: "src", widget: "image", folder: "public/images/livros", media_folder: "livros"}
+      - { label: "pdf", name: "link", widget: "file", media_folder: "files"}
+      - { label: "capa", name: "src", widget: "image", media_folder: "images"}
   
   - name: "artigos"
     label: "Artigos"      
