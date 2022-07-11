@@ -51,4 +51,4 @@ collections:
       preview: false
     fields:
       - { label: "nome", name: "nome", widget: "string"}      
-      - { label: "link", name: "link", widget: "string"}
+      - { label: "pdf", name: "link", widget: "file", media_folder: "files" }
