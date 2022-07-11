@@ -13,15 +13,15 @@ collections:
     label: "Livros"      
     folder: "public/posts/livros"
     identifier_field: "nome"
-    slug: "livro-{{slug}}"
+    slug: "{{slug}}"
     extension: "json"
     create: true
     editor:
       preview: false
     fields:
       - { label: "nome", name: "nome", widget: "string"}
-      - { label: "pdf", name: "link", widget: "file", folder: "public/files/livros"}
-      - { label: "capa", name: "src", widget: "image", folder: "public/images/livros"}
+      - { label: "pdf", name: "link", widget: "file", folder: "public/files/livros", media_folder: "livros"}
+      - { label: "capa", name: "src", widget: "image", folder: "public/images/livros", media_folder: "livros"}
   
   - name: "artigos"
     label: "Artigos"      
