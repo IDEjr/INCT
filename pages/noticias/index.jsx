@@ -6,6 +6,7 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import Title from '../components/title';
 import Box from '../components/main_box';
+import Item from '../components/item_noticias'
 
 import Style from './noticias.module.css';
 
@@ -24,30 +25,14 @@ export default function Noticias(props){
 
     let { noticias } = props;
 
-    console.log(noticias);
-
     return (
         <>
             <Header/>
             <Title title='Notícias' color='#87B93F' />
             <Box invert>
-                { noticias.map( ({titulo, dia, mes, ano, noticia, img_src, link, images, youtube}, index) => 
-                    <Link href={{ pathname: link}} key={index}>
-                        <a className={Style.a}>
-                                <div className={Style.image_notice} style={{
-                                    backgroundImage: `url('/noticias/${img_src}')`, 
-                                    backgroundPosition: "center", 
-                                    backgroundSize: "cover", 
-                                }}>
-                                </div>
-                                { dia && mes && ano ?
-                                    <div className={Style.data_notice}>{`${dia}/${mes}/${ano}`}</div>
-                                                                :
-                                    <div className={Style.data_notice}/>
-                                }  
-                                <div className={Style.title_notice}>{titulo}</div>
-                        </a>
-                    </Link>) }
+                { noticias.map( ({titulo, dia, mes, ano, img_src, fileName}, index) => 
+                        <Item key={index} titulo={titulo} dia={dia} mes={mes} ano={ano} img_src={img_src} link={`/noticias/${fileName}`}  />
+                    ) }
             </Box>
             <Footer/>
         </>

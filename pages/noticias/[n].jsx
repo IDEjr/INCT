@@ -11,20 +11,14 @@ import style_car from "react-responsive-carousel/lib/styles/carousel.min.css";
 import Header from '../components/header';
 import Footer from '../components/footer';
 
-export default function album_fotos(){
+export default function Noticia(props){
 
     const router = useRouter();
-    const {titulo, dia, mes, ano, noticia, img_src, images, youtube} = router.query;
-    
-    const [content, setContent] = useState("");
-    
-    useEffect(() => {
-        fetch(noticia)
-            .then(res => res.text())
-            .then(res => setContent(res));
-    });
+    const {n} = router.query;
 
-    if(!titulo) return <></>;
+    if(!n) return(<></>);
+        
+    const { titulo, dia, mes, ano, noticia, img_src, images, youtube } = require(`../../public/posts/noticias/${n}.json`);
 
     return (
         <div className={style.background}>

@@ -12,14 +12,16 @@ import Footer from "./components/footer";
 //import Carousel from 'react-elastic-carousel';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Item from './components/item_artigos';
+import Item_Artigo from './components/item_artigos';
+import Item_Noticia from './components/item_noticias';
+
 
 import { handleJSONfiles } from '../utils/postHandler';
 
 export function getStaticProps() {
     const articles_list = handleJSONfiles('./public/posts/artigos');
-    const noticias_list = require("./noticias/noticias.json");
-    const main_carousel = require ("./main_carousel.json");
+    const noticias_list = handleJSONfiles('./public/posts/noticias');
+    const main_carousel = require("./main_carousel.json");
     const carousel_revistas = require("./carousel_revistas.json");
   
     return {
@@ -53,25 +55,10 @@ export default function Home(props) {
         <h2 className={styles.text_title}>Últimas notícias</h2>
       </div>
       <ul className={styles_n.ul}>                
-                { props.noticias_list.map( ({titulo, dia, mes, ano, noticia, img_src, link, links, images, youtube}, index) => 
-                    index < 3 && (
-                      <Link href={{ pathname: link, query: { titulo, dia, mes, ano, noticia, img_src, links, images, youtube }}} key={index}>
-                      <a className={styles_n.a}>
-                          <li className={styles_n.li}>
-                              <div className={styles_n.image_notice} style={{
-                                  backgroundImage: `url('/noticias/${img_src}')`, 
-                                  backgroundPosition: "center", 
-                                  backgroundSize: "cover", 
-                              }}/>
-                              {`${dia}/${mes}/${ano}` !== "//" ?
-                                  <div className={styles_n.data_notice}>{`${dia}/${mes}/${ano}`}</div>
-                                                                :
-                                  <div className={styles_n.data_notice}>--/--/----</div>
-                              } 
-                              <div className={styles_n.title_notice}>{titulo}</div>
-                          </li>
-                      </a>
-                  </Link>)) }                
+                { props.noticias_list.map( ({titulo, dia, mes, ano, img_src, fileName}, index) => 
+                      index < 3 && (
+                        <Item_Noticia key={index} titulo={titulo} dia={dia} mes={mes} ano={ano} img_src={img_src} link={`/noticias/${fileName}`}  />
+                ))}                
             </ul>
       <div className={styles.title_bar2}>
         <h2 className={styles.text_title}>Últimos artigos</h2>
@@ -98,7 +85,7 @@ export default function Home(props) {
           {props.articles_list.map(
             ({nome, autores, publicador, versao, paginas, ano, link }, index) =>
               index < 3 && (
-                <Item key={index} nome = {nome} autores = {autores} publicador = {publicador} versao = {versao} paginas = {paginas} ano = {ano} link = {link} width="100%"/>
+                <Item_Artigo key={index} nome = {nome} autores = {autores} publicador = {publicador} versao = {versao} paginas = {paginas} ano = {ano} link = {link} width="100%"/>
               )
           )}
         </ul>
