@@ -13,7 +13,7 @@ export default function item_Artigos(props){
        !props.paginas) return <></>;
 
     return(
-        <Link href= { props.link && props.link!="" ? props.link : "/pag_erro" }>        
+        <Link href= { props.link ?? "/pag_erro" }>        
             <a>
                 <div className={style.item} style={{width:`${props.width}`}}>
                     <span className={style.text_name_item}>{props.nome}</span>
