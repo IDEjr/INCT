@@ -1,0 +1,14 @@
+.message 
+{
+    background-color: #ebebeb9a;
+    border-radius: 5px;
+
+    width: 80%;
+    min-height: 30vh;
+
+    font-size: 1.7rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

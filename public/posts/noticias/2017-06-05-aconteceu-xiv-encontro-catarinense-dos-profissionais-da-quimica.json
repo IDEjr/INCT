@@ -1,13 +1,12 @@
-[
-  {
-    "titulo": "Aconteceu: XIV Encontro Catarinense dos Profissionais da Química",
-    "dia": "05",
-    "mes": "06",
-    "ano": "2017",
-    "noticia": "noticia_xiv_encontro_catarinense/noticia_xiv_encontro_catarinense.md",
-    "img_src": "noticia_xiv_encontro_catarinense/capa.jpg",
-    "link": "/noticias/aconteceu_xiv_encontro_catarinense_dos_profissionais_da_química",
-    "images": ["noticia_xiv_encontro_catarinense/capa.jpg", "noticia_xiv_encontro_catarinense/tema.jpg"],
-    "youtube": ""
-  }
-]
+
+{
+  "titulo": "Aconteceu: XIV Encontro Catarinense dos Profissionais da Química",
+  "dia": "05",
+  "mes": "06",
+  "ano": "2017",
+  "noticia": "noticia_xiv_encontro_catarinense/noticia_xiv_encontro_catarinense.md",
+  "img_src": "noticia_xiv_encontro_catarinense/capa.jpg",
+  "link": "/noticias/aconteceu_xiv_encontro_catarinense_dos_profissionais_da_química",
+  "images": ["noticia_xiv_encontro_catarinense/capa.jpg", "noticia_xiv_encontro_catarinense/tema.jpg"],
+  "youtube": ""
+}

@@ -1,12 +1,10 @@
-[
-  {
-    "titulo": "15ª Conferência Internacional sobre a Química do Selênio e Telúrio",
-    "dia": "20",
-    "mes": "04",
-    "ano": "2022",
-    "noticia": "noticia_15_conferencia_internacional_selenio_telurio/noticia_15_conferencia_internacional_selenio_telurio.md",
-    "img_src": "noticia_15_conferencia_internacional_selenio_telurio/noticia_15_conferencia_internacional_capa.png",
-    "link": "/noticias/15-conferencia-internacional-sobre-a-quimica-do-selenio-e-telurio",
-    "images": ["/noticia_15_conferencia_internacional_selenio_telurio/noticia_15_conferencia_internacional_img1.png"]
-  }
-]
+{
+  "titulo": "15ª Conferência Internacional sobre a Química do Selênio e Telúrio",
+  "dia": "20",
+  "mes": "04",
+  "ano": "2022",
+  "noticia": "noticia_15_conferencia_internacional_selenio_telurio/noticia_15_conferencia_internacional_selenio_telurio.md",
+  "img_src": "noticia_15_conferencia_internacional_selenio_telurio/noticia_15_conferencia_internacional_capa.png",
+  "link": "/noticias/15-conferencia-internacional-sobre-a-quimica-do-selenio-e-telurio",
+  "images": ["/noticia_15_conferencia_internacional_selenio_telurio/noticia_15_conferencia_internacional_img1.png"]
+}
