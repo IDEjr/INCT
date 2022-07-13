@@ -1,0 +1,12 @@
+{
+  "titulo": "teste de salvamento com slug",
+  "dia": "12",
+  "mes": "12",
+  "ano": "1231",
+  "noticia": "dsfsadad",
+  "img_src": "teste/teste-de-salvamento-com-slug/teste_livros.png",
+  "images": [
+    "teste/unknown.png",
+    "teste/caparg.jpeg"
+  ]
+}
