@@ -1,13 +1,11 @@
 backend:
   name: git-gateway
   branch: netlify # Branch to update (optional; defaults to master)
-
 publish_mode: editorial_workflow
 local_backend: true
 locale: "pt"
 media_folder: public/images
 public_folder: images
-
 collections:  
   - name: "livros"
     label: "Livros"      
@@ -21,8 +19,7 @@ collections:
     fields:
       - { label: "nome", name: "nome", widget: "string"}
       - { label: "pdf", name: "link", widget: "file", media_folder: "files"}
-      - { label: "capa", name: "src", widget: "image", media_folder: "images"}
-  
+      - { label: "capa", name: "src", widget: "image", media_folder: "images"}  
   - name: "artigos"
     label: "Artigos"      
     folder: "public/posts/artigos"
@@ -40,7 +37,6 @@ collections:
       - { label: "ano", name: "ano", widget: "string"}
       - { label: "link", name: "link", widget: "string"}
       - { label: "autores", name: "autores", widget: "list"}
-
   - name: "patentes"
     label: "Patentes"      
     folder: "public/posts/patentes"
@@ -53,8 +49,7 @@ collections:
     fields:
       - { label: "nome", name: "nome", widget: "string"}      
       - { label: "pdf", name: "link", widget: "file", media_folder: "files" }
-      
-   - name: "noticias"
+  - name: "noticias"
     label: "Noticias"      
     folder: "public/posts/noticias"
     identifier_field: "title"
