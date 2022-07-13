@@ -46,6 +46,8 @@ export default function Noticia(props){
                     </div>
                 }
 
+                {noticia}
+
                 {!images? <></> :
                     <div className={style.box_caurosel}>
                         <div className={style.carousel_ext}>

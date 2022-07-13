@@ -14,7 +14,7 @@ export default function item_noticias(props){
         <Link href={props.link}>
             <a className={Style.a}>
                     <div className={Style.image_notice} style={{
-                        backgroundImage: `url('/noticias/${props.img_src}')`, 
+                        backgroundImage: `url('/posts/noticias/${props.img_src}')`, 
                         backgroundPosition: "center", 
                         backgroundSize: "cover", 
                     }}>
