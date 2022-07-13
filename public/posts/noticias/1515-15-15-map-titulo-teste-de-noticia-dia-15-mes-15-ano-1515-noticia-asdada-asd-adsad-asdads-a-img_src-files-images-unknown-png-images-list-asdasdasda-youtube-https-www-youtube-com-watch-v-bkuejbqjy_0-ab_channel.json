@@ -1,0 +1,12 @@
+{
+  "titulo": "teste de noticia",
+  "dia": "15",
+  "mes": "15",
+  "ano": "1515",
+  "noticia": "asdada asd adsad asdads a",
+  "img_src": "files/images/unknown.png",
+  "images": [
+    "asdasdasda"
+  ],
+  "youtube": "https://www.youtube.com/watch?v=bkuEJBqjy_0&ab_channel=ClassicRockMusic"
+}
