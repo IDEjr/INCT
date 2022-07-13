@@ -59,7 +59,7 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: "titulo", name: "title", widget: "string" }
+      - { label: "titulo", name: "titulo", widget: "string" }
       - { label: "dia", name: "dia", widget: "string" }
       - { label: "mes", name: "mes", widget: "string" }
       - { label: "ano", name: "ano", widget: "string" }
