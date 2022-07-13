@@ -48,11 +48,11 @@ collections:
       preview: false
     fields:
       - { label: "nome", name: "nome", widget: "string"}      
-      - { label: "pdf", name: "link", widget: "file", media_folder: "files" }
+      - { label: "pdf", name: "link", widget: "file", media_folder: "files/images" }
   - name: "noticias"
     label: "Noticias"      
     folder: "public/posts/noticias"
-    identifier_field: "title"
+    identifier_field: "titulo"
     slug: "{{ano}}-{{mes}}-{{dia}}-{{slug}}"
     extension: "json"
     create: true
