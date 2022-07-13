@@ -1,0 +1,12 @@
+{
+  "titulo": "teste de noticia",
+  "dia": "01",
+  "mes": "02",
+  "ano": "2012",
+  "noticia": "sadasdasd asda asd asda asda asd",
+  "img_src": "files/images/teste_livros.png",
+  "images": [
+    "testedeimagem"
+  ],
+  "youtube": "https://www.youtube.com/watch?v=bkuEJBqjy_0&ab_channel=ClassicRockMusic"
+}
