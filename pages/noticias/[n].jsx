@@ -59,9 +59,9 @@ export default function Noticia(props){
                                     autoPlay
                                     infiniteLoop>
                                 {typeof images != typeof 'string' ? 
-                                    images.map((image, index) => <img key={index} alt={image} src={`/noticias/${image}`}/>)
+                                    images.map((image, index) => <img key={index} alt={image} src={`/posts/noticias/${image}`}/>)
                                                                 : 
-                                    <img alt={images} src={`/noticias/${images}`}/>
+                                    <img alt={images} src={`/posts/noticias/${images}`}/>
                                 }
                             </Carousel>
                         </div>

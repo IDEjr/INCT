@@ -63,7 +63,7 @@ collections:
       - { label: "dia", name: "dia", widget: "string" }
       - { label: "mes", name: "mes", widget: "string" }
       - { label: "ano", name: "ano", widget: "string" }
-      - { label: "notícia", name: "noticia", widget: "markdown", media_folder: "files/markdown" }
-      - { label: "capa", name: "img_src", widget: "image", media_folder: "teste/{{slug}}" }    
-      - { label: "imagens", name: "images", widget: "list", required: false, field: {label: Image, name: image, widget: image, media_folder: "teste"}}
+      - { label: "notícia", name: "noticia", widget: "markdown", media_folder: "files/markdown", editor: { preview: true } }
+      - { label: "capa", name: "img_src", widget: "image", media_folder: "files/{{ano}}-{{mes}}-{{dia}}-{{slug}}" }    
+      - { label: "imagens", name: "images", widget: "list", required: false, field: {label: Image, name: image, widget: image, media_folder: "files/{{ano}}-{{mes}}-{{dia}}-{{slug}}"}}
       - { label: "youtube", name: "youtube", required: false, widget: "string" }
