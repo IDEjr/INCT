@@ -14,7 +14,7 @@ export default function Erro(){
             <Header/>
             <Title title='Erro' color='red'/>
             <Box invert>
-                <Error/>                
+                <Error msg="Desculpe o incômodo, mas esse artigo está com o link desatualizado"/>                
             </Box>
             <Footer/>            
         </>

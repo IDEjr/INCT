@@ -27,7 +27,7 @@ collections:
     label: "Artigos"      
     folder: "public/posts/artigos"
     identifier_field: "nome"
-    slug: "artigo-{{ano}}-{{slug}}"
+    slug: "{{ano}}-{{slug}}"
     extension: "json"
     create: true
     editor:
@@ -40,11 +40,12 @@ collections:
       - { label: "ano", name: "ano", widget: "string"}
       - { label: "link", name: "link", widget: "string"}
       - { label: "autores", name: "autores", widget: "list"}
+
   - name: "patentes"
     label: "Patentes"      
     folder: "public/posts/patentes"
     identifier_field: "nome"
-    slug: "patente-{{slug}}"
+    slug: "{{slug}}"
     extension: "json"
     create: true
     editor:
@@ -52,3 +53,22 @@ collections:
     fields:
       - { label: "nome", name: "nome", widget: "string"}      
       - { label: "pdf", name: "link", widget: "file", media_folder: "files" }
+      
+   - name: "noticias"
+    label: "Noticias"      
+    folder: "public/posts/noticias"
+    identifier_field: "title"
+    slug: "{{ano}}-{{mes}}-{{dia}}-{{slug}}"
+    extension: "json"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "titulo", name: "title", widget: "string" }
+      - { label: "dia", name: "dia", widget: "string" }
+      - { label: "mes", name: "mes", widget: "string" }
+      - { label: "ano", name: "ano", widget: "string" }
+      - { label: "notícia", name: "noticia", widget: "markdown", media_folder: "files/markdown" }
+      - { label: "capa", name: "img_src", widget: "image", media_folder: "files/images" }    
+      - { label: "imagens", name: "images", widget: "list"}
+      - { label: "youtube", name: "youtube", widget: "string" }

@@ -7,8 +7,13 @@
     min-height: 30vh;
 
     font-size: 1.7rem;
+    text-align: center;
+    text-overflow: clip;
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+
+    overflow: hidden;
 }
