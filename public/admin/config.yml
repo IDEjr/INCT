@@ -8,24 +8,28 @@ public_folder: images
 collections:
   - name: "avisos"
     label: "avisos"      
-    folder: "public/posts/home/avisos"    
-    slug: "{{year}}-{{month}}-{{day}}"
+    folder: "public/posts/home/avisos"
+    identifier_field: "titulo"
+    slug: "{{slug}}"
     extension: "json"    
     create: true
     editor:
       preview: false
     fields:
+      - { label: "titulo", name: "titulo", widget: "string" }
       - { label: "imagem", name: "src", widget: "image", media_folder: images }
       - { label: "link", name: "para", widget: "string" }
   - name: "revistas"
     label: "revista"      
     folder: "public/posts/home/revistas"    
-    slug: "{{year}}-{{month}}-{{day}}"
+    identifier_field: "titulo"
+    slug: "{{slug}}"
     extension: "json"    
     create: true
     editor:
       preview: false
     fields:
+      - { label: "titulo", name: "titulo", widget: "string" }
       - { label: "imagem", name: "src", widget: "image", media_folder: images }
       - { label: "link", name: "doi", widget: "string" }
   - name: "noticias"
@@ -87,4 +91,27 @@ collections:
       preview: false
     fields:
       - { label: "nome", name: "nome", widget: "string"}      
-      - { label: "pdf", name: "link", widget: "file", media_folder: "files/images" }     
+      - { label: "pdf", name: "link", widget: "file", media_folder: "files/images" }
+  - name: "Descricao Sobre"
+    label: "Descricao Sobre"      
+    folder: "public/posts/sobre/descricao"
+    extension: "json"
+    editor:
+      preview: true
+    fields:
+      - { label: "title", name: "title", widget: "string"}      
+      - { label: "descricao", name: "descricao", widget: "markdown" }
+  - name: "areas do sobre"
+    label: "areas do sobre"      
+    folder: "public/posts/sobre/areas"
+    identifier_field: "key"
+    slug: "{{slug}}"
+    extension: "json"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "nome", name: "key", widget: "string"}      
+      - { label: "imagem", name: "imagem", widget: "image", media_folder: "files" }
+      - { label: "titulo", name: "titulo", widget: "string"}  
+      - { label: "texto", name: "texto", widget: "string"} 

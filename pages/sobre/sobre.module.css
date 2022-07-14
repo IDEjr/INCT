@@ -11,6 +11,10 @@
     margin-top: 5px;
 }
 
+.margin_bottom {
+    margin-bottom: 5vh;
+}
+
 .title
 {
   color: white;
@@ -75,7 +79,7 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 5% 0 35% 0;
+    padding: 5% 0 5% 0;
 }
 
 .button {
