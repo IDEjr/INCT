@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import { Carousel } from 'react-responsive-carousel';
 
 import ReactPlayer from 'react-player/youtube';
+import reactMarkdown from 'react-markdown';
 
 import style from './noticias.module.css'
 import style_car from "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -46,7 +47,7 @@ export default function Noticia(props){
                     </div>
                 }
 
-                {noticia}
+                <reactMarkdown source = { noticia } />
 
                 {!images? <></> :
                     <div className={style.box_caurosel}>
