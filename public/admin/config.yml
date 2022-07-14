@@ -67,11 +67,11 @@ collections:
         name: "noticia"        
         folder: "files/{{ano}}-{{mes}}-{{dia}}-{{slug}}"
         slug: "{{ano}}-{{mes}}-{{dia}}-{{slug}}"
-        extension: md
+        format: frontmatter
         create: true
         editor: 
           preview: true
-        widget: "frontmatter"
+        widget: "markdown"
       - { label: "capa", name: "img_src", widget: "image", media_folder: "files/{{ano}}-{{mes}}-{{dia}}-{{slug}}" }    
       - { label: "imagens", name: "images", widget: "list", required: false, field: {label: Image, name: image, widget: image, media_folder: "files/{{ano}}-{{mes}}-{{dia}}-{{slug}}"}}
       - { label: "youtube", name: "youtube", required: false, widget: "string" }
