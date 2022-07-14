@@ -1,11 +1,14 @@
-
 {
-  "titulo": "Aconteceu: XIV Encontro Catarinense dos Profissionais da Química",
-  "dia": "05",
-  "mes": "06",
   "ano": "2017",
-  "noticia_teste": "files/2017-06-05-aconteceu-xiv-encontro-catarinense-dos-profissionais-da-quimica/2017-06-05-aconteceu-xiv-encontro-catarinense-dos-profissionais-da-quimica.md",
+  "youtube": "",
+  "noticia": "\\- Celebração do Dia Nacional dos Profissionais da Química\n\n\\- 30 anos de instalação do Conselho Regional de Química na Jurisdição do estado de Santa Catarina\n\n\\- Tema Central : \"Química, Ensino, Meio Ambiente e Empreendedorismo\"\n\n\\- 05 de Junho de 2017 - DIA DO MEIO AMBIENTE",
   "img_src": "files/2017-06-05-aconteceu-xiv-encontro-catarinense-dos-profissionais-da-quimica/capa.jpg",
-  "images": ["files/2017-06-05-aconteceu-xiv-encontro-catarinense-dos-profissionais-da-quimica/capa.jpg", "files/2017-06-05-aconteceu-xiv-encontro-catarinense-dos-profissionais-da-quimica/tema.jpg"],
-  "youtube": ""
+  "images": [
+    "files/2017-06-05-aconteceu-xiv-encontro-catarinense-dos-profissionais-da-quimica/capa.jpg",
+    "files/2017-06-05-aconteceu-xiv-encontro-catarinense-dos-profissionais-da-quimica/tema.jpg"
+  ],
+  "noticia_teste": "files/2017-06-05-aconteceu-xiv-encontro-catarinense-dos-profissionais-da-quimica/2017-06-05-aconteceu-xiv-encontro-catarinense-dos-profissionais-da-quimica.md",
+  "titulo": "Aconteceu: XIV Encontro Catarinense dos Profissionais da Química",
+  "mes": "06",
+  "dia": "05"
 }
