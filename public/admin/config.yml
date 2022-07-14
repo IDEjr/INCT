@@ -130,3 +130,13 @@ collections:
       - { label: "Imagem", name: "logo", widget: "image", media_folder: "{{slug}}" }      
       - { label: "Largura da imagem", name: "brasaoLar", widget: "string" }
       - { label: "Altura da imagem", name: "brasaoAlt", widget: "string"}
+    collections:
+      - name: "pesquisadores"
+        label: "Pesquisadores"      
+        folder: "public/posts/nucleos/teste/{{slug}}/pesquisadores"
+        extension: "json"
+        create: true
+        editor:
+          preview: false
+        fields:
+          - { label: "Nome", name: "nome", widget: "string"} 
