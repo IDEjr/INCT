@@ -65,4 +65,4 @@ collections:
       - { label: "capa", name: "img_src", widget: "image", media_folder: "files/{{ano}}-{{mes}}-{{dia}}-{{slug}}" }    
       - { label: "imagens", name: "images", widget: "list", required: false, field: {label: Image, name: image, widget: image, media_folder: "files/{{ano}}-{{mes}}-{{dia}}-{{slug}}"}}
       - { label: "youtube", name: "youtube", required: false, widget: "string" }
-      - { label: "noticia", name: "noticia", widget: "markdown", media_folder: "files/{{ano}}-{{mes}}-{{dia}}-{{slug}}", extension: "markdown" }
+      - { label: "noticia", name: "noticia", widget: "file", media_folder: "files/{{ano}}-{{mes}}-{{dia}}-{{slug}}" }
