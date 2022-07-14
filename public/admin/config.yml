@@ -71,7 +71,8 @@ collections:
         create: true
         editor: 
           preview: true
-        widget: "markdown"
+        fields:
+          - { label: "body", name: "body", widget: "markdown" }        
       - { label: "capa", name: "img_src", widget: "image", media_folder: "files/{{ano}}-{{mes}}-{{dia}}-{{slug}}" }    
       - { label: "imagens", name: "images", widget: "list", required: false, field: {label: Image, name: image, widget: image, media_folder: "files/{{ano}}-{{mes}}-{{dia}}-{{slug}}"}}
       - { label: "youtube", name: "youtube", required: false, widget: "string" }
