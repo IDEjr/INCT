@@ -6,48 +6,6 @@ locale: "pt"
 media_folder: public/images
 public_folder: images
 collections:  
-  - name: "livros"
-    label: "Livros"      
-    folder: "public/posts/livros"
-    identifier_field: "nome"
-    slug: "{{slug}}"
-    extension: "json"
-    create: true
-    editor:
-      preview: false
-    fields:
-      - { label: "nome", name: "nome", widget: "string"}
-      - { label: "pdf", name: "link", widget: "file", media_folder: "files"}
-      - { label: "capa", name: "src", widget: "image", media_folder: "images"}  
-  - name: "artigos"
-    label: "Artigos"      
-    folder: "public/posts/artigos"
-    identifier_field: "nome"
-    slug: "{{ano}}-{{slug}}"
-    extension: "json"
-    create: true
-    editor:
-      preview: false
-    fields:
-      - { label: "nome", name: "nome", widget: "string"}      
-      - { label: "publicador", name: "publicador", widget: "string"}
-      - { label: "versao", name: "versao", widget: "string"}
-      - { label: "paginas", name: "paginas", widget: "string"}
-      - { label: "ano", name: "ano", widget: "string"}
-      - { label: "link", name: "link", widget: "string"}
-      - { label: "autores", name: "autores", widget: "list"}
-  - name: "patentes"
-    label: "Patentes"      
-    folder: "public/posts/patentes"
-    identifier_field: "nome"
-    slug: "{{slug}}"
-    extension: "json"
-    create: true
-    editor:
-      preview: false
-    fields:
-      - { label: "nome", name: "nome", widget: "string"}      
-      - { label: "pdf", name: "link", widget: "file", media_folder: "files/images" }
   - name: "noticias"
     label: "Noticias"      
     folder: "public/posts/noticias"    
@@ -66,4 +24,45 @@ collections:
       - { label: "noticia", name: "noticia", widget: "markdown" }
       - { label: "imagens", name: "images", widget: "list", required: false, field: {label: Image, name: image, widget: image, media_folder: "files/{{ano}}-{{mes}}-{{dia}}-{{slug}}"}}
       - { label: "youtube", name: "youtube", required: false, widget: "string" }
-      
+  - name: "artigos"
+    label: "Artigos"      
+    folder: "public/posts/artigos"
+    identifier_field: "nome"
+    slug: "{{ano}}-{{slug}}"
+    extension: "json"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "nome", name: "nome", widget: "string"}      
+      - { label: "publicador", name: "publicador", widget: "string"}
+      - { label: "versao", name: "versao", widget: "string"}
+      - { label: "paginas", name: "paginas", widget: "string"}
+      - { label: "ano", name: "ano", widget: "string"}
+      - { label: "link", name: "link", widget: "string"}
+      - { label: "autores", name: "autores", widget: "list"}
+  - name: "livros"
+    label: "Livros"      
+    folder: "public/posts/livros"
+    identifier_field: "nome"
+    slug: "{{slug}}"
+    extension: "json"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "nome", name: "nome", widget: "string"}
+      - { label: "pdf", name: "link", widget: "file", media_folder: "files"}
+      - { label: "capa", name: "src", widget: "image", media_folder: "images"}  
+  - name: "patentes"
+    label: "Patentes"      
+    folder: "public/posts/patentes"
+    identifier_field: "nome"
+    slug: "{{slug}}"
+    extension: "json"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "nome", name: "nome", widget: "string"}      
+      - { label: "pdf", name: "link", widget: "file", media_folder: "files/images" }     
