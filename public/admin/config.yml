@@ -54,7 +54,6 @@ collections:
     folder: "public/posts/noticias"    
     identifier_field: "titulo"
     slug: "{{ano}}-{{mes}}-{{dia}}-{{slug}}"
-    file: "public/posts/noticias/files/{{slug}}/{{slug}}.md"
     extension: "json"    
     create: true
     editor:
@@ -71,7 +70,8 @@ collections:
           preview: true
         file: "files/{{ano}}-{{mes}}-{{dia}}-{{slug}}/{{ano}}-{{mes}}-{{dia}}-{{slug}}.md"
         media_folder: "files/{{ano}}-{{mes}}-{{dia}}-{{slug}}"
-        slug: "{{ano}}-{{mes}}-{{dia}}-{{slug}}.md"
+        slug: "{{ano}}-{{mes}}-{{dia}}-{{slug}}"
+        extension: md
         fields:
           - { label: "body", name: "body", widget: "markdown" }        
       - { label: "capa", name: "img_src", widget: "image", media_folder: "files/{{ano}}-{{mes}}-{{dia}}-{{slug}}" }    
