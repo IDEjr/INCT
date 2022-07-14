@@ -64,15 +64,14 @@ collections:
       - { label: "mes", name: "mes", widget: "string" }
       - { label: "ano", name: "ano", widget: "string" }
       - label: "noticia"
-        name: "noticia"
+        name: "noticia"        
+        folder: "files/{{ano}}-{{mes}}-{{dia}}-{{slug}}"
+        slug: "{{ano}}-{{mes}}-{{dia}}-{{slug}}"
+        extension: md
         create: true
         editor: 
           preview: true
-        file: "files/{{ano}}-{{mes}}-{{dia}}-{{slug}}/{{ano}}-{{mes}}-{{dia}}-{{slug}}.md"
-        media_folder: "files/{{ano}}-{{mes}}-{{dia}}-{{slug}}"
-        slug: "{{ano}}-{{mes}}-{{dia}}-{{slug}}"
-        extension: md
-        widget: "markdown"
+        widget: "frontmatter"
       - { label: "capa", name: "img_src", widget: "image", media_folder: "files/{{ano}}-{{mes}}-{{dia}}-{{slug}}" }    
       - { label: "imagens", name: "images", widget: "list", required: false, field: {label: Image, name: image, widget: image, media_folder: "files/{{ano}}-{{mes}}-{{dia}}-{{slug}}"}}
       - { label: "youtube", name: "youtube", required: false, widget: "string" }
