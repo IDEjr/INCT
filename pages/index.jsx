@@ -21,8 +21,8 @@ import { handleJSONfiles } from '../utils/postHandler';
 export function getStaticProps() {
     const articles_list = handleJSONfiles('./public/posts/artigos');
     const noticias_list = handleJSONfiles('./public/posts/noticias');
-    const main_carousel = require("./main_carousel.json");
-    const carousel_revistas = require("./carousel_revistas.json");
+    const main_carousel = handleJSONfiles('./public/posts/home/avisos');
+    const carousel_revistas = handleJSONfiles('./public/posts/home/revistas');
   
     return {
       props: { articles_list, noticias_list, main_carousel, carousel_revistas },
@@ -47,7 +47,7 @@ export default function Home(props) {
                   className={styles.carousel}>
           {props.main_carousel.map(({src, para}, index) => 
           <Link href={para} key={index}><a>
-          <Image className={styles.image} src={src} width="800px" height="500px"/>
+          <Image className={styles.image} src={`/posts/home/avisos/${src}`} width="800px" height="500px"/>
           </a></Link>)}
         </Carousel>
       </div>
@@ -76,7 +76,7 @@ export default function Home(props) {
                     className={styles.carousel_revistas}>
             {props.carousel_revistas.map(({src, doi}, index) =>
             <Link href={doi} key={index}><a className={styles.link_image}>
-              <div><img key={index} className={styles.revista} src={src}/></div>
+              <div><img key={index} className={styles.revista} src={`/posts/home/revistas/${src}`}/></div>
             </a></Link>)}
           </Carousel>   
         </div>

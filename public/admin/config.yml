@@ -5,7 +5,29 @@ publish_mode: editorial_workflow
 locale: "pt"
 media_folder: public/images
 public_folder: images
-collections:  
+collections:
+  - name: "avisos"
+    label: "avisos"      
+    folder: "public/posts/home/avisos"    
+    slug: "{{year}}-{{month}}-{{day}}"
+    extension: "json"    
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "imagem", name: "src", widget: "image", media_folder: images }
+      - { label: "link", name: "para", widget: "string" }
+  - name: "revistas"
+    label: "revista"      
+    folder: "public/posts/home/revistas"    
+    slug: "{{year}}-{{month}}-{{day}}"
+    extension: "json"    
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "imagem", name: "src", widget: "image", media_folder: images }
+      - { label: "link", name: "doi", widget: "string" }
   - name: "noticias"
     label: "Noticias"      
     folder: "public/posts/noticias"    
