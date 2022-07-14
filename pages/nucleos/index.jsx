@@ -11,14 +11,14 @@ import { handleJSONfiles } from '../../utils/postHandler';
 
 export function getStaticProps() {
 
-    const list_Image = handleJSONfiles('./public/posts/nucleos/main');
+    const list_Image = handleJSONfiles('./public/posts/nucleos');
   
     return {
       props: { list_Image },
     };
 }
 
-export default function galeria(props){
+export default function nucleos(props){
 
     return(
         <>

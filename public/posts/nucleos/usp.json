@@ -1,0 +1,24 @@
+{
+    "logo": "/nucleos/main/usp/usp_logo.png",
+    "brasaoLar": 512, 
+    "brasaoAlt": 331, 
+    "title": "USP", 
+    "link": "usp",
+    "list_pesquisadores": 
+    [
+        {
+            "nome": "Frank Herbert Quina",
+            "cargo":"Membro do Comitê Gestor e Coord. Local",
+            "imagem": "pesquisadores/usp/FRANK.jpeg",
+            "link": "https://www3.iq.usp.br/pessoas_view.php?idDocente=36"
+        },
+        {
+            "nome": "Liane Marcia Rossi",
+            "cargo":"Pesquisadora",
+            "imagem": "pesquisadores/usp/liane_rossi.jpg",
+            "link": "http://www.iq.usp.br/portaliqusp/?q=pt-br/users/liane-marcia-rossi"
+        }
+    ],
+    "list_galeria": [],
+    "list_estrutura": []
+}

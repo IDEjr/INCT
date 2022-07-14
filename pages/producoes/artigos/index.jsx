@@ -48,10 +48,10 @@ export default function Artigos(props){
                     <span className={style.name_list_title}>Nome dos Artigos</span>
                     <span className={style.year_list_title}>Ano</span>
                 </div>            
-                {itens.length>0 ? 
+                {itens.length > 0 ? 
                     itens.map( ({nome, autores, publicador, versao, paginas, ano, link}, index) => 
                         <Item key={index}  nome = {nome} autores = {autores} publicador = {publicador} versao = {versao} paginas = {paginas} ano = {ano} link = {link} width="80vw"/>)
-                      : <Err msg='Desculpe, mas não encontramos nenhum artigo para essa pesquisa!'/>}
+                    : <Err msg='Desculpe, mas não encontramos nenhum artigo para essa pesquisa!'/>}
             </Box>
             <Footer/>            
         </>

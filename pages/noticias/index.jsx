@@ -8,8 +8,6 @@ import Title from '../components/title';
 import Box from '../components/main_box';
 import Item from '../components/item_noticias'
 
-import Style from './noticias.module.css';
-
 import { handleJSONfiles } from '../../utils/postHandler';
 
 

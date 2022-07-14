@@ -117,7 +117,7 @@ collections:
       - { label: "texto", name: "texto", widget: "string"}
   - name: "nucleos"
     label: "Núcleos"      
-    folder: "public/posts/nucleos/main"
+    folder: "public/posts/nucleos"
     identifier_field: "link"
     slug: "{{slug}}"
     extension: "json"
@@ -126,17 +126,18 @@ collections:
       preview: false
     fields:
       - { label: "Aba", name: "link", widget: "string"} 
-      - { label: "Título", name: "title", widget: "string"}
-      - { label: "Imagem", name: "logo", widget: "image", media_folder: "{{slug}}" }      
-      - { label: "Largura da imagem", name: "brasaoLar", widget: "string" }
-      - { label: "Altura da imagem", name: "brasaoAlt", widget: "string"}
-    collections:
-      - name: "pesquisadores"
-        label: "Pesquisadores"      
-        folder: "public/posts/nucleos/teste/{{slug}}/pesquisadores"
-        extension: "json"
-        create: true
-        editor:
-          preview: false
+      - { label: "Título(ícone)", name: "title", widget: "string"}
+      - { label: "Logo(ícone)", name: "logo", widget: "image", media_folder: "teste/main/{{slug}}" }      
+      - { label: "Largura da imagem(ícone)", name: "brasaoLar", widget: "string" }
+      - { label: "Altura da imagem(ícone)", name: "brasaoAlt", widget: "string"}      
+      - { label: "Galeria", name: "list_galeria", widget: "list", required: false, field: {label: Image, name: image, widget: image, media_folder: "teste/galeria/{{slug}}"}}
+      - { label: "Estrutura", name: "list_estrutura", widget: "list", required: false, field: {label: Image, name: image, widget: image, media_folder: "teste/estrutura/{{slug}}"}}
+      - label: "Pesquisadores"
+        name: "list_pesquisadores"
+        widget: "list"
+        required: false
         fields:
-          - { label: "Nome", name: "nome", widget: "string"} 
+          - {label: Nome, name: nome, widget: string}
+          - {label: Cargo, name: cargo, widget: string}
+          - {label: Link, name: link, widget: string}
+          - { label: "Imagem", name: "imagem", widget: "image", media_folder: "teste/pesquisadores/{{slug}}" }
