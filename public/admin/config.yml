@@ -7,7 +7,7 @@ media_folder: public/images
 public_folder: images
 collections:
   - name: "avisos"
-    label: "avisos"      
+    label: "Avisos da Home"      
     folder: "public/posts/home/avisos"
     identifier_field: "titulo"
     slug: "{{slug}}"
@@ -20,7 +20,7 @@ collections:
       - { label: "imagem", name: "src", widget: "image", media_folder: images }
       - { label: "link", name: "para", widget: "string" }
   - name: "revistas"
-    label: "revista"      
+    label: "Revistas da Home"      
     folder: "public/posts/home/revistas"    
     identifier_field: "titulo"
     slug: "{{slug}}"
@@ -93,7 +93,7 @@ collections:
       - { label: "nome", name: "nome", widget: "string"}      
       - { label: "pdf", name: "link", widget: "file", media_folder: "files/images" }
   - name: "Descricao Sobre"
-    label: "Descricao Sobre"      
+    label: "Descricao do Sobre"      
     folder: "public/posts/sobre/descricao"
     extension: "json"
     editor:
@@ -102,7 +102,7 @@ collections:
       - { label: "title", name: "title", widget: "string"}      
       - { label: "descricao", name: "descricao", widget: "markdown" }
   - name: "areas do sobre"
-    label: "areas do sobre"      
+    label: "Areas do Sobre"      
     folder: "public/posts/sobre/areas"
     identifier_field: "key"
     slug: "{{slug}}"
@@ -114,4 +114,19 @@ collections:
       - { label: "nome", name: "key", widget: "string"}      
       - { label: "imagem", name: "imagem", widget: "image", media_folder: "files" }
       - { label: "titulo", name: "titulo", widget: "string"}  
-      - { label: "texto", name: "texto", widget: "string"} 
+      - { label: "texto", name: "texto", widget: "string"}
+  - name: "nucleos"
+    label: "Núcleos"      
+    folder: "public/posts/nucleos/main"
+    identifier_field: "link"
+    slug: "{{slug}}"
+    extension: "json"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "Aba", name: "link", widget: "string"} 
+      - { label: "Título", name: "title", widget: "string"}
+      - { label: "Imagem", name: "logo", widget: "image", media_folder: "{{slug}}" }      
+      - { label: "Largura da imagem", name: "brasaoLar", widget: "string" }
+      - { label: "Altura da imagem", name: "brasaoAlt", widget: "string"}

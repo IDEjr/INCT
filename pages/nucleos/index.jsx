@@ -1,56 +1,35 @@
-import style from './nucleos.module.css';
-import Image from 'next/image'
+import React from "react";
 
-import Header from '../components/header';
-import Item from './item_nucleo';
-import Page1 from './page_item_1_nucleo';
-import Page2 from './page_item_2_nucleo';
-import Footer from '../components/footer';
+import Header from './../components/header';
+import Title from './../components/title';
+import Box from './../components/main_box';
+import Footer from './../components/footer';
 
-function zip(rows) {
-  return rows[0].map((_,c)=>rows.map(row=>row[c]))
+import Item from '../components/item_nucleo';
+
+import { handleJSONfiles } from '../../utils/postHandler';
+
+export function getStaticProps() {
+
+    const list_Image = handleJSONfiles('./public/posts/nucleos/main');
+  
+    return {
+      props: { list_Image },
+    };
 }
 
-// NOTA: a fonte do texto está declarada no lugar certo?
-function Nucleos() {
+export default function galeria(props){
 
-  let lista_nucleos = require(`./nucleos.json`);
-  let length_pesquisadores = []
-  for(var i = 0; i < lista_nucleos.length; i++) {
-    length_pesquisadores.push(require(`../../public/nucleos/pesquisadores/${lista_nucleos[i].link}/${lista_nucleos[i].link}.json`).length)
-  }
-  //console.log(length_pesquisadores)
-
-  lista_nucleos = zip([lista_nucleos, length_pesquisadores])
-  lista_nucleos.sort(function(a,b){return b[1] - a[1]})
-  lista_nucleos = lista_nucleos.filter(function(value, index, arr){return value[1] != 0})
-  //console.log(lista_nucleos)
-
-    return (
-        <div className={style.background}>
-          <link rel="preconnect" href="https://fonts.googleapis.com"/>  
-          <link rel="preconnect" href="https://fonts.gstatic.com"/>
-          <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"/>
-
+    return(
+        <>
           <Header/>
-                    
-          <span className={style.title}>Núcleos</span>          
-
-          {lista_nucleos.map( ([{fundo, brasaoSrc, brasaoLar, brasaoAlt, titulo, subtitulo, credito, link}, len], index) => 
-          <Item key = {index}
-            fundo = {`/nucleos/main/${link}/${fundo}`}
-            brasao = {<Image src={`/nucleos/main/${link}/${brasaoSrc}`} height={95*brasaoAlt/brasaoLar} width={95}/>}
-            credito = {credito}
-            default={<Page1 titulo = {titulo} subtitulo = {subtitulo}/>} 
-            title = {titulo}
-            link = {link}
-          />
-          )}
-          
-          
+          <Title title="Núcleos" color="#FAC70A"/>
+          <Box invert>
+            { props.list_Image.map( ({title, link, logo, brasaoAlt, brasaoLar}, index) => 
+                <Item key={index} title={title} logo={logo} link={link} w={brasaoLar} h={brasaoAlt}/>
+            )}
+          </Box>
           <Footer/>
-        </div>
-    );
+        </>     
+    )
 }
-
-export default Nucleos;
