@@ -12,9 +12,9 @@ export default function item_Livros(props){
         !props.src) return <></>;
     
     return(
-        <Link href={props.link}>
+        <Link href={`/posts/livros/${props.link}`}>
             <a className={style.boxItem} style={{width:`${props.width}`}}>
-                <Image src={props.src} width={'150px'} height={'200px'} />
+                <Image src={`/posts/livros/${props.src}`} width={'150px'} height={'200px'} />
                 <div className={style.boxDescricao}>
                     <span>{props.nome}</span>
                 </div>                               

@@ -1,0 +1,67 @@
+{
+    "logo": "/nucleos/main/ufsc/ufsc_logo.png",
+    "brasaoLar": 363, 
+    "brasaoAlt": 500,
+    "title": "UFSC", 
+    "link": "ufsc",
+    "list_pesquisadores": 
+    [
+        {
+            "nome": "Ademir Neves",
+            "cargo": "Pesquisador",
+            "imagem": "pesquisadores/ufsc/Ademir Neves.jpg",
+            "link": "https://ppgqmc.ufsc.br/prof-dr-ademir-neves/"
+        },
+        {
+            "nome": "Hugo Gallardo",
+            "cargo": "Coordenador",
+            "imagem": "pesquisadores/ufsc/hugo_galhardo.png",
+            "link": "https://ppgqmc.ufsc.br/hugo-gallardo/"
+        },
+        {
+            "nome": "Marcus M. Sá",
+            "cargo": "Pesquisador",
+            "imagem": "pesquisadores/ufsc/marcus sá.png",
+            "link": "https://ppgqmc.ufsc.br/marcus-mandolesi-sa/"
+        },
+        {
+            "nome": "Adailton J. Bortoluzzi",
+            "cargo": "Pesquisador",
+            "imagem": "pesquisadores/ufsc/exemplo_pesq.png",
+            "link": "https://ppgqmc.ufsc.br/adailton-bortoluzzi/"
+        },
+        {
+            "nome": "Gustavo Amadeu Micke",
+            "cargo": "Pesquisador",
+            "imagem": "pesquisadores/ufsc/Gustavo Amadeu Micke .jpg",
+            "link": "https://ppgqmc.ufsc.br/micke/"
+        },
+        {
+            "nome": "Antonio L. Braga",
+            "cargo": "Vice-Coordenador",
+            "imagem": "pesquisadores/ufsc/antonio_luiz_braga.gif",
+            "link": "https://ppgqmc.ufsc.br/braga/"
+        },
+        {
+            "nome": "Adriana Passarella Gerola",
+            "cargo": "Pesquisadora",
+            "imagem": "pesquisadores/ufsc/Adriana Passarella.jpg",
+            "link": "https://ppgqmc.ufsc.br/profa-dra-adriana-passarella-gerola/"
+        },
+        {
+            "nome": "Bruno Silveira de Souza",
+            "cargo": "Pesquisador",
+            "imagem": "pesquisadores/ufsc/Bruno Silveira de Souza.jpg",
+            "link": "https://ppgqmc.ufsc.br/prof-dr-bruno-silveira-de-souza/"
+        },
+        {
+            "nome": "Ricardo Ferreira Affeldt",
+            "cargo": "Pesquisador",
+            "imagem": "pesquisadores/ufsc/Ricardo Ferreira.jpg",
+            "link": "https://ppgqmc.ufsc.br/prof-dr-ricardo-ferreira-affeldt/"
+        }
+        
+    ],
+    "list_galeria": [],
+    "list_estrutura": []
+}

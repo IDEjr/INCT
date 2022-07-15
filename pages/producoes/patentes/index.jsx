@@ -8,6 +8,7 @@ import Box from '../../components/main_box';
 import Title from '../../components/title';
 import Item from '../../components/item_patentes';
 import Search_Box from '../../components/search_box';
+import Err from '../../components/error_msg';
 
 import { handleJSONfiles } from '../../../utils/postHandler';
 
@@ -36,15 +37,15 @@ export default function Patentes(props){
     } 
 
     return (
-
         <>
             <Header/>
             <Title title="Patentes" />
             <Box>
                 <Search_Box placeHolder='Pesquisa por nome' func={e => { handleInputDate(e.target.value) }} />
-                {itens.map(({nome, link}, index)=>
-                        <Item key={index} nome={nome} link={link} width="80vw"/>
-                    )}                
+                {itens.length > 0 ?
+                    itens.map(({nome, link}, index) =>
+                            <Item key={index} nome={nome} link={link} width="80vw"/>)
+                    : <Err msg='Desculpe, mas não encontramos nenhuma patente para essa pesquisa!'/>}                                    
             </Box>            
             <Footer/>            
         </>

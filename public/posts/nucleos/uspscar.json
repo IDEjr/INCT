@@ -1,0 +1,18 @@
+{
+    "logo": "/nucleos/main/uspscar/uspscar_logo.png",
+    "brasaoLar": 417, 
+    "brasaoAlt": 417, 
+    "title": "USP-SCar", 
+    "link": "uspscar",
+    "list_pesquisadores": 
+    [
+        {
+            "nome": "Marcelo Henrique Gehlen",
+            "cargo": "Pesquisador e Coordenador Local",
+            "imagem": "pesquisadores/uspscar/marcelo_henrique_gehlen.gif",
+            "link": "https://bv.fapesp.br/pt/pesquisador/5894/marcelo-henrique-gehlen/"	
+        }
+    ],
+    "list_galeria": [],
+    "list_estrutura": []
+}

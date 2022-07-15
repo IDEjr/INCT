@@ -1,33 +1,64 @@
 backend:
   name: git-gateway
   branch: netlify # Branch to update (optional; defaults to master)
+<<<<<<< HEAD
 
+=======
+>>>>>>> a55592e2a23bf34eb772efac7ce0ee10b3f66e5b
 publish_mode: editorial_workflow
-local_backend: true
 locale: "pt"
 media_folder: public/images
 public_folder: images
-
-collections:  
-  - name: "livros"
-    label: "Livros"      
-    folder: "public/posts/livros"
-    identifier_field: "nome"
-    slug: "livro_{{slug}}"
-    extension: "json"
+collections:
+  - name: "avisos"
+    label: "Avisos da Home"      
+    folder: "public/posts/home/avisos"
+    identifier_field: "titulo"
+    slug: "{{slug}}"
+    extension: "json"    
     create: true
     editor:
       preview: false
     fields:
-      - { label: "nome", name: "nome", widget: "string"}
-      - { label: "pdf", name: "link", widget: "file"}
-      - { label: "capa", name: "src", widget: "image"}
-  
+      - { label: "titulo", name: "titulo", widget: "string" }
+      - { label: "imagem", name: "src", widget: "image", media_folder: images }
+      - { label: "link", name: "para", widget: "string" }
+  - name: "revistas"
+    label: "Revistas da Home"      
+    folder: "public/posts/home/revistas"    
+    identifier_field: "titulo"
+    slug: "{{slug}}"
+    extension: "json"    
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "titulo", name: "titulo", widget: "string" }
+      - { label: "imagem", name: "src", widget: "image", media_folder: images }
+      - { label: "link", name: "doi", widget: "string" }
+  - name: "noticias"
+    label: "Noticias"      
+    folder: "public/posts/noticias"    
+    identifier_field: "titulo"
+    slug: "{{ano}}-{{mes}}-{{dia}}-{{slug}}"
+    extension: "json"    
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "titulo", name: "titulo", widget: "string" }
+      - { label: "dia", name: "dia", widget: "string" }
+      - { label: "mes", name: "mes", widget: "string" }
+      - { label: "ano", name: "ano", widget: "string" }
+      - { label: "capa", name: "img_src", widget: "image", media_folder: "files/{{ano}}-{{mes}}-{{dia}}-{{slug}}" }    
+      - { label: "noticia", name: "noticia", widget: "markdown" }
+      - { label: "imagens", name: "images", widget: "list", required: false, field: {label: Image, name: image, widget: image, media_folder: "files/{{ano}}-{{mes}}-{{dia}}-{{slug}}"}}
+      - { label: "youtube", name: "youtube", required: false, widget: "string" }
   - name: "artigos"
     label: "Artigos"      
     folder: "public/posts/artigos"
     identifier_field: "nome"
-    slug: "artigos-{{year}}_{{slug}}"
+    slug: "{{ano}}-{{slug}}"
     extension: "json"
     create: true
     editor:
@@ -40,6 +71,19 @@ collections:
       - { label: "ano", name: "ano", widget: "string"}
       - { label: "link", name: "link", widget: "string"}
       - { label: "autores", name: "autores", widget: "list"}
+  - name: "livros"
+    label: "Livros"      
+    folder: "public/posts/livros"
+    identifier_field: "nome"
+    slug: "{{slug}}"
+    extension: "json"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "nome", name: "nome", widget: "string"}
+      - { label: "pdf", name: "link", widget: "file", media_folder: "files"}
+      - { label: "capa", name: "src", widget: "image", media_folder: "images"}  
   - name: "patentes"
     label: "Patentes"      
     folder: "public/posts/patentes"
@@ -51,4 +95,53 @@ collections:
       preview: false
     fields:
       - { label: "nome", name: "nome", widget: "string"}      
-      - { label: "link", name: "link", widget: "string"}
+      - { label: "pdf", name: "link", widget: "file", media_folder: "files/images" }
+  - name: "Descricao Sobre"
+    label: "Descricao do Sobre"      
+    folder: "public/posts/sobre/descricao"
+    extension: "json"
+    editor:
+      preview: true
+    fields:
+      - { label: "title", name: "title", widget: "string"}      
+      - { label: "descricao", name: "descricao", widget: "markdown" }
+  - name: "areas do sobre"
+    label: "Areas do Sobre"      
+    folder: "public/posts/sobre/areas"
+    identifier_field: "key"
+    slug: "{{slug}}"
+    extension: "json"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "nome", name: "key", widget: "string"}      
+      - { label: "imagem", name: "imagem", widget: "image", media_folder: "files" }
+      - { label: "titulo", name: "titulo", widget: "string"}  
+      - { label: "texto", name: "texto", widget: "string"}
+  - name: "nucleos"
+    label: "Núcleos"      
+    folder: "public/posts/nucleos"
+    identifier_field: "link"
+    slug: "{{slug}}"
+    extension: "json"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "Aba", name: "link", widget: "string"} 
+      - { label: "Título(ícone)", name: "title", widget: "string"}
+      - { label: "Logo(ícone)", name: "logo", widget: "image", media_folder: "teste/main/{{slug}}" }      
+      - { label: "Largura da imagem(ícone)", name: "brasaoLar", widget: "string" }
+      - { label: "Altura da imagem(ícone)", name: "brasaoAlt", widget: "string"}      
+      - { label: "Galeria", name: "list_galeria", widget: "list", required: false, field: {label: Image, name: image, widget: image, media_folder: "teste/galeria/{{slug}}"}}
+      - { label: "Estrutura", name: "list_estrutura", widget: "list", required: false, field: {label: Image, name: image, widget: image, media_folder: "teste/estrutura/{{slug}}"}}
+      - label: "Pesquisadores"
+        name: "list_pesquisadores"
+        widget: "list"
+        required: false
+        fields:
+          - {label: Nome, name: nome, widget: string}
+          - {label: Cargo, name: cargo, widget: string}
+          - {label: Link, name: link, widget: string}
+          - { label: "Imagem", name: "imagem", widget: "image", media_folder: "teste/pesquisadores/{{slug}}" }

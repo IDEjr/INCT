@@ -8,6 +8,7 @@ import Title from '../../components/title';
 import Box from '../../components/main_box'
 import Item from '../../components/item_artigos';
 import Search_Box from '../../components/search_box';
+import Err from '../../components/error_msg'
 
 import { handleJSONfiles } from '../../../utils/postHandler';
 
@@ -29,7 +30,8 @@ export default function Artigos(props){
     {
         setItens(artigos.filter(
             ({ nome, ano}) => 
-                { if(nome.toUpperCase().includes(inputDate.toUpperCase()) || 
+                { 
+                    if(nome.toUpperCase().includes(inputDate.toUpperCase()) || 
                                                          inputDate == ano || 
                                                          inputDate == '')
                     { return true; } 
@@ -46,8 +48,10 @@ export default function Artigos(props){
                     <span className={style.name_list_title}>Nome dos Artigos</span>
                     <span className={style.year_list_title}>Ano</span>
                 </div>            
-                { itens.map( ({nome, autores, publicador, versao, paginas, ano, link}, index) => 
-                    <Item key={index}  nome = {nome} autores = {autores} publicador = {publicador} versao = {versao} paginas = {paginas} ano = {ano} link = {link} width="80vw"/>) }
+                {itens.length > 0 ? 
+                    itens.map( ({nome, autores, publicador, versao, paginas, ano, link}, index) => 
+                        <Item key={index}  nome = {nome} autores = {autores} publicador = {publicador} versao = {versao} paginas = {paginas} ano = {ano} link = {link} width="80vw"/>)
+                    : <Err msg='Desculpe, mas não encontramos nenhum artigo para essa pesquisa!'/>}
             </Box>
             <Footer/>            
         </>

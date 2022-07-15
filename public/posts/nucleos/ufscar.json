@@ -1,0 +1,19 @@
+{
+    "logo": "/nucleos/main/ufscar/ufscar_logo.png",
+    "brasaoLar": 678, 
+    "brasaoAlt": 500, 
+    "title": "UFSCar",
+    "link": "ufscar",
+    "list_pesquisadores": 
+    [
+        {
+            "nome": "Márcio Weber Paixão",
+            "cargo":"Pesquisador",
+            "imagem": "pesquisadores/ufscar/marcio weber.jpg",
+            "link": "https://www.dq.ufscar.br/docentes/marcio-weber-paixao"
+        }
+    ],
+    "list_galeria": [],
+    "list_estrutura": []
+
+}

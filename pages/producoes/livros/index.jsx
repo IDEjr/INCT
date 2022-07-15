@@ -8,6 +8,7 @@ import Box from '../../components/main_box';
 import Title from '../../components/title';
 import Item from '../../components/item_livros';
 import Search_Box from '../../components/search_box';
+import Err from '../../components/error_msg';
 
 import { handleJSONfiles } from '../../../utils/postHandler';
 
@@ -41,9 +42,10 @@ export default function Livros(props){
             <Title title="Livros" />
             <Box>
                 <Search_Box placeHolder='Pesquisa por nome' func={e => { handleInputDate(e.target.value) }} />
-                {itens.map(({nome, link, src}, index)=>
-                    <Item key={index} nome={nome} link={link} src={src} width="80vw"/>
-                )}
+                {itens.length > 0 ?
+                    itens.map(({nome, link, src}, index)=>
+                        <Item key={index} nome={nome} link={link} src={src} width="80vw"/>)
+                    : <Err msg='Desculpe, mas não encontramos nenhum livro para essa pesquisa!'/>}                
             </Box>            
             <Footer/>            
         </>

@@ -1,54 +1,38 @@
-import { useEffect, useState} from 'react';
 import { useRouter } from "next/router";
 import { Carousel } from 'react-responsive-carousel';
 
-import Link from 'next/link';
 import ReactPlayer from 'react-player/youtube';
+import ReactMarkdown from 'react-markdown';
 
 import style from './noticias.module.css'
 import style_car from "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import Header from '../components/header';
+import Title from '../components/title';
+import Box from '../components/main_box';
 import Footer from '../components/footer';
 
-export default function album_fotos(){
+export default function Noticia(props){
 
     const router = useRouter();
-    const {titulo, dia, mes, ano, noticia, img_src, images, youtube} = router.query;
-    
-    const [content, setContent] = useState("");
-    
-    useEffect(() => {
-        fetch(noticia)
-            .then(res => res.text())
-            .then(res => setContent(res));
-    });
+    const {n} = router.query;
 
-    if(!titulo) return <></>;
+    if(!n) return(<></>);
+        
+    const { titulo, dia, mes, ano, noticia, images, youtube } = require(`../../public/posts/noticias/${n}.json`);   
 
     return (
-        <div className={style.background}>
+        <>
         <Header/>
-        <div className={style.title_bar}>
-            <span className={style.text_title}>Notícias</span>            
-        </div>        
-        {/*<div style={{ backgroundImage: `url('/noticias/${img_src}')`,
-                      backgroundPosition: "center", 
-                      backgroundSize: "cover", 
-                      width:"100%", 
-                      height:"50vh",
-                      marginTop: "1%"}}>
-                        <img src={`/noticias/${img_src}`} className={style.img_capa}/>
-        </div>*/}
-
-        <div className={style.box_background}>
+        <Title title="Notícias" color="#87B93F"/>
+        <Box>                    
             <div className={style.box_text}>
                 <div className={style.box_text_title}>
                     <span>{titulo}</span>
                     {`${dia}/${mes}/${ano}` !== "//" ?
                         <span>{`${dia}/${mes}/${ano}`}</span>
                                                     :
-                        <span></span>
+                        <></>
                     }              
                 </div>
                 {!youtube ? <></> :
@@ -58,30 +42,32 @@ export default function album_fotos(){
                             playing={false} 
                         />                                        
                     </div>
-                }             
+                }
+
+                <ReactMarkdown children={noticia}/>
 
                 {!images? <></> :
                     <div className={style.box_caurosel}>
                         <div className={style.carousel_ext}>
                             <Carousel dynamicHeight
-                                      emulateTouch
-                                      useKeyboardArrows
-                                      showStatus={false}
-                                      showThumbs={false}
-                                      autoPlay
-                                      infiniteLoop>
+                                    emulateTouch
+                                    useKeyboardArrows
+                                    showStatus={false}
+                                    showThumbs={false}
+                                    autoPlay
+                                    infiniteLoop>
                                 {typeof images != typeof 'string' ? 
-                                    images.map((image, index) => <img key={index} alt={image} src={`/noticias/${image}`}/>)
-                                                                  : 
-                                    <img alt={images} src={`/noticias/${images}`}/>
+                                    images.map((image, index) => <img key={index} alt={image} src={`/posts/noticias/${image}`}/>)
+                                                                : 
+                                    <img alt={images} src={`/posts/noticias/${images}`}/>
                                 }
                             </Carousel>
                         </div>
                     </div>
                 }
-            </div>            
-        </div>        
+            </div>
+        </Box>
         <Footer/>            
-    </div>
+    </>
     ); 
 };
