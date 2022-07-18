@@ -23,7 +23,8 @@ export function getStaticProps() {
     const noticias_list = handleJSONfiles('./public/posts/noticias');
     const main_carousel = handleJSONfiles('./public/posts/home/avisos');
     const carousel_revistas = handleJSONfiles('./public/posts/home/revistas');
-  
+    const divulgacao_list = handleJSONfiles('./public/posts/divulgacao_cientifica');
+
     return {
       props: { articles_list, noticias_list, main_carousel, carousel_revistas , divulgacao_list},
     };

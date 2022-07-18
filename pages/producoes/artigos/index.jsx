@@ -9,6 +9,7 @@ import Box from '../../components/main_box'
 import Item from '../../components/item_artigos';
 import Search_Box from '../../components/search_box';
 import Err from '../../components/error_msg'
+import PaginatedItems from '../../components/paginated_items';
 
 import { handleJSONfiles } from '../../../utils/postHandler';
 
@@ -49,8 +50,7 @@ export default function Artigos(props){
                     <span className={style.year_list_title}>Ano</span>
                 </div>            
                 {itens.length > 0 ? 
-                    itens.map( ({nome, autores, publicador, versao, paginas, ano, link}, index) => 
-                        <Item key={index}  nome = {nome} autores = {autores} publicador = {publicador} versao = {versao} paginas = {paginas} ano = {ano} link = {link} width="80vw"/>)
+                    <PaginatedItems itemsPerPage={5} items={itens} type={'artigos'}/>
                     : <Err msg='Desculpe, mas não encontramos nenhum artigo para essa pesquisa!'/>}
             </Box>
             <Footer/>            
