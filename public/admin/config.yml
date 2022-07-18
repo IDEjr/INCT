@@ -101,7 +101,8 @@ collections:
     create: true
     editor:
       preview: true
-    fields:      
+    fields:
+      - { label: "descricao", name: "title", widget: "string" }      
       - { label: "descricao", name: "descricao", widget: "markdown" }
   - name: "areas do sobre"
     label: "Areas do Sobre"      
