@@ -23,6 +23,10 @@ export default function galeria(){
 
     const { list_pesquisadores, list_estrutura, list_galeria } = require(`../../public/posts/nucleos/${g}`);
 
+    console.log(list_pesquisadores);
+    console.log(list_estrutura);
+    console.log(list_galeria);
+
     return (
         <>
             <Header/>
@@ -54,19 +58,16 @@ export default function galeria(){
 
             { list_estrutura.length === 0 ? <></> :
             <div className={style.box_content}>
-            <div className={style.box_list_title}>
-                <span className={style.name_list_title}>Estrutura</span>
-            </div>
-                <div className={style.carousel_ext}>            
-                    <Carousel onClickItem={(i, item) => window.open(`/posts/nucleos/estrutura/${g}/${list_estrutura[i]["imagem"]}`, "_blank")}              
+                <div className={style.box_list_title}>
+                    <span className={style.name_list_title}>Galeria</span>
+                </div>
+                <div className={style.carousel_ext_thumbs}>            
+                    <Carousel onClickItem={(i, item) => window.open(`/posts/nucleos/${list_estrutura[i]}`, "_blank")}              
                             dynamicHeight emulateTouch useKeyboardArrows showStatus={false} showIndicators={false} showThumbs={false}
                             autoPlay infiniteLoop>
-                        {list_estrutura.map(({imagem, descricao}, index) => 
+                        {list_estrutura.map((image, index) => 
                             <div key={index} className={style.div_estrutura}>
-                                <img src={`/posts/nucleos/estrutura/${g}/${imagem}`}/>
-                                <div className={style.description_box}>
-                                    <p className={style.description}>{descricao}</p>    
-                                </div>
+                                <img src={`/posts/nucleos/${image}`}/>                                
                             </div>
                         )}
                     </Carousel>
@@ -80,11 +81,11 @@ export default function galeria(){
                     <span className={style.name_list_title}>Galeria</span>
                 </div>
                 <div className={style.carousel_ext_thumbs}>            
-                    <Carousel onClickItem={(i, item) => window.open(`/posts/nucleos/galeria/${g}/${list_galeria[i]}`, "_blank")}              
+                    <Carousel onClickItem={(i, item) => window.open(`/posts/nucleos/${list_galeria[i]}`, "_blank")}              
                             dynamicHeight emulateTouch useKeyboardArrows showStatus={false} showIndicators={false}
                             autoPlay infiniteLoop>
                         {list_galeria.map((image, index) => 
-                            <img key={index} src={`//posts/nucleos/galeria/${g}/${image}`}/>
+                            <img key={index} src={`/posts/nucleos/${image}`}/>
                         )}
                     </Carousel>
                 </div>
