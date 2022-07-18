@@ -98,7 +98,6 @@ collections:
     identifier_field: "nome"
     slug: "descricao"
     extension: "json"
-    create: true
     editor:
       preview: true
     fields:
