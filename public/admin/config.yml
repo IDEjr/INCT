@@ -96,13 +96,12 @@ collections:
     label: "Descricao do Sobre"      
     folder: "public/posts/sobre/descricao"
     identifier_field: "nome"
-    slug: "{{slug}}"
+    slug: "descricao"
     extension: "json"
     create: true
     editor:
       preview: true
-    fields:
-      - { label: "title(primordial)", name: "title", widget: "string"}      
+    fields:      
       - { label: "descricao", name: "descricao", widget: "markdown" }
   - name: "areas do sobre"
     label: "Areas do Sobre"      
