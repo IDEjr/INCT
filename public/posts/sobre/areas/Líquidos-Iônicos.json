@@ -1,6 +1,6 @@
 {
     "key": "Líquidos Iônicos",
-    "imagem": "/posts/sobre/areas/images/ion.png", 
+    "imagem": "images/ion.png", 
     "titulo": "Líquidos Iônicos:", 
     "texto": "Desenvolvimento simples e eficiente, em um líquido iônico, de metodologias de preparação e de estabilização de sistemas moleculares e nanopartículas de metais de transição para catálise. Um exemplo esclarecedor é a preparação de catalisadores heterogêneos nanoestruturados com propriedades magnéticas."
 }
