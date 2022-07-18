@@ -114,7 +114,7 @@ collections:
       preview: false
     fields:
       - { label: "nome(primordial)", name: "key", widget: "string"}      
-      - { label: "imagem", name: "imagem", widget: "image", media_folder: "files" }
+      - { label: "imagem", name: "imagem", widget: "image", media_folder: "images" }
       - { label: "titulo", name: "titulo", widget: "string"}  
       - { label: "texto", name: "texto", widget: "string"}
   - name: "nucleos"
