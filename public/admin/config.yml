@@ -139,7 +139,7 @@ collections:
         widget: "list"
         required: false
         fields:
-          - {label: Nome, name: nome, widget: string}
+          - {label: Nome(primordial), name: nome, widget: string}
           - {label: Cargo, name: cargo, widget: string}
           - {label: Link, name: link, widget: string}
           - { label: "Imagem", name: "imagem", widget: "image", media_folder: "pesquisadores/{{slug}}" }
