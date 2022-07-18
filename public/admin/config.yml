@@ -92,7 +92,7 @@ collections:
     fields:
       - { label: "nome(primordial)", name: "nome", widget: "string"}      
       - { label: "pdf", name: "link", widget: "file", media_folder: "files/images" }
-  - name: "Descricao Sobre"
+  - name: "descricaoSobre"
     label: "Descricao do Sobre"      
     folder: "public/posts/sobre/descricao"
     identifier_field: "nome"
@@ -102,9 +102,9 @@ collections:
     editor:
       preview: true
     fields:
-      - { label: "descricao", name: "title", widget: "string" }      
+      - { label: "titulo", name: "title", widget: "string" }      
       - { label: "descricao", name: "descricao", widget: "markdown" }
-  - name: "areas do sobre"
+  - name: "areasDoSobre"
     label: "Areas do Sobre"      
     folder: "public/posts/sobre/areas"
     identifier_field: "key"
