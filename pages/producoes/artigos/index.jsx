@@ -50,7 +50,7 @@ export default function Artigos(props){
                     <span className={style.year_list_title}>Ano</span>
                 </div>            
                 {itens.length > 0 ? 
-                    <PaginatedItems itemsPerPage={5} items={itens} type={'artigos'}/>
+                    <PaginatedItems itemsPerPage={4} items={itens} type={'artigos'}/>
                     : <Err msg='Desculpe, mas não encontramos nenhum artigo para essa pesquisa!'/>}
             </Box>
             <Footer/>            

@@ -82,7 +82,7 @@ export default function Home(props) {
                 </a>
             </Link>)) }    
       </ul>
-      <Link href="divulgacao_cientifica"><a>
+      <Link href="/divulgacao_cientifica"><a>
         <div className={styles.ver_mais}>Ver mais...</div>
       </a></Link>
         

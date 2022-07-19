@@ -1,3 +1,5 @@
+import styles from './../../styles/paginated_items.module.css'
+
 import Artigo from './item_artigos'
 import Livro from './item_livros'
 import Patente from './item_patentes'
@@ -19,6 +21,7 @@ export default function PaginatedItems(props) {
 
   // Caso "items" mude, as variáveis são resetadas
   useEffect(() => {
+    console.log("Entrei na atualização da busca")
     setItemOffset(0);
     const endOffset = itemOffset + itemsPerPage;
     setCurrentItems(items.slice(itemOffset, endOffset));
@@ -26,6 +29,7 @@ export default function PaginatedItems(props) {
   }, [items])
 
   useEffect(() => {
+    console.log("Entrei na função principal de paginação")
     // Fetch items from another resources.
     const endOffset = itemOffset + itemsPerPage;
     setCurrentItems(items.slice(itemOffset, endOffset));
@@ -33,6 +37,7 @@ export default function PaginatedItems(props) {
   }, [itemOffset, itemsPerPage]);
 
   useEffect(() => {
+    console.log("Entrei no cleanup")
     return () => {
         setItemOffset(0);
         setCurrentItems(null);
@@ -65,10 +70,15 @@ export default function PaginatedItems(props) {
         breakLabel="..."
         nextLabel="next >"
         onPageChange={handlePageClick}
-        pageRangeDisplayed={5}
+        pageRangeDisplayed={3}
         pageCount={pageCount}
         previousLabel="< previous"
         renderOnZeroPageCount={null}
+        containerClassName={styles.container}
+        pageLinkClassName={styles.item}
+        previousLinkClassName={styles.previous}
+        nextLinkClassName={styles.next}
+        activeLinkClassName={styles.active}
       />
     </>
   );
