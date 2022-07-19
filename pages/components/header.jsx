@@ -19,9 +19,8 @@ export default function Header() {
         <nav className={style.navbar_imenu}>
           <div className={style.box_imenu}>
             <Link href='/nucleos'><a className={style.item_menu}>Núcleos</a></Link>
-            <Link href='/producoes'><a className={style.item_menu}>Produções</a></Link>
             <Link href='/noticias'><a className={style.item_menu}>Notícias</a></Link>
-            <Link href='/divulgacao_cientifica'><a className={style.item_menu}>Divulgação Científica</a></Link>
+            <Link href='/producoes'><a className={style.item_menu}>Produções</a></Link>
             <Link href='/sobre'><a className={style.item_menu}>Sobre</a></Link>
           </div>
         </nav>
@@ -43,9 +42,8 @@ export default function Header() {
         <nav className={style.navbar}>
             <Link href='/'><a className={style.button}>Home</a></Link>
             <Link href='/nucleos'><a className={style.button}>Núcleos</a></Link>
-            <Link href='/producoes'><a className={style.button}>Produções</a></Link>
             <Link href='/noticias'><a className={style.button}>Notícias</a></Link>
-            <Link href='/divulgacao_cientifica'><a className={style.button}>Divulgação Científica</a></Link>
+            <Link href='/producoes'><a className={style.button}>Produções</a></Link>
             <Link href='/sobre'><a className={style.button_borderless}>Sobre</a></Link>
         </nav>
         <div  className={style.menu}>
