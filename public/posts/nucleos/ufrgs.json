@@ -1,0 +1,54 @@
+{
+    "logo": "main/ufrgs/ufrgs_logo.png",
+    "brasaoLar": 871, 
+    "brasaoAlt": 500, 
+    "title": "UFRGS", 
+    "link": "ufrgs",
+    "list_pesquisadores": 
+    [
+        {
+            "nome": "Jairton Dupont",
+            "cargo":"Membro do Comitê Gestor",
+            "imagem": "pesquisadores/ufrgs/Jairton Dupont.png",
+            "link": "http://web.iq.ufrgs.br/iq_ufrgs/index.php/equipe-menu1/docentes?id=319"
+        },
+        {
+            "nome": "Adriano Lisboa Monteiro",
+            "cargo":"Membro do Comitê Gestor e Coord. Local",
+            "imagem": "pesquisadores/ufrgs/Adriano Lisboa Monteiro.png",
+            "link": "http://web.iq.ufrgs.br/iq_ufrgs/index.php/equipe-menu1/docentes?id=275"
+        },
+        {
+            "nome": "Osvaldo de Lazaro Casagrande Junior",
+            "cargo":"Pesquisador",
+            "imagem": "pesquisadores/ufrgs/OsvaldoCasagrande_docente.png",
+            "link": "http://web.iq.ufrgs.br/iq_ufrgs/index.php/equipe-menu1/docentes?id=355"
+        },
+        {
+            "nome": "Paulo Henrique Schneider",
+            "cargo":"Pesquisador",
+            "imagem": "pesquisadores/ufrgs/PauloSchneider_docente.png",
+            "link": "http://web.iq.ufrgs.br/iq_ufrgs/index.php/equipe-menu1/docentes?id=359"
+        },
+        {
+            "nome": "Diogo Seibert Lüdtke",
+            "cargo":"Pesquisador",
+            "imagem": "pesquisadores/ufrgs/DiogoLudtke_docente.png",
+            "link": "http://web.iq.ufrgs.br/iq_ufrgs/index.php/equipe-menu1/docentes?id=295"
+        },
+        {
+            "nome": "Barbara Carolina Leal",
+            "cargo":"Pesquisadora",
+            "imagem": "pesquisadores/ufrgs/Brbara-Leal.jpg",
+            "link": "http://web.iq.ufrgs.br/iq_ufrgs/index.php/equipe-menu1/visualiza-docente?id-doc=104"
+        },
+        {
+            "nome": "Nathalia Marcolin Simon",
+            "cargo":"Pesquisadora",
+            "imagem": "pesquisadores/ufrgs/NathaliaSimon_docente.png",
+            "link": "http://web.iq.ufrgs.br/iq_ufrgs/index.php/equipe-menu1/docentes?id=632"
+        }
+    ],
+    "list_galeria": [],
+    "list_estrutura": []
+}

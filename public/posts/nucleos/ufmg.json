@@ -1,0 +1,49 @@
+{
+    "logo": "main/ufmg/ufmg_logo.png",
+    "brasaoLar": 860, 
+    "brasaoAlt": 335, 
+    "title": "UFMG", 
+    "link": "ufmg",
+    "list_pesquisadores": 
+    [
+        {
+            "nome": "Eduardo Nicolau dos Santos",
+            "cargo":"Membro do Comitê Gestor e Coord. Local",
+            "imagem": "pesquisadores/ufmg/Eduardo nicolau.jpg",
+            "link": "http://somos.ufmg.br/professor/eduardo-nicolau-dos-santos"
+        },
+        {
+            "nome": "Elena Vitalievna Goussevskaia",
+            "cargo":"Pesquisadora",
+            "imagem": "pesquisadores/ufmg/Elena Vitalievna.jpg",
+            "link": "http://www.somos.ufmg.br/professor/elena-vitalievna-goussevskaia"
+        },
+        {
+            "nome": "Willian Ricardo Rocha ",
+            "cargo":"Pesquisador",
+            "imagem": "pesquisadores/ufmg/willian rocha.jpg",
+            "link": "http://somos.ufmg.br/professor/willian-ricardo-rocha"
+        },
+        {
+            "nome": "Elene Cristina Pereira Maia",
+            "cargo":"Pesquisadora",
+            "imagem": "pesquisadores/ufmg/Elene Cristina.jpg",
+            "link": "http://somos.ufmg.br/professor/elene-cristina-pereira-maia"
+        },
+        {
+            "nome": "Eufranio Nunes da Silva junior",
+            "cargo":"Pesquisador",
+            "imagem": "pesquisadores/ufmg/eufranio.jpg",
+            "link": "http://somos.ufmg.br/professor/eufranio-nunes-da-silva-junior"
+        },
+        {
+            "nome": "Tiago Antônio da Silva Brandão",
+            "cargo":"Pesquisador",
+            "imagem": "pesquisadores/ufmg/tiago antonio da silva.jpg",
+            "link": "http://somos.ufmg.br/professor/tiago-antonio-da-silva-brandao"
+        }
+        
+    ],
+    "list_galeria": [],
+    "list_estrutura": []
+}

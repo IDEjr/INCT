@@ -1,0 +1,18 @@
+{
+    "logo": "main/unb/unb_logo.png",
+    "brasaoLar": 539, 
+    "brasaoAlt": 500, 
+    "title": "UNB", 
+    "link": "unb",
+    "list_pesquisadores": 
+    [
+        {
+            "nome": "Paulo Anselmo Ziani Suarez",
+            "cargo":"Membro do Comitê Gestor e Coord. Local",
+            "imagem": "pesquisadores/unb/Paulo Anselmo.jpg",
+            "link": "http://www.pesquisar.unb.br/professor/paulo-anselmo-ziani-suarez"
+        }
+    ],
+    "list_galeria": [],
+    "list_estrutura": []
+}

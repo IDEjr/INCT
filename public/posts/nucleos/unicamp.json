@@ -1,0 +1,42 @@
+{
+    "logo": "main/unicamp/unicamp_logo.png",
+    "brasaoLar": 474, 
+    "brasaoAlt": 500, 
+    "title": "UNICAMP", 
+    "link": "unicamp",
+    "list_pesquisadores": 
+    [
+        {
+            "nome": "Watson Loh",
+            "cargo":"Membro do Comitê Gestor e Coord. Local",
+            "imagem": "pesquisadores/unicamp/watson_loh.jpg",
+            "link": "https://www.iqm.unicamp.br/institucional-departamentos/watson-loh"
+        },
+        {
+            "nome": "René Alfonso Nome Silva",
+            "cargo": "Membro do Comitê Gestor",
+            "imagem": "pesquisadores/unicamp/René Alfonso Nome Silva .jpg",
+            "link": "https://iqm.unicamp.br/institucional-departamentos/ren%C3%A9-alfonso-nome-silva"
+        },
+        {
+            "nome": "Edvaldo Sabadini",
+            "cargo": "Pesquisador",
+            "imagem": "pesquisadores/unicamp/Edvaldo.jpg",
+            "link": "https://iqm.unicamp.br/institucional-departamentos/edvaldo-sabadini"
+        },
+        {
+            "nome": "lgor Dias Jurberg ",
+            "cargo": "Pesquisador",
+            "imagem": "pesquisadores/unicamp/igor-dias-jurberg.jpg",
+            "link": "https://www.iqm.unicamp.br/institucional-departamentos/igor-dias-jurberg"
+        },
+        {
+            "nome": "Jackson Dirceu Megiatto Junior",
+            "cargo": "Pesquisador",
+            "imagem": "pesquisadores/unicamp/jackson dirceu.jpg",
+            "link": "https://www.iqm.unicamp.br/institucional-departamentos/jackson-dirceu-megiatto-jr"
+        }
+    ],
+    "list_galeria": [],
+    "list_estrutura": []
+}

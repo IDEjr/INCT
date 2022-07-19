@@ -12,12 +12,8 @@ export default function item_Artigos(props){
        !props.width ||
        !props.paginas) return <></>;
 
-    let use_link = 1;
-    if(!props.link) use_link = 0;
-
     return(
-        <> { use_link ?
-        <Link href= {props.link}>        
+        <Link href= { props.link && props.link!="" ? props.link : "/pag_erro" }>        
             <a>
                 <div className={style.item} style={{width:`${props.width}`}}>
                     <span className={style.text_name_item}>{props.nome}</span>
@@ -38,25 +34,6 @@ export default function item_Artigos(props){
                     </div>
                 </div>
             </a>
-        </Link>       :
-        <div className={style.item} style={{width:`${props.width}`}}>
-            <span className={style.text_name_item}>{props.nome}</span>
-            <span className={style.text_year_item}>{props.ano}</span>
-            <div className={style.descricao_item}>
-                <div className={style.descricao_publicacao}>
-                    <span className={style.texto_publicacao}>Publicador:<br/>{props.publicador}</span>
-                    <span className={style.texto_publicacao}>Versão:<br/>{props.versao}</span>
-                    <span className={style.texto_publicacao}>Páginas:<br/>{props.paginas}</span>
-                    <span className={style.texto_publicacao}>Ano:<br/>{props.ano}</span>
-                </div>
-                <div  className={style.box_lista_autores} >
-                    <span className={style.titulo_autores}>Autores:</span>
-                    <ul className={style.lista_autores} >
-                    { props.autores.map( (nome, index) => <li key={index}>{nome}</li>) }
-                    </ul>
-                </div>                    
-            </div>
-        </div>
-    } </> 
+        </Link>
     );
 }

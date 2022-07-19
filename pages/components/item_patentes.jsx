@@ -11,7 +11,7 @@ export default function item_Patentes(props){
         !props.width) return <></>;
     
     return(
-        <Link href={props.link}>
+        <Link href={`/posts/patentes/${props.link}`}>
             <a className={style.boxItem} style={{width:`${props.width}`}}>               
                 <div className={style.boxDescricao}>
                     <span>{props.nome}</span>

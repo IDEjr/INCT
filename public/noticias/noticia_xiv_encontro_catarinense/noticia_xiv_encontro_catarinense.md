@@ -1,4 +1,0 @@
-- Celebração do Dia Nacional dos Profissionais da Química
-- 30 anos de instalação do Conselho Regional de Química na Jurisdição do estado de Santa Catarina
-- Tema Central : "Química, Ensino, Meio Ambiente e Empreendedorismo"
-- 05 de Junho de 2017 - DIA DO MEIO AMBIENTE
