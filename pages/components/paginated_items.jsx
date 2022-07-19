@@ -21,7 +21,7 @@ export default function PaginatedItems(props) {
 
   // Caso "items" mude, as variáveis são resetadas
   useEffect(() => {
-    console.log("Entrei na atualização da busca")
+    //console.log("Entrei na atualização da busca")
     setItemOffset(0);
     const endOffset = itemOffset + itemsPerPage;
     setCurrentItems(items.slice(itemOffset, endOffset));
@@ -29,7 +29,7 @@ export default function PaginatedItems(props) {
   }, [items])
 
   useEffect(() => {
-    console.log("Entrei na função principal de paginação")
+    //console.log("Entrei na função principal de paginação")
     // Fetch items from another resources.
     const endOffset = itemOffset + itemsPerPage;
     setCurrentItems(items.slice(itemOffset, endOffset));
@@ -37,7 +37,7 @@ export default function PaginatedItems(props) {
   }, [itemOffset, itemsPerPage]);
 
   useEffect(() => {
-    console.log("Entrei no cleanup")
+    //console.log("Entrei no cleanup")
     return () => {
         setItemOffset(0);
         setCurrentItems(null);
