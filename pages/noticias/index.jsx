@@ -24,7 +24,8 @@ export default function Noticias(props){
     let { noticias } = props;
 
     return (
-        <>
+        
+        <div className={Style.background}>
             <Header/>
             <Title title='Notícias' color='#87B93F' />
             <Box invert>
