@@ -12,7 +12,7 @@ import Title from '../components/title';
 import Box from '../components/main_box';
 import Footer from '../components/footer';
 
-export default function Noticia(props){
+export default function Divulgacao(props){
 
     const router = useRouter();
     const {d} = router.query;

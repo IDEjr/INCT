@@ -6,7 +6,7 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import Title from '../components/title';
 import Box from '../components/main_box';
-import Item from '../components/item_noticias'
+import Item from '../components/item_divulgacao'
 
 import { handleJSONfiles } from '../../utils/postHandler';
 
@@ -19,7 +19,7 @@ export function getStaticProps() {
     };
 }
 
-export default function Divulgacao(props){
+export default function divulgacao_Cientifica(props){
 
     let { divulgacao } = props;
 

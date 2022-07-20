@@ -14,6 +14,7 @@ import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Item_Artigo from './components/item_artigos';
 import Item_Noticia from './components/item_noticias';
+import Item_Divulgacao from './components/item_divulgacao';
 import Title from './components/title';
 
 
@@ -48,7 +49,7 @@ export default function Home(props) {
                   showStatus={false}
                   className={styles.carousel}>
           {props.main_carousel.map(({src, para}, index) => 
-          <Link href={para} key={index}><a>
+          <Link href={para && para!="" ? para : "#id-footer"} key={index}><a>
           <Image className={styles.image} src={`/posts/home/avisos/${src}`} width="800px" height="500px"/>
           </a></Link>)}
         </Carousel>
@@ -58,7 +59,7 @@ export default function Home(props) {
       <ul className={styles_n.ul}>                
             { props.divulgacao_list.map( ({titulo, dia, mes, ano, img_src, fileName}, index) => 
                   index < 3 && (
-                    <Item_Noticia key={index} titulo={titulo} dia={dia} mes={mes} ano={ano} img_src={img_src} link={`/noticias/${fileName}`}  />
+                    <Item_Divulgacao key={index} titulo={titulo} dia={dia} mes={mes} ano={ano} img_src={img_src} link={`/divulgacao_cientifica/${fileName}`}  />
             ))}                
       </ul>
 
