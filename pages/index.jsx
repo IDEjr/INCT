@@ -14,6 +14,7 @@ import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Item_Artigo from './components/item_artigos';
 import Item_Noticia from './components/item_noticias';
+import Title from './components/title';
 
 
 import { handleJSONfiles } from '../utils/postHandler';
@@ -21,11 +22,12 @@ import { handleJSONfiles } from '../utils/postHandler';
 export function getStaticProps() {
     const articles_list = handleJSONfiles('./public/posts/artigos');
     const noticias_list = handleJSONfiles('./public/posts/noticias');
+    const divulgacao_list = handleJSONfiles('./public/posts/divulgacao');
     const main_carousel = handleJSONfiles('./public/posts/home/avisos');
     const carousel_revistas = handleJSONfiles('./public/posts/home/revistas');
   
     return {
-      props: { articles_list, noticias_list, main_carousel, carousel_revistas },
+      props: { articles_list, divulgacao_list, noticias_list, main_carousel, carousel_revistas },
     };
 }
 
@@ -51,19 +53,24 @@ export default function Home(props) {
           </a></Link>)}
         </Carousel>
       </div>
-      <div className={styles.title_bar}>
-        <h2 className={styles.text_title}>Últimas notícias</h2>
-      </div>
+      
+      <Title title="Últimas Divulgações Científicas" color="#FAC70A" />
       <ul className={styles_n.ul}>                
-                { props.noticias_list.map( ({titulo, dia, mes, ano, img_src, fileName}, index) => 
-                      index < 3 && (
-                        <Item_Noticia key={index} titulo={titulo} dia={dia} mes={mes} ano={ano} img_src={img_src} link={`/noticias/${fileName}`}  />
-                ))}                
-            </ul>
-      <div className={styles.title_bar2}>
-        <h2 className={styles.text_title}>Últimos artigos</h2>
-      </div>
+            { props.divulgacao_list.map( ({titulo, dia, mes, ano, img_src, fileName}, index) => 
+                  index < 3 && (
+                    <Item_Noticia key={index} titulo={titulo} dia={dia} mes={mes} ano={ano} img_src={img_src} link={`/noticias/${fileName}`}  />
+            ))}                
+      </ul>
 
+      <Title title="Últimas notícias" color="#87B93F" />
+      <ul className={styles_n.ul}>                
+            { props.noticias_list.map( ({titulo, dia, mes, ano, img_src, fileName}, index) => 
+                  index < 3 && (
+                    <Item_Noticia key={index} titulo={titulo} dia={dia} mes={mes} ano={ano} img_src={img_src} link={`/noticias/${fileName}`}  />
+            ))}                
+      </ul>
+
+      <Title title="Últimos artigos"/>
      <div className={styles.container_artigos}>
         <div className={styles.bg3}>
           <Carousel autoPlay infiniteLoop
