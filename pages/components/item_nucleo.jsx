@@ -25,7 +25,7 @@ export default function item_Nucleo(props){
             <Link href={{ pathname: `/nucleos/${props.link}`, query: { title:props.title }}}>
                 <a className={Style.a}>
                     <span className={Style.imagem}>
-                        <Image src={props.logo} width={w} height={h}/>
+                        <Image src={`/posts/nucleos/${props.logo}`} width={w} height={h}/>
                     </span>
                     <span className={Style.title_Img}>{props.title}</span>
                 </a>

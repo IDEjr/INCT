@@ -16,7 +16,7 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: "titulo", name: "titulo", widget: "string" }
+      - { label: "titulo(primordial)", name: "titulo", widget: "string" }
       - { label: "imagem", name: "src", widget: "image", media_folder: images }
       - { label: "link", name: "para", widget: "string" }
   - name: "revistas"
@@ -29,9 +29,27 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: "titulo", name: "titulo", widget: "string" }
+      - { label: "titulo(primordial)", name: "titulo", widget: "string" }
       - { label: "imagem", name: "src", widget: "image", media_folder: images }
       - { label: "link", name: "doi", widget: "string" }
+  - name: "divulgacao"
+    label: "Divulgação Científica"      
+    folder: "public/posts/divulgacao"    
+    identifier_field: "titulo"
+    slug: "{{ano}}-{{mes}}-{{dia}}-{{slug}}"
+    extension: "json"    
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "titulo(primordial)", name: "titulo", widget: "string" }
+      - { label: "dia(primordial)", name: "dia", widget: "string" }
+      - { label: "mes(primordial)", name: "mes", widget: "string" }
+      - { label: "ano(primordial)", name: "ano", widget: "string" }
+      - { label: "capa", name: "img_src", widget: "image", media_folder: "files/{{ano}}-{{mes}}-{{dia}}-{{slug}}" }    
+      - { label: "noticia", name: "noticia", widget: "markdown" }
+      - { label: "imagens", name: "images", widget: "list", required: false, field: {label: Image, name: image, widget: image, media_folder: "files/{{ano}}-{{mes}}-{{dia}}-{{slug}}"}}
+      - { label: "youtube", name: "youtube", required: false, widget: "string" }
   - name: "noticias"
     label: "Noticias"      
     folder: "public/posts/noticias"    
@@ -42,10 +60,10 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: "titulo", name: "titulo", widget: "string" }
-      - { label: "dia", name: "dia", widget: "string" }
-      - { label: "mes", name: "mes", widget: "string" }
-      - { label: "ano", name: "ano", widget: "string" }
+      - { label: "titulo(primordial)", name: "titulo", widget: "string" }
+      - { label: "dia(primordial)", name: "dia", widget: "string" }
+      - { label: "mes(primordial)", name: "mes", widget: "string" }
+      - { label: "ano(primordial)", name: "ano", widget: "string" }
       - { label: "capa", name: "img_src", widget: "image", media_folder: "files/{{ano}}-{{mes}}-{{dia}}-{{slug}}" }    
       - { label: "noticia", name: "noticia", widget: "markdown" }
       - { label: "imagens", name: "images", widget: "list", required: false, field: {label: Image, name: image, widget: image, media_folder: "files/{{ano}}-{{mes}}-{{dia}}-{{slug}}"}}
@@ -60,11 +78,11 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: "nome", name: "nome", widget: "string"}      
+      - { label: "nome(primordial)", name: "nome", widget: "string"}      
       - { label: "publicador", name: "publicador", widget: "string"}
       - { label: "versao", name: "versao", widget: "string"}
       - { label: "paginas", name: "paginas", widget: "string"}
-      - { label: "ano", name: "ano", widget: "string"}
+      - { label: "ano(primordial)", name: "ano", widget: "string"}
       - { label: "link", name: "link", widget: "string"}
       - { label: "autores", name: "autores", widget: "list"}
   - name: "livros"
@@ -77,7 +95,7 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: "nome", name: "nome", widget: "string"}
+      - { label: "nome(primordial)", name: "nome", widget: "string"}
       - { label: "pdf", name: "link", widget: "file", media_folder: "files"}
       - { label: "capa", name: "src", widget: "image", media_folder: "images"}  
   - name: "patentes"
@@ -90,18 +108,20 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: "nome", name: "nome", widget: "string"}      
+      - { label: "nome(primordial)", name: "nome", widget: "string"}      
       - { label: "pdf", name: "link", widget: "file", media_folder: "files/images" }
-  - name: "Descricao Sobre"
+  - name: "descricaoSobre"
     label: "Descricao do Sobre"      
     folder: "public/posts/sobre/descricao"
+    identifier_field: "nome"
+    slug: "descricao"
     extension: "json"
     editor:
       preview: true
     fields:
-      - { label: "title", name: "title", widget: "string"}      
+      - { label: "titulo", name: "title", widget: "string" }      
       - { label: "descricao", name: "descricao", widget: "markdown" }
-  - name: "areas do sobre"
+  - name: "areasDoSobre"
     label: "Areas do Sobre"      
     folder: "public/posts/sobre/areas"
     identifier_field: "key"
@@ -111,8 +131,8 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: "nome", name: "key", widget: "string"}      
-      - { label: "imagem", name: "imagem", widget: "image", media_folder: "files" }
+      - { label: "nome(primordial)", name: "key", widget: "string"}      
+      - { label: "imagem", name: "imagem", widget: "image", media_folder: "images" }
       - { label: "titulo", name: "titulo", widget: "string"}  
       - { label: "texto", name: "texto", widget: "string"}
   - name: "nucleos"
@@ -125,19 +145,19 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: "Aba", name: "link", widget: "string"} 
+      - { label: "Aba(primordial)", name: "link", widget: "string"} 
       - { label: "Título(ícone)", name: "title", widget: "string"}
-      - { label: "Logo(ícone)", name: "logo", widget: "image", media_folder: "teste/main/{{slug}}" }      
+      - { label: "Logo(ícone)", name: "logo", widget: "image", media_folder: "main/{{slug}}" }      
       - { label: "Largura da imagem(ícone)", name: "brasaoLar", widget: "string" }
       - { label: "Altura da imagem(ícone)", name: "brasaoAlt", widget: "string"}      
-      - { label: "Galeria", name: "list_galeria", widget: "list", required: false, field: {label: Image, name: image, widget: image, media_folder: "teste/galeria/{{slug}}"}}
-      - { label: "Estrutura", name: "list_estrutura", widget: "list", required: false, field: {label: Image, name: image, widget: image, media_folder: "teste/estrutura/{{slug}}"}}
+      - { label: "Galeria", name: "list_galeria", widget: "list", required: false, field: {label: Image, name: image, widget: image, media_folder: "galeria/{{slug}}"}}
+      - { label: "Estrutura", name: "list_estrutura", widget: "list", required: false, field: {label: Image, name: image, widget: image, media_folder: "estrutura/{{slug}}"} }
       - label: "Pesquisadores"
         name: "list_pesquisadores"
         widget: "list"
         required: false
         fields:
-          - {label: Nome, name: nome, widget: string}
+          - {label: Nome(primordial), name: nome, widget: string}
           - {label: Cargo, name: cargo, widget: string}
           - {label: Link, name: link, widget: string}
-          - { label: "Imagem", name: "imagem", widget: "image", media_folder: "teste/pesquisadores/{{slug}}" }
+          - { label: "Imagem", name: "imagem", widget: "image", media_folder: "pesquisadores/{{slug}}" }
