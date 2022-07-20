@@ -23,10 +23,6 @@ export default function galeria(){
 
     const { list_pesquisadores, list_estrutura, list_galeria } = require(`../../public/posts/nucleos/${g}`);
 
-    console.log(list_pesquisadores);
-    console.log(list_estrutura);
-    console.log(list_galeria);
-
     return (
         <>
             <Header/>
