@@ -34,7 +34,7 @@ export default function Sobre(props) {
             <h1 className={style.title}>Missão</h1>
             <div className={style.box}>
                 <div className={style.mission}>
-                    <p className={style.text}><ReactMarkdown children={sobre.descricao}/></p>
+                    <div className={style.text}><ReactMarkdown children={sobre.descricao}/></div>
                 </div>
             </div>
 
