@@ -54,7 +54,7 @@ export default function Home(props) {
         </Carousel>
       </div>
       
-      <Title title="Últimas Divulgações Científicas" color="#FAC70A" />
+      <Title title="Divulgaçãos Científica" color="#FAC70A" />
       <ul className={styles_n.ul}>                
             { props.divulgacao_list.map( ({titulo, dia, mes, ano, img_src, fileName}, index) => 
                   index < 3 && (
@@ -62,7 +62,7 @@ export default function Home(props) {
             ))}                
       </ul>
 
-      <Title title="Últimas notícias" color="#87B93F" />
+      <Title title="Notícias" color="#87B93F" />
       <ul className={styles_n.ul}>                
             { props.noticias_list.map( ({titulo, dia, mes, ano, img_src, fileName}, index) => 
                   index < 3 && (
@@ -70,7 +70,7 @@ export default function Home(props) {
             ))}                
       </ul>
 
-      <Title title="Últimos artigos"/>
+      <Title title="Artigos"/>
      <div className={styles.container_artigos}>
         <div className={styles.bg3}>
           <Carousel autoPlay infiniteLoop

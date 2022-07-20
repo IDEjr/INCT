@@ -32,6 +32,24 @@ collections:
       - { label: "titulo(primordial)", name: "titulo", widget: "string" }
       - { label: "imagem", name: "src", widget: "image", media_folder: images }
       - { label: "link", name: "doi", widget: "string" }
+  - name: "divulgacao"
+    label: "Divulgação Científica"      
+    folder: "public/posts/divulgacao"    
+    identifier_field: "titulo"
+    slug: "{{ano}}-{{mes}}-{{dia}}-{{slug}}"
+    extension: "json"    
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "titulo(primordial)", name: "titulo", widget: "string" }
+      - { label: "dia(primordial)", name: "dia", widget: "string" }
+      - { label: "mes(primordial)", name: "mes", widget: "string" }
+      - { label: "ano(primordial)", name: "ano", widget: "string" }
+      - { label: "capa", name: "img_src", widget: "image", media_folder: "files/{{ano}}-{{mes}}-{{dia}}-{{slug}}" }    
+      - { label: "noticia", name: "noticia", widget: "markdown" }
+      - { label: "imagens", name: "images", widget: "list", required: false, field: {label: Image, name: image, widget: image, media_folder: "files/{{ano}}-{{mes}}-{{dia}}-{{slug}}"}}
+      - { label: "youtube", name: "youtube", required: false, widget: "string" }
   - name: "noticias"
     label: "Noticias"      
     folder: "public/posts/noticias"    
