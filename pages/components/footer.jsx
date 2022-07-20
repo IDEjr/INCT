@@ -12,7 +12,7 @@ export default function Footer(props) {
           <div className={style.box_imagem}>
             <Link href="https://www.google.com/maps/place/Departamento+de+Qu%C3%ADmica+-+UFSC/@-27.5985254,-48.5257494,17z/data=!3m1!4b1!4m5!3m4!1s0x952738549f9be311:0x4e545dfbc9639aec!8m2!3d-27.5985678!4d-48.5234421">
               <a>
-                <Image src="/footer/map_icon.png" width={141} height={122} layout="fixed"/>
+                <Image src="/footer/map-icon-white.png" width={140} height={140} layout="fixed"/>
               </a>        
             </Link>           
           </div>
@@ -68,7 +68,7 @@ export default function Footer(props) {
         </div>        
       </div>
       <div className={style.box_assinatura}>
-        <span className={style.text_assinatura}>Produzido por</span>
+        <span className={style.text_assinatura}>Desenvolvido por</span>
         <Link href='https://www.idejr.com.br'><a className={style.logo}><Image src="/footer/logo_branco.png" height={59} width={127}/></a></Link>
       </div>
     </div>
