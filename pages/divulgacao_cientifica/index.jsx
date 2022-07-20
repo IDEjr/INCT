@@ -9,6 +9,7 @@ import Box from '../components/main_box';
 import Item from '../components/item_divulgacao'
 
 import { handleJSONfiles } from '../../utils/postHandler';
+import compara_data from "../components/compara_data";
 
 
 export function getStaticProps() {
@@ -22,6 +23,7 @@ export function getStaticProps() {
 export default function divulgacao_Cientifica(props){
 
     let { divulgacao } = props;
+    divulgacao.sort(compara_data).reverse()
 
     return (
         <>
