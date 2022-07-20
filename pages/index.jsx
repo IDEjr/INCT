@@ -55,7 +55,7 @@ export default function Home(props) {
         </Carousel>
       </div>
       
-      <Title title="Divulgaçãos Científica" color="#FAC70A" />
+      <Title title="Divulgação Científica" color="#FAC70A" />
       <ul className={styles_n.ul}>                
             { props.divulgacao_list.map( ({titulo, dia, mes, ano, img_src, fileName}, index) => 
                   index < 3 && (
