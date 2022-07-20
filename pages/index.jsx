@@ -49,7 +49,7 @@ export default function Home(props) {
                   showStatus={false}
                   className={styles.carousel}>
           {props.main_carousel.map(({src, para}, index) => 
-          <Link href={para && para!="" ? para : "#id-footer"} key={index}><a>
+          <Link href={para && para!="" ? para : "/"} key={index}><a>
           <Image className={styles.image} src={`/posts/home/avisos/${src}`} width="800px" height="500px"/>
           </a></Link>)}
         </Carousel>
