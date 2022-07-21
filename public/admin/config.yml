@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: netlify # Branch to update (optional; defaults to master)
+  branch: netlify_update # Branch to update (optional; defaults to master)
 publish_mode: editorial_workflow
 locale: "pt"
 media_folder: public/images

@@ -44,7 +44,7 @@ export default function Patentes(props){
             <Box>
                 <Search_Box placeHolder='Pesquisa por nome' func={e => { handleInputDate(e.target.value) }} />
                 {itens.length > 0 ?
-                    <PaginatedItems itemsPerPage={5} items={itens} type={'patentes'}/>
+                    <PaginatedItems itemsPerPage={15} items={itens} type={'patentes'}/>
                     : <Err msg='Desculpe, mas não encontramos nenhuma patente para essa pesquisa!'/>}                                    
             </Box>            
             <Footer/>            

@@ -44,7 +44,7 @@ export default function Livros(props){
             <Box>
                 <Search_Box placeHolder='Pesquisa por nome' func={e => { handleInputDate(e.target.value) }} />
                 {itens.length > 0 ?
-                    <PaginatedItems itemsPerPage={3} items={itens} type={'livros'}/>
+                    <PaginatedItems itemsPerPage={15} items={itens} type={'livros'}/>
                     : <Err msg='Desculpe, mas não encontramos nenhum livro para essa pesquisa!'/>}                
             </Box>            
             <Footer/>            

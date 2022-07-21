@@ -68,11 +68,11 @@ export default function PaginatedItems(props) {
 
       <ReactPaginate
         breakLabel="..."
-        nextLabel="next >"
+        nextLabel="próximo >"
         onPageChange={handlePageClick}
-        pageRangeDisplayed={3}
+        pageRangeDisplayed={1}
         pageCount={pageCount}
-        previousLabel="< previous"
+        previousLabel="< anterior"
         renderOnZeroPageCount={null}
         containerClassName={styles.container}
         pageLinkClassName={styles.item}
