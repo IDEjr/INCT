@@ -9,6 +9,7 @@ import Title from '../../components/title';
 import Item from '../../components/item_livros';
 import Search_Box from '../../components/search_box';
 import Err from '../../components/error_msg';
+import PaginatedItems from '../../components/paginated_items';
 
 import { handleJSONfiles } from '../../../utils/postHandler';
 
@@ -43,8 +44,7 @@ export default function Livros(props){
             <Box>
                 <Search_Box placeHolder='Pesquisa por nome' func={e => { handleInputDate(e.target.value) }} />
                 {itens.length > 0 ?
-                    itens.map(({nome, link, src}, index)=>
-                        <Item key={index} nome={nome} link={link} src={src} width="80vw"/>)
+                    <PaginatedItems itemsPerPage={3} items={itens} type={'livros'}/>
                     : <Err msg='Desculpe, mas não encontramos nenhum livro para essa pesquisa!'/>}                
             </Box>            
             <Footer/>            

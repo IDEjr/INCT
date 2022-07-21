@@ -19,6 +19,8 @@ import Title from './components/title';
 
 
 import { handleJSONfiles } from '../utils/postHandler';
+import compara_data from "./components/compara_data";
+import ReactPlayer from 'react-player/youtube';
 
 export function getStaticProps() {
     const articles_list = handleJSONfiles('./public/posts/artigos');
@@ -34,6 +36,9 @@ export function getStaticProps() {
 
 
 export default function Home(props) {
+
+  props.divulgacao_list.sort(compara_data).reverse()
+  props.noticias_list.sort(compara_data).reverse()
 
   return (        
 
