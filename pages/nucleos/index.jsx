@@ -19,13 +19,18 @@ export function getStaticProps() {
 }
 
 export default function nucleos(props){
+  
+    let list_Image = props.list_Image
+    
+    list_Image.sort((a,b) => b.list_pesquisadores.length - a.list_pesquisadores.length)
+    list_Image = list_Image.filter((x) => x.list_pesquisadores.length != 0)
 
     return(
         <>
           <Header/>
           <Title title="Núcleos" color="#FAC70A"/>
           <Box invert>
-            { props.list_Image.map( ({title, link, logo, brasaoAlt, brasaoLar}, index) => 
+            { list_Image.map( ({title, link, logo, brasaoAlt, brasaoLar}, index) => 
                 <Item key={index} title={title} logo={logo} link={link} w={brasaoLar} h={brasaoAlt}/>
             )}
           </Box>
