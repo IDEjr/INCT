@@ -66,3 +66,21 @@
     font-size: 1rem;
   }
 }
+
+@media (max-width: 1000px) {
+  .a{
+
+    width: 250px; 
+    height: 250px;
+  }
+
+  .image_notice
+  {
+    width: 250px; 
+    height: 150px;
+
+    border-radius: 5px;
+    /*background-color: #87B93F;*/
+  }
+  
+}
