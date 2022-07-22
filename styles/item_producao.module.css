@@ -2,11 +2,11 @@
 {
     margin: 2%;
     border-radius: 5px;
-    font-size: 24px;
+    font-size: 2rem;
 
     background-color: #ebebeb7e;
-    height: 300px;
-    width: 300px;
+    height: 25vw;
+    width: 25vw;
 
     position: relative;
 
@@ -23,4 +23,18 @@
     background-color: #050505b1;
     color: white;
     transform: scale(1.1);     
+}
+
+@media (max-width: 1460px) {
+
+    .boxItem
+    {
+        height: 300px;
+        width: 300px;
+        
+        padding: 3%;
+
+        font-size: 1.5rem;
+
+    }
 }

@@ -60,22 +60,6 @@ export default function Home(props) {
         </Carousel>
       </div>
       
-      <Title title="Divulgação Científica" color="#FAC70A" />
-      <ul className={styles_n.ul}>                
-            { props.divulgacao_list.map( ({titulo, dia, mes, ano, img_src, fileName}, index) => 
-                  index < 3 && (
-                    <Item_Divulgacao key={index} titulo={titulo} dia={dia} mes={mes} ano={ano} img_src={img_src} link={`/divulgacao_cientifica/${fileName}`}  />
-            ))}                
-      </ul>
-
-      <Title title="Notícias" color="#87B93F" />
-      <ul className={styles_n.ul}>                
-            { props.noticias_list.map( ({titulo, dia, mes, ano, img_src, fileName}, index) => 
-                  index < 3 && (
-                    <Item_Noticia key={index} titulo={titulo} dia={dia} mes={mes} ano={ano} img_src={img_src} link={`/noticias/${fileName}`}  />
-            ))}                
-      </ul>
-
       <Title title="Artigos"/>
      <div className={styles.container_artigos}>
         <div className={styles.bg3}>
@@ -103,6 +87,24 @@ export default function Home(props) {
           )}
         </ul>
       </div>
+
+      <Title title="Divulgação Científica" color="#FAC70A" />
+      <ul className={styles_n.ul}>                
+            { props.divulgacao_list.map( ({titulo, dia, mes, ano, img_src, fileName}, index) => 
+                  index < 3 && (
+                    <Item_Divulgacao key={index} titulo={titulo} dia={dia} mes={mes} ano={ano} img_src={img_src} link={`/divulgacao_cientifica/${fileName}`}  />
+            ))}                
+      </ul>
+
+      <Title title="Notícias" color="#87B93F" />
+      <ul className={styles_n.ul}>                
+            { props.noticias_list.map( ({titulo, dia, mes, ano, img_src, fileName}, index) => 
+                  index < 3 && (
+                    <Item_Noticia key={index} titulo={titulo} dia={dia} mes={mes} ano={ano} img_src={img_src} link={`/noticias/${fileName}`}  />
+            ))}                
+      </ul>
+
+      
       
       <Footer id="id-footer"/>
     </div>
