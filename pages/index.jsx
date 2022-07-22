@@ -103,7 +103,7 @@ export default function Home(props) {
           )}
         </ul>
       </div>
-
+      
       <Footer id="id-footer"/>
     </div>
   );

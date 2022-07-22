@@ -129,7 +129,6 @@
 
 .carousel_ext
 {
-    background-color: #050505b1;
     width: 55%;
     border-radius: 10px;
     padding: 2%;
@@ -138,7 +137,7 @@
 
 .carousel_ext_thumbs
 {
-    background-color: #050505b1;
+    background-color: #8585859a;
     width: 55%;
     border-radius: 10px;
     padding: 2%;
