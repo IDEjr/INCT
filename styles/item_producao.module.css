@@ -8,6 +8,8 @@
     height: 25vw;
     width: 25vw;
 
+    padding: 3%;
+
     position: relative;
 
     display: flex;
@@ -29,11 +31,9 @@
 
     .boxItem
     {
-        height: 300px;
-        width: 300px;
+        height: 350px;
+        width: 350px;
         
-        padding: 3%;
-
         font-size: 1.5rem;
 
     }
@@ -46,8 +46,6 @@
         height: 250px;
         width: 250px;
         
-        padding: 3%;
-
         font-size: 1.5rem;
 
     }

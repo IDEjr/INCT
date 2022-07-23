@@ -14,7 +14,7 @@ export default function item_Producao(props){
     return (        
         <Link href={props.link}>
             <a className={style.boxItem}>
-                <Image src={props.src} width={'200%'} height={'200%'}/>
+                <img src={props.src} width={"70%"}/>
                 <span>{props.nome}</span>
             </a>
         </Link>
