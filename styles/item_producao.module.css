@@ -38,3 +38,17 @@
 
     }
 }
+
+@media (max-width: 700px) {
+
+    .boxItem
+    {
+        height: 250px;
+        width: 250px;
+        
+        padding: 3%;
+
+        font-size: 1.5rem;
+
+    }
+}
