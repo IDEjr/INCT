@@ -147,9 +147,7 @@ collections:
     fields:
       - { label: "Aba(primordial)", name: "link", widget: "string"} 
       - { label: "Título(ícone)", name: "title", widget: "string"}
-      - { label: "Logo(ícone)", name: "logo", widget: "image", media_folder: "main/{{slug}}" }      
-      - { label: "Largura da imagem(ícone)", name: "brasaoLar", widget: "string" }
-      - { label: "Altura da imagem(ícone)", name: "brasaoAlt", widget: "string"}      
+      - { label: "Logo(ícone)", name: "logo", widget: "image", media_folder: "main/{{slug}}" }
       - { label: "Galeria", name: "list_galeria", widget: "list", required: false, field: {label: Image, name: image, widget: image, media_folder: "galeria/{{slug}}"}}
       - { label: "Estrutura", name: "list_estrutura", widget: "list", required: false, field: {label: Image, name: image, widget: image, media_folder: "estrutura/{{slug}}"} }
       - label: "Pesquisadores"

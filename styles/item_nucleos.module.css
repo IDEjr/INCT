@@ -35,18 +35,17 @@
 }
 
 .imagem {
-    height: 8vw;
-    width: 8vw;
-    display: flex;
+    height: 9vw;
+    width: 9vw;
+    display:flex;
     justify-content: center;
-    align-items: center;
-    position: relative;
+    align-items: center;   
 }
 
 .title_Img
 {
     margin-top: 10%;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 @media (max-width: 1460px) {
@@ -54,7 +53,7 @@
     .title_Img
     {
    
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 }
 

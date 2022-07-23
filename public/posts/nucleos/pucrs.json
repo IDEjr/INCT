@@ -1,9 +1,8 @@
 {
-    "logo": "main/pucrs/pucrs_logo.png",
-    "brasaoLar": 348, 
-    "brasaoAlt": 500, 
     "title": "PUCRS", 
     "link": "pucrs",
+    "logo": "main/pucrs/pucrs_logo.png",     
+    
     "list_pesquisadores": [],
     "list_galeria": [],
     "list_estrutura": []
