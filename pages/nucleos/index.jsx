@@ -20,16 +20,16 @@ export function getStaticProps() {
 
 export default function nucleos(props){
   
-     return(
-        <>
-          <Header/>
-          <Title title="Núcleos" color="#FAC70A"/>
-          <Box invert>
-            { props.list_Image.map( ({title, link, logo}, index) => 
-                <Item key={index} title={title} logo={logo} link={link}/>
-            )}
-          </Box>
-          <Footer/>
-        </>     
-    )
+  return(
+    <>
+      <Header/>
+      <Title title="Núcleos" color="#FAC70A"/>
+      <Box invert>
+        { props.list_Image.map( ({title, link, logo}, index) => 
+            <Item key={index} title={title} logo={logo} link={link}/>
+        )}
+      </Box>
+      <Footer/>
+    </>     
+  )
 }

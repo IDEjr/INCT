@@ -9,7 +9,7 @@ import Box from '../components/main_box';
 import Item from '../components/item_noticias'
 
 import { handleJSONfiles } from '../../utils/postHandler';
-import compara_data from '../components/compara_data';
+import { compara_data } from '../../utils/compare';
 
 
 export function getStaticProps() {
@@ -22,15 +22,13 @@ export function getStaticProps() {
 
 export default function Noticias(props){
 
-    let { noticias } = props;
-    noticias.sort(compara_data).reverse()
 
     return (
         <>
             <Header/>
             <Title title='Notícias' color='#87B93F' />
             <Box invert>
-                { noticias.map( ({titulo, dia, mes, ano, img_src, fileName}, index) => 
+                { props.noticias.sort((a,b) => compara_data(b,a)).map( ({titulo, dia, mes, ano, img_src, fileName}, index) => 
                         <Item key={index} titulo={titulo} dia={dia} mes={mes} ano={ano} img_src={img_src} link={`/noticias/${fileName}`}  />
                     ) }
             </Box>

@@ -14,6 +14,7 @@ import Title from '../components/title';
 import Box from '../components/main_box';
 import Footer from '../components/footer';
 import Err from '../components/error_msg';
+import { compara_string } from '../../utils/compare';
 
 export default function galeria(){
 
@@ -34,7 +35,7 @@ export default function galeria(){
                     <span className={style.name_list_title}>Equipe</span>
                 </div>
                 <ul className={style.list_pesq}>                
-                    { list_pesquisadores.map( ({nome, imagem, link, cargo}, index) => 
+                    { list_pesquisadores.sort((a,b)=>compara_string(a.nome,b.nome)).map( ({nome, imagem, link, cargo}, index) => 
                         <Link key={index} href={link}><a className={style.link_pesq}>
                             <li className={style.box_pesq}>
                                 <div className={style.image_pesq} style={{

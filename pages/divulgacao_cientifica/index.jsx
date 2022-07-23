@@ -9,7 +9,7 @@ import Box from '../components/main_box';
 import Item from '../components/item_divulgacao'
 
 import { handleJSONfiles } from '../../utils/postHandler';
-import compara_data from "../components/compara_data";
+import { compara_data } from "../../utils/compare";
 
 
 export function getStaticProps() {
@@ -22,15 +22,12 @@ export function getStaticProps() {
 
 export default function divulgacao_Cientifica(props){
 
-    let { divulgacao } = props;
-    divulgacao.sort(compara_data).reverse()
-
     return (
         <>
             <Header/>
             <Title title='Divulgação Científica' color='#FAC70A' />
             <Box invert>
-                { divulgacao.map( ({titulo, dia, mes, ano, img_src, fileName}, index) => 
+                { props.divulgacao.sort((a,b) => compara_data(b,a)).map( ({titulo, dia, mes, ano, img_src, fileName}, index) => 
                         <Item key={index} titulo={titulo} dia={dia} mes={mes} ano={ano} img_src={img_src} link={`/divulgacao_cientifica/${fileName}`}  />
                     ) }
             </Box>

@@ -19,7 +19,7 @@ import Title from './components/title';
 
 
 import { handleJSONfiles } from '../utils/postHandler';
-import compara_data from "./components/compara_data";
+import { compara_data } from "../utils/compare";
 import ReactPlayer from 'react-player/youtube';
 
 export function getStaticProps() {
@@ -36,9 +36,6 @@ export function getStaticProps() {
 
 
 export default function Home(props) {
-
-  props.divulgacao_list.sort(compara_data).reverse()
-  props.noticias_list.sort(compara_data).reverse()
 
   return (        
 
@@ -79,7 +76,7 @@ export default function Home(props) {
         </div>
         
         <ul className={styles.ul2}>
-          {props.articles_list.map(
+          {props.articles_list.sort((a,b) => compara_data(b,a)).map(
             ({nome, autores, publicador, versao, paginas, ano, link }, index) =>
               index < 3 && (
                 <Item_Artigo key={index} nome = {nome} autores = {autores} publicador = {publicador} versao = {versao} paginas = {paginas} ano = {ano} link = {link} width="100%"/>
@@ -90,7 +87,7 @@ export default function Home(props) {
 
       <Title title="Divulgação Científica" color="#FAC70A" />
       <ul className={styles_n.ul}>                
-            { props.divulgacao_list.map( ({titulo, dia, mes, ano, img_src, fileName}, index) => 
+            { props.divulgacao_list.sort((a,b) => compara_data(b,a)).map( ({titulo, dia, mes, ano, img_src, fileName}, index) => 
                   index < 3 && (
                     <Item_Divulgacao key={index} titulo={titulo} dia={dia} mes={mes} ano={ano} img_src={img_src} link={`/divulgacao_cientifica/${fileName}`}  />
             ))}                
@@ -98,7 +95,7 @@ export default function Home(props) {
 
       <Title title="Notícias" color="#87B93F" />
       <ul className={styles_n.ul}>                
-            { props.noticias_list.map( ({titulo, dia, mes, ano, img_src, fileName}, index) => 
+            { props.noticias_list.sort((a,b) => compara_data(b,a)).map( ({titulo, dia, mes, ano, img_src, fileName}, index) => 
                   index < 3 && (
                     <Item_Noticia key={index} titulo={titulo} dia={dia} mes={mes} ano={ano} img_src={img_src} link={`/noticias/${fileName}`}  />
             ))}                

@@ -7,6 +7,9 @@ import Patente from './item_patentes'
 import React, { useEffect, useState } from 'react';
 import ReactPaginate from 'react-paginate';
 
+import { compara_string, compara_data } from '../../utils/compare';
+
+
 export default function PaginatedItems(props) {
   const itemsPerPage = props.itemsPerPage;
   const items = props.items;
@@ -54,16 +57,16 @@ export default function PaginatedItems(props) {
   return (
     <>
       {type == 'artigos' && 
-        currentItems.map( ({nome, autores, publicador, versao, paginas, ano, link}, index) => 
+        currentItems.sort((a,b) => compara_data(b,a)).map( ({nome, autores, publicador, versao, paginas, ano, link}, index) => 
         <Artigo key={index} nome = {nome} autores = {autores} publicador = {publicador} versao = {versao} 
                 paginas = {paginas} ano = {ano} link = {link} width="80vw"/>)}
 
       {type == 'livros' && 
-        currentItems.map(({nome, link, src}, index)=>
+        currentItems.sort((a,b) => compara_string(a.nome,b.nome)).map(({nome, link, src}, index)=>
         <Livro key={index} nome={nome} link={link} src={src} width="80vw"/>)}
 
       {type == 'patentes' && 
-        currentItems.map(({nome, link}, index) =>
+        currentItems.sort((a,b) => compara_string(a.nome,b.nome)).map(({nome, link}, index) =>
         <Patente key={index} nome={nome} link={link} width="80vw"/>)}
 
       <ReactPaginate

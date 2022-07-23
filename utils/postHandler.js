@@ -18,11 +18,11 @@ export function handleJSONfiles(filePath) {
     return posts;
   }
   
-  export function handleJSONfile(filePath) {
-    const fs = require("fs");
-  
-    const post = fs.readFileSync(filePath);
-    const jsonPost = JSON.parse(post.toString());
-  
-    return jsonPost;
-  }
+export function handleJSONfile(filePath) {
+  const fs = require("fs");
+
+  const post = fs.readFileSync(filePath);
+  const jsonPost = JSON.parse(post.toString());
+
+  return jsonPost;
+}
