@@ -1,0 +1,20 @@
+{
+  "link": "projetos",
+  "title": "projetos",
+  "logo": "main/projetos/logo.png",
+  "list_galeria": [
+    "galeria/projetos/nova-capa.png",
+    "galeria/projetos/caparg.jpeg"
+  ],
+  "list_estrutura": [
+    "estrutura/projetos/179432077-e031b279-b019-48a0-bfe6-ca4c9aa51239.png"
+  ],
+  "list_pesquisadores": [
+    {
+      "nome": "Fulano de tal",
+      "cargo": "tal",
+      "link": "https://www.google.com.br",
+      "imagem": "pesquisadores/projetos/nova-revista.png"
+    }
+  ]
+}
