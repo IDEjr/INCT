@@ -56,7 +56,7 @@ export default function galeria(){
             { list_estrutura.length === 0 ? <></> :
             <div className={style.box_content}>
                 <div className={style.box_list_title}>
-                    <span className={style.name_list_title}>Galeria</span>
+                    <span className={style.name_list_title}>Estrutura</span>
                 </div>
                 <div className={style.carousel_ext_thumbs}>            
                     <Carousel onClickItem={(i, item) => window.open(`/posts/nucleos/${list_estrutura[i]}`, "_blank")}              
