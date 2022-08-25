@@ -60,7 +60,7 @@ export default function galeria(){
                 </div>
                 <div className={style.carousel_ext_thumbs}>            
                     <Carousel onClickItem={(i, item) => window.open(`/posts/nucleos/${list_estrutura[i]}`, "_blank")}              
-                            dynamicHeight emulateTouch useKeyboardArrows showStatus={false} showIndicators={false} showThumbs={false}
+                            dynamicHeight emulateTouch useKeyboardArrows showStatus={false} showThumbs={false}
                             autoPlay infiniteLoop>
                         {list_estrutura.map((image, index) => 
                             <div key={index} className={style.div_estrutura}>
@@ -79,7 +79,7 @@ export default function galeria(){
                 </div>
                 <div className={style.carousel_ext_thumbs}>            
                     <Carousel onClickItem={(i, item) => window.open(`/posts/nucleos/${list_galeria[i]}`, "_blank")}              
-                            dynamicHeight emulateTouch useKeyboardArrows showStatus={false} showIndicators={false}
+                            dynamicHeight emulateTouch useKeyboardArrows showStatus={false} showThumbs={false}
                             autoPlay infiniteLoop>
                         {list_galeria.map((image, index) => 
                             <img key={index} src={`/posts/nucleos/${image}`}/>

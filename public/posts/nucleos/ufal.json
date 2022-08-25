@@ -11,10 +11,22 @@
             "link": "https://iqb.ufal.br/pt-br/institucional/docentes/professores/mario-meneghetti"
         },
         {
-            "nome": "Simoni Plentz Meneghetti ",
+            "nome": "Simoni Plentz Meneghetti",
             "cargo":"Pesquisadora",
             "imagem": "pesquisadores/ufal/Simoni Meneghetti.jpeg",
             "link": "https://iqb.ufal.br/pt-br/institucional/docentes/professores/simoni-meneghetti"
+        },
+        {
+            "nome": "Janaína Heberle Bortoluzzi",
+            "cargo":"Pesquisadora",
+            "imagem": "pesquisadores/ufal/janaina-heberle-bortoluzzi.gif",
+            "link": "https://iqb.ufal.br/pt-br/institucional/docentes/professores/janaina-herbele-bortoluzzi"
+        },
+        {
+            "nome": "Rusiene Monteiro de Almeida",
+            "cargo":"Pesquisadora",
+            "imagem": "pesquisadores/ufal/rusiene-monteiro.gif",
+            "link": "https://iqb.ufal.br/pt-br/institucional/docentes/professores/rusiene-monteiro"
         }
     ],
     "list_galeria": [],

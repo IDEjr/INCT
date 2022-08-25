@@ -47,9 +47,24 @@
     }
   ],
   "list_galeria": [
-    "galeria/ufrgs/labufrgs_019.jpg"
+    "galeria/ufrgs/labufrgs_019.jpg",
+    "galeria/ufrgs/labufrgs_018.jpg"
   ],
   "list_estrutura": [
-    "estrutura/ufrgs/labufrgs_001.jpg"
+    "estrutura/ufrgs/labufrgs_001.jpg",
+    "estrutura/ufrgs/labufrgs_004.jpg",
+    "estrutura/ufrgs/labufrgs_005.jpg",
+    "estrutura/ufrgs/labufrgs_006.jpg",
+    "estrutura/ufrgs/labufrgs_007.jpg",
+    "estrutura/ufrgs/labufrgs_008.jpg",
+    "estrutura/ufrgs/labufrgs_009.jpg",
+    "estrutura/ufrgs/labufrgs_010.jpg",
+    "estrutura/ufrgs/labufrgs_011.jpg",
+    "estrutura/ufrgs/labufrgs_012.jpg",
+    "estrutura/ufrgs/labufrgs_014.jpg",
+    "estrutura/ufrgs/labufrgs_015.jpg",
+    "estrutura/ufrgs/labufrgs_016.jpg",
+    "estrutura/ufrgs/labufrgs_017.jpg"
+    
   ]
 }
