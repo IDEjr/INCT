@@ -41,15 +41,15 @@ export default function Header() {
     }        
   }
 
-  var repeticao = 0;
+  //var repeticao = 0;
 
   useEffect(() => {
-      if(repeticao > 0) return;
+      //if(repeticao > 0) return;
       var addScript = document.createElement('script');
       addScript.setAttribute('src', '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit');
       document.body.appendChild(addScript);
       window.googleTranslateElementInit = googleTranslateElementInit;
-      repeticao++;
+      //repeticao++;
   }, [])  
 
   return (
