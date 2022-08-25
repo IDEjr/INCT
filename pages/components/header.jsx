@@ -1,4 +1,4 @@
-import react, { useState } from 'react';
+import react, { useState, useContext, useEffect } from 'react';
 import Head from "next/head";
 import Link from "next/link";
 import Image from 'next/image';
@@ -6,6 +6,17 @@ import Image from 'next/image';
 import logo from '/public/images/header/logo_transp.png';
 import menu_icon from '/public/images/header/menu_icon.png';
 import style from '/styles/header.module.css';
+
+const googleTranslateElementInit = () => {
+
+  return new window.google.translate.TranslateElement({
+      pageLanguage: 'en',
+      includedLanguages : "en,es,pt,zh-TW", // include this for selected languages
+      layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  },
+  'google_translate_element');
+
+}
 
 export default function Header() {
 
@@ -30,6 +41,17 @@ export default function Header() {
     }        
   }
 
+  var repeticao = 0;
+
+  useEffect(() => {
+      if(repeticao > 0) return;
+      var addScript = document.createElement('script');
+      addScript.setAttribute('src', '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit');
+      document.body.appendChild(addScript);
+      window.googleTranslateElementInit = googleTranslateElementInit;
+      repeticao++;
+  }, [])  
+
   return (
     <>
     <Head>
@@ -39,6 +61,7 @@ export default function Header() {
     <div className={style.header}>
       <div className={style.logo}>
         <Link href='/'><a><Image src={logo} width={218*0.8} height={139*0.8} className={style.image}/></a></Link>
+        <div id="google_translate_element"/>
       </div>
       
         <nav className={style.navbar}>
