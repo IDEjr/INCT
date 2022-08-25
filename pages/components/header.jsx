@@ -10,7 +10,7 @@ import style from '/styles/header.module.css';
 const googleTranslateElementInit = () => {
 
   return new window.google.translate.TranslateElement({
-      pageLanguage: 'en',
+      pageLanguage: 'pt',
       includedLanguages : "en,es,pt,zh-TW", // include this for selected languages
       layout: google.translate.TranslateElement.InlineLayout.SIMPLE
   },
