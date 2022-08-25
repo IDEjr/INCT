@@ -151,8 +151,9 @@
         margin: 4% 0 0 0;
         width: 100%;
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
 
     }
 
@@ -163,7 +164,7 @@
     
     .navbar_imenu
     {
-        display: flex;    
+        display: flex;   
         text-align: center;    
         justify-content: center;
     }
