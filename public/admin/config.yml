@@ -65,7 +65,7 @@ collections:
       - { label: "mes(primordial)", name: "mes", widget: "string" }
       - { label: "ano(primordial)", name: "ano", widget: "string" }
       - { label: "capa", name: "img_src", widget: "image", media_folder: "files/{{ano}}-{{mes}}-{{dia}}-{{slug}}" }    
-      - { label: "noticia", name: "noticia", widget: "markdown" }
+      - { label: "noticia", name: "noticia", widget: "markdown", buttons: ["bold", "italic", "link"] }
       - { label: "imagens", name: "images", widget: "list", required: false, field: {label: Image, name: image, widget: image, media_folder: "files/{{ano}}-{{mes}}-{{dia}}-{{slug}}"}}
       - { label: "youtube", name: "youtube", required: false, widget: "string" }
   - name: "artigos"
